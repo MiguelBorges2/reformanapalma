@@ -341,19 +341,19 @@
             font-size: 2.3vw;
           }
           .fo3 {
-            font-size: 2vw;
+            font-size: 2.1vw;
           }
         .fo7{
-            font-size: 1.8vw;
+            font-size: 2vw;
         } 
         .fo2 {
             font-size: 2vw;
         }
         .fo4 {
-            font-size: 1.9vw;
+            font-size: 2vw;
         }
         .fo6 {
-            font-size: 1.9vw;
+            font-size: 2vw;
         }
             
     }

@@ -213,7 +213,7 @@ html, body {
 .setune {
     border: 2px solid #FFC676;
     border-radius: 24px;
-    padding: 1%;
+    
     width: 95%;
 }
 .setune3 {
@@ -319,7 +319,7 @@ height: auto;
         height: 4vw;   
     }
     .setune {
-        padding: 2%;
+        padding: 1%;
     }
     .hmp3 {
         font-size: 1.48vw;

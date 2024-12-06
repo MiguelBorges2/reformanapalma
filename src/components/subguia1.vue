@@ -62,12 +62,23 @@
         };
     </script>
     <style>
-        @media (max-width: 480px) {
+        @media (max-width: 600px) {
                 .yip{
-                    font-size: 4vw;
+                    font-size: 4vw  !important;
                 }
                 .tamanho32 {
-                    width: 56%;
+                    width: 55% !important;
+                }
+                .fonte {
+                    font-size: 5vw !important;
+
+                }
+                .keeps {
+                    margin: 2.6% !important;
+                }
+                .round45 {
+                    font-size: 2.2vw !important;
+                    
                 }
             }
         .fonte {

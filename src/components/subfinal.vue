@@ -204,7 +204,7 @@
 .margo {
     margin-top: 5%;
     margin-bottom: 3%;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 .margo34 {
     margin-top: 5%;
@@ -257,13 +257,13 @@
         border-radius: 30px;
     }
     .margo {
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
     .fonte3 {
-        font-size: 1.7vw;
+        font-size: 2.2vw !important;
     }
     .fonte4 {
-        font-size: 1.9vw;
+        font-size: 2vw;
     }
     
 }

@@ -2,7 +2,7 @@
     <div class="container-fluid d-flex dip flex-column align-items-center justify-content-around height: auto">
         <div class="d-flex six gradient-bg2 flex-column align-items-center   margi66 ">
             <h2 class="text-light  yip2">Olá!</h2>
-            <p class=" yip3 text-light ">o que você gostaria de resolver em sua casa hoje?</p>
+            <p class=" yip89 text-light ">o que você gostaria de resolver em sua casa hoje?</p>
         </div>
         <Colaps1></Colaps1>
         <Colaps2></Colaps2>
@@ -66,6 +66,10 @@
         font-size: 2vw;
         font-weight: 50;
     }
+    .yip89 {
+        font-size: 2vw;
+        font-weight: 50;
+    }
 .yip2 {
             font-size: 3.2vw;
         }
@@ -77,5 +81,6 @@
         .six {
             width: 52%;
         }
+        
     }
 </style>

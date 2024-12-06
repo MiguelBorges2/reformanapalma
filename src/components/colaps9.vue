@@ -143,7 +143,7 @@
                 margin: 3%;
             }
             .yip3{
-                font-size: 2.5vw;
+                font-size: 2.5vw !important;
             }
       }
 
