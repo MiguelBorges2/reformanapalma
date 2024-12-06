@@ -13,9 +13,10 @@
             <div class=" setune d-flex flex-column justify-content-center align-items-center ">
                 <p class="hmp3 cril2">E fique atento sempre que este botão aparacer</p>
                 <button class="hmp3 tip colo4 nolans p-1 pad2 marko25 "> Ache um arquiteto </button>
-                <p v-if="this.windowWidth < 600" class="hmp3 cril2"> Significa que é OBRIGATÓRIO buscar a ajuda de um profissional o trabalho. Ao clicar no botão, você </p>
+                <p v-if="this.windowWidth < 600" class="hmp3 cril2"> Significa que é OBRIGATÓRIO buscar a ajuda de um profissional. Ao clicar no botão, você </p>
                 <p v-if="this.windowWidth > 600" class="hmp3 cril2"> Significa que é OBRIGATÓRIO buscar a ajuda de um profissional qualificado, para realizar a ação. Ao clicar no botão, você </p>
-                <p class= "hmp3 cril2">será redirecionado para o portal do CAU para encontrar o profissional que vai planejar e executar sua obra.</p>
+                <p v-if="this.windowWidth < 600" class= "hmp3 cril2">será redirecionado para o portal do CAU onde um profissional vai planejar e executar sua obra.</p>
+                <p v-if="this.windowWidth > 600" class= "hmp3 cril2">será redirecionado para o portal do CAU para encontrar um profissional que vai planejar e executar sua obra.</p>
             </div>
             <div class=" size d-flex justify-content-between">
                     <div class="indicator "></div>
@@ -33,7 +34,7 @@
         </button>
     </div>
     <div class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round edit">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round ">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -67,7 +68,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
             >
         </button>
     </div> 
@@ -84,7 +85,7 @@
                 
             </span>
             <div class="setune3 d-flex flex-column justify-content-around align-items-center">
-                <p class="hmp3 mt-3 cril2">Clique nos botões para acesso aos conteúdos sobre a temática e  à lista de arquitetos recomendados pelo</p>
+                <p class="hmp3 mt-3 cril2">Clique para acesso aos conteúdos sobre a temática e  à lista de arquitetos recomendados pelo</p>
                 <p class="hmp3 cril2">Conselho de Arquitetura e Urbanismo (CAU/BR)</p>
                 <div class="d-flex w-100 align-items-center justify-content-center">
                     <button class=" hmp3 tip  colo4  mako2 margip6 p-1">  Conteúdos </button>
@@ -109,7 +110,7 @@
         </button>
     </div> 
     <div class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round edit">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -132,7 +133,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
             >
         </button>
     </div> 
@@ -218,10 +219,10 @@ html, body {
 .setune3 {
     border: 2px solid #FFC676;
     border-radius: 24px;
-    width: 95%;
+    width: 97%;
 }
 .quid2 {
-    width: 40%;
+    width: 50%;
     margin-left: 7%;  
 }
 .colo48 {
@@ -254,7 +255,7 @@ height: auto;
     margin: 0;
 }
 .hmp3 {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-weight: 10;
     margin: 0;
 }
@@ -270,14 +271,14 @@ height: auto;
 
 .btn-round2 {  
   height: 3vw;
-  width: 3%;      
+  width: 3% !important;      
   padding: 0;              
   display: flex;           
   align-items: center;     
   justify-content: center; 
   border-radius: 80px;       
   color: black;          
-  border: 1px solid black; 
+  border: 1px solid black !important; 
   transition: background-color 0.3s ease; 
   margin: 0.1%;
 }
@@ -294,7 +295,7 @@ height: auto;
 }
 
 .edit {
-    color: black;
+    color: black !important;
 }
 .indi34 {
                 width: 20%;
@@ -320,20 +321,32 @@ height: auto;
     .setune {
         padding: 2%;
     }
-    
-}
-@media (max-width: 500px) {
     .hmp3 {
-        font-size: 1.7vw;
+        font-size: 1.48vw;
     }
     .hmp2 {
-        font-size: 2vw;
+        font-size: 1.9vw ;
+    }
+    .setune3{
+        width: 97%;
+    }
+    
+}
+@media (max-width: 600px) {
+    .hmp3 {
+        font-size: 1.85vw;
+    }
+    .hmp2 {
+        font-size: 2.3vw ;
     }
     .setune3{
         width: 97%;
     }
     .hlk {
         width: 60%;
+    }
+    .quid2{
+        margin-left: 2%;
     }
     
 }

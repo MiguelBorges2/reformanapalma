@@ -227,7 +227,7 @@ margin-bottom: 1%;
   
 }
 .funkot3 {
-    font-size: 1.78vw;
+    font-size: 1.8vw;
     margin: 0;
 
 }
@@ -243,14 +243,14 @@ margin-bottom: 1%;
     }
 
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .conta {
         padding: 3%;
         border-radius: 20px;
         border: 2px solid  #FFC676;
     }
     .funkot3 {
-        font-size: 1.9vw;
+        font-size: 2vw;
         margin: 0;
     }
 

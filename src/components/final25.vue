@@ -32,12 +32,12 @@
       margin: 3% !important;
    }
 .zabata2{
-   font-size: 1.2vw;
+   font-size: 1.4vw;
    font-weight: 400;
    margin: 0;
 }
 .tamamp{
-   width: 15% !important;
+   width: 18%;
    height: auto;
    margin: 3%;
 }
@@ -55,10 +55,27 @@
       font-size: 1.8vw;
    }
    .tamamp{
-      width: 20%;
+      width: 22%;
    }
    .spain{
       border-radius: 40px 40px 0px 0px;
+   }
+   
+}
+
+@media(max-width: 600px){
+   .zabata{
+      font-size: 2.5vw;
+   }
+   .zabata2{
+      font-size: 1.9vw;
+   }
+
+   .spain{
+      border-radius: 40px 40px 0px 0px;
+   }
+   .tamamp {
+      width: 24%;
    }
    
 }

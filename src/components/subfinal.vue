@@ -259,6 +259,12 @@
     .margo {
         font-size: 1.7vw;
     }
+    .fonte3 {
+        font-size: 1.7vw;
+    }
+    .fonte4 {
+        font-size: 1.9vw;
+    }
     
 }
 

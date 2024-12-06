@@ -51,7 +51,7 @@
     .ga {
         color: #568D8B;
         font-weight: 500 !important;
-        font-size: 1.8vw !important;
+        font-size: 1.8vw ;
         margin-bottom:0;
     }
     .gf {
@@ -63,7 +63,7 @@
     .gw {
         color: #4A4A48;
         font-weight: 400 !important;
-        font-size: 1.6vw !important;
+        font-size: 1.6vw ;
         margin-bottom: 0;
     }
     .tamamp01 {
@@ -83,6 +83,13 @@
             padding: 2%;
             border: 2px solid #749695;
             border-radius:20px;
+          }
+          .ga {
+            font-size: 2.3vw;
+
+          }
+          .gw {
+            font-size: 2vw;
           }
         
     }

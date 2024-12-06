@@ -253,7 +253,7 @@
     margin-bottom: 33%;
 }
 .dev4 {
-    width: 90%;
+    width: 93%;
 }
 .dev3 {
     margin-top: 3%;
@@ -335,25 +335,25 @@
              
             
     }
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
     
         .fo {
-            font-size: 2vw;
+            font-size: 2.3vw;
           }
           .fo3 {
-            font-size: 1.8vw;
+            font-size: 2vw;
           }
         .fo7{
-            font-size: 1.7vw;
+            font-size: 1.8vw;
         } 
         .fo2 {
-            font-size: 1.8vw;
+            font-size: 2vw;
         }
         .fo4 {
-            font-size: 1.7vw;
+            font-size: 1.9vw;
         }
         .fo6 {
-            font-size: 1.7vw;
+            font-size: 1.9vw;
         }
             
     }
