@@ -1,26 +1,35 @@
 <template>
   <div id="app">
-    <Navbar></Navbar>
-    <Guia></Guia>
-    <Seção></Seção>
-    <Final></Final>
+    <home v-if="globalVariable === 0"></home> <!-- Exibe o componente Home se controleglobal for 0 -->
+    <salapequena v-if="globalVariable === 25"></salapequena>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'; // Importa o componente Navbar
-import Guia from './components/guia.vue';
-import Seção from './components/seção.vue';
-import Final from './components/final.vue';
+import home from './components/home.vue'; // Verifique o caminho do componente
+import { useMainStore } from './stores/mainStores'; // Ajuste o caminho conforme necessário
+import { computed } from 'vue';
+import salapequena from './components/salapequena.vue'
+
 
 export default {
   name: 'App',
   components: {
-        Navbar,
-        Guia,
-        Seção,
-        Final
-    }
+    home, // Registra o componente Home
+    salapequena
+  },
+  setup() {
+    const mainStore = useMainStore(); // Use a store
+    // Computed property para acessar a variável global
+    const globalVariable = computed(() => mainStore.globalVariable);
+
+    return {
+      globalVariable, // Retorna a propriedade computada para o template
+    };
+  },
+
 };
 </script>
+
+
 

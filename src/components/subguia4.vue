@@ -4,13 +4,13 @@
                 <h1 class="fonte text-light"> Saiba o que é a ATHIS e como   </h1>
                 <h1 class="fonte text-light">  garantir esse benefício</h1>
             </span>
-            <div class=" d-flex w-100 margi justify-content-center flex-column align-items-center">
-                    <button class="  round2">Saiba Mais</button>
-                    <div class="m-3 size d-flex justify-content-between">
-                        <div class="indi p-1"></div>
-                        <div class="indi p-1"></div>
-                        <div class="indi p-1"></div>
-                        <div class="indicator p-1"></div>
+            <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
+                    <button class=" colo45 nolans round2">Saiba Mais</button>
+                    <div class="size d-flex justify-content-between">
+                        <div class="indi "></div>
+                        <div class="indi "></div>
+                        <div class="indi "></div>
+                        <div class="indicator "></div>
                     </div>
             </div>
         </div>
@@ -19,13 +19,13 @@
                 <h1 class="fonte text-light"> Veja o antes e depois das Habitatações   </h1>
                 <h1 class="fonte text-light">  Sociais com a ajuda do nosso Site   </h1>
             </span>
-            <div class=" d-flex w-100 margi justify-content-center flex-column align-items-center">
-                    <button class="  round2">Saiba Mais</button>
-                    <div class="m-3 size d-flex justify-content-between">
-                        <div class="indi p-1"></div>
-                        <div class="indi p-1"></div>
-                        <div class="indi p-1"></div>
-                        <div class="indicator p-1"></div>
+            <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
+                    <button class=" colo45 nolans round2">Saiba Mais</button>
+                    <div class="size d-flex justify-content-between">
+                        <div class="indi "></div>
+                        <div class="indi "></div>
+                        <div class="indi "></div>
+                        <div class="indicator "></div>
                     </div>
             </div>
         </div>
@@ -60,8 +60,8 @@
     .tamanho{
         width: 90%;
         height: auto;
-    }
-    .margi {
+    }   
+    .margi6 {
         margin-top: 24.75%;
     }
     .round2 {
@@ -70,17 +70,19 @@
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
         font-size: 1.5vw;
         padding: 0.5%;
-        background-color: rgb(255, 193, 7);
+        background-color: #FFC676;
     }
     .indicator {
             width: 20%;
-            background-color: rgb(255, 193, 7);
+            background-color: #FFC676;
             border-radius: 24px;
+            height:0.8vw;
         }
     .indi {
             width: 20%;
             background-color: white;
             border-radius: 24px;
+            height: 0.8vw;
         }
     .keeps {
         width: 100%;
@@ -88,6 +90,7 @@
     .size {
 
         width: 28%;
+        margin: 1.5%;
     }
     .tamanho3 {
             height: auto;
@@ -103,12 +106,10 @@
     
         @media (max-width: 768px) {
     
-            .indi {
-                height: 5px;
+            .margi6 {
+                margin-top: 21%;
             }
-            .indicator {
-                height: 5px;
-            }
+           
             .tamanho2 {
                 width: 54%;
             }

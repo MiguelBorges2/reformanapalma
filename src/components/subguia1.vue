@@ -1,48 +1,48 @@
     <template>
-        <div v-if="slider === 0" class="d-flex tamanho justify-content-center flex-column align-items-center">
-                <div class="d-flex mt-4 align-items-center  justify-content-around keeps m-2">
+        <div v-if="slider === 0" class="d-flex  tamanho justify-content-center flex-column align-items-center">
+                <div class="d-flex align-items-center  justify-content-around keeps ">
                     <img class="tamanho3" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 margin-left">
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
                 </div>
-                <button class="  round2">Saiba Mais</button>
-                <div class="m-3 size d-flex justify-content-between">
-                    <div class="indicator p-1"></div>
-                    <div class="indi p-1"></div>
-                    <div class="indi p-1"></div>
-                    <div class="indi p-1"></div>
+                <button class="  colo45 round45">Saiba Mais</button>
+                <div class=" size d-flex justify-content-between">
+                    <div class="indicator "></div>
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                    <div class="indi "></div>
                 </div>
             </div>
             <div v-if="slider === 1" class="d-flex animate__animated animate__slideInLeft tamanho justify-content-center flex-column align-items-center">
-                <div class="d-flex mt-4 align-items-center  justify-content-around keeps m-2">
+                <div class="d-flex  align-items-center  justify-content-around keeps ">
                     <img class="tamanho3" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 margin-left">
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
                 </div>
-                <button class="  round2">Saiba Mais</button>
-                <div class="m-3 size d-flex justify-content-between">
-                    <div class="indicator p-1"></div>
-                    <div class="indi p-1"></div>
-                    <div class="indi p-1"></div>
-                    <div class="indi p-1"></div>
+                <button class=" colo45 round45">Saiba Mais</button>
+                <div class=" size d-flex justify-content-between">
+                    <div class="indicator "></div>
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                    <div class="indi "></div>
                 </div>
             </div>
             <div v-if="slider === -1" class="d-flex animate__animated animate__slideInRight tamanho justify-content-center flex-column align-items-center">
-                <div class="d-flex mt-4 align-items-center  justify-content-around keeps m-2">
+                <div class="d-flex  align-items-center  justify-content-around keeps ">
                     <img class="tamanho3" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 margin-left">
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
                 </div>
-                <button class="  round2">Saiba Mais</button>
-                <div class="m-3 size d-flex justify-content-between">
-                    <div class="indicator p-1"></div>
-                    <div class="indi p-1"></div>
-                    <div class="indi p-1"></div>
-                    <div class="indi p-1"></div>
-                </div>
+                    <button class="  colo45 round45">Saiba Mais</button>
+                    <div class=" size d-flex justify-content-between">
+                        <div class="indicator "></div>
+                        <div class="indi "></div>
+                        <div class="indi "></div>
+                        <div class="indi "></div>
+                    </div>
             </div>
     </template>
 
@@ -72,35 +72,46 @@
             }
         .fonte {
             font-size: 4.5vw;
+
+        }
+        .colo45 {
+            color: #4A4A48;
+            font-weight: 500;
         }
         .tamanho{
             width: 90%;
             height: auto;
         }
-        .round2 {
+        .round45 {
+            margin-top: 1%;
             border-radius: 24px;
             width: 14%;
-            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
             font-size: 1.5vw;
             padding: 0.5%;
-            background-color: rgb(255, 193, 7);
+            border: none;
+            background-color:  #FFC676;
         }
         .indicator {
                 width: 20%;
-                background-color: rgb(255, 193, 7);
+                background-color:   #FFC676;
                 border-radius: 24px;
+                height: 3vw;
             }
         .indi {
                 width: 20%;
                 background-color: white;
                 border-radius: 24px;
+                height: 3vw;
             }
         .keeps {
             width: 100%;
+            margin: 1.2%;
         }
         .size {
 
             width: 28%;
+            margin: 1.5%;
         }
         .tamanho3 {
                 height: auto;
@@ -115,17 +126,17 @@
         }
         
             @media (max-width: 768px) {
-        
+                
+              
+                .tamanho32 {
+                    width: 51%;
+                }
                 .indi {
-                    height: 5px;
+                    height: 0.6vw;
                 }
                 .indicator {
-                    height: 5px;
+                    height: 3vw;
                 }
-                .tamanho32 {
-                    width: 53%;
-                }
-                
             }
         
 

@@ -1,31 +1,31 @@
 <template>
     <div  v-if="slider == 1" class="d-flex animate__animated animate__slideInLeft h-100 tamanho justify-content-between flex-column align-items-center">
             <span class="w-80 flex-column d-flex align-items-center align-items-center">
-                <h1 class="fonte text-light"> Veja o antes e depois das Habitatações   </h1>
+                <h1 class="fonte text-light"> Veja o antes e depois das Habitações   </h1>
                 <h1 class="fonte text-light">  Sociais com a ajuda do nosso Site   </h1>
             </span>
-            <div class=" d-flex w-100 margi justify-content-center flex-column align-items-center">
-                    <button class="  round2">Veja agora</button>
-                    <div class="m-3 size d-flex justify-content-between">
-                        <div class="indi p-1"></div>
-                        <div class="indicator p-1"></div>
-                        <div class="indi p-1"></div>
-                        <div class="indi p-1"></div>
+            <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
+                    <button class=" colo45  nolans round2">Veja agora</button>
+                    <div class=" size d-flex justify-content-between">
+                        <div class="indi "></div>
+                        <div class="indicator "></div>
+                        <div class="indi "></div>
+                        <div class="indi "></div>
                     </div>
             </div>
         </div>
         <div v-else-if="slider == -1" class="d-flex h-100 tamanho animate__animated animate__slideInRight justify-content-between flex-column align-items-center">
             <span class="w-80 flex-column d-flex align-items-center align-items-center">
-                <h1 class="fonte text-light"> Veja o antes e depois das Habitatações   </h1>
+                <h1 class="fonte text-light"> Veja o antes e depois das Habitações   </h1>
                 <h1 class="fonte text-light">  Sociais com a ajuda do nosso Site   </h1>
             </span>
-            <div class=" d-flex w-100 margi justify-content-center flex-column align-items-center">
-                    <button class="  round2">Veja agora</button>
-                    <div class="m-3 size d-flex justify-content-between">
-                        <div class="indi p-1"></div>
-                        <div class="indicator p-1"></div>
-                        <div class="indi p-1"></div>
-                        <div class="indi p-1"></div>
+            <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
+                    <button class="  colo45 nolans round2">Veja agora</button>
+                    <div class=" size d-flex justify-content-between">
+                        <div class="indi "></div>
+                        <div class="indicator "></div>
+                        <div class="indi "></div>
+                        <div class="indi"></div>
                     </div>
             </div>
         </div>
@@ -57,14 +57,15 @@
     .fonte {
         font-size: 4.5vw;
     }
-    .margi {
-        margin-top: 40%;
+    .margi6 {    
+        margin-top: 24.7%;
     }
     .tamanho{
         width: 90%;
         height: 100%;
     }
     .round2 {
+        margin-top: 1.2%;
         border-radius: 24px;
         width: 14%;
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
@@ -76,11 +77,13 @@
             width: 20%;
             background-color: rgb(255, 193, 7);
             border-radius: 24px;
+            height: 0.3vw;
         }
     .indi {
             width: 20%;
             background-color: white;
             border-radius: 24px;
+            height: 0.3vw;
         }
     .keeps {
         width: 100%;
@@ -88,6 +91,7 @@
     .size {
 
         width: 28%;
+        margin: 1.5%;
     }
     .tamanho3 {
             height: auto;
@@ -95,25 +99,21 @@
             margin-left: 4%;
     }
 
-
+    @media (max-width: 768px) {
+        .indicator {
+            height: 0.2vw;
+        }
+        .tamanho2 {
+            width: 54%;
+        }
+   
+    
+    }
     
     .tamanho2 {
         width: 50%;
     }
-    
-        @media (max-width: 768px) {
-    
-            .indi {
-                height: 5px;
-            }
-            .indicator {
-                height: 5px;
-            }
-            .tamanho2 {
-                width: 54%;
-            }
-            
-        }
+        
     
 
 

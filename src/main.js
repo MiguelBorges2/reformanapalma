@@ -1,13 +1,18 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-
-// Importa o CSS do Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-// Importa o JS do Bootstrap (opcional, para funcionalidades como dropdowns)
-import 'bootstrap';
+import { createPinia } from 'pinia'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; // Importa o CSS do Bootstrap
+import 'bootstrap'; // Importa o JS do Bootstrap
 
 
+// Cria a instância do Pinia
+const pinia = createPinia(); 
 
-// Cria e monta a aplicação
-createApp(App).mount('#app');
+// Cria a aplicação Vue
+const app = createApp(App);
+
+// Usa o Pinia como store global
+app.use(pinia);
+
+// Monta a aplicação no elemento #app
+app.mount('#app');

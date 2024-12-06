@@ -4,13 +4,13 @@
                 <h1 class="fonte2 text-light ">Problemas da autocontruçao e a  </h1>
                 <h1 class="fonte2 text-light "> importancia da Assistência técninca </h1>
             </span>
-            <div class=" d-flex margi w-100 justify-content-center flex-column align-items-center">
-                <button class="  round2">Saiba Mais</button>
-                <div class="m-3 size d-flex justify-content-between">
-                    <div class="indi p-1"></div>
-                    <div class="indi p-1"></div>
-                    <div class="indicator p-1"></div>
-                    <div class="indi p-1"></div>
+            <div class=" d-flex margi6 w-100 justify-content-center flex-column align-items-center">
+                <button class="  colo45 nolans round2">Saiba Mais</button>
+                <div class=" size d-flex justify-content-between">
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                    <div class="indicator "></div>
+                    <div class="indi "></div>
                 </div>
             </div>
     
@@ -20,13 +20,13 @@
                 <h1 class="fonte2 text-light ">Problemas da autocontruçao e a  </h1>
                 <h1 class="fonte2 text-light "> importancia da Assistência técninca </h1>
             </span>
-                <div class=" d-flex margi w-100 justify-content-center flex-column align-items-center">
-                    <button class="  round2">Saiba Mais</button>
-                    <div class="m-3 size d-flex justify-content-between">
-                        <div class="indi p-1"></div>
-                        <div class="indi p-1"></div>
-                        <div class="indicator p-1"></div>
-                        <div class="indi p-1"></div>
+                <div class=" d-flex margi6 w-100 justify-content-center flex-column align-items-center">
+                    <button class=" colo45 nolans round2">Saiba Mais</button>
+                    <div class=" size d-flex justify-content-between">
+                        <div class="indi "></div>
+                        <div class="indi "></div>
+                        <div class="indicator "></div>
+                        <div class="indi "></div>
                     </div>
                 </div>
         </div>
@@ -68,7 +68,7 @@
         align-items: center;
         flex-direction: column;
     }
-    .margi {
+    .margi6 {
         margin-top: 24.75%;
     }
     .round2 {
@@ -83,11 +83,13 @@
             width: 20%;
             background-color: rgb(255, 193, 7);
             border-radius: 24px;
+            height: 0.3vw;
         }
     .indi {
             width: 20%;
             background-color: white;
             border-radius: 24px;
+            height: 0.3vw;
         }
     .keeps {
         width: 100%;
@@ -95,6 +97,7 @@
     .size {
 
         width: 28%;
+        margin: 1.5;
     }
     .tamanho3 {
             height: auto;
@@ -109,13 +112,10 @@
     }
     
         @media (max-width: 768px) {
-    
-            .indi {
-                height: 5px;
+            .margi6 {
+                margin-top: 21%;
             }
-            .indicator {
-                height: 5px;
-            }
+            
             .tamanho2 {
                 width: 54%;
             }

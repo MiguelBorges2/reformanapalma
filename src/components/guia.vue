@@ -1,6 +1,6 @@
 <template>
-    <div class="container-fluid d-flex justify-content-around alturatotal align-items-center gradient-bg">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow border btn-round m-1 edit">
+    <div class="w-100 d-flex justify-content-around alturatotal align-items-center gradient-bg42">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  border btn-round ">
             <
         </button>
         
@@ -15,7 +15,7 @@
         <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === 1" :slider="controlador[1]"></Subguia4>
         <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === -1" :slider="controlador[1]"></Subguia4>
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow border btn-round edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  border btn-round ">
             >
         </button>
     </div>
@@ -42,6 +42,7 @@ export default {
     },
     methods: {
         ShiftRight() {
+            console.log('oi')
             if (this.controlador[0] < 3) {
                 this.controlador = [this.controlador[0] + 1, 1]; // Muda o índice e define a direção como 1 (direita)
             }
@@ -69,11 +70,12 @@ html, body {
   display: flex;           
   align-items: center;     
   justify-content: center; 
-  border-radius: 80px;      
-  background-color: #394A55; 
+  border-radius: 80px;
+  background: transparent;     
   color: white;            
   border: 1px solid white; 
   transition: background-color 0.3s ease; 
+  margin: 0.1%;
 }
 
 .alturatotal {
@@ -85,13 +87,15 @@ html, body {
     color: white;
 }
 
-.gradient-bg {
+.gradient-bg42 {
     background: linear-gradient(to top, #749695, #394A55); 
-    border-radius: 0 0 24px 24px;
+    border-radius: 0 0 60px 60px;
 }
 
+
 .btn-hover-yellow:hover {
-    background-color: rgb(255, 193, 7); 
+    background-color:   #FFC676;
+    
 }
 
 @media (max-width: 768px) {
@@ -101,6 +105,14 @@ html, body {
     }
     
 }
+@media (max-width: 1200px) {
+    .gradient-bg42 {
+        background: linear-gradient(to top, #749695, #394A55); 
+        border-radius: 0 0 40px 40px;
+}   
+    
+}
+
 
 </style>
 
