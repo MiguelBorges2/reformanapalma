@@ -106,7 +106,7 @@
                         <div v-if="bott4 === true" class="dev5">
                             <p class="fo6">Sempre se atente às dimensões disponíveis para instalação da mesa. Você pode aproveitar o espaço abaixo da TV para organizar seu ambiente. Caso sua sala não comporte uma mesa, há opções dobráveis, como escrivaninha dobrável com prateleira, mesa dobrável de alumino com tampo de mdf e mesa dobrável com rodízio.</p>
                         </div>
-                        <img v-if="bott4 === true" class="tamanho72" src="C:\Users\labor\Desktop\teste2\src\assets\GIF - Sala pequena - Móveis.gif" alt="Logo2">
+                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/GIF - Sala pequena - Móveis.gif" alt="Logo2">
                         <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 6 1.svg" alt="Logo2">
                         <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 6 2.svg" alt="Logo2">
                         <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 7 1.svg" alt="Logo2">
