@@ -22,7 +22,7 @@
               </div>
               <span class="wid4 color1 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex holt w-100">
+            <div @click="teste2" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light "> Estudar/trabalhar em um quarto para duas pessoa</span>
               </div>
@@ -70,6 +70,10 @@
                   elem.classList.remove('color1');
 
               }
+          },
+          teste2(){
+            console.log('foi gostoso');
+            this.updateGlobalVariable(24);
           },
           teste(){
             console.log('foi');

@@ -23,7 +23,11 @@
     </div>
     <sec251 v-if="controlador1[0] === 0"></sec251>
     <sec252 v-if="controlador1[0] === 1"></sec252>
-    <final25></final25>
+    <sec253 v-if="controlador1[0] === 2"></sec253>
+    <sec254 v-if="controlador1[0] === 3"></sec254>
+    <sec255 v-if="controlador1[0] === 4"></sec255>
+    <sec256 v-if="controlador1[0] === 5"></sec256>
+    
     
 </template>
 
@@ -32,13 +36,21 @@ import Subguia25 from './subguia25.vue';
 import sec251 from './sec251.vue';
 import final25 from  './final25.vue';
 import sec252 from './sec252.vue';
+import sec253 from './sec253.vue';
+import sec254 from './sec254.vue';
+import sec255 from './sec255.vue';
+import sec256 from './sec256.vue'
 export default {
     name: 'Guia25',
     components: {
         Subguia25,
         sec251,
         final25,
-        sec252
+        sec252,
+        sec253,
+        sec254,
+        sec255,
+        sec256
     },
     data() {
       return {

@@ -88,7 +88,43 @@
                 <p class="hmp3 mt-3 cril2">Clique para acesso aos conteúdos sobre a temática e  à lista de arquitetos recomendados pelo</p>
                 <p class="hmp3 cril2">Conselho de Arquitetura e Urbanismo (CAU/BR)</p>
                 <div class="d-flex w-100 align-items-center justify-content-center">
-                    <button class=" hmp3 tip  colo4  mako2 margip6 p-1">  Conteúdos </button>
+                    <button @click="toggleOverlay2()" class=" hmp3 tip  colo4  mako2 margip6 p-1">  Conteúdos </button>
+                    <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
+                        <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
+                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round2 ">
+                                <
+                            </button>
+                            <div v-if="this.controler2 === 1" class="d-flex flex-column align-items-center justify-content-around form2">
+                                <p class="text-light margo">Responda o formulário abaixo para baixar a cartilha desejada</p>
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Em qual perfil você se enquadra...">
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Email ou WhatsApp...">
+                                <div class="d-flex w-50 justify-content-center align-items-center ">
+                                    <div class=" calca "></div>
+                                    <div class=" calca2 "></div>
+                                </div>
+                            </div>
+                        
+                        <div v-if="this.controler2 === 2" class="d-flex flex-column align-items-center justify-content-between form2">
+                            <div class="w-100 d-flex flex-column align-items-center justify-content-around ">
+                                <p class="text-light margo34">Pronto! Agora você já pode baixar as cartilhas  com as orientações</p>
+                                <p class="text-light margo43">técnicas de acordo com suas necessidades</p>
+                            </div>
+                            <button class="mocombo"> Baixe a cartilha do arquiteto</button>
+                            <div class="d-flex w-50 justify-content-center align-items-center ">
+                                <div class=" calca2 "></div>
+                                <div class=" calca "></div>
+                            </div>
+
+                        
+                        </div>
+
+                   
+                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round2 ">
+                                >
+                        </button>
+                    </div>
+                </div>
                     <button class=" hmp3 tip  colo4 mako2 margip6 p-1 "> Ache um arquiteto</button>
                 </div>
                 
@@ -157,6 +193,9 @@ export default {
       return {
         controlador: [0, 0], // [índice atual, direção da animação]
         windowWidth: window.innerWidth,
+        overlay2: false,
+        controler2: 1,
+
       };
     },
     mounted() {
@@ -181,8 +220,24 @@ export default {
         },
         handleResize() {
       // Atualiza a largura da janela sempre que o tamanho mudar
-      this.windowWidth = window.innerWidth;
-        }
+        this.windowWidth = window.innerWidth;
+        },
+        toggleOverlay2(){
+                this.overlay2 = !this.overlay2;
+                console.log('showOverlay:', this.overlay2);
+            },
+            subcont(){
+                if(this.controler2 === 2) {
+                    this.controler2 = 1;
+                }
+                console.log(this.controler);
+            },
+            addcont(){
+                if (this.controler2 === 1) {
+                    this.controler2 = 2;
+                }
+                console.log(this.controler);
+            }
     }
 };
 </script>
@@ -222,7 +277,7 @@ html, body {
     width: 97%;
 }
 .quid2 {
-    width: 50%;
+    width: 40%;
     margin-left: 7%;  
 }
 .colo48 {
@@ -334,19 +389,22 @@ height: auto;
 }
 @media (max-width: 600px) {
     .hmp3 {
-        font-size: 1.85vw;
+        font-size: 2vw;
     }
     .hmp2 {
-        font-size: 2.3vw ;
+        font-size: 2.55vw ;
     }
     .setune3{
         width: 97%;
     }
     .hlk {
-        width: 60%;
+        width: 60%!important;
     }
     .quid2{
         margin-left: 2%;
+    }
+    .setune {
+        width: 100%;
     }
     
 }
