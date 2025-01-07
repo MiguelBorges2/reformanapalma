@@ -53,6 +53,9 @@
             .yip{
                 font-size: 4.3vw;
             }
+            .fonte45 {
+                font-size: 5.25vw;
+            }
         }
     .fonte45 {
         font-size: 4.5vw;
@@ -104,17 +107,7 @@
         width: 50%;
     }
     
-        @media (max-width: 768px) {
-    
-            .margi6 {
-                margin-top: 21%;
-            }
-           
-            .tamanho2 {
-                width: 54%;
-            }
-            
-        }
+     
     
 
 

@@ -1,8 +1,8 @@
 <template>
     <div id="escorrega" v-if="slider == 1" class=" animate__animated animate__slideInLeft tamanho h-100 tesp">
             <span class="w-80">
-                <h1 class="fonte2 text-light ">Problemas da autocontruçao e a  </h1>
-                <h1 class="fonte2 text-light "> importancia da Assistência técninca </h1>
+                <h1 class="fonte45 text-light ">Problemas da autocontruçao e a  </h1>
+                <h1 class="fonte45 text-light "> importancia da Assistência técninca </h1>
             </span>
             <div class=" d-flex margi6 w-100 justify-content-center flex-column align-items-center">
                 <button class="  colo45 nolans round2">Saiba Mais</button>
@@ -17,8 +17,8 @@
     </div>
         <div v-else-if="slider == -1" class="tamanho tesp animate__animated h-100 animate__slideInRight">
             <span class="w-80">
-                <h1 class="fonte2 text-light ">Problemas da autocontruçao e a  </h1>
-                <h1 class="fonte2 text-light "> importancia da Assistência técninca </h1>
+                <h1 class="fonte45 text-light ">Problemas da autocontruçao e a  </h1>
+                <h1 class="fonte45 text-light "> importancia da Assistência técninca </h1>
             </span>
                 <div class=" d-flex margi6 w-100 justify-content-center flex-column align-items-center">
                     <button class=" colo45 nolans round2">Saiba Mais</button>
@@ -113,9 +113,23 @@
     
         @media (max-width: 768px) {
             .margi6 {
-                margin-top: 21%;
+                margin-top: 26.7% !important;
+            }
+            .fonte2 {
+                font-size: 4.9vw !important;
+            }
+            .tamanho2 {
+                width: 54%;
             }
             
+        }
+        @media (max-width: 600px) {
+            .margi6 {
+                margin-top: 27.7% !important;
+            }
+            .fonte2 {
+                font-size: 4.9vw !important;
+            }
             .tamanho2 {
                 width: 54%;
             }

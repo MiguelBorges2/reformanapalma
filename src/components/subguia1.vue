@@ -69,8 +69,11 @@
                 .tamanho32 {
                     width: 55% !important;
                 }
+                .tamanho3 {
+                    width: 28% !important;
+                }
                 .fonte {
-                    font-size: 5vw !important;
+                    font-size: 5.25vw !important;
 
                 }
                 .keeps {
@@ -137,8 +140,16 @@
         }
         
             @media (max-width: 768px) {
-                
-              
+                .tamanho3 {
+                    width: 28.5% !important;
+                }
+                .fonte{
+                    font-size: 4.88vw;
+                }
+                .round45 {
+                    width: 15% !important;
+                    font-size: 2.5vw !important;
+                }
                 .tamanho32 {
                     width: 51%;
                 }

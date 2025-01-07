@@ -59,7 +59,9 @@
             .round2 {
                 font-size: 2.2vw !important;
             }
-            
+            .fonte45{
+                font-size: 60vw !important;
+            }
         }
     .fonte45 {
         font-size: 4.5vw !important;
@@ -113,9 +115,36 @@
         .tamanho2 {
             width: 54%;
         }
-   
+        .fonte45{
+                font-size: 4.9vw !important;
+        }
+        .margi6 {    
+            margin-top: 26% !important;
+        }
+        .round2 {
+                font-size: 2.5vw !important;
+                width: 15% !important;
+            }
     
     }
+    @media (max-width: 600px) {
+            .yip{
+                font-size: 4.3vw;
+            }
+            .margi6 {    
+                margin-top: 24.7% !important;
+            }
+            .round2 {
+                font-size: 2.5vw !important;
+                width: 15% !important;
+            }
+            .fonte45{
+                font-size: 5.2vw !important;
+            }
+            .margi6 {    
+                margin-top: 27% !important;
+            }
+        }
     
     .tamanho2 {
         width: 50%;
