@@ -23,7 +23,7 @@
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
                         <p class="subtugali"> Chuvas com granizo e a instalação inadequada de aquecedores solares podem criar buracos e rachaduras nas telhas por onde a água de chuva entra, formando goteiras.</p>
-                        <img class="tamanho83" src="@/assets/imagem 2.2 1.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem2.21.svg" alt="Logo2">
                         <img class="tamanho83" src="@/assets/imagem 2.1 1.svg" alt="Logo2">
                         <p class="subtugali"> Caso verifique a presença de furos nas telhas, recomenda-se aplicar manta/fita adesiva aluminizada ou outros produtos impermeabilizantes neles.</p>
                     </div>
