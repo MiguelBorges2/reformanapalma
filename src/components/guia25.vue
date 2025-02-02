@@ -1,6 +1,6 @@
 <template>
     <div class="w-100 d-flex justify-content-around alturatotal calo align-items-center gradient-bg">
-        <button @click="ShiftLeft25()" id="shiftLe25" class="btn-hover-yellow border  btn-round m-1 ">
+        <button @click="ShiftLeft25()" id="shiftLe25" class="btn-hover-yellow border  btn-round">
             <
         </button>
         

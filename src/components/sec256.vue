@@ -1,7 +1,7 @@
 <template>
     <div class="gh d-flex flex-column justify-content-center align-items-center ">
         <div class="gz marrg d-flex flex-column justify-content-center ">
-            <p class="gt hj">Para mais informações:</p>
+            <p class="gta hj">Para mais informações:</p>
             <div class="w-100 gf d-flex flex-column">
                 <p class="ga">Normas reguladoras</p>
                 <p class="gw">NBR1557/2013 – Parte 1: Requisitos gerais. Edificações habitacionais – Desempenho.</p>
@@ -28,7 +28,7 @@
     .gz {
         width: 90%;
     }
-    .gt {
+    .gta {
         color: #4A4A48;
         font-weight: 400 !important;
         font-size: 1.8vw !important;
@@ -70,11 +70,14 @@
             border-radius:20px;
           }
           .ga {
-            font-size: 2.3vw;
+            font-size: 2.5vw;
 
           }
           .gw {
-            font-size: 2vw;
+            font-size: 2.2vw !important;
+          }
+          .gta {
+            font-size: 2.2vw !important;
           }
         
     }

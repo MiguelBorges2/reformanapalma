@@ -10,13 +10,13 @@
                 <span id="serg" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
             </div>
             <div v-if="toogle==true">
-                    <div class="d-flex hito w-100">
+                    <div @click="teste12" class="d-flex hito w-100">
                         <div class=" d-flex  justify-content-center  custi2 align-item-center">
                             <span class="yip3 text-light"> Consertar goteiras</span>
                         </div>
                         <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
                     </div>
-                    <div  class="d-flex hito w-100">
+                    <div  @click="teste13" class="d-flex hito w-100">
                         <div class=" d-flex  justify-content-center  custi2 align-item-center">
                             <span class="yip3 text-light"> Acabar com infiltrações</span>
                         </div>
@@ -28,6 +28,7 @@
 </template>
 
 <script>
+    import { useMainStore } from '../stores/mainStores';
     export default {
         name: 'Colaps1',
         data(){
@@ -61,6 +62,31 @@
                   prima.classList.add("holt");
               }
             },
+            teste12(){
+            console.log('foi gostoso');
+            this.updateGlobalVariable(12);
+          },
+          teste13(){
+            console.log('foi gostoso');
+            this.updateGlobalVariable(13);
+          },
+          teste2(){
+            console.log('foi gostoso');
+            this.updateGlobalVariable(24);
+          },
+          teste(){
+            console.log('foi');
+            this.updateGlobalVariable(25);
+          },
+          teste3(){
+            console.log('foi');
+            this.updateGlobalVariable(23);
+          },
+          updateGlobalVariable(value) {
+            const mainStore = useMainStore();
+            mainStore.updateGlobalVariable(value);
+            console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            }
         },
     }
 </script>

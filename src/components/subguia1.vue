@@ -69,9 +69,6 @@
                 .tamanho32 {
                     width: 55% !important;
                 }
-                .tamanho3 {
-                    width: 28% !important;
-                }
                 .fonte {
                     font-size: 5.25vw !important;
 
@@ -83,6 +80,10 @@
                     font-size: 2.2vw !important;
                     
                 }
+                .tamanho3{
+                    width: 100% !important;
+                }
+                
             }
         .fonte {
             font-size: 4.5vw;
@@ -119,8 +120,10 @@
                 height: 3vw;
             }
         .keeps {
+            margin-top: 1.9% !important;
             width: 100%;
             margin: 1.2%;
+            margin-bottom: 0;
         }
         .size {
 
@@ -129,7 +132,7 @@
         }
         .tamanho3 {
                 height: auto;
-                width: 25%;
+                width: 25.4% !important;
                 margin-left: 4%;
         }
 
@@ -141,10 +144,10 @@
         
             @media (max-width: 768px) {
                 .tamanho3 {
-                    width: 28.5% !important;
+                    width: 29% !important;
                 }
                 .fonte{
-                    font-size: 4.88vw;
+                    font-size:  4.89vw;
                 }
                 .round45 {
                     width: 15% !important;

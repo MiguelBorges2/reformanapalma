@@ -64,9 +64,6 @@
         width: 90%;
         height: auto;
     }   
-    .margi6 {
-        margin-top: 24.75%;
-    }
     .round2 {
         border-radius: 24px;
         width: 14%;

@@ -108,7 +108,9 @@
 
  }  
  .holt:hover {
-    border: 0.5px solid black;
+    border: 1px solid black;
+    border-radius: 17px;
+
  }
  .holt{
     border-radius: 16px;

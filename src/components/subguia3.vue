@@ -68,9 +68,6 @@
         align-items: center;
         flex-direction: column;
     }
-    .margi6 {
-        margin-top: 24.75%;
-    }
     .round2 {
         border-radius: 24px;
         width: 14%;
@@ -112,9 +109,7 @@
     }
     
         @media (max-width: 768px) {
-            .margi6 {
-                margin-top: 26.7% !important;
-            }
+        
             .fonte2 {
                 font-size: 4.9vw !important;
             }
@@ -124,9 +119,7 @@
             
         }
         @media (max-width: 600px) {
-            .margi6 {
-                margin-top: 27.7% !important;
-            }
+            
             .fonte2 {
                 font-size: 4.9vw !important;
             }

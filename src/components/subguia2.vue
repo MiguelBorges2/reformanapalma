@@ -65,9 +65,10 @@
         }
     .fonte45 {
         font-size: 4.5vw !important;
+        
     }
     .margi6 {    
-        margin-top: 24.7%;
+        margin-top: 24.9% !important;
     }
     .tamanho{
         width: 90%;
@@ -119,7 +120,7 @@
                 font-size: 4.9vw !important;
         }
         .margi6 {    
-            margin-top: 26% !important;
+            margin-top: 27% !important;
         }
         .round2 {
                 font-size: 2.5vw !important;
@@ -131,9 +132,6 @@
             .yip{
                 font-size: 4.3vw;
             }
-            .margi6 {    
-                margin-top: 24.7% !important;
-            }
             .round2 {
                 font-size: 2.5vw !important;
                 width: 15% !important;
@@ -142,7 +140,7 @@
                 font-size: 5.2vw !important;
             }
             .margi6 {    
-                margin-top: 27% !important;
+                margin-top: 28% !important;
             }
         }
     

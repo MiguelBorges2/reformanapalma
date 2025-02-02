@@ -10,13 +10,13 @@
               
               <span id="serg1" class="wid3  d-flex justify-content-center  color1 align-items-center btn-arrow"> &#709;</span>
           </div>
-          <div v-if="toogle2 === true" class="d-flex holt w-100">
+          <div @click="teste4" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light "> Estudar/trabalhar em um quarta de casal</span>
               </div>
               <span class="wid4 color1 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex holt w-100">
+            <div @click="teste3" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light "> Estudar/trabalhar em um quarto para uma pessoa</span>
               </div>
@@ -71,6 +71,10 @@
 
               }
           },
+          teste4(){
+            console.log('foi gostoso');
+            this.updateGlobalVariable(22);
+          },
           teste2(){
             console.log('foi gostoso');
             this.updateGlobalVariable(24);
@@ -78,6 +82,10 @@
           teste(){
             console.log('foi');
             this.updateGlobalVariable(25);
+          },
+          teste3(){
+            console.log('foi');
+            this.updateGlobalVariable(23);
           },
           updateGlobalVariable(value) {
             const mainStore = useMainStore();

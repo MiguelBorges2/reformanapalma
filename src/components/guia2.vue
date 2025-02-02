@@ -259,7 +259,7 @@ html, body {
     border: none;
 }
 .hlk{
-    width: 50%;
+    width: 65%;
 }
 .cril2 {
     color: #263238;
@@ -277,8 +277,8 @@ html, body {
     width: 97%;
 }
 .quid2 {
-    width: 40%;
-    margin-left: 7%;  
+    width: 35%;
+    margin-left: 4%;  
 }
 .colo48 {
     color: #4A4A48;
@@ -286,8 +286,9 @@ html, body {
 }
 .tamamp00 {
 
-    width: 100% !important;
+    width: 120% !important;
     height: auto;
+    margin-right: 3% !important;
 }
 .tamamp2 {
 
@@ -385,6 +386,7 @@ height: auto;
     .setune3{
         width: 97%;
     }
+
     
 }
 @media (max-width: 600px) {
@@ -392,7 +394,7 @@ height: auto;
         font-size: 2vw;
     }
     .hmp2 {
-        font-size: 2.55vw ;
+        font-size: 2.35vw ;
     }
     .setune3{
         width: 97%;

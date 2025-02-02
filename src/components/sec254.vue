@@ -136,14 +136,14 @@
             border-radius:20px;
           }
           .ga {
-            font-size: 2.3vw;
+            font-size: 2.4vw;
 
           }
           .gl {
-            font-size: 1.9vw;
+            font-size: 2.3vw;
           }
           .gl2 {
-            font-size: 1.9vw;
+            font-size: 2.2vw;
           }
         
     }

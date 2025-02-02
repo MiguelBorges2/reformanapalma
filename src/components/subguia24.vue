@@ -1,12 +1,13 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
-        <h1 class="funko text-light famap400">Estudar/trabalhar em espaço pequeno</h1>
+        <h1 class="funko1 text-light famap400">Estudar/trabalhar em espaço pequeno</h1>
         <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em quarto para duas pessoas ou mais</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
+            <img class="tamanho89" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço do quarto para duas pessoas e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
+                    <p v-if="windowSize >= 820"  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço do quarto para duas pessoas e transformá-lo em um lugar apto e con- fortável para estudo e trabalho  </p>
+                    <p v-if="windowSize < 820"  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço do quarto para duas pessoas e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
                 </div>
                 
             </div>
@@ -72,10 +73,10 @@
 
     </div>
     <div v-if="slider === 1" class="d-flex tamanho animate__animated animate__slideInRight  justify-content-center align-items-center flex-column" >
-        <h1 class="funko text-light famap400">Estudar/trabalhar em espaço pequeno</h1>
+        <h1 class="funko1 text-light famap400">Estudar/trabalhar em espaço pequeno</h1>
         <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em quarto para duas pessoas ou mais</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
+            <img class="tamanho89" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta d-flex justify-content-center align-items-center"> 
                     <p  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço do quarto para duas pessoas e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
@@ -162,8 +163,19 @@
         },
         data(){
             return{
-                
+                windowSize : window.innerWidth,
             };
+        },
+        mounted(){
+            window.addEventListener('resize', this.handleResize);
+        },
+        beforeDestroy() {
+            window.removeEventListener('resize', this.handleResize); // Remove listener no destroy
+        },        
+        methods: {
+            handleResize() {
+                this.windowSize = window.innerWidth; // Atualiza windowWidth
+            },
         },
     }
 
@@ -198,30 +210,32 @@ margin-bottom: 1%;
             border-radius: 24px;
             height: 0.8vw;
         }
-.funko {
+.funko1 {
     font-size: 4.3vw;
-    margin-top: 3%;
+    margin-top: 3.3% !important;
+    margin-bottom: 0;
 }
 .funko2 {
     font-size: 2vw;
-    margin-bottom: 3%;
+    margin-bottom: 0;
 
 }
-.tamanho892 {
+.tamanho89 {
    height: auto;    
-   width: 39%;
+   width: 51% !important;
    margin-left: 7%;
-   margin-right: 1%;
+   margin-bottom: 1% !important;
         
 }  
 .tamanho98{
+    margin-top: 0;
     height: auto;
     width: 4%;
 
 } 
 .conta{
     border: 3px solid  #FFC676;
-    border-radius: 40px;
+    border-radius: 30px !important;
     width: 80%;
     padding: 2%;
   
@@ -231,31 +245,43 @@ margin-bottom: 1%;
     margin: 0;
 
 }
+
 @media (max-width: 768px) {
     .conta {
         padding: 3%;
-        border-radius: 20px;
+        border-radius: 20px !important;
         border: 2px solid  #FFC676;
     }
     .funkot3 {
-        font-size: 1.6vw;
+        font-size: 1.8vw !important;
         margin: 0;
+    }
+    .funko2 {
+
+        font-size: 2.1vw;
+    }
+    .funko1 {
+        font-size: 4.6vw;
     }
 
 }
 @media (max-width: 600px) {
     .conta {
-        padding: 3%;
+        padding: 2.5% !important;
         border-radius: 20px;
         border: 2px solid  #FFC676;
+        width: 96% !important;
     }
     .funkot3 {
-        font-size: 2vw;
+
         margin: 0;
     }
+    .funko2 {
 
+        font-size: 2.2vw;
+    }
+    
 }
-   
     
 
     

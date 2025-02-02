@@ -64,7 +64,7 @@
           .gf2 {
             padding: 2%;
             border: 2px solid  #FFC676;
-            border-radius:20px;
+            border-radius: 20px !important;
           }
           .ga {
             font-size: 2.3vw;

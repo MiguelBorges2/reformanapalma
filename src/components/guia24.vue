@@ -1,6 +1,6 @@
 <template>
 <div class="w-100 d-flex justify-content-around alturatotal calo align-items-center gradient-bg">
-        <button @click="ShiftLeft25()" id="shiftLe25" class="btn-hover-yellow border  btn-round m-1 ">
+        <button @click="ShiftLeft25()" id="shiftLe25" class="btn-hover-yellow border  btn-round ">
             <
         </button>
         
@@ -21,9 +21,9 @@
             >
         </button>
     </div>
-    <sec251 v-if="controlador1[0] === 0"></sec251>
+    <sec241 v-if="controlador1[0] === 0"></sec241>
     <sec252 v-if="controlador1[0] === 1"></sec252>
-    <sec253 v-if="controlador1[0] === 2"></sec253>
+    <sec243 v-if="controlador1[0] === 2"></sec243>
     <sec254 v-if="controlador1[0] === 3"></sec254>
     <sec255 v-if="controlador1[0] === 4"></sec255>
     <sec256 v-if="controlador1[0] === 5"></sec256>
@@ -36,7 +36,9 @@ import sec252 from './sec252.vue';
 import sec253 from './sec253.vue';
 import sec254 from './sec254.vue';
 import sec255 from './sec255.vue';
-import sec256 from './sec256.vue'
+import sec256 from './sec256.vue';
+import sec241 from './sec241.vue';
+import sec243 from './sec243.vue';
 export default {
     name: 'guia24',
     components: {
@@ -47,7 +49,10 @@ export default {
         sec253,
         sec254,
         sec255,
-        sec256
+        sec256,
+        sec241,
+        sec243
+
     },
     data() {
       return {
