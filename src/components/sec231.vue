@@ -40,7 +40,7 @@
                         <img class="tamanho80" src="@/assets/IMG 2.2 1.svg" alt="Logo2">
                         <img class="tamanho80" src="@/assets/IMG 2.1 1.svg" alt="Logo2">
                         <p class="subtugali">E no caso das janelas, verifique a altura do mobiliário que instalará em frente à abertura para evitar o bloqueio de iluminação e ventilação.</p>
-                        <img class="tamanho82" src="@/assets/GIF - Quarto para duas ou mais pessoas - janela.gif" alt="Logo2">
+                        <img class="tamanho82" src="@/assets/quarto-duplo-janela.gif" alt="Logo2">
                     </div>
                 </div>    
                 <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
