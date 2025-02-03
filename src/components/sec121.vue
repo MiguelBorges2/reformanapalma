@@ -50,9 +50,9 @@ Ao verificar telhas desencaixadas, desmonte a área em volta e a remonte, retira
                         <img class="tamanho81" src="@/assets/imagem421.svg" alt="Logo2">
                         <img class="tamanho81" src="@/assets/imagem411.svg" alt="Logo2">
                         <p class="subtugali">Pode ser necessário desmontar e remontar o telhado respeitando-se as recomendações de fabricantes quanto à: distância máxima entre escoramentos (ripas, terças e caibros), a faixa de sobreposição mínima de telhas- DISTÂNCIA MÉDIA ENTRE RIPAS) e a inclinação mínima do telhado.</p>
-                        <img class="tamanho81" src="@/assets/imagem 5.2.svg" alt="Logo2">
-                        <img class="tamanho81" src="@/assets/imagem 5.1.svg" alt="Logo2">
-                        <img class="tamanho81" src="@/assets/imagem 6.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem52.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem51.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem6.svg" alt="Logo2">
                         <p class="subtugali">Em todo caso, é necessária uma avaliação profissional específica para cada caso. Veja mais informações em Quais cuidados tomar. 
                         </p>
                     </div>
@@ -64,15 +64,15 @@ Ao verificar telhas desencaixadas, desmonte a área em volta e a remonte, retira
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
                         <p class="subtugali">Devem existir calhas na beirada mais baixa de telhados e entre superfícies de um mesmo telhado para coletar as águas de chuva</p>
-                        <img class="tamanho81" src="@/assets/imagem 9.1 1.svg" alt="Logo2">
-                        <img class="tamanho83" src="@/assets/imagem 9.3.svg" alt="Logo2">
-                        <img class="tamanho83" src="@/assets/imagem 9.2.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem911.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem93.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem92.svg" alt="Logo2">
                         <p class="subtugali">Os rufos, por sua vez, protegem o encontro entre telhado e parede/muro, conduzindo a água. As calhas e rufos evitam que a água escorra para dentro dos ambientes, gerando goteiras, e infiltrações. Essas peças devem ser bem encaixados no telhado e vedados, garantindo inclinação mínima para que a água escoe através delas e não das telhas. Diferentes tipos de telhados demandam diferentes tipos de calhas e rufos conforme as imagens.
 Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional para definir as melhores estratégias para seu caso.
 </p>
-                        <img class="tamanho83" src="@/assets/imagem 10.1.svg" alt="Logo2">
-                        <img class="tamanho83" src="@/assets/imagem 10.3.svg" alt="Logo2">
-                        <img class="tamanho83" src="@/assets/imagem 10.2.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem101.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem103.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem102.svg" alt="Logo2">
 
                     </div>
                 </div>            
