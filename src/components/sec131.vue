@@ -30,7 +30,7 @@ Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional
                 </div>      
                 <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao2" class="d-flex w-100 color1 tucs2">
-                        <span id="barra2" class="tupi white tucs " >2º Passo: Verificar se telhas estão bem encaixadas/posicionadas</span>
+                        <span id="barra2" class="tupi white tucs " >2º Passo: Verificar posicionamento das telhas</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
@@ -42,7 +42,7 @@ Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional
                 </div>    
                 <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao3" class="d-flex w-100 color22 tucs2">
-                        <span id="barra3" class="tupi white tucs " > 3º Passo: Verificar se tem desgaste na estrutura do telhado</span>
+                        <span id="barra3" class="tupi white tucs " > 3º Passo: Verificar desgaste na estrutura do telhado</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
@@ -327,6 +327,9 @@ Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional
         .tcs {
             border-radius: 16px;
         }
+        .subtugali{
+            font-size: 2.4vw !important;
+        }
         .tucs {
             padding-bottom: 3%;
             padding-top: 3%;
@@ -340,6 +343,7 @@ Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional
         }
         .tupi {
             border-radius: 15px 0px 0px 15px;
+            font-size: 2.4vw !important;
         }
         .tamanho81 {
             width: 100% !important;

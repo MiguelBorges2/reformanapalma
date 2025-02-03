@@ -332,22 +332,39 @@
             padding: 2%;
             margin-top: 3%;
           }
-             
-            
-    }
-    @media (max-width: 600px) {
-    
-        .fo {
-            font-size: 2.3vw;
+          .fo {
+            font-size: 1.9vw !important;
           }
           .fo3 {
-            font-size: 2.1vw;
+            font-size: 1.7vw !important;
           }
         .fo7{
             font-size: 2vw;
         } 
         .fo2 {
+            font-size: 1.7vw !important;
+        }
+        .fo4 {
             font-size: 2vw;
+        }
+        .fo6 {
+            font-size: 2vw;
+        }
+            
+    }
+    @media (max-width: 600px) {
+    
+        .fo {
+            font-size: 2.4vw !important;
+          }
+          .fo3 {
+            font-size: 2.3vw !important;
+          }
+        .fo7{
+            font-size: 2vw;
+        } 
+        .fo2 {
+            font-size: 2.1vw !important;
         }
         .fo4 {
             font-size: 2vw;
