@@ -36,8 +36,8 @@ Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional
                     <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
                         <p class="subtugali">Paredes "no osso", sem reboco externo, são mais vulneráveis ao clima e seus rigores, inclusive à chuva. Elas absorvem mais facilmente a água de chuva, causando infiltrações. Por isso, é necessário que as paredes sejam acabadas com as camadas adequadas
                         </p>
-                        <img class="tamanho81" src="@/assets/imagem 1 1.svg" alt="Logo2">
-                        <img class="tamanho81" src="@/assets/imagem 2 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem11.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem21.svg" alt="Logo2">
                     </div>
                 </div>    
                 <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -47,16 +47,16 @@ Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
                         <p class="subtugali">Pisos de áreas externas, banheiros, áreas de serviços ou cozinhas sem caimento para ralos ou áreas permeáveis favorecem empoçamento de água rente à base de paredes. Essa água empoçada pode ser absorvida pela base da parede, ocasionando infiltrações "de baixo para cima". </p>
-                        <img class="tamanho81 bubs" src="@/assets/imagem 3 (1).svg" alt="Logo2">
+                        <img class="tamanho81 bubs" src="@/assets/imagem3(1).svg" alt="Logo2">
                         <p class="subtugali">Essa infiltração danifica paredes e pisos, causando manchas difíceis de serem removidas e, também, excesso de umidade nos ambientes. </p>
-                        <img class="tamanho81 bubs" src="@/assets/imagem 4.4.svg" alt="Logo2">
-                        <img class="tamanho81 bubs" src="@/assets/imagem 4.3.svg" alt="Logo2">
-                        <img class="tamanho81 bubs" src="@/assets/imagem 4.2.svg" alt="Logo2">
-                        <img class="tamanho83 bubs" src="@/assets/imagem 4.1.svg" alt="Logo2">
+                        <img class="tamanho81 bubs" src="@/assets/imagem44.svg" alt="Logo2">
+                        <img class="tamanho81 bubs" src="@/assets/imagem43.svg" alt="Logo2">
+                        <img class="tamanho81 bubs" src="@/assets/imagem42.svg" alt="Logo2">
+                        <img class="tamanho83 bubs" src="@/assets/imagem41.svg" alt="Logo2">
                         <p class="subtugali">O piso deve ter caimento constante de 2% em direção a um ralo. Isto é, a cada 1 m de piso na horizontal deve existir um desnível de 1,5 cm na vertical.
                         </p>
-                        <img class="tamanho83 bubs" src="@/assets/imagem 5.2 (1).svg" alt="Logo2">
-                        <img class="tamanho83 bubs" src="@/assets/imagem 5.1 (1).svg" alt="Logo2">
+                        <img class="tamanho83 bubs" src="@/assets/imagem52(1).svg" alt="Logo2">
+                        <img class="tamanho83 bubs" src="@/assets/imagem51(1).svg" alt="Logo2">
 
                     </div>
                 </div>    
@@ -67,11 +67,11 @@ Garanta que seu telhado tenha essas peças. Conte com a ajuda de um profissional
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
                         <p class="subtugali">Ao furar paredes, pode-se furar ou rachar um cano por acidente, causando infiltrações. </p>
-                        <img class="tamanho81 bubs" src="@/assets/imagem 61.svg" alt="Logo2">
-                        <img class="tamanho83 bubs" src="@/assets/imagem 7 (1).svg" alt="Logo2">
+                        <img class="tamanho81 bubs" src="@/assets/imagem61.svg" alt="Logo2">
+                        <img class="tamanho83 bubs" src="@/assets/imagem7(1).svg" alt="Logo2">
                         <p class="subtugali">. Para evitar esse acidente, procure não fazer furos no alinhamento vertical e horizontal de pontos de água e tomadas.</p>
-                        <img class="tamanho83" src="@/assets/imagem 8.1.svg" alt="Logo2">
-                        <img class="tamanho83" src="@/assets/imagem 8.2.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem81.svg" alt="Logo2">
+                        <img class="tamanho83" src="@/assets/imagem82.svg" alt="Logo2">
 
                     </div>
                 </div>            

@@ -48,11 +48,11 @@
                 </span>
                 <div class="quid2 d-flex">
                     <span class="w-40 d-flex flex-column justify-content-center align-items-center">
-                        <img class="tamamp00" src="@/assets/image 3.svg" alt="Logo2">
+                        <img class="tamamp00" src="@/assets/image3.svg" alt="Logo2">
                         <p class="fonfonfon">Antes</p>
                     </span>
                     <span class="w-60 d-flex flex-column justify-content-center align-items-center">
-                        <img class="tamamp2" src="@/assets/image 2.svg" alt="Logo2">
+                        <img class="tamamp2" src="@/assets/image2.svg" alt="Logo2">
                         <p class="fonfonfon">Depois</p>
                     </span>
                 </div>
