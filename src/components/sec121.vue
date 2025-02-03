@@ -47,8 +47,8 @@ Ao verificar telhas desencaixadas, desmonte a área em volta e a remonte, retira
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
                         <p class="subtugali">Peças da estrutura podres, tortas ou mesmo faltantes podem levar a um entortamento do telhado, favorecendo a passagem da água de chuva.</p>
                         <img class="tamanho81" src="@/assets/imagem31.svg" alt="Logo2">
-                        <img class="tamanho81" src="@/assets/imagem 4.2 1.svg" alt="Logo2">
-                        <img class="tamanho81" src="@/assets/imagem 4.1 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem421.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/imagem411.svg" alt="Logo2">
                         <p class="subtugali">Pode ser necessário desmontar e remontar o telhado respeitando-se as recomendações de fabricantes quanto à: distância máxima entre escoramentos (ripas, terças e caibros), a faixa de sobreposição mínima de telhas- DISTÂNCIA MÉDIA ENTRE RIPAS) e a inclinação mínima do telhado.</p>
                         <img class="tamanho81" src="@/assets/imagem 5.2.svg" alt="Logo2">
                         <img class="tamanho81" src="@/assets/imagem 5.1.svg" alt="Logo2">
