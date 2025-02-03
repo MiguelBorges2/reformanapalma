@@ -1,28 +1,19 @@
-  <template>
-    <nav :class="divClasses"> <!-- Use :class para aplicar a classe dinâmica -->
-      <div :class=" divClasses2">
-        <div class="d-flex justify-content-center align-items-center gab">
-          <img class="ralao  " src="@/assets/logo_Reforma_hznt_w.svg" alt="Logo" />
-        </div>
-        <div class="d-flex gabs  justify-content-end align-items-center " id="navbarNav">
-          <ul :class="[divClasses3, 'navbar-nav', 'd-flex', 'flex-row', 'justify-content-between', 'align-items-center']">
-            <li class="nav-item me-3   yip5">
-              <a href="#" class="nav-link text-light">Início</a>
-            </li>
-            <li class="nav-item yip5 me-3">
-              <a href="#" class="nav-link text-light">Quem somos</a>
-            </li>
-            <li class="nav-item me-3 yip5">
-              <a href="#" class="nav-link text-light">Conte seu problema</a>
-            </li>
-            <form class="d-flex scu2 wid2   " action="/search" method="get">
-              <input class="form-control scu2 me-2" type="search" name="query" placeholder="buscar" aria-label="Search" />
-            </form>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </template>
+<template>
+
+  <nav class="navbar quip2">
+    <div class="d-flex justify-content-around align-items-center tants w-100">
+      <img class="ralao " src="@/assets/logo_Reforma_hznt_w.svg" alt="Logo"/>
+      <ul class="caps d-flex justify-content-center align-items-center">
+        <li class="nav-item pics">Início</li>
+        <li class="nav-item pics">Quem Somos</li>
+        <li class="nav-item pics">Conte Seu Problema</li>
+      </ul>
+      <input class="serc" type="search" placeholder="Buscar..." aria-label="Search">
+    </div>
+
+  </nav>
+
+</template>
 
   <script>
   export default {
@@ -60,6 +51,15 @@
   </script>
 
     <style>
+    .pics {
+      color: white;
+      margin-right: 2%;
+      margin-left: 4%;
+      font-size: 1.4vw;
+    }
+    .tants {
+      align-items: center;
+    }
     .aplicação{
       display: flex;
       flex-direction: column;
@@ -79,13 +79,24 @@
     .gabs {
       width: 80%;
     }
+    .quip2 {
+      background-color: #4A4A48;
+    }
     .gab {
       padding: 0;
       width: 30%;
     }
+    .caps {
+      list-style: none;
+      width: 35%;
+      height: 100%;
+
+      margin: 0;
+    }
     .ralao {
       height: auto;
-      width: 45%;
+      width: 11%;
+      margin-left: 2%;
     }
     .aplicação2 {
       width: 95%;
@@ -99,15 +110,86 @@
     .fon {
       font-size: 0.5vw;
     }
+    .serc {
+      width: 15%;
+      border-radius: 20px;
+      background-color: rgb(71, 71, 68);
+      color: white;
+      border: 2px solid #FFC676;
+      ;
+    }
     @media (max-width: 768px) {
       .wid2 {
         height: 2.5vw;
         width: 29%;
         margin-bottom: 1%;
       }
-      
+      .caps {
+        width: 50%;
+        
+      }
+      .pics{
+        font-size: 1.9vw;
+        margin-left: 2%;
+      }
+      .ralao {
+        width: 14%;
+        margin-left: 4%;
+      }
+      .serc{
+        width: 20%;
+        font-size: 1.9vw;
+      }
     
 }
+    @media (max-width: 1200px) {
+      .wid2 {
+        height: 2.5vw;
+        width: 29%;
+        margin-bottom: 1%;
+      }
+      .caps {
+        width: 50%;
+        
+      }
+      .pics{
+        font-size: 1.6vw;
+        margin-left: 2%;
+      }
+      .ralao {
+        width: 12%;
+        margin-left: 4%;
+      }
+      .serc{
+        width: 18%;
+        font-size: 1.9vw;
+      }
     
+}
+@media (max-width: 600px) {
+      .wid2 {
+        height: 2.5vw;
+        width: 29%;
+        margin-bottom: 1%;
+      }
+      .caps {
+        width: 50%;
+        
+      }
+      .pics{
+        font-size: 2.1vw;
+        margin-left: 2%;
+      }
+      .ralao {
+        width: 15%;
+        margin-left: 4%;
+      }
+      .serc{
+        width: 20%;
+        font-size: 2.1vw;
+      }
+    
+}
+
     </style>
     
