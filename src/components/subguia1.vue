@@ -173,7 +173,7 @@
                     font-size:  4.89vw;
                 }
                 .round45 {
-                    width: 15% !important;
+                    width: 25% !important;
                     font-size: 2.5vw !important;
                 }
                 .tamanho32 {
