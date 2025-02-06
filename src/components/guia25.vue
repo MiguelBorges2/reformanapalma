@@ -55,8 +55,19 @@ export default {
     data() {
       return {
         controlador1: [0, 0], // [índice atual, direção da animação]
+        windowSize: window.innerWidth,
       };
     },
+    computed: {
+
+    }, 
+    mounted(){
+        window.addEventListener('resize', this.handleResize);
+    },
+    beforeDestroy() {
+      window.removeEventListener('resize', this.handleResize); // Remove listener no destroy
+    },        
+
     methods: {
         ShiftRight25() {
             console.log('oi')
@@ -71,6 +82,9 @@ export default {
                 this.controlador1[0] -= 1;
                 this.controlador1[1] = 1;
             }
+        },
+        handleResize(){
+            this.windowsize = window.innerWidth;
         }
     }
 };

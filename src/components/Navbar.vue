@@ -190,6 +190,30 @@
       }
     
 }
+@media (max-width: 600px) {
+      .wid2 {
+        height: 2.5vw;
+        width: 29%;
+        margin-bottom: 1%;
+      }
+      .caps {
+        width: 55%;
+        
+      }
+      .pics{
+        font-size: 2.1vw;
+        margin-left: 1%;
+      }
+      .ralao {
+        width: 15%;
+        margin-left: 4%;
+      }
+      .serc{
+        width: 20%;
+        font-size: 2.1vw;
+      }
+    
+}
 
     </style>
     

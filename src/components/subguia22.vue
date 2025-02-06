@@ -6,7 +6,7 @@
             <img class="tamanho893" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta d-flex justify-content-center align-items-center"> 
-                    <p v-if="windowSize >= 820"  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço do quarto para um casal e transformá-lo em um lugar apto e confor- tavel para estudo e trabalho   </p>
+                    <p v-if="windowSize >= 820"  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço do quarto para um casal e transformá-lo em um lugar apto e confor-   tavel para estudo e trabalho   </p>
                     <p v-if="windowSize < 820"  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço do quarto para uma pessoas e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
                 </div>
                 

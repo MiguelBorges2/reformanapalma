@@ -6,7 +6,7 @@
 <script>
 import Navbar from './Navbar.vue';
 import Final25 from './final25.vue';
-    import guia24 from './guia24.vue';
+import guia24 from './guia24.vue';
     export default {
         name: 'quartopradois',
         components:{

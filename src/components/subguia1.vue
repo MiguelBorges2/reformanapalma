@@ -85,6 +85,29 @@
                 }
                 
             }
+            @media (max-width: 576px) {
+                .yip{
+                    font-size: 4vw  !important;
+                }
+                .tamanho32 {
+                    width: 55% !important;
+                }
+                .fonte {
+                    font-size: 5.25vw !important;
+
+                }
+                .keeps {
+                    margin: 2.6% !important;
+                }
+                .round45 {
+                    font-size: 2vw !important;
+                    
+                }
+                .tamanho3{
+                    width: 100% !important;
+                }
+                
+            }
         .fonte {
             font-size: 4.5vw;
 
@@ -123,7 +146,7 @@
             margin-top: 1.9% !important;
             width: 100%;
             margin: 1.2%;
-            margin-bottom: 0;
+            margin-bottom: 1%;
         }
         .size {
 
@@ -163,6 +186,7 @@
                     height: 3vw;
                 }
             }
+
         
 
 

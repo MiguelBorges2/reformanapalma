@@ -163,11 +163,6 @@
         },
         data(){
             return{
-               widowSize : window.innerWidth,
-            };
-        },
-        data(){
-            return{
                 windowSize : window.innerWidth,
             };
         },
