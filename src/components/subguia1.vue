@@ -77,7 +77,7 @@
                     margin: 2.6% !important;
                 }
                 .round45 {
-                    font-size: 2.2vw !important;
+                    font-size: 2.1vw !important;
                     
                 }
                 .tamanho3{
@@ -101,7 +101,7 @@
                 }
                 .round45 {
                     font-size: 1.9vw !important;
-                    
+                    width: 35% !important;
                 }
                 .tamanho3{
                     width: 100% !important;
@@ -173,7 +173,7 @@
                     font-size:  4.89vw;
                 }
                 .round45 {
-                    width: 25% !important;
+                    width: 20% !important;
                     font-size: 2.5vw !important;
                 }
                 .tamanho32 {
