@@ -267,7 +267,7 @@ html, body {
 }
 .setune {
     border: 2px solid #FFC676;
-    border-radius: 24px;
+    border-radius: 18px;
     
     width: 95%;
 }
@@ -326,8 +326,8 @@ height: auto;
 }
 
 .btn-round2 {  
-  height: 3vw;
-  width: 3% !important;      
+  height: 5.5vw !important;
+  width: 6% !important;      
   padding: 0;              
   display: flex;           
   align-items: center;     
@@ -391,7 +391,7 @@ height: auto;
 }
 @media (max-width: 600px) {
     .hmp3 {
-        font-size: 1.8vw;
+        font-size: 1.9vw;
     }
     .hmp2 {
         font-size: 2.35vw ;

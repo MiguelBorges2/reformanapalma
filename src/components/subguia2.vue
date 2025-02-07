@@ -49,30 +49,12 @@
         
 </script>
 <style>
-    @media (max-width: 600px) {
-            .yip{
-                font-size: 4.3vw;
-            }
-            .margi6 {    
-                margin-top: 24.7% !important;
-            }
-            .round2 {
-                font-size: 2.2vw !important;
-            }
-            .fonte45{
-                font-size: 60vw !important;
-            }
-        }
     .fonte45 {
         font-size: 4.5vw !important;
         
     }
     .margi6 {    
-        margin-top: 24.9% !important;
-    }
-    .tamanho{
-        width: 90%;
-        height: 100%;
+        margin-top: 24.9%;
     }
     .round2 {
         margin-top: 1.2%;
@@ -117,14 +99,14 @@
             width: 54%;
         }
         .fonte45{
-                font-size: 4.9vw !important;
+                font-size: 4.9vw;
         }
         .margi6 {    
-            margin-top: 27% !important;
+            margin-top: 27%;
         }
         .round2 {
-                font-size: 2.5vw !important;
-                width: 15% !important;
+                font-size: 2.5vw;
+                width: 15% ;
             }
     
     }
@@ -133,14 +115,29 @@
                 font-size: 4.3vw;
             }
             .round2 {
-                font-size: 2.5vw !important;
-                width: 15% !important;
+                font-size: 2.5vw;
+                width: 15%;
             }
             .fonte45{
-                font-size: 5.2vw !important;
+                font-size: 5vw !important;
             }
             .margi6 {    
-                margin-top: 28% !important;
+                margin-top: 28%;
+            }
+        }
+        @media (max-width: 500px) {
+            .yip{
+                font-size: 4.3vw;
+            }
+            .round2 {
+                font-size: 2.2vw;
+                width: 25%;
+            }
+            .fonte45{
+                font-size: 4.5vw !important;
+            }
+            .margi6 {    
+                margin-top: 21.6%;
             }
         }
     

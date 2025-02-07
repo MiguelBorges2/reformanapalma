@@ -235,7 +235,7 @@ margin-bottom: 1%;
 } 
 .conta{
     border: 3px solid  #FFC676;
-    border-radius: 30px !important;
+    border-radius: 30px;
     width: 80%;
     padding: 2%;
   
@@ -249,7 +249,7 @@ margin-bottom: 1%;
 @media (max-width: 768px) {
     .conta {
         padding: 3%;
-        border-radius: 20px !important;
+        border-radius: 16px;
         border: 2px solid  #FFC676;
     }
     .funkot3 {
@@ -268,7 +268,7 @@ margin-bottom: 1%;
 @media (max-width: 600px) {
     .conta {
         padding: 2.5% !important;
-        border-radius: 20px;
+        border-radius: 16px;
         border: 2px solid  #FFC676;
         width: 96% !important;
     }

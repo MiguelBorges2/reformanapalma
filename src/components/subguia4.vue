@@ -60,10 +60,7 @@
     .fonte45 {
         font-size: 4.5vw;
     }
-    .tamanho{
-        width: 90%;
-        height: auto;
-    }   
+
     .round2 {
         border-radius: 24px;
         width: 14%;

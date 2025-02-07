@@ -75,7 +75,7 @@ html, body {
   color: white;            
   border: 1px solid white; 
   transition: background-color 0.3s ease; 
-  margin: 0.1%;
+  margin: 1%;
 }
 
 .alturatotal {
@@ -103,6 +103,20 @@ html, body {
         width: 4%; 
         height: 4vw;   
     }
+    .gradient-bg42 {
+        background: linear-gradient(to top, #749695, #394A55); 
+        border-radius: 0 0 24px 24px;
+    
+    }
+}
+@media (max-width: 600px) {
+    .btn-round {
+        width: 6% !important; 
+        height: 5.4vw !important;   
+    }
+    .gradient-bg42 {
+        background: linear-gradient(to top, #749695, #394A55); 
+        border-radius: 0 0 24px 24px;
     
 }
 @media (max-width: 1200px) {
@@ -111,11 +125,7 @@ html, body {
         border-radius: 0 0 40px 40px;
     }      
 }
-@media (max-width: 768px) {
-    .gradient-bg42 {
-        background: linear-gradient(to top, #749695, #394A55); 
-        border-radius: 0 0 24px 24px;
-}   
+
 
 }
 

@@ -72,7 +72,7 @@
 }
 
 .tamanho {
-    width: 90%;
+    width: 85%;
     height: auto;
 }
 
@@ -170,7 +170,7 @@
         font-size: 4vw;
     }
     .tamanho32 {
-        width: 50%;
+        width: 55%;
     }
     .fonte {
         font-size: 4.7vw;
