@@ -109,8 +109,14 @@ html, body {
     .gradient-bg42 {
         background: linear-gradient(to top, #749695, #394A55); 
         border-radius: 0 0 40px 40px;
+    }      
+}
+@media (max-width: 768px) {
+    .gradient-bg42 {
+        background: linear-gradient(to top, #749695, #394A55); 
+        border-radius: 0 0 24px 24px;
 }   
-    
+
 }
 
 

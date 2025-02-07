@@ -391,7 +391,7 @@ height: auto;
 }
 @media (max-width: 600px) {
     .hmp3 {
-        font-size: 2vw;
+        font-size: 1.8vw;
     }
     .hmp2 {
         font-size: 2.35vw ;

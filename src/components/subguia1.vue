@@ -1,7 +1,7 @@
     <template>
         <div v-if="slider === 0" class="d-flex  tamanho justify-content-center flex-column align-items-center">
                 <div class="d-flex align-items-center  justify-content-around keeps ">
-                    <img class="tamanho3" src="@/assets/logo_Reforma_w.svg" alt="Logo">
+                    <img class="tamanhog" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 margin-left">
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
@@ -16,7 +16,7 @@
             </div>
             <div v-if="slider === 1" class="d-flex animate__animated animate__slideInLeft tamanho justify-content-center flex-column align-items-center">
                 <div class="d-flex  align-items-center  justify-content-around keeps ">
-                    <img class="tamanho3" src="@/assets/logo_Reforma_w.svg" alt="Logo">
+                    <img class="tamanhog" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 margin-left">
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
@@ -31,7 +31,7 @@
             </div>
             <div v-if="slider === -1" class="d-flex animate__animated animate__slideInRight tamanho justify-content-center flex-column align-items-center">
                 <div class="d-flex  align-items-center  justify-content-around keeps ">
-                    <img class="tamanho3" src="@/assets/logo_Reforma_w.svg" alt="Logo">
+                    <img class="tamanhog" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 margin-left">
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
@@ -61,134 +61,129 @@
 
         };
     </script>
-    <style>
-        @media (max-width: 600px) {
-                .yip{
-                    font-size: 4vw  !important;
-                }
-                .tamanho32 {
-                    width: 55% !important;
-                }
-                .fonte {
-                    font-size: 5.25vw !important;
+ <style>
+.fonte {
+    font-size: 4.5vw;
+}
 
-                }
-                .keeps {
-                    margin: 2.6% !important;
-                }
-                .round45 {
-                    font-size: 2.1vw !important;
-                    
-                }
-                .tamanho3{
-                    width: 100% !important;
-                }
-                
-            }
-            @media (max-width: 576px) {
-                .yip{
-                    font-size: 4vw  !important;
-                }
-                .tamanho32 {
-                    width: 65% !important;
-                }
-                .fonte {
-                    font-size: 5.25vw !important;
+.colo45 {
+    color: #4A4A48;
+    font-weight: 500;
+}
 
-                }
-                .keeps {
-                    margin: 2.6% !important;
-                }
-                .round45 {
-                    font-size: 1.9vw !important;
-                    width: 35% !important;
-                }
-                .tamanho3{
-                    width: 100% !important;
-                }
-                
-            }
-        .fonte {
-            font-size: 4.5vw;
+.tamanho {
+    width: 90%;
+    height: auto;
+}
 
-        }
-        .colo45 {
-            color: #4A4A48;
-            font-weight: 500;
-        }
-        .tamanho{
-            width: 90%;
-            height: auto;
-        }
-        .round45 {
-            margin-top: 1%;
-            border-radius: 24px;
-            width: 14%;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            font-size: 1.5vw;
-            padding: 0.5%;
-            border: none;
-            background-color:  #FFC676;
-        }
-        .indicator {
-                width: 20%;
-                background-color:   #FFC676;
-                border-radius: 24px;
-                height: 3vw;
-            }
-        .indi {
-                width: 20%;
-                background-color: white;
-                border-radius: 24px;
-                height: 3vw;
-            }
-        .keeps {
-            margin-top: 1.9% !important;
-            width: 100%;
-            margin: 1.2%;
-            margin-bottom: 1%;
-        }
-        .size {
+.round45 {
+    margin-top: 1%;
+    border-radius: 24px;
+    width: 14%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 1.5vw;
+    padding: 0.5%;
+    border: none;
+    background-color: #FFC676;
+}
 
-            width: 28%;
-            margin: 1.5%;
-        }
-        .tamanho3 {
-                height: auto;
-                width: 25.4% !important;
-                margin-left: 4%;
-        }
+.indicator {
+    width: 20%;
+    background-color: #FFC676;
+    border-radius: 24px;
+    height: 3vw;
+}
 
+.indi {
+    width: 20%;
+    background-color: white;
+    border-radius: 24px;
+    height: 3vw;
+}
 
-        
-        .tamanho32 {
-            width: 51%;
-        }
-        
-            @media (max-width: 768px) {
-                .tamanho3 {
-                    width: 29% !important;
-                }
-                .fonte{
-                    font-size:  4.89vw;
-                }
-                .round45 {
-                    width: 20% !important;
-                    font-size: 2.5vw !important;
-                }
-                .tamanho32 {
-                    width: 51%;
-                }
-                .indi {
-                    height: 0.6vw;
-                }
-                .indicator {
-                    height: 3vw;
-                }
-            }
+.keeps {
+    margin-top: 1.9%;
+    width: 100%;
+    margin: 1.2%;
+    margin-bottom: 1%;
+}
 
-        
+.size {
+    width: 28%;
+    margin: 1.5%;
+}
 
+.tamanhog {
+    height: auto;
+    width: 25.4%;
+    margin-left: 4%;
+}
+.tamanho32 {
+    width: 51%;
+}
 
+/* Media Query para telas menores que 768px */
+@media (max-width: 768px) {
+    .tamanhog {
+        width: 28%;
+    }
+    .fonte {
+        font-size: 4.89vw;
+    }
+    .round45 {
+        width: 20%;
+        font-size: 2.5vw;
+    }
+    .indi {
+        height: 0.6vw;
+    }
+    .indicator {
+        height: 3vw;
+    }
+}
 
-    </style>
+/* Media Query para telas menores que 600px */
+@media (max-width: 600px) {
+    .yip {
+        font-size: 4vw;
+    }
+    .tamanho32 {
+        width: 50%;
+    }
+    .fonte {
+        font-size: 4.7vw;
+    }
+    .keeps {
+        margin: 2.6%;
+    }
+    .round45 {
+        font-size: 2.1vw;
+    }
+    .tamanhog {
+        width: 27%;
+    }
+}
+
+/* Media Query para telas menores que 500px */
+@media (max-width: 500px) {
+    .yip {
+        font-size: 4vw;
+    }
+    .tamanho32 {
+        width: 50%;
+    }
+    .fonte {
+        font-size: 4.7vw;
+    }
+    .keeps {
+        margin: 2.6%;
+    }
+    .round45 {
+        font-size: 1.9vw;
+        width: 20%;
+    }
+    .tamanhog {
+        width: 25%;
+    }
+}
+</style>

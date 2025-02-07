@@ -2,7 +2,7 @@
     <div @click="ativa2" id="ju7"  class=" d-flex flex-column border border-dark custi   ">
          <div  id="primeira7" class="d-flex w-100 holt" >
               <div v-if="toogle2 === false " class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 colo49"> Adaptar minha casa para doenças contagiosas</span>
+                  <span class="yip3 colo49"> Adaptar minha casa para doenças</span>
               </div>
               <div v-else class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light"> Adaptar minha casa para doenças contagiosas</span>

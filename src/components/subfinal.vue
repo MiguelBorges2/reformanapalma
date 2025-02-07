@@ -263,7 +263,7 @@
         font-size: 2.2vw !important;
     }
     .fonte4 {
-        font-size: 2vw;
+        font-size: 1.8vw;
     }
     
 }

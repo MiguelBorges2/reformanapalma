@@ -68,7 +68,7 @@
     }
     .yip89 {
         font-size: 2vw;
-        font-weight: 50;
+
     }
 .yip2 {
             font-size: 3.2vw;
@@ -79,7 +79,12 @@
     
     @media (max-width: 768px) {
         .six {
-            width: 52%;
+            width: 55%;
+        }
+        .yip89{
+            font-size: 2.1vw;
+            font-weight: 400;
+            margin: none;
         }
         
     }

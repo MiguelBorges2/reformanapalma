@@ -2,10 +2,10 @@
     <div @click="ativa2"  id="ju8" class=" d-flex flex-column border border-dark custi">
          <div id="primeira2" class="d-flex w-100 holt" >
               <div v-if="toogle2 === false"class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 colo41"> Adaptar minha casa para comércios e serviços</span>
+                  <span class="yip3 colo41"> adaptar casa para comércios e serviços</span>
               </div>
               <div v-else class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Adaptar minha casa para comércios e serviços</span>
+                  <span class="yip3 text-light"> Adaptar casa para comércios e serviços</span>
               </div>
               <span id="serg7" class="wid3  d-flex justify-content-center  color1 align-items-center btn-arrow"> &#709;  </span>
           </div>
@@ -35,7 +35,7 @@
             </div>
           <div v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Tomadas, interruptores e iluminação para espaços de trabalho</span>
+                  <span class="yip3 text-light"> Tomadas, interruptores e iluminação para trabalho</span>
                 
               </div>
               <span class="wid5  color1 d-flex justify-content-center align-items-center  btn-arrow">></span>
