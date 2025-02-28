@@ -7,10 +7,14 @@
     <quartopracasal v-if="globalVariable === 22"></quartopracasal>
     <consertagot v-if="globalVariable === 12"></consertagot>
     <acabarcominfil v-if="globalVariable === 13"></acabarcominfil>
+    <aumentarcomodo v-if="globalVariable === 31"></aumentarcomodo>
+    <criarpatios v-if="globalVariable === 32"></criarpatios>
   </div>
 </template>
 
 <script>
+import criarpatios from './components/criarpatios.vue';
+import aumentarcomodo from './components/aumentarcomodo.vue';
 import consertagot from './components/consertagot.vue';
 import home from './components/home.vue'; // Verifique o caminho do componente
 import { useMainStore } from './stores/mainStores'; // Ajuste o caminho conforme necessário
@@ -32,7 +36,9 @@ export default {
     quartopraum,
     quartopracasal,
     consertagot,
-    acabarcominfil
+    acabarcominfil,
+    aumentarcomodo,
+    criarpatios,
   },
   setup() {
     const mainStore = useMainStore(); // Use a store

@@ -104,7 +104,7 @@
 
 }
 .color22 {
-  background-color: #394A55 !important;
+  background-color: #394A55;
 }
 .colo49{
         color: #4A4A48;

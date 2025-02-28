@@ -4,7 +4,7 @@
                 <div v-if="toogle==false" class=" d-flex  justify-content-center  custi2 align-item-center">
                     <span class="yip3 colo4"> Consertar telhado</span>
                 </div>  
-                <div v-else class=" d-flex  justify-content-center  custi2 align-item-center">
+                <div v-if="toogle === true" class=" d-flex  justify-content-center  custi2 align-item-center">
                     <span class="yip3 text-light"> Consertar telhado</span>
                 </div>  
                 <span id="serg" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
@@ -38,6 +38,11 @@
         },
         methods: {
             ativa(){
+              let elem2 = document.getElementById('serg');
+              if(!elem2){
+                console.log("bosta");
+                return;
+              }
               this.toogle = !this.toogle;
               if(this.toogle == true){
                   let elem = document.getElementById('serg'); 
@@ -97,7 +102,7 @@
 
   }
   .color22 {
-    background-color: #394A55 !important;
+    background-color: #394A55;
   }
 
   .custi {

@@ -21,9 +21,9 @@
             >
         </button>
     </div>
-    <sec251 v-if="controlador1[0] === 0"></sec251>
+    <sec321 v-if="controlador1[0] === 0"></sec321>
     <sec252 v-if="controlador1[0] === 1"></sec252>
-    <sec253 v-if="controlador1[0] === 2"></sec253>
+    <sec323 v-if="controlador1[0] === 2"></sec323>
     <sec254 v-if="controlador1[0] === 3"></sec254>
     <sec255 v-if="controlador1[0] === 4"></sec255>
     <sec256 v-if="controlador1[0] === 5"></sec256>
@@ -33,21 +33,21 @@
 
 <script>        
 import Subguia32 from './subguia32.vue';
-import sec251 from './sec251.vue';
+import sec321 from './sec321.vue';
 import final25 from  './final25.vue';
 import sec252 from './sec252.vue';
-import sec253 from './sec253.vue';
+import sec323 from './sec323.vue';
 import sec254 from './sec254.vue';
 import sec255 from './sec255.vue';
 import sec256 from './sec256.vue'
 export default {
-    name: 'Guia25',
+    name: 'guia32',
     components: {
         Subguia32,
-        sec251,
+        sec321,
         final25,
         sec252,
-        sec253,
+        sec323,
         sec254,
         sec255,
         sec256

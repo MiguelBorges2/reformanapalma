@@ -8,7 +8,7 @@
                   <span class="yip3 text-light  "> Estudar/trabalhar em espaço pequeno</span>
               </div>
               
-              <span id="serg1" class="wid3  d-flex justify-content-center  color1 align-items-center btn-arrow"> &#709;</span>
+              <span id="serg1" class="wid3 d-flex justify-content-center  color1 align-items-center btn-arrow"> &#709;</span>
           </div>
           <div @click="teste4" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
@@ -50,6 +50,7 @@
       },
       methods: {
           ativa2(){
+            console.log('Verificando serg2:', document.getElementById('serg1'));
             this.toogle2 = !this.toogle2;
             console.log('foi')
               if(this.toogle2 == true){
@@ -101,7 +102,7 @@
 
 }
 .color22 {
-  background-color: #394A55 !important;
+  background-color: #394A55;
 }
 
 .custi {

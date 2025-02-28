@@ -1,7 +1,7 @@
 <template>
     <div class="gh d-flex flex-column justify-content-center align-items-center ">
-        <div class="gz d-flex flex-column justify-content-center ">
-            <div class="w-100 gf2 d-flex flex-column">
+        <div class="gz bottom24 d-flex flex-column justify-content-center ">
+            <div class="w-100 bottom gf2 d-flex flex-column">
                 <p class="ga">Quais cuidados tomar</p>
                 <p class="gw">Cuidado para não entortar as peças, realzie a instalação com qualidade para não entortar peças como dobradiças</p>
             </div>
@@ -39,9 +39,9 @@
         border: 3px solid  #FFC676 ;
         border-radius: 30px;
         padding: 1%;
-        margin-bottom: 25%;
 
     }
+    
     .gw {
         color: #4A4A48;
         font-weight: 400 !important;

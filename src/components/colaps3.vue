@@ -4,18 +4,18 @@
               <div v-if="toogle2 === false" class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 colo44"> Aumentar minha casa</span>
               </div>
-              <div v-else class=" d-flex  justify-content-center  custi2 align-item-center">
+              <div v-if="toogle2 === true" class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light"> Aumentar minha casa</span>
               </div>
-              <span id="serg2" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
+              <span id="serg22" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
           </div>
-          <div v-if="toogle2 === true" class="d-flex hito w-100">
+          <div @click="teste5()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light "> Aumentar cômodo ou construir novo cômodo</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste6()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
                   <span class="yip3 text-light"> criar patios internos com jardim</span>
               </div>
@@ -45,6 +45,7 @@
 </template>
 
 <script>
+  import { useMainStore } from '../stores/mainStores';
   export default {
       name: 'Colaps3',
       data(){
@@ -54,9 +55,14 @@
       },
       methods: {
           ativa2(){
+            console.log('Verificando serg3:', document.getElementById('serg22'));
             this.toogle2 = !this.toogle2;
+            console.log('Verificando serg3 dnovo:', document.getElementById('serg22'));
+            this.$nextTick(() => {
+              let elem = document.getElementById('serg22'); 
+              console.log('Verificando serg ultimo', elem);
               if(this.toogle2 == true){
-                  let elem = document.getElementById('serg2'); 
+                 
                   elem.classList.add('wid35');
                   elem.classList.remove('wid3');
                   this.$nextTick(() => {
@@ -68,7 +74,7 @@
                     prima.classList.remove("holt");
               }
               else{
-                  let elem = document.getElementById('serg2'); 
+                  console.log('desgraça', elem);
                   elem.classList.add('wid3');
                   elem.classList.remove('wid35');
                   elem = document.getElementById('ju3'); 
@@ -77,7 +83,22 @@
                   prima.classList.remove("hito");
                   prima.classList.add("holt");
               }
+             }
+            )
+            
           },
+          teste5(){
+            console.log('foi');
+            this.updateGlobalVariable(31);
+          },
+          updateGlobalVariable(value) {
+            const mainStore = useMainStore();
+            mainStore.updateGlobalVariable(value);
+            console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            },
+          teste6(){
+            this.updateGlobalVariable(32);
+          }
       },
   }
 </script>
@@ -87,7 +108,7 @@
 
 }
 .color22 {
-  background-color: #394A55 !important;
+  background-color: #394A55;
 }
 .colo44{
         color: #4A4A48;

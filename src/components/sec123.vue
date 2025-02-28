@@ -17,7 +17,7 @@
                 <p class="ga">Evite andar demais sobre as telhas</p>
                 <p class="gw">Quando fizer os reparos, ande o mínimo possível sobre as telhas e com cuidado, para não causar mais danos.</p>
             </div>
-            <div class="gz gf2 d-flex flex-column">
+            <div class="gz gf2 bottom d-flex flex-column">
                 <p class="ga">Contrate um profissional para investir melhor seus recursos</p>
                 <p class="gw">Se as goteiras insistirem em voltar, entenda que será necessário contratar um profissional para fazer os reparos, otimizando seus gastos e expectativas.</p>
             </div>
@@ -53,7 +53,6 @@
         border: 3px solid  #FFC676 ;
         border-radius: 30px;
         padding: 1%;
-        margin-bottom: 3%;
 
     }
     .gw {

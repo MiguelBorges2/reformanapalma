@@ -5,25 +5,25 @@
         </button>
         
         <!-- Comparando apenas o índice (controlador[0]) -->
-        <Subguia32 v-if="controlador1[0] === 0 && controlador1[1] === 0" :slider=0 :img3= 1 :tex="'O que fazer?'"></Subguia32>
-        <Subguia32 v-if="controlador1[0] === 1 && controlador1[1] === 0" :slider=0 :img3=2 :tex="'O que vou precisar'"></Subguia32>
-        <Subguia32 v-if="controlador1[0] === 2 && controlador1[1] === 0" :slider=0 :img3=3 :tex="'Quais cuidados tomar'"></Subguia32> 
-        <Subguia32 v-if="controlador1[0] === 3 && controlador1[1] === 0" :slider=0 :img3=4 :tex="'Quem Contratar'"></Subguia32>     
-        <Subguia32 v-if="controlador1[0] === 4 && controlador1[1] === 0" :slider=0 :img3=5 :tex="'Importância para Saúde'"></Subguia32>
-        <Subguia32 v-if="controlador1[0] === 5 && controlador1[1] === 0" :slider=0 :img3=6 :tex="'Normas reguladoras'"></Subguia32>
-        <Subguia32 v-if="controlador1[0] === 0 && controlador1[1] === 1" :slider=1 :img3= 1 :tex="'O que fazer?'"></Subguia32>
-        <Subguia32 v-if="controlador1[0] === 1 && controlador1[1] === 1" :slider=1 :img3=2 :tex="'O que vou precisar'"></Subguia32>
-        <Subguia32 v-if="controlador1[0] === 2 && controlador1[1] === 1" :slider=1 :img3=3 :tex="'Quais cuidados tomar'"></Subguia32> 
-        <Subguia32 v-if="controlador1[0] === 3 && controlador1[1] === 1" :slider=1 :img3=4 :tex="'Quem Contratar'"></Subguia32>     
-        <Subguia32 v-if="controlador1[0] === 4 && controlador1[1] === 1" :slider=1 :img3=5 :tex="'Importância para Saúde'"></Subguia32>
-        <Subguia32 v-if="controlador1[0] === 5 && controlador1[1] === 1" :slider=1 :img3=6 :tex="'Normas reguladoras'"></Subguia32>                       
+        <Subguia31 v-if="controlador1[0] === 0 && controlador1[1] === 0" :slider=0 :img3= 1 :tex="'O que fazer?'"></Subguia31>
+        <Subguia31 v-if="controlador1[0] === 1 && controlador1[1] === 0" :slider=0 :img3=2 :tex="'O que vou precisar'"></Subguia31>
+        <Subguia31 v-if="controlador1[0] === 2 && controlador1[1] === 0" :slider=0 :img3=3 :tex="'Quais cuidados tomar'"></Subguia31> 
+        <Subguia31 v-if="controlador1[0] === 3 && controlador1[1] === 0" :slider=0 :img3=4 :tex="'Quem Contratar'"></Subguia31>     
+        <Subguia31 v-if="controlador1[0] === 4 && controlador1[1] === 0" :slider=0 :img3=5 :tex="'Importância para Saúde'"></Subguia31>
+        <Subguia31 v-if="controlador1[0] === 5 && controlador1[1] === 0" :slider=0 :img3=6 :tex="'Normas reguladoras'"></Subguia31>
+        <Subguia31 v-if="controlador1[0] === 0 && controlador1[1] === 1" :slider=1 :img3= 1 :tex="'O que fazer?'"></Subguia31>
+        <Subguia31 v-if="controlador1[0] === 1 && controlador1[1] === 1" :slider=1 :img3=2 :tex="'O que vou precisar'"></Subguia31>
+        <Subguia31 v-if="controlador1[0] === 2 && controlador1[1] === 1" :slider=1 :img3=3 :tex="'Quais cuidados tomar'"></Subguia31> 
+        <Subguia31 v-if="controlador1[0] === 3 && controlador1[1] === 1" :slider=1 :img3=4 :tex="'Quem Contratar'"></Subguia31>     
+        <Subguia31 v-if="controlador1[0] === 4 && controlador1[1] === 1" :slider=1 :img3=5 :tex="'Importância para Saúde'"></Subguia31>
+        <Subguia31 v-if="controlador1[0] === 5 && controlador1[1] === 1" :slider=1 :img3=6 :tex="'Normas reguladoras'"></Subguia31>                       
         <button @click="ShiftRight25()" id="shiftR25" class="btn-hover-yellow  border btn-round ">
             >
         </button>
     </div>
-    <sec251 v-if="controlador1[0] === 0"></sec251>
+    <sec311 v-if="controlador1[0] === 0"></sec311>
     <sec252 v-if="controlador1[0] === 1"></sec252>
-    <sec253 v-if="controlador1[0] === 2"></sec253>
+    <sec313 v-if="controlador1[0] === 2"></sec313>
     <sec254 v-if="controlador1[0] === 3"></sec254>
     <sec255 v-if="controlador1[0] === 4"></sec255>
     <sec256 v-if="controlador1[0] === 5"></sec256>
@@ -32,22 +32,22 @@
 </template>
 
 <script>        
-import Subguia32 from './subguia32.vue';
-import sec251 from './sec251.vue';
+import Subguia31 from './subguia31.vue';
+import sec311 from './sec311.vue';
 import final25 from  './final25.vue';
 import sec252 from './sec252.vue';
-import sec253 from './sec253.vue';
+import sec313 from './sec313.vue';
 import sec254 from './sec254.vue';
 import sec255 from './sec255.vue';
 import sec256 from './sec256.vue'
 export default {
-    name: 'Guia25',
+    name: 'guia31',
     components: {
-        Subguia32,
-        sec251,
+        Subguia31,
+        sec311,
         final25,
         sec252,
-        sec253,
+        sec313,
         sec254,
         sec255,
         sec256

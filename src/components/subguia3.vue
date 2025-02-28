@@ -58,10 +58,6 @@
     .fonte2 {
         font-size: 4.5vw;
     }
-    .tamanho{
-        width: 90%;
-        height: 100%;
-    }
     .tesp {
         display: flex;
         justify-content: space-between;

@@ -1,14 +1,12 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
-        <h1 class="funko12 text-light famap400">Estudar/trabalhar em uma  sala pequena</h1>
-        <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
+        <h1 class="funko12 text-light famap400">Aumentar Minha Casa</h1>
+        <p class="text-light funko2 famap300">Aumentar Minhca Casa > Aumentar cômodo ou construir novo cômodo  </p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
-            <div class="d-flex flex-column jutify-content-center align-items-center">
-                <div class="conta2 d-flex justify-content-center align-items-center"> 
-                    <p v-if="this.windowSize > 850" class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
-                    <p v-if="this.windowSize <= 850 && this.windowSize >= 723" class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estu- do e trabalho  </p>
-                    <p v-if="this.windowSize < 723" class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
+            <img class="tamanho891" src="@/assets/ampliar2.svg" alt="Logo2">
+            <div class="d-flex weird flex-column jutify-content-center align-items-center">
+                <div class="conta23 d-flex justify-content-center align-items-center"> 
+                    <p  class="funkot3 famap400 text-light">Este tópico oferece soluções para ampliar a casa, seja por meio da expansão de um cômodo ou da construção de um novo. As orientações asseguram o aproveitamento do espaço, visando conforto e funcionalidade sem comprometer a estrutura da residência.  </p>
                 </div>
             </div>
                 
@@ -75,13 +73,13 @@
 
     </div>
     <div v-if="slider === 1" class="d-flex tamanho animate__animated animate__slideInRight  justify-content-center align-items-center flex-column" >
-        <h1 class="funko12 text-light famap400">Estudar/trabalhar em uma  sala pequena</h1>
-        <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
+        <h1 class="funko12 text-light famap400">Aumentar Minha Casa</h1>
+        <p class="text-light funko2 famap300">Aumentar Minha Casa > Aumentar cômodo ou construir novo cômodo</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
-            <div class="d-flex flex-column jutify-content-center align-items-center">
-                <div class="conta2 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
+            <img class="tamanho891" src="@/assets/ampliar2.svg" alt="Logo2">
+            <div class="d-flex weird flex-column jutify-content-center align-items-center">
+                <div class="conta23 d-flex justify-content-center align-items-center"> 
+                    <p  class="funkot3 famap400 text-light">Este tópico oferece soluções para ampliar a casa, seja por meio da expansão de um cômodo ou da construção de um novo. As orientações asseguram o aproveitamento do espaço, visando conforto e funcionalidade sem comprometer a estrutura da residência.  </p>
                 </div>
                 
             </div>
@@ -148,7 +146,7 @@
 </template>
 <script>
     export default {
-        name: 'Subguia25',
+        name: 'Subguia31',
         props: {
             tex:{
                 type: String,
@@ -201,6 +199,9 @@ margin-bottom: 1%;
 .funk {
     font-size: 3vw;
 }
+.weird {
+    width: 60%;
+}
 .indicator25 {
             width: 15%;
             background-color: rgb(255, 193, 7);
@@ -222,10 +223,11 @@ margin-bottom: 1%;
     margin-bottom: 0;
 
 }
-.tamanho892 {
+.tamanho891 {
    height: auto;    
-   width: 35% !important;
-   margin-left: 7%;
+   width: 24% !important;
+   margin-left: 3%;
+   margin-right: 7%;
    margin-bottom: 0;
    margin-top: 1%;
         
@@ -236,11 +238,12 @@ margin-bottom: 1%;
     width: 4%;
 
 } 
-.conta2 {
+.conta23 {
     border: 3px solid  #FFC676;
     border-radius: 30px !important;
-    width: 80%;
+    width: 100%;
     padding: 3%;
+    margin: 3%;
   
 }
 .funkot3 {
@@ -250,14 +253,14 @@ margin-bottom: 1%;
 }
 
 @media (max-width: 768px) {
-    .conta2 {
+    .conta23 {
         padding: 2.5%;
         border-radius: 20px !important;
         border: 2px solid  #FFC676;
-        width: 83%;
+        width: 90%;
     }
     .funkot3 {
-        font-size: 1.85vw !important;
+        font-size: 1.85vw;
         margin: 0;
     }
     .funko2 {
@@ -270,7 +273,7 @@ margin-bottom: 1%;
 
 }
 @media (max-width: 600px) {
-    .conta2 {
+    .conta23 {
         padding: 3%;
         border-radius: 20px;
         border: 2px solid  #FFC676;
@@ -278,6 +281,24 @@ margin-bottom: 1%;
     }
     .funkot3 {
         margin: 0;
+    }
+    .funko2 {
+
+        font-size: 2.2vw;
+    }
+    
+}
+@media (max-width: 500px) {
+
+    .conta23 {
+        padding: none !important;
+        border-radius: 20px;
+        border: 2px solid  #FFC676;
+        width: 100% !important;
+    }
+    .funkot3 {
+        margin: 0;
+        
     }
     .funko2 {
 

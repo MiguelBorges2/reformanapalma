@@ -1,5 +1,5 @@
 <template>
-    <div class="gh d-flex flex-column justify-content-center align-items-center ">
+    <div class="gh2 d-flex flex-column justify-content-center align-items-center ">
             <div class="gz gf2 d-flex flex-column">
                 <p class="ga">Dê caimento nos pisos das ampliações</p>
                 <p class="gw">Ao fazer ampliações, cuide para que o novo contrapiso seja feito considerando o caimento necessário para cada ambiente.</p>
@@ -24,7 +24,7 @@
                 <p class="ga">Cuidado com vazamentos e choques elétricos</p>
                 <p class="gw">Quando for perfurar paredes, desligue o registro geral de água e a chave geral da energia, para, em caso de furos em locais errados, não ocorrerem alagamentos ou curtos-circuitos.</p>
             </div>
-            <div class="gz gf2 d-flex flex-column">
+            <div class="gz gf2 bottom d-flex flex-column">
                 <p class="ga">Proteja as mãos, olhos, nariz e boca</p>
                 <p class="gw">Utilize luvas, máscaras e óculos de proteção quando manusear produtos químicos, cimento, argamassas, rejuntes e outros materiais para reboco.</p>
             </div>
@@ -60,7 +60,6 @@
         border: 3px solid  #FFC676 ;
         border-radius: 30px;
         padding: 1%;
-        margin-bottom: 3%;
 
     }
     .gw {

@@ -374,5 +374,32 @@
         }
             
     }
+    @media (max-width: 500px) {
+    .dev {
+        padding: 3%;
+    }
+    .dev2 {
+        padding: 3%;
+    }
+    .fo {
+        font-size: 2.4vw !important;
+      }
+      .fo3 {
+        font-size: 2.3vw !important;
+      }
+    .fo7{
+        font-size: 2vw;
+    } 
+    .fo2 {
+        font-size: 2.1vw !important;
+    }
+    .fo4 {
+        font-size: 2vw;
+    }
+    .fo6 {
+        font-size: 2vw;
+    }
+        
+}
 
 </style>

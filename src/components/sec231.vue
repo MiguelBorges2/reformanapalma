@@ -24,7 +24,7 @@
                     </div>
                     <div class="tugali d-flex flex-column" v-if="togi1 === true">
                         <p class="subtugali"> É importante refletir quais são suas necessidades.  Qual ambiente você utilizará? qual tamanho de mesa te atenderá? Essas reflexões serão essenciais para tomar as decisões e planejar seu cômodo.</p>
-                        <p>Realize medições do cômodo para a partir daí preparar seu quarto para suas necessidades.</p>
+                        <p class="subtugali">Realize medições do cômodo para a partir daí preparar seu quarto para suas necessidades.</p>
                     </div>
                 </div>      
                 <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">

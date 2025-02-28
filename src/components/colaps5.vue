@@ -117,7 +117,7 @@
 
 }
 .color22 {
-  background-color: #394A55 !important;
+  background-color: #394A55;
 }
 
 .custi {

@@ -92,8 +92,7 @@
         border: 3px solid  #FFC676 ;
         border-radius: 30px;
         padding: 1%;
-        margin-bottom: 25%;
-
+        margin-bottom: 5%;
     }
     .gl {
         color: #4A4A48;
