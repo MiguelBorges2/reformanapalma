@@ -14,7 +14,7 @@
                 <p class="fo3 famp">Pontual </p>
            </div>
            <div class="d-flex dev2 justify-content-center align-items-center ">
-                <img class="imai" src="@/assets/vector.svg">
+                <img class="imai" src="@/assets/Vector.svg">
                 <p class="fo3 famp">ATENÇÃO! Antes de reformar a casa, consulte o Manual do Proprietário (entregue pela construtora) para informações sobre o que pode ser feito e garantias.</p>
            </div>
            <div class="w-80 dev3 ">
