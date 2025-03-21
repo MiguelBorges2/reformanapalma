@@ -9,10 +9,29 @@
     <acabarcominfil v-if="globalVariable === 13"></acabarcominfil>
     <aumentarcomodo v-if="globalVariable === 31"></aumentarcomodo>
     <criarpatios v-if="globalVariable === 32"></criarpatios>
+    <tomada v-if="globalVariable === 33"></tomada>
+    <Escolher v-if="globalVariable === 34"></Escolher>
+    <Escolher2 v-if="globalVariable === 35"></Escolher2>
+    <Acabarumidade v-if="globalVariable === 41"></Acabarumidade>
+    <Acabarcommancha v-if="globalVariable === 42"></Acabarcommancha>
+    <Adaptartemp :selector=0 v-if="globalVariable === 43"></Adaptartemp>
+    <Materi v-if="globalVariable === 51"></Materi>
+    <Gerar v-if="globalVariable === 52"></Gerar>
+    <Posicionar v-if="globalVariable === 53"></Posicionar>
+    <Adaptartemp :selector=1 v-if="globalVariable === 54"></Adaptartemp>
+    <iluminacao v-if="globalVariable === 55"></iluminacao>
+    <Banheiro v-if="globalVariable === 56"></Banheiro>
+    <Horta v-if="globalVariable === 57"></Horta>
+    <Manutencao v-if="globalVariable === 58"></Manutencao>
   </div>
 </template>
 
 <script>
+import Posicionar from './components/posicionar.vue';
+import iluminacao from './components/iluminacao.vue';
+import Adaptartemp from './components/adaptartemp.vue';
+import Acabarcommancha from './components/acabarcommancha.vue';
+import tomada from './components/tomada.vue';
 import criarpatios from './components/criarpatios.vue';
 import aumentarcomodo from './components/aumentarcomodo.vue';
 import consertagot from './components/consertagot.vue';
@@ -24,9 +43,15 @@ import quartopradois from './components/quartopradois.vue';
 import quartopraum from './components/quartopraum.vue';
 import quartopracasal from './components/quartopracasal.vue';
 import acabarcominfil from './components/acabarcominfil.vue';
-
-
-
+import Escolher from './components/escolher.vue';
+import Escolher2 from './components/escolher2.vue';
+import Acabarumidade from './components/acabarumidade.vue';
+import Materi from './components/materi.vue';
+import Gerar from './components/gerar.vue';
+import Banheiro from './components/banheiro.vue';
+import Horta from './components/horta.vue';
+import manutencao from './components/manutencao.vue';
+import Manutencao from './components/manutencao.vue';
 export default {
   name: 'App',
   components: {
@@ -39,6 +64,19 @@ export default {
     acabarcominfil,
     aumentarcomodo,
     criarpatios,
+    tomada,
+    Escolher,
+    Escolher2,
+    Acabarumidade,
+    Acabarcommancha,
+    Adaptartemp,
+    Materi,
+    Gerar,
+    Posicionar,
+    iluminacao,
+    Banheiro,
+    Horta,
+    Manutencao
   },
   setup() {
     const mainStore = useMainStore(); // Use a store

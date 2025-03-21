@@ -21,21 +21,21 @@
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
-              <div class=" d-flex  justify-content-center  custi2 align-item-center">
+            <div @click="teste7()" v-if="toogle2 === true" class="d-flex hito w-100">
+              <div  class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light">Aumentar tomadas e interruptores</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste8()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light">Escolher materias e técnicas construtivas</span>
               </div>    
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-          <div v-if="toogle2 === true" class="d-flex hito w-100">
+          <div @click="teste9()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Estudar/trabalhar em uma sala pequena </span>
+                  <span class="yip3 text-light"> Escolher cor das paredes externas   </span>
                 
               </div>
               <span class="wid5  color22 d-flex justify-content-center align-items-center  btn-arrow">></span>
@@ -98,6 +98,15 @@
             },
           teste6(){
             this.updateGlobalVariable(32);
+          },
+          teste7(){
+            this.updateGlobalVariable(33);
+          },
+          teste8(){
+            this.updateGlobalVariable(34);
+          },
+          teste9(){
+            this.updateGlobalVariable(35);
           }
       },
   }

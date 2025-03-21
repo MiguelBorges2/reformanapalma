@@ -29,7 +29,6 @@
            <div class="w-100 gf2  d-flex flex-column">
                <p class="ga">Contrate um profissional para investir melhor seus recursos</p>
                <p class="gw">Contrate um profissional para fazer os serviços necessários, otimizando seus gastos e expectativas.
-
                </p>
            </div>
        </div>
@@ -87,7 +86,7 @@ export default {
        margin-right: 3%;
    }
    .hj {
-       margin-bottom: 3%;
+       margin-bottom: 1%;
    }
    @media (max-width: 768px) {
          .gf2 {

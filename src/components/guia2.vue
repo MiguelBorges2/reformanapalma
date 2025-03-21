@@ -326,8 +326,8 @@ height: auto;
 }
 
 .btn-round2 {  
-  height: 5.5vw !important;
-  width: 6% !important;      
+  height: 3vw !important;
+  width: 3% !important;      
   padding: 0;              
   display: flex;           
   align-items: center;     

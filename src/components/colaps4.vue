@@ -9,20 +9,20 @@
               </div>
               <span id="serg3" class="wid3  d-flex justify-content-center  color1 align-items-center btn-arrow"> &#709; </span>
           </div>
-          <div v-if="toogle2 === true" class="d-flex holt  w-100">
+          <div @click="teste10()" v-if="toogle2 === true" class="d-flex holt  w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light"> Diminuir umidade</span>
               </div>
               <span class="wid4 color1 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex holt w-100">
+            <div @click="teste11()" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light"> Acabar com manchas de umidade</span>
               </div>
               <span class="wid4 color1 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             
-          <div v-if="toogle2 === true" class="d-flex holt w-100">
+          <div @click="teste12()" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light"> Adaptar a temperatura e umidade </span>
                 
@@ -34,6 +34,7 @@
 </template>
 
 <script>
+import { useMainStore } from '../stores/mainStores';
   export default {
       name: 'Colaps4',
       data(){
@@ -63,6 +64,20 @@
                   
               }
           },
+          updateGlobalVariable(value) {
+            const mainStore = useMainStore();
+            mainStore.updateGlobalVariable(value);
+            console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            },
+          teste10(){
+            this.updateGlobalVariable(41);
+            },
+          teste11(){  
+            this.updateGlobalVariable(42);
+          },
+          teste12(){
+            this.updateGlobalVariable(43);
+          }
       },
   }
 </script>

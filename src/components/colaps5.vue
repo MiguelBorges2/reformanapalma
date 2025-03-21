@@ -9,49 +9,49 @@
               </div>
               <span id="serg4" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
           </div>
-          <div v-if="toogle2 === true" class="d-flex hito w-100">
+          <div @click="teste14()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
                   <span class="yip3 text-light"> Escolher materias e técnicas construtivas</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
-            </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            </div> 
+            <div @click="teste15()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light"> Gerar energia</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste16()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light">Posicionar e sombrear aberturas</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste17()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light">Adaptar a temperatura e umidade</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste18()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light">Criar condições para iluminação e ventilação</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste19()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
                   <span class="yip3 text-light">Construir novo banheiro</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div  @click="teste20()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light">Horta</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste21()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip3 text-light">Manutenção</span>
               </div>
@@ -75,6 +75,7 @@
 </template>
 
 <script>
+  import { useMainStore } from '../stores/mainStores';
   export default {
       name: 'Colaps5',
       data(){
@@ -108,6 +109,35 @@
                   prima.classList.add("holt");
               }
           },
+          updateGlobalVariable(value) {
+            const mainStore = useMainStore();
+            mainStore.updateGlobalVariable(value);
+            console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            },  
+          teste14(){
+            this.updateGlobalVariable(51);
+            },
+          teste15(){
+            this.updateGlobalVariable(52);
+          },
+          teste16(){
+            this.updateGlobalVariable(53);
+          },
+          teste17(){
+            this.updateGlobalVariable(54);
+          },
+          teste18(){
+            this.updateGlobalVariable(55);
+          },
+          teste19(){
+            this.updateGlobalVariable(56);
+          },
+          teste20(){
+            this.updateGlobalVariable(57);
+          },
+          teste21(){
+            this.updateGlobalVariable(58);
+          }
       },
   }
 </script>
@@ -164,5 +194,6 @@
           background:  #618ab6; /* Ajuste as cores conforme necessário */
           
       }
+  
 
 </style>
