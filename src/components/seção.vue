@@ -88,15 +88,18 @@
         }
         
     }
-    @media (max-width: 500px) {
+    @media (max-width: 460px) {
         .six {
-            width: 62%;
+            width: 75%;
         }
         .yip89{
-            font-size: 2.2vw;
+            font-size: 2.7vw;
             font-weight: 400;
             margin: none;
         }
         
+        .yip2 {
+            font-size: 3.7vw;
+        }
     }
 </style>

@@ -338,9 +338,7 @@
         
      }
      @media (max-width: 720px) {
-        .hig {
-            
-        }
+        
         .tcs {
             border-radius: 16px;
         }

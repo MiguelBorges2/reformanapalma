@@ -5,7 +5,7 @@
                 <h1 class="fonte45 text-light">  garantir esse benefício</h1>
             </span>
             <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
-                    <button class=" colo45 nolans round2">Saiba Mais</button>
+                    <button class=" colo45 nolans round45">Saiba Mais</button>
                     <div class="size d-flex justify-content-between">
                         <div class="indi "></div>
                         <div class="indi "></div>
@@ -20,7 +20,7 @@
                 <h1 class="fonte45 text-light">  Sociais com a ajuda do nosso Site   </h1>
             </span>
             <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
-                    <button class=" colo45 nolans round2">Saiba Mais</button>
+                    <button class=" colo45 nolans round45">Saiba Mais</button>
                     <div class="size d-flex justify-content-between">
                         <div class="indi "></div>
                         <div class="indi "></div>

@@ -2,58 +2,58 @@
     <div @click="ativa2" id="ju7"  class=" d-flex flex-column border border-dark custi   ">
          <div  id="primeira7" class="d-flex w-100 holt" >
               <div v-if="toogle2 === false " class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 colo49"> Adaptar minha casa para doenças</span>
+                  <span class="yip34 colo49"> Adaptar minha casa para doenças</span>
               </div>
               <div v-else class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Adaptar minha casa para doenças contagiosas</span>
+                  <span class="yip34 text-light"> Adaptar minha casa para doenças contagiosas</span>
               </div>
               <span id="serg6" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
           </div>
-          <div v-if="toogle2 === true" class="d-flex hito w-100">
+          <div @click="teste24()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Mobilário para sapatos</span>
+                  <span class="yip34 text-light"> Mobilário para sapatos</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste25()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip3 text-light"> Preparar a sala para pessoa saudável</span>
+                  <span class="yip34 text-light"> Preparar a sala para pessoa saudável</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito  w-100">
+            <div @click="teste36()" v-if="toogle2 === true" class="d-flex hito  w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip3 text-light">Estudar/trabalhar em um quarto de casal</span>
+                  <span class="yip34 text-light">Estudar/trabalhar em um quarto de casal</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste37()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip3 text-light">Estudar/trabalhar em um quarto para uma pessoa</span>
+                  <span class="yip34 text-light">Estudar/trabalhar em um quarto para uma pessoa</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste38()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Estudar/trabalhar em uma sala pequena</span>
+                  <span class="yip34 text-light">Estudar/trabalhar em uma sala pequena</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste39()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Diminuir umidade</span>
+                  <span class="yip34 text-light">Diminuir umidade</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste40()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Acabar com manchas de umidade</span>
+                  <span class="yip34 text-light">Acabar com manchas de umidade</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-          <div v-if="toogle2 === true" class="d-flex hito w-100">
+          <div @click="teste41()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Adaptar a temperatura e umidade</span>
+                  <span class="yip34 text-light"> Adaptar a temperatura e umidade</span>
               </div>
               <span class="wid5  color22 d-flex justify-content-center align-items-center  btn-arrow">></span>
           </div>
@@ -62,6 +62,7 @@
 </template>
 
 <script>
+  import { useMainStore } from '../stores/mainStores';
   export default {
       name: 'Colaps7',
       data(){
@@ -95,6 +96,35 @@
                   prima.classList.add("holt");
               }
           },
+          updateGlobalVariable(value) {
+                const mainStore = useMainStore();
+                mainStore.updateGlobalVariable(value);
+                console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            },  
+          teste24(){
+                this.updateGlobalVariable(71);
+            },
+            teste25(){
+                this.updateGlobalVariable(72);
+            },
+            teste36(){
+                this.updateGlobalVariable(73);
+            },
+            teste37(){
+                this.updateGlobalVariable(74);
+            },
+            teste38(){
+                this.updateGlobalVariable(75);
+            },
+            teste39(){
+                this.updateGlobalVariable(76);
+            },
+            teste40(){
+                this.updateGlobalVariable(77);
+            },
+            teste41(){
+                this.updateGlobalVariable(78);
+            }
       },
   }
 </script>

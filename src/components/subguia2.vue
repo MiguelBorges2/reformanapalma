@@ -5,7 +5,7 @@
                 <h1 class="fonte45 text-light">  Sociais com a ajuda do nosso Site   </h1>
             </span>
             <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
-                    <button class=" colo45  nolans round2">Veja agora</button>
+                    <button class=" colo45  nolans round45">Veja agora</button>
                     <div class=" size d-flex justify-content-between">
                         <div class="indi "></div>
                         <div class="indicator "></div>
@@ -20,7 +20,7 @@
                 <h1 class="fonte45 text-light">  Sociais com a ajuda do nosso Site   </h1>
             </span>
             <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
-                    <button class="  colo45 nolans round2">Veja agora</button>
+                    <button class="  colo45 nolans round45">Veja agora</button>
                     <div class=" size d-flex justify-content-between">
                         <div class="indi "></div>
                         <div class="indicator "></div>
@@ -125,16 +125,17 @@
                 margin-top: 28%;
             }
         }
-        @media (max-width: 500px) {
+        @media (max-width: 460px) {
             .yip{
                 font-size: 4.3vw;
             }
             .round2 {
-                font-size: 2.2vw;
-                width: 25%;
+                font-size: 4vw !important;
+                width: 35% !important;
             }
             .fonte45{
-                font-size: 4.5vw !important;
+                font-size: 5vw !important;
+                margin-top: 2% !important;
             }
             .margi6 {    
                 margin-top: 21.6%;

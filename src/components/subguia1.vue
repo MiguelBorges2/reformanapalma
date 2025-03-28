@@ -173,17 +173,19 @@
         width: 55%;
     }
     .fonte {
-        font-size: 4.7vw;
+        font-size: 5vw;
+        margin-top: 2%;
     }
     .keeps {
         margin: 2.6%;
     }
     .round45 {
-        font-size: 1.9vw;
-        width: 20%;
+        font-size: 2.7vw;
+        width: 35%;
+        margin: 1%;
     }
     .tamanhog {
-        width: 25%;
+        width: 30%;
     }
 }
 </style>

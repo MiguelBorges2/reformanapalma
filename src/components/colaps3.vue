@@ -2,40 +2,40 @@
     <div @click="ativa2"   id="ju3" class=" d-flex flex-column border border-dark custi ">
          <div id="primeira222" class="d-flex holt w-100" >
               <div v-if="toogle2 === false" class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 colo44"> Aumentar minha casa</span>
+                  <span class="yip34 colo44"> Aumentar minha casa</span>
               </div>
               <div v-if="toogle2 === true" class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Aumentar minha casa</span>
+                  <span class="yip34 text-light"> Aumentar minha casa</span>
               </div>
               <span id="serg22" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
           </div>
           <div @click="teste5()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light "> Aumentar cômodo ou construir novo cômodo</span>
+                  <span class="yip34 text-light "> Aumentar cômodo ou construir novo cômodo</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste6()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip3 text-light"> criar patios internos com jardim</span>
+                  <span class="yip34 text-light"> criar patios internos com jardim</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste7()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div  class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Aumentar tomadas e interruptores</span>
+                  <span class="yip34 text-light">Aumentar tomadas e interruptores</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste8()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Escolher materias e técnicas construtivas</span>
+                  <span class="yip34 text-light">Escolher materias e técnicas construtivas</span>
               </div>    
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
           <div @click="teste9()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Escolher cor das paredes externas   </span>
+                  <span class="yip34 text-light"> Escolher cor das paredes externas   </span>
                 
               </div>
               <span class="wid5  color22 d-flex justify-content-center align-items-center  btn-arrow">></span>

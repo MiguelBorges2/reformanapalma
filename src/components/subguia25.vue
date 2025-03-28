@@ -6,9 +6,7 @@
             <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta2 d-flex justify-content-center align-items-center"> 
-                    <p v-if="this.windowSize > 850" class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
-                    <p v-if="this.windowSize <= 850 && this.windowSize >= 723" class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estu- do e trabalho  </p>
-                    <p v-if="this.windowSize < 723" class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
+                    <p  class="funkot3 famap400 text-light text-align">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho</p>
                 </div>
             </div>
                 

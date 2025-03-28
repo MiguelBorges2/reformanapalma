@@ -1,7 +1,7 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
         <h1 class="funko12 text-light famap400">Refrescar minha casa</h1>
-        <p class="text-light funko2 famap300">Refrescar minha casa > Criar condições para iluminação e ventilação    </p>
+        <p class="text-light funko2 famap300">Refrescar minha casa > Criar condições para iluminação e ventilação </p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho8912" src="@/assets/group1179.png" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">

@@ -2,70 +2,70 @@
     <div @click="ativa2" id="ju5"  class=" d-flex flex-column border border-dark custi   ">
          <div  id="primeira5" class="d-flex holt w-100" >
               <div v-if="toogle2 === false" class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 colo43"> Refrescar minha casa</span>
+                  <span class="yip34 colo43"> Refrescar minha casa</span>
               </div>
               <div v-else class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Refrescar minha casa</span>
+                  <span class="yip34 text-light"> Refrescar minha casa</span>
               </div>
               <span id="serg4" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
           </div>
           <div @click="teste14()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip3 text-light"> Escolher materias e técnicas construtivas</span>
+                  <span class="yip34 text-light"> Escolher materias e técnicas construtivas</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div> 
             <div @click="teste15()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Gerar energia</span>
+                  <span class="yip34 text-light"> Gerar energia</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste16()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Posicionar e sombrear aberturas</span>
+                  <span class="yip34 text-light">Posicionar e sombrear aberturas</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste17()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Adaptar a temperatura e umidade</span>
+                  <span class="yip34 text-light">Adaptar a temperatura e umidade</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste18()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Criar condições para iluminação e ventilação</span>
+                  <span class="yip34 text-light">Criar condições para iluminação e ventilação</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste19()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip3 text-light">Construir novo banheiro</span>
+                  <span class="yip34 text-light">Construir novo banheiro</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div  @click="teste20()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Horta</span>
+                  <span class="yip34 text-light">Horta</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
             <div @click="teste21()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Manutenção</span>
+                  <span class="yip34 text-light">Manutenção</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste33()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Criar pátios internos com jardim</span>
+                  <span class="yip34 text-light">Criar pátios internos com jardim</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-          <div v-if="toogle2 === true" class="d-flex hito w-100">
+          <div @click="teste22()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center   custi2 align-item-center">
-                  <span class="yip3 text-light"> Ar-condicionado</span>
+                  <span class="yip34 text-light"> Ar-condicionado</span>
                 
               </div>
               <span class="wid5  color22 d-flex justify-content-center align-items-center  btn-arrow">></span>
@@ -137,6 +137,12 @@
           },
           teste21(){
             this.updateGlobalVariable(58);
+          },
+          teste22(){
+            this.updateGlobalVariable(59);
+          },
+          teste33(){
+            this.updateGlobalVariable(510);
           }
       },
   }

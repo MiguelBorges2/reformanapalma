@@ -2,7 +2,7 @@
       <div @click="ativa" id="ju" class=" d-flex flex-column border border-dark custi   ">
            <div id="primeira12" class="d-flex holt w-100" >
                 <div v-if="toogle==false" class=" d-flex  justify-content-center  custi2 align-item-center">
-                    <span class="yip3 colo4"> Consertar telhado</span>
+                    <span class="yip34 colo4"> Consertar telhado</span>
                 </div>  
                 <div v-if="toogle === true" class=" d-flex  justify-content-center  custi2 align-item-center">
                     <span class="yip3 text-light"> Consertar telhado</span>
@@ -124,6 +124,10 @@
    .wid4 {
     width: 10%;
 
+
+   }
+   .yip34{
+    font-size: 2.2vw;
    }
    .colo4{
         color: #4A4A48;
@@ -150,5 +154,14 @@
             background:  #618ab6; /* Ajuste as cores conforme necessário */
             
         }
+    
 
+    @media (max-width: 460px){
+      .custi {
+        width: 90% !important;
+      }
+      .yip34 {
+        font-size: 3.2vw !important;
+      }
+    }
 </style>

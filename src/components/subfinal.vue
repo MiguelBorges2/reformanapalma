@@ -1,6 +1,6 @@
 <template>
     <div v-if="colors === true" class="d-flex cor w-100 flex-column align-items-center mt-1 justify-content-center ">
-        <h2 class="  margip2 yip4 text-light">{{ texto }}</h2>
+        <h2 class="  margip text-light">{{ texto }}</h2>
         <div class="d-flex w-100 align-items-center justify-content-center">
                 <button @click = "toggleOverlay()" class=" fonte3 tip  colo45  mako2 margip6 p-1 "> {{ bot2 }}</button>
                 <div v-if="showOverlay" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay()">
@@ -195,10 +195,12 @@
 .margip{
     margin-top: 8%;
     margin-bottom: 3%;  
+    font-size: 2.5vw;
 
 }
 .margip6{
     margin: 3%;
+    font-size: 2vw;
     
 }
 .margo {
@@ -264,6 +266,12 @@
     }
     .fonte4 {
         font-size: 1.8vw;
+    }
+    .margip {
+        font-size: 3.5vw;
+    }
+    .margip6 {
+        font-size: 2.5vw;
     }
     
 }

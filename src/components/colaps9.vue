@@ -2,34 +2,34 @@
     <div @click="ativa2"  id="ju9" class=" d-flex flex-column border border-dark custi">
          <div id="primeira" class="d-flex w-100 holt" >
               <div v-if="toogle2===false" class="d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 colo4"> Economizar energia</span>
+                  <span class="yip34 colo4"> Economizar energia</span>
               </div>
               <div v-else class="d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Economizar energia</span>
+                  <span class="yip34 text-light"> Economizar energia</span>
               </div>
               <span id="serg8" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
             </div>
-          <div v-if="toogle2 === true" class="d-flex hito w-100">
+          <div @click="teste30()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Equipamentos</span>
+                  <span class="yip34 text-light"> Equipamentos</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste42()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light"> Ar-condicionando</span>
+                  <span class="yip34 text-light"> Ar-condicionando</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-            <div v-if="toogle2 === true" class="d-flex hito w-100">
+            <div @click="teste43()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip3 text-light">Iluminação artificial</span>
+                  <span class="yip34 text-light">Iluminação artificial</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
-          <div v-if="toogle2 === true" class="d-flex hito   w-100">
+          <div @click="teste31()" v-if="toogle2 === true" class="d-flex hito   w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip3 text-light">Aquecimento Solar de Água</span>
+                  <span class="yip34S text-light">Aquecimento Solar de Água</span>
                 
               </div>
               <span class="wid5  color22 d-flex justify-content-center align-items-center  btn-arrow">></span>
@@ -39,6 +39,7 @@
 </template>
 
 <script>
+  import { useMainStore } from '../stores/mainStores';
   export default {
       name: 'Colaps9',
       data(){
@@ -72,6 +73,23 @@
                   prima.classList.add("holt");
               }
           },
+          updateGlobalVariable(value) {
+                const mainStore = useMainStore();
+                mainStore.updateGlobalVariable(value);
+                console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            },  
+        teste30(){
+                this.updateGlobalVariable(91);
+        },
+        teste31(){
+            this.updateGlobalVariable(94);
+        }, 
+        teste42(){
+            this.updateGlobalVariable(92);
+        },
+        teste43(){
+            this.updateGlobalVariable(93);
+        }
       },
   }
 </script>
