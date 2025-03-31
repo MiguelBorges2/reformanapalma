@@ -173,7 +173,7 @@
         width: 55%;
     }
     .fonte {
-        font-size: 4.9vw;
+        font-size: 4.7vw;
         margin-top: 2%;
     }
     .keeps {
