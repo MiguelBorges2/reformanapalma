@@ -62,7 +62,7 @@
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
                     <p class="subtugali text-align">Ao reformar sem orientação, novos cômodos podem ficar “colados” a antigos, com janelas dando para outro ambiente fechado, reduzindo seu fornecimento de luz e ventilação.</p>
                     <img class="tamanho866" src="@/assets/imagem811.svg" alt="Logo2">
-                    <img class="tamanho866" src="@/assets/imagem821.svg" alt="Logo2">
+                    <img class="tamanho866" src="@/assets/inco3.svg" alt="Logo2">
                     <p class="subtugali text-align">Entre os ambientes existentes e os ambientes criados, recomenda-se deixar um espaço livre de pelo menos 1,5 m de largura para troca de ar e entrada de sol, conhecido como “poço de luz e ventilação”. Telhas translúcidas também podem ajudar a ter mais luz, apesar de poderem gerar acúmulo de calor.</p>
                     <img class="tamanho866" src="@/assets/imagem911.svg" alt="Logo2">
                     <img class="tamanho866" src="@/assets/imagem912.svg" alt="Logo2">
