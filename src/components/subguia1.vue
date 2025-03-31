@@ -128,7 +128,7 @@
         width: 28%;
     }
     .fonte {
-        font-size: 4.89vw;
+        font-size: 4.4vw;
     }
     .round45 {
         width: 20%;
@@ -151,7 +151,7 @@
         width: 50%;
     }
     .fonte {
-        font-size: 4.7vw;
+        font-size: 4.4vw;
     }
     .keeps {
         margin: 2.6%;
@@ -165,7 +165,7 @@
 }
 
 /* Media Query para telas menores que 500px */
-@media (max-width: 500px) {
+@media (max-width: 460px) {
     .yip {
         font-size: 4vw;
     }
@@ -173,7 +173,7 @@
         width: 55%;
     }
     .fonte {
-        font-size: 5vw;
+        font-size: 4.9vw;
         margin-top: 2%;
     }
     .keeps {

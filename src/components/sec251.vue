@@ -140,7 +140,7 @@
 </template>
 <script>
     export default {
-        name: 'sec25',
+        name: 'sec251',
         props: {
             selec: {
                 type: Number,

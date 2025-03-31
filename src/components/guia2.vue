@@ -1,7 +1,7 @@
 <template>
 <div v-if="windowWidth > 460" class="w-100">
     <div  class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -30,7 +30,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
             >
         </button>
     </div>
@@ -74,7 +74,7 @@
         </button>
     </div> 
     <div class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -92,7 +92,7 @@
                     <button @click="toggleOverlay2()" class=" hmp3 tip  colo4  mako2 margip6 p-1">  Conteúdos </button>
                     <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
                         <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
-                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round2 ">
+                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round23 ">
                                 <
                             </button>
                             <div v-if="this.controler2 === 1" class="d-flex flex-column align-items-center justify-content-around form2">
@@ -121,7 +121,7 @@
                         </div>
 
                    
-                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round2 ">
+                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round23 ">
                                 >
                         </button>
                     </div>
@@ -142,7 +142,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
             >
         </button>
     </div> 
@@ -177,7 +177,7 @@
 </div>
 <div v-if="windowWidth <= 460" class="w-100">
     <div  class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -206,7 +206,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
             >
         </button>
     </div>
@@ -250,7 +250,7 @@
         </button>
     </div> 
     <div class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -268,7 +268,7 @@
                     <button @click="toggleOverlay2()" class=" hmp33 tip  colo4  mako2 margip6 p-1">  Conteúdos </button>
                     <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
                         <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
-                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round2 ">
+                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round23 ">
                                 <
                             </button>
                             <div v-if="this.controler2 === 1" class="d-flex flex-column align-items-center justify-content-around form2">
@@ -297,7 +297,7 @@
                         </div>
 
                    
-                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round2 ">
+                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round23 ">
                                 >
                         </button>
                     </div>
@@ -318,7 +318,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round2 edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
             >
         </button>
     </div> 
@@ -516,9 +516,9 @@ height: auto;
     background: linear-gradient(to top, #749695, #394A55);
 }
 
-.btn-round2 {  
-  height: 3vw !important;
-  width: 3% !important;      
+.btn-round23 {  
+  height: 3vw;
+  width: 3%;      
   padding: 0;              
   display: flex;           
   align-items: center;     
@@ -561,7 +561,7 @@ height: auto;
 }
 
 @media (max-width: 768px) {
-    .btn-round {
+    .btn-round23 {
         width: 4%; 
         height: 4vw;   
     }
@@ -598,6 +598,10 @@ height: auto;
     }
     .setune {
         width: 100%;
+    }
+    .btn-round23 {
+        width: 5%; 
+        height: 5vw ;   
     }
     
 }

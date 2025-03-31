@@ -111,8 +111,8 @@ html, body {
 }
 @media (max-width: 600px) {
     .btn-round {
-        width: 6% !important; 
-        height: 5.4vw !important;   
+        width: 5% !important; 
+        height: 5vw !important;   
     }
     .gradient-bg42 {
         background: linear-gradient(to top, #749695, #394A55); 
