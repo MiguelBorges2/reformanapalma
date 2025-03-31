@@ -50,7 +50,7 @@
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
                     <p class="subtugali text-align"> Janelas de blindex (totalmente envidraçadas) são ótimas para iluminação, mas se não forem sombreadas (por uma cortina, marquise ou mesmo árvore) podem deixar os ambientes muito quentes. Nos quartos, opte por janelas combinando vidro e veneziana, preferencialmente voltadas para o sol nascente (direção Leste). Nas salas, modelos 100% em vidro são interessantes, desde que sombreados por uma cortina, marquise ou outro elemento. Contrate um profissional para te ajudar a escolher as melhores opções para seu caso.</p>
                     <img class="tamanho81" src="@/assets/image33.svg" alt="Logo2">
-                    <img class="tamanho81" src="@/assets/imagem62.svg" alt="Logo2">
+                    <img class="tamanho81" src="@/assets/inco.svg" alt="Logo2">
                     <img class="tamanho81" src="@/assets/imagem71.svg" alt="Logo2">
                     <img class="tamanho81" src="@/assets/imagem812.svg" alt="Logo2">
                 </div>
