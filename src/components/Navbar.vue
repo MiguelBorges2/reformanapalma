@@ -2,9 +2,9 @@
 
   <nav class="navbar quip2">
     <div class="d-flex justify-content-around align-items-center tants w-100">
-      <img class="ralao " src="@/assets/logo_Reforma_hznt_w.svg" alt="Logo"/>
+      <img @click="home()" class="ralao " src="@/assets/logo_Reforma_hznt_w.svg" alt="Logo"/>
       <ul class="caps d-flex justify-content-center align-items-center">
-        <li class="nav-item pics">Início</li>
+        <li @click="home()" class="nav-item pics">Início</li>
         <li class="nav-item pics">Quem Somos</li>
         <li class="nav-item pics">Conte Seu Problema</li>
       </ul>
@@ -16,6 +16,7 @@
 </template>
 
   <script>
+  import { useMainStore } from '../stores/mainStores';
   export default {
     name: 'Navbar',
     data() {
@@ -46,6 +47,15 @@
       handleResize() {
         this.windowWidth = window.innerWidth; // Atualiza windowWidth
       },
+      home(){
+            console.log('foi');
+            this.updateGlobalVariable(0);
+          },
+          updateGlobalVariable(value) {
+            const mainStore = useMainStore();
+            mainStore.updateGlobalVariable(value);
+            console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            },
     },
   };
   </script>
