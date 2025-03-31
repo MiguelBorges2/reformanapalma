@@ -41,7 +41,7 @@
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
                     <p class="subtugali text-align">Ao reformar sem orientação, podem acabar sendo criados ambientes sem janelas, onde o ar não corre e a luz não chega.
                     </p>
-                    <img class="tamanho866" src="@/assets/imagem4.svg" alt="Logo2">
+                    <img class="tamanho866" src="@/assets/inco2.svg" alt="Logo2">
                     <p class="subtugali text-align"> Nesses casos, clarabóias são ótimas opções para levar iluminação natural para ambientes internos. Pode ser instalado exaustor ou chaminé solar que irá sugar o ar para fora e, com isso, forçar sua renovação.</p>
                     <img class="tamanho866" src="@/assets/imagem5122.svg" alt="Logo2">
                     <img class="tamanho866" src="@/assets/imagem522.svg" alt="Logo2">
