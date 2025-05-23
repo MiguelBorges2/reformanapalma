@@ -38,7 +38,7 @@ import final25 from  './final25.vue';
 import sec252 from './sec252.vue';
 import sec323 from './sec323.vue';
 import sec254 from './sec254.vue';
-import sec255 from './sec255.vue';
+import sec325 from './sec325.vue';
 import sec256 from './sec256.vue'
 export default {
     name: 'guia32',
@@ -49,7 +49,7 @@ export default {
         sec252,
         sec323,
         sec254,
-        sec255,
+        sec325,
         sec256
     },
     data() {

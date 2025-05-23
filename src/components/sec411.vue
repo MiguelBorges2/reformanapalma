@@ -21,7 +21,7 @@
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 passo: verificar suas necessidades</span>
+                    <span id="barra1" class="tupi white tucs " >1º Passo: Acabar com goteiras e infiltrações</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
@@ -32,7 +32,7 @@ Entenda melhor essas questões e veja como resolvê-las acessando as seções so
             </div>      
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo: Preparar o ambiente</span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Melhorar a ventilação e iluminação da casa</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">

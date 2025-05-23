@@ -2,7 +2,7 @@
     <div @click="ativa2"  id="ju8" class=" d-flex flex-column border border-dark custi">
          <div id="primeira2" class="d-flex w-100 holt" >
               <div v-if="toogle2 === false"class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip34 colo41"> adaptar casa para comércios e serviços</span>
+                  <span class="yip34 colo41"> Adaptar casa para comércios e serviços</span>
               </div>
               <div v-else class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip34 text-light"> Adaptar casa para comércios e serviços</span>

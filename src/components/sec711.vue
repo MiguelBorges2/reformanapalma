@@ -38,13 +38,13 @@
                         <li><p class="subtugali text-align">Para definir o modelo do seu mobiliário  realize medições do espaço que você tem disponível, então decida se comprará mobiliários prontos ou planejados. Há opções como:</p></li>
                         <li><p class="subtugali text-align">Sapateira/bancos com rodinhas que podem ser feitos por você a partir de caixotes de feira.</p></li>
                     </ul>
-                    <img class="tamanho083" src="@/assets/passo11.svg">
+                    
                 </div> 
 
             </div> 
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Limpar as placas solares</span>
+                    <span id="barra3" class="tupi white tucs " > 3º Passo: Fazer a Sapateira de caixote com roldanas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-start" v-if="togi3 === true">

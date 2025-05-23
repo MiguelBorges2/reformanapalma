@@ -1,4 +1,4 @@
-    <template>
+<template>
         <div v-if="slider === 0" class="d-flex  tamanho justify-content-center flex-column align-items-center">
                 <div class="d-flex align-items-center  justify-content-around keeps ">
                     <img class="tamanhog" src="@/assets/logo_Reforma_w.svg" alt="Logo">
@@ -6,7 +6,7 @@
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
                 </div>
-                <button class="  colo45 round45">Saiba Mais</button>
+                <button @click="movetosec()" class="  colo45 round45">Saiba Mais</button>
                 <div class=" size d-flex justify-content-between">
                     <div class="indicator "></div>
                     <div class="indi "></div>
@@ -21,7 +21,7 @@
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
                 </div>
-                <button class=" colo45 round45">Saiba Mais</button>
+                <button @click="movetosec()" class=" colo45 round45">Saiba Mais</button>
                 <div class=" size d-flex justify-content-between">
                     <div class="indicator "></div>
                     <div class="indi "></div>
@@ -36,7 +36,7 @@
                         <h1 class="fonte text-light">Receba informações essenciais para reformar sua casa com facilidade</h1>
                     </span>
                 </div>
-                    <button class="  colo45 round45">Saiba Mais</button>
+                    <button @click="movetosec()" class="  colo45 round45">Saiba Mais</button>
                     <div class=" size d-flex justify-content-between">
                         <div class="indicator "></div>
                         <div class="indi "></div>
@@ -58,17 +58,28 @@
             data(){
                 return{};
             },
+            methods: {
+                movetosec() {
+                    let a = document.getElementById('sec');
+                    if(a) {
+                        a.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }  
+            }
+            
 
         };
     </script>
  <style>
 .fonte {
-    font-size: 4.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4.2vw;
 }
 
 .colo45 {
-    color: #4A4A48;
-    font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  color: #4A4A48;
+  font-weight: 500;
 }
 
 .tamanho {
@@ -128,7 +139,7 @@
         width: 28%;
     }
     .fonte {
-        font-size: 4.4vw;
+        font-size: 4.1vw;
     }
     .round45 {
         width: 20%;
@@ -151,7 +162,7 @@
         width: 50%;
     }
     .fonte {
-        font-size: 4.4vw;
+        font-size: 4.1vw;
     }
     .keeps {
         margin: 2.6%;
@@ -173,7 +184,7 @@
         width: 55%;
     }
     .fonte {
-        font-size: 4.7vw;
+        font-size: 4.4vw;
         margin-top: 2%;
     }
     .keeps {

@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp">Manter a ventilação adequada, evitar a exposição direta ao sol, garantir a segurança da estrutura e prevenir infiltrações, mofo e umidade ajuda a criar um ambiente seguro e saudável. Isso reduz riscos de doenças respiratórias causadas pelo mofo e evita danos à estrutura da casa provocados pelas infiltrações.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
@@ -11,15 +11,15 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual </p>
+                <p class="fo3 famp">Pontual. </p>
            </div>
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 passo: verificar suas necessidades</span>
+                    <span id="barra1" class="tupi white tucs " > 1º Passo: Verificar suas necessidades</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column" v-if="togi1 === true">
@@ -28,7 +28,7 @@
             </div>      
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo: Preparar o ambiente</span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Verificar qual área disponível para ampliação</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
@@ -37,7 +37,7 @@
             </div>    
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Preparar o ambiente</span>
+                    <span id="barra3" class="tupi white tucs " > 3º Passo: Verificar a estrutura</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
@@ -47,7 +47,7 @@
             </div>    
             <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao4" class="d-flex w-100 color1 tucs2">
-                    <span id="barra4" class="tupi white tucs " > 4º Passo: Preparar o ambiente</span>
+                    <span id="barra4" class="tupi white tucs " > 4º Passo: Definir a conexão entre as coberturas novas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
@@ -58,7 +58,7 @@
             </div>            
            <div @click="changes5()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao5" class="d-flex w-100 color22 tucs2">
-                    <span id="barra5" class="tupi white tucs " > 5º Passo: Preparar o ambiente</span>
+                    <span id="barra5" class="tupi white tucs " > 5º Passo: Definir áreas de circulação</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi5 === true">
@@ -70,7 +70,7 @@
             </div>        
             <div @click="changes6()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao6" class="d-flex w-100 color1 tucs2">
-                    <span id="barra6" class="tupi white tucs " > 6 passo: verificar suas necessidades</span>
+                    <span id="barra6" class="tupi white tucs " > 6º Passo: Escolher os materiais certos para a reforma da casa</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi6 === true">

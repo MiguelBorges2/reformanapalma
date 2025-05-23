@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">A falta de ventilação e iluminação natural tornam os ambientes mais favoráveis à transmissão e propagação de doenças respiratórias, comprometendo especialmente a saúde de idosos, crianças e imunossuprimidos. 
 
                 </p>
@@ -14,11 +14,11 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
@@ -64,7 +64,6 @@
                     <img class="tamanho866" src="@/assets/imagem811.svg" alt="Logo2">
                     <img class="tamanho866" src="@/assets/inco3.svg" alt="Logo2">
                     <p class="subtugali text-align">Entre os ambientes existentes e os ambientes criados, recomenda-se deixar um espaço livre de pelo menos 1,5 m de largura para troca de ar e entrada de sol, conhecido como “poço de luz e ventilação”. Telhas translúcidas também podem ajudar a ter mais luz, apesar de poderem gerar acúmulo de calor.</p>
-                    <img class="tamanho866" src="@/assets/imagem911.svg" alt="Logo2">
                     <img class="tamanho866" src="@/assets/imagem912.svg" alt="Logo2">
                     <img class="tamanho866" src="@/assets/imagem921.svg" alt="Logo2">
                     <img class="tamanho866" src="@/assets/imagem931.svg" alt="Logo2">
@@ -90,12 +89,13 @@
                         <p class="subtugali text-align">2º- Meça (em metros) a altura e largura da abertura para ventilação de sua janela e multiplique uma pela outra, você terá a área efetiva de ventilação, em m² (2);</p>
                         <p class="subtugali text-align">3º- Divida (2) por (1) e multiplique por 100, você terá a porcentagem de área de ventilação efetiva do seu ambiente. 
                             Garanta que a área efetiva de ventilação de janelas seja igual ou superior a 45% do tamanho do vão em que se encaixa a janela</p>
-                        <p class="subtugali text-align">Paralelamente, a área das aberturas destinadas à insolação e iluminação dos compartimentos deverá corresponder, no mínimo a: 
-I - 1/6 (um sexto) da área do cômodo, se de permanência prolongada; 
-II - 1/8 (um oitavo) da área do cômodo, se de permanência transitória;
-Indica-se um percentual de aberturas para ventilação de 8,33% a 15% em salas e quartos e, entre 6,25% e 15% em áreas molhadas.
-Paralelamente, estudos recentes recomendam que o percentual de elementos transparentes em quartos seja ≥ 23%, em salas que esteja entre 17% e 23% e em áreas molhadas, ≥ 12%.
-</p>
+                        <p class="subtugali text-align">Paralelamente, a área das aberturas destinadas à insolação e iluminação dos compartimentos deverá corresponder, no mínimo a: </p>
+<p class="subtugali text-align">I - 1/6 (um sexto) da área do cômodo, se de permanência prolongada; </p>
+<p class="subtugali text-align">II - 1/8 (um oitavo) da área do cômodo, se de permanência transitória;</p>
+<p class="subtugali text-align">Indica-se um percentual de aberturas para ventilação de 8,33% a 15% em salas e quartos e, entre 6,25% e 15% em áreas molhadas.
+    Paralelamente, estudos recentes recomendam que o percentual de elementos transparentes em quartos seja ≥ 23%, em salas que esteja entre 17% e 23% e em áreas molhadas, ≥ 12%.</p>
+
+
                         <img class="tamanho866" src="@/assets/imagem441.svg" alt="Logo2">
     
                     </div>
@@ -107,8 +107,10 @@ Paralelamente, estudos recentes recomendam que o percentual de elementos transpa
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi5 === true">
                     <p class="subtugali text-align">Se o teto é baixo, o ar quente e sujo fica na altura das pessoas, tornando o ambiente desagradável. Ao criar um novo cômodo, garanta uma altura livre de pelo menos 2,4m em banheiros e 2,6m ou mais nos outros ambientes. Janelas rentes à laje/forro também ajudam a eliminar o ar quente/sujo. Contrate um profissional para te ajudar.</p>
+                    <p class="subtugali text-align">Novas janelas e ferramentas de instalação, além de EPIs podem ser necessários. Contrate um profissional para te ajudar</p>
                     <img class="tamanho81" src="@/assets/imagem32.svg" alt="Logo2">
-                    <img class="tamanho81" src="@/assets/imagem412.svg" alt="Logo2">
+                    <img class="tamanho81" src="@/assets/cober2.svg" alt="Logo2">
+                    <img class="tamanho81" src="@/assets/efeito2.svg" alt="Logo2">
                 </div>
             </div>  
             <div @click="changes6()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -125,8 +127,7 @@ Paralelamente, estudos recentes recomendam que o percentual de elementos transpa
                             <li class="puts"><img class="tamanho866" src="@/assets/imagem37.svg" alt="Logo2"></li>
                             <li><p class="subtugali text-align">Você também pode utilizar um termômetro de parede de mercúrio para monitorar a temperatura externa – seu preço é bem acessível</p></li>
                             <li class="puts"><img class="tamanho866" src="@/assets/imagem163.svg" alt="Logo2"></li>
-                            <li><p class="subtugali text-align">Outros recursos como umidificador, climatizador e toalha molhada podem atenuar a sensação desconfortável</p></li>
-                            <li class="puts"><img class="tamanho866" src="@/assets/umidificador1.svg" alt="Logo2"></li>
+                            
                         </ul>   
                     </div>
                 </div>          

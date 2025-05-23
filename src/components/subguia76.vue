@@ -6,7 +6,7 @@
             <img class="tamanho8912" src="@/assets/adapt.svg" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
                 <div class="conta23 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light text-align">ste tópico oferece soluções para diminuir a umidade na casa, com foco na prevenção de infiltrações, mofo e outros problemas, assegurando um ambiente mais saudável e confortável para os moradores.</p>
+                    <p  class="funkot3 famap400 text-light text-align">Este tópico oferece soluções para diminuir a umidade na casa, com foco na prevenção de infiltrações, mofo e outros problemas, assegurando um ambiente mais saudável e confortável para os moradores.</p>
                 </div>
             </div>
                 
@@ -79,7 +79,7 @@
             <img class="tamanho8912" src="@/assets/adapt.svg" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
                 <div class="conta23 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light text-align">ste tópico oferece soluções para diminuir a umidade na casa, com foco na prevenção de infiltrações, mofo e outros problemas, assegurando um ambiente mais saudável e confortável para os moradores.</p>
+                    <p  class="funkot3 famap400 text-light text-align">Este tópico oferece soluções para diminuir a umidade na casa, com foco na prevenção de infiltrações, mofo e outros problemas, assegurando um ambiente mais saudável e confortável para os moradores.</p>
                 </div>
                 
             </div>

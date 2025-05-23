@@ -1,8 +1,8 @@
 <template>
     <div v-if="colors === true" class="d-flex cor w-100 flex-column align-items-center mt-1 justify-content-center ">
-        <h2 class="  margip text-light">{{ texto }}</h2>
+        <h2 class="  margip masto22 text-light">{{ texto }}</h2>
         <div class="d-flex w-100 align-items-center justify-content-center">
-                <button @click = "toggleOverlay()" class=" fonte3 tip  colo45  mako2 margip6 p-1 "> {{ bot2 }}</button>
+                <button @click = "toggleOverlay()" class=" milk fonte33 tip  colo45  mako2 masto margip6 p-1 "> {{ bot2 }}</button>
                 <div v-if="showOverlay" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay()">
                     <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
                         <button @click="subcont"  class="btn-hover-yellow2  border btn-round2 ">
@@ -40,11 +40,18 @@
         </div>
     </div>
     <div v-if="colors === false" class="d-flex w-100 camelo flex-column align-items-center justify-content-center ">
-        <h2 class=" margip yip4 text-light">{{ texto }}</h2>
+        <div class="masto d-flex flex-column justify-content-center align-items-center">
+            <h2 class=" margip yip4 text-light">{{ texto }}</h2>
+            <h2 class=" margip yip4 text-light">{{ texto4 }}</h2>
+        </div>
         <div class="wid  pad margip3"></div>
-        <h1 class="fonte4 text-light margip6">{{ texto2 }}</h1>
+        <div class="masto w-100 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="fonte4 m-0 text-light margip6">{{ texto2 }}</h1>
+            <h1 class="fonte4 m-0 text-light margip6">{{ texto3 }}</h1>
+        </div>
+        
         <div class="d-flex align-items-center justify-content-center">
-                <button class="fonte3 tip  colo45  p-2 pad2 marko  "> {{ bot1 }} </button>
+                <button class="fonte33 tip  colo45  p-2 pad2 marko  "> {{ bot1 }} </button>
         </div>
     </div>
 </template>
@@ -60,6 +67,14 @@
             texto2: {
                 type: String,
                 required: false
+            },
+            texto3: {
+                type: String,
+                required: false,
+            },
+            texto4: {
+                type: String,
+                required: false,
             },
             bot1: {
                 type: String,
@@ -125,6 +140,13 @@
     margin-bottom: 8%;
     margin-top: 4%;
 }
+.masto {
+    margin: 2%;
+}
+.masto22 {
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
 .btn-round2 {  
   height: 3vw;
   width: 3.5%;      
@@ -189,17 +211,16 @@
     padding: 0.2%;
     background-color: #FFC676;
 }
-.fonte3{
+.fonte33{
             font-size: 1.5vw;
         }
 .margip{
-    margin-top: 8%;
-    margin-bottom: 3%;  
+ 
     font-size: 2.5vw;
 
 }
 .margip6{
-    margin: 3%;
+    
     font-size: 2vw;
     
 }
@@ -223,7 +244,7 @@
     font-size: 2vw;
     width: 75%;
     border-radius: 60px;
-    border-width: 2px;;
+    border-width: 2px;
     border-color: #568D8B;
     padding: 0.5%;
 }
@@ -261,19 +282,30 @@
     .margo {
         font-size: 2vw;
     }
-    .fonte3 {
-        font-size: 2.2vw !important;
+    .fonte33 {
+        font-size: 2.2vw;
     }
     .fonte4 {
-        font-size: 1.8vw;
+        font-size: 2.2vw;
     }
     .margip {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     .margip6 {
         font-size: 2.5vw;
     }
     
+}
+@media (max-width: 480px) {
+    .milk{
+        width: 45%;
+    }
+    .fonte33 {
+        font-size: 3.2vw;
+    }
+    .fonte4 {
+        font-size: 3.2vw;
+    }
 }
 
 </style>

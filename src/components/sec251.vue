@@ -1,226 +1,265 @@
 <template>
+
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
-       <div class="dev d-flex flex-column justify-content-center ">
-            <p class="fo famp">importância para saúde</p>
-            <p class="fo3 famp">O distanciamento social trouxe novas necessidades para casa, como garantir que que o ambiente seja seguro e confortavel para trabalhar ou estudar. Isso inclui melhorar a disposição  dos móveis para evitar que problemas de saúde. tanto físicos quanto mentais. Especialmente, idosos, crianças e pessoas com sistema imunológico frágil podem ser mais afetados, ficando mais  vulneráveis a doenças</p>
-       </div>
-       <div class="dev2 d-flex flex-column justify-content-center ">
-            <p class="fo">Aprovação para fazer</p>
-            <p class="fo3 famp">Não é necessario nenhuma aprovação da Prefeitura Municipal  </p>
-       </div>
-       <div class="dev2 d-flex flex-column justify-content-center ">
-            <p class="fo">Escala da intervenção</p>
-            <p class="fo3 famp">Pontual </p>
-       </div>
-       <div class="w-80 dev3 ">
-            <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
-        </div>
-        <div class="dev4 d-flex align-items-start justify-content-start ">
-            <div class="w-50 d-flex flex-column align-items-center justify-content-center">
-                <div class="d-inline-block custiome">
-                    <div class=" d-flex flex-column border vai justify-content-center align-items-center border-dark   ">
-                        <div @click="flip1" class="d-flex holt w-100" >
-                            <div id="ex251" class=" d-flex  justify-content-center  custi2 lop lign-item-center">
-                                <span class="fo7 famap500"> 1: verificar suas necessidades</span>
-                            </div>
-                            <span   class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
-                        </div>
-                        <div v-if="bott1 === true" class="dev5">
-                            <p class="fo4">É importante refletir quais são suas necessidades. Qual tamanho da mesa te atenderia? Essas reflexões, serão essenciais para tomar as descisões e planejar seu cômodo</p>
-                        </div>
-                        <div v-if="bott1 === true" class="dev5">
-                            <p class="fo4">Realize medições do cômodo para apartir dai poder separar sua sala para suas necessidades</p>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="d-inline-block custiome">
-                    <div  class=" d-flex flex-column border vai justify-content-center align-items-center border-dark   ">
-                        <div @click="flip3" class="d-flex holt w-100" >
-                            <div id="ex4" class=" d-flex  justify-content-center  custi2 align-item-center">
-                                <span class="fo7 famap500"> 3: Escolher mesas e cadeiras adequadas </span>
-                            </div>
-                            <span   class="wid3  d-flex justify-content-center  color1 align-items-center btn-arrow"> &#709;</span>
-                        </div>
-                        <div v-if="bott3 === true" class="dev5">
-                            <p class="fo6">O importante é escolher sempre por uma cadeira confortável entre 40 a 45 cm de altura, com apoio nas costas, a mesa com 72 a 75 cm de altura, profundidade de no mínimo 50 a 60 cm e largura mínima de 80cm, que pode ser adquirida no mercado ou pode ser confeccionada em madeira, MDF, MDP (com acabamento laminado), metálico, vidro temperado etc. E, caso utilize telas, se atente a distância do rosto a tela e da inclinação dela, o monitor deve estar entre 45 a 70 cm de distância dos seus olhos e alinhado horizontalmente com eles.</p>
-                        </div>
-                        <img v-if="bott3 === true" class="tamanho72" src="@/assets/IMG 5 1.svg" alt="Logo2">
-                    </div>
-        
-                </div>
-                <div class="d-inline-block custiome">
-                    <div  class=" d-flex flex-column border vai justify-content-center align-items-center border-dark   ">
-                        <div @click="flip5" class="d-flex holt w-100" >
-                            <div id="ex6" class=" d-flex  justify-content-center  custi2 align-item-center">
-                                <span class="fo7 famap500"> 5: Utilizar mobiliário para guardar material</span>
-                            </div>
-                            <span   class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
-                        </div>
-                        <div v-if="bott5 === true" class="dev5">
-                            <p class="fo6">Para guardar seu material de estudo/trabalho você pode utilizar gaveteiros com rodízios que não ocupam muito espaço e pode ser transportado com facilidade. Além de guardar seu material, você conseguirá ampliar a sua área de trabalho utilizando como apoio durante o dia e a noite pode usar como mesa de apoio</p>
-                        </div>
-                        <img v-if="bott5 === true" class="tamanho72" src="@/assets/IMG 11 3.svg" alt="Logo2">
-                        <img v-if="bott5 === true" class="tamanho72" src="@/assets/IMG 11 4.svg" alt="Logo2">
-                        <div v-if="bott5 === true" class="dev5">
-                            <p class="fo6">Você, também, pode utilizar armário multifuncional com mesa e escrivaninha dobrável como nas opções a seguir. </p>
-                        </div>
-                        <img v-if="bott5 === true" class="tamanho72" src="@/assets/IMG 12 2.svg" alt="Logo2">
-                    </div>
-                </div>
+           <div class="dev d-flex flex-column justify-content-center ">
+                <p class="fo famp">Importância para saúde</p>
+                <p class="fo3 famp">O distanciamento social trouxe novas necessidades para casa, como garantir que o ambiente seja seguro e confortável para trabalhar ou estudar. Isso inclui melhorar a disposição dos móveis para evitar problemas de saúde, tanto físicos quanto mentais. Especialmente, idosos, crianças e pessoas com sistema imunológico frágil podem ser mais afetados, ficando mais vulneráveis às doenças.</p>
+           </div>
+           <div class="dev2 d-flex flex-column justify-content-center ">
+                <p class="fo">Aprovação para fazer</p>
+                <p class="fo3 famp">Não é necessario nenhuma aprovação da Prefeitura Municipal  </p>
+           </div>
+           <div class="dev2 d-flex flex-column justify-content-center ">
+                <p class="fo">Escala da intervenção</p>
+                <p class="fo3 famp">Pontual. </p>
+           </div>
+           <div class="w-80 dev3 ">
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
-            <div class="w-50 d-flex justify-content-center align-items-center flex-column">
-                <div class="d-inline-block custiome">
-                    <div class="d-flex flex-column vai border justify-content-center align-items-center border-dark vai">
-                        <div @click="flip2"  class="d-flex holt w-100" >
-                            <div id="ex3" class=" d-flex  justify-content-center  custi2 align-item-center">
-                                <span class="fo7 famap500"> 2: preparar o ambiente</span>
-                            </div>
-                            <span   class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
-                        </div>
-                        <div v-if="bott2 === true" class="dev5">
-                            <p class="fo4">Decida quais mobiliários deverão permanecer, que precisam ser adequados ou ainda ainda substituídos</p>
-                        </div>
-                        <div v-if="bott2 === true" class="dev5">
-                            <p class="fo4">Atente-se a licalização dos pontos elétricos para não tampar com mobiliário e conseguir usar com facilidade. Veja mais em tomadas e interruptores em somente uma parede</p>
-                        </div>
-                    
-                        <div v-if="bott2 === true" class="dev5">
-                            <p class="fo4">Leve em conta o espaço existente com a porta aberta para evitar o caso do exemplo abaixo, em que não é possível abri-la completamente</p>
-                        </div>
-                        <img v-if="bott2 === true" class="tamanho72" src="@/assets/GIF - Sala pequena - Conflito com portas.gif" alt="Logo2"> 
-                        <div v-if="bott2 === true" class="dev5">
-                            <p class="fo4">E no caso das janelas verifique a altura do mobiliário que irá instalar em frente à abertura para evitar o bloqueio de iluminação e ventilação</p>
-                        </div>
-                        <img v-if="bott2 === true" class="tamanho72" src="@/assets/GIF - Sala pequena - Conflito com janelas.gif" alt="Logo2">
-                    </div>  
-                </div>
-                <div class="d-inline-block custiome">
-                    <div  class="d-flex flex-column vai border justify-content-center align-items-center border-dark vai ">
-                        <div @click="flip4" class="d-flex holt w-100" >
-                            <div id="ex5" class=" d-flex  justify-content-center  custi2 align-item-center">
-                                <span class="fo7 famap500"> 4: Providenciar uma bancada de trabalho</span>
-                            </div>
-                            <span class="wid3  d-flex justify-content-center  color1 align-items-center btn-arrow"> &#709;</span>
-                        </div>
-                        <div v-if="bott4 === true" class="dev5">
-                            <p class="fo6">Sempre se atente às dimensões disponíveis para instalação da mesa. Você pode aproveitar o espaço abaixo da TV para organizar seu ambiente. Caso sua sala não comporte uma mesa, há opções dobráveis, como escrivaninha dobrável com prateleira, mesa dobrável de alumino com tampo de mdf e mesa dobrável com rodízio.</p>
-                        </div>
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/GIF - Sala pequena - Móveis.gif" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 6 1.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 6 2.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 7 1.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 7 2.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 9 1.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 8 1.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 8 2.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 9 2.svg" alt="Logo2">
-                        <img v-if="bott4 === true" class="tamanho72" src="@/assets/IMG 11 6.svg" alt="Logo2">
-                    </div>   
-                </div>
-         
-                <div class="d-inline-block custiome">
-                    <div  class=" d-flex flex-column border border-dark vai ">
-                        <div class="d-flex holt w-100" >
-                            <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                                <span class="fo7 famap500">6: Utilizar mobiliária para guardar material</span>
-                            </div>
-                            <span   class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
-                        
-                        </div>
-                    </div>  
-                </div>
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+                <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
+                    <div id="botao1" class="d-flex w-100 color22 tucs2">
+                        <span id="barra1" class="tupi white tucs " > 1 passo: Verificar suas necessidades</span>
+                        <span class="tupi2 "> &#709; </span>
+                    </div>
+                    <div class="tugali d-flex flex-column" v-if="togi1 === true">
+                        <p class="subtugali"> É importante refletir quais são suas necessidades.  Qual ambiente você utilizará? Qual tamanho de mesa te atenderá? Essas reflexões serão essenciais para tomar as decisões e planejar seu cômodo.</p>
+                        <p class="subtugali">Realize medições do cômodo para a partir daí preparar seu quarto para suas necessidades.</p>
+                    </div>
+                </div>      
+                <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
+                    <div id="botao2" class="d-flex w-100 color1 tucs2">
+                        <span id="barra2" class="tupi white tucs " > 2º Passo: Preparar o ambiente</span>
+                        <span class="tupi2 "> &#709; </span>
+                    </div>
+                    <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
+                        <p class="subtugali"> Decida quais mobiliários devam permanecer, quais precisam ser adequados ou ainda substituídos.</p>
+                        <p class="subtugali">Atente-se a  localização dos pontos elétricos para não tampar com mobiliário e conseguir usar com facilidade. Veja mais em Tomadas e interruptores em somente uma parede.</p>
+                        <img class="tamanho82" src="@/assets/Quarto p casal - Tomadas.gif" alt="Logo2">
+                        <p class="subtugali">Leve em conta o espaço existente com a porta aberta para evitar o caso do exemplo abaixo, em que não é possível abri-la completamente:</p>
+                        <img class="tamanho80" src="@/assets/IMG 2.2 1.svg" alt="Logo2">
+                        <img class="tamanho80" src="@/assets/IMG 2.1 1.svg" alt="Logo2">
+                        <p class="subtugali">E no caso das janelas, verifique a altura do mobiliário que instalará em frente à abertura para evitar o bloqueio de iluminação e ventilação.</p>
+                        <img class="tamanho82" src="@/assets/quarto-casal-janela.gif" alt="Logo2">
+                    </div>
+                </div>    
+                <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
+                    <div id="botao3" class="d-flex w-100 color22 tucs2">
+                        <span id="barra3" class="tupi white tucs " > 3º Passo: Escolher a cama</span>
+                        <span class="tupi2 "> &#709; </span>
+                    </div>
+                    <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
+                        <p class="subtugali">Caso você não consiga instalar uma mesa com cadeira para estudar/trabalhar, opte por liberar espaço (durante o horário de trabalho) com uma cama de solteiro articulável vertical ou horizontal. Ou escolha uma cama com mesa integrada.</p>
+                        <img class="tamanho81" src="@/assets/IMG 3 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 3 2.svg" alt="Logo2">
+                        <img class="tamanho82" src="@/assets/GIF - Quarto p casal - Móveis.gif" alt="Logo2">
+                    </div>
+                </div>    
+                <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
+                    <div id="botao4" class="d-flex w-100 color1 tucs2">
+                        <span id="barra4" class="tupi white tucs " > 4º Passo: Escolher mesas e cadeiras adequadas</span>
+                        <span class="tupi2 "> &#709; </span>
+                    </div>
+                    <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
+                        <p class="subtugali">O importante é escolher sempre por uma cadeira confortável entre 40 a 45 cm de altura, com apoio nas costas, a mesa com 72 a 75 cm de altura, profundidade de no mínimo 50 a 60 cm e largura mínima de 80cm, que pode ser adquirida no mercado ou pode ser confeccionada em madeira, MDF, MDP (com acabamento laminado), metálico, vidro temperado etc. E, caso utilize telas, se atente a distância do rosto a tela e da inclinação dela, o monitor deve estar entre 45 a 70 cm de distância dos seus olhos e alinhado horizontalmente com eles.</p>
+                        <img class="tamanho81" src="@/assets/IMG 5 1.svg" alt="Logo2">
+                    </div>
+                </div>            
+               <div @click="changes5()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
+                    <div id="botao5" class="d-flex w-100 color22 tucs2">
+                        <span id="barra5"  class="tupi white tucs " > 5º Passo: Providenciar uma bancada de trabalho/estudo</span>
+                        <span class="tupi2 "> &#709; </span>
+                    </div>
+                    <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi5 === true">
+                        <p class="subtugali">Sempre se atente às dimensões disponíveis para instalação da mesa. Caso seu quarto não comporte uma cama e uma mesa simultaneamente, após liberar espaço no quarto instale uma mesa dobrável, pois no período em que não estiver precisando usá-la, você pode recolher a mesa e utilizar a cama. Há também opções de escrivaninha dobrável com prateleira, mesa dobrável de alumíno com tampo de mdf e mesa dobrável com rodízio.</p>
+                        <img class="tamanho81" src="@/assets/IMG 6 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 6 2.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 7 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 7 2.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 9 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 8 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 8 2.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 9 2.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 11 6.svg" alt="Logo2">
+                    </div>
+                </div>        
+                <div @click="changes6()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
+                    <div id="botao6" class="d-flex w-100 color1 tucs2">
+                        <span id="barra6" class="tupi white tucs " > 6º Passo: Utilizar mobiliário para guardar material</span>
+                        <span class="tupi2 "> &#709; </span>
+                    </div>
+                    <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi6 === true">
+                        <p class="subtugali"> Para guardar seu material de estudo/trabalho você pode utilizar gaveteiros com rodízios que não ocupam muito espaço e pode ser transportado com facilidade, além de guardar seu material, você conseguirá ampliar a sua área de trabalho utilizando como apoio durante o dia e a noite pode usar como mesa de cabeceira.</p>
+                        <img class="tamanho81" src="@/assets/IMG 11 3.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/IMG 11 4.svg" alt="Logo2">
+                        <p class="subtugali"> Você também pode utilizar armário multifuncional com mesa e escrivaninha dobrável como nas opções a seguir. </p>
+                        <img class="tamanho81" src="@/assets/IMG 12 2.svg" alt="Logo2">
+                        <img class="tamanho84" src="@/assets/IMG 13 2.svg" alt="Logo2">
+                    </div>
+                </div>      
+                <div @click="changes7()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
+                    <div id="botao7" class="d-flex w-100 color22 tucs2">
+                        <span id="barra7" class="tupi white tucs " > 7º Passo: Organizar o espaço entre os mobiliários</span>
+                        <span class="tupi2 "> &#709; </span>
+                    </div>
+                    <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi7 === true">
+                        <p class="subtugali"> O importante é que opte sempre por uma cadeira confortável entre 40 a 45 cm de altura, com apoio nas costas, a mesa com 72 a 75 cm de altura, profundidade de no mínimo 50 a 60 cm e largura mínima de 80cm, que pode ser adquirida no mercado ou pode ser confeccionada em madeira, MDF, MDP (com acabamento laminado), metálico, vidro temperado etc. E caso utilize telas se atente a distância do rosto a tela e da inclinação dela, o monitor deve estar entre 45 a 70 cm de distância dos seus olhos e alinhado horizontalmente com eles.</p>
+                        <img class="tamanho84" src="@/assets/1401.svg" alt="Logo2">
+                    </div>
+                </div>  
             </div>
-      </div>
-    </div>
-
-
- 
-
-</template>
-<script>
-    export default {
-        name: 'sec251',
-        props: {
-            selec: {
-                type: Number,
-                required: true,
-
-            }
             
-        },
-        data() {
-            return {
-                bott1: false,
-                bott2: false,
-                bott3: false,
-                bott4: false,
-                bott5: false,
-                bott6: false
-            };
-        },
-        methods: {
-            flip1(){
-                this.bott1 = !this.bott1;
-                if(this.bott1 == true){
-                    let elem = document.getElementById('ex251');
-                    elem.classList.add('lop');
-                }
-                if(this.bott1 == false){
-                    let elem = document.getElementById('ex251');
-                    elem.classList.remove('lop');
+        </div>
+       
+    
+    </template>
+    <script>
+        export default {
+            name: 'sec251',
+            data(){
+                return {
+                    togi1: false,
+                    togi2: false,
+                    togi3: false,
+                    togi4: false,
+                    togi5: false,
+                    togi6: false,
+                    togi7: false,
                 }
             },
-            flip2(){
-                this.bott2 = !this.bott2;
-                if(this.bott2 == true){
-                    let elem1 = document.getElementById('ex3');
-                    elem1.classList.add('lop');
-                }
-                if(this.bott2 == false){
-                    let elem1 = document.getElementById('ex3');
-                    elem1.classList.remove('lop');
-                }
-            },
-            flip3(){
-                this.bott3 = !this.bott3;
-                if(this.bott3 == true){
-                    let elem1 = document.getElementById('ex4');
-                    elem1.classList.add('lop');
-                }
-                if(this.bott3 == false){
-                    let elem1 = document.getElementById('ex4');
-                    elem1.classList.remove('lop');
-                }
-            },
-            flip4(){
-                this.bott4 = !this.bott4;
-                if(this.bott4 == true){
-                    let elem1 = document.getElementById('ex5');
-                    elem1.classList.add('lop');
-                }
-                if(this.bott4 == false){
-                    let elem1 = document.getElementById('ex5');
-                    elem1.classList.remove('lop');
-                }
-            },
-            flip5(){
-                this.bott5 = !this.bott5;
-                if(this.bott5 == true){
-                    let elem1 = document.getElementById('ex6');
-                    elem1.classList.add('lop');
-                }
-                if(this.bott5 == false){
-                    let elem1 = document.getElementById('ex6');
-                    elem1.classList.remove('lop');
-                }
-            },
+            methods: {
+                changes(){
+                    this.togi1 =!this.togi1;
+                    const p = document.getElementById("botao1");
+                    const d = document.getElementById("barra1");
+                    if(this.togi1 == true){
+                        p.classList.add("hig");
+                        d.classList.remove("white");
+                        d.classList.add("color22");
+                        d.classList.add("finta");
+                    }
+                    if(this.togi1 == false){
+                        p.classList.remove("hig");
+                        d.classList.add("white");
+                        d.classList.remove("color22");
+                        d.classList.remove("finta");
+                    }
+                    
+                },
+                changes2(){
+                    this.togi2 =!this.togi2;
+                    const p = document.getElementById("botao2");
+                    const d = document.getElementById("barra2");
+                    if(this.togi2 == true){
+                        p.classList.add("hig");
+                        d.classList.remove("white");
+                        d.classList.add("color1");
+                        d.classList.add("finta");
+                        
+                    }
+                    if(this.togi2 == false){
+                        p.classList.remove("hig");
+                        p.classList.remove("hig");
+                        d.classList.add("white");
+                        d.classList.remove("color1");
+                        d.classList.remove("finta");
+                    }
+                    
+                },
+                changes3(){
+                    this.togi3 =!this.togi3;
+                    const p = document.getElementById("botao3");
+                    const d = document.getElementById("barra3");
+                    if(this.togi3 == true){
+                        p.classList.add("hig");
+                        d.classList.remove("white");
+                        d.classList.add("color22");
+                        d.classList.add("finta");
+                    }
+                    if(this.togi3 == false){
+                        p.classList.remove("hig");
+                        d.classList.add("white");
+                        d.classList.remove("color22");
+                        d.classList.remove("finta");
+                    }
+                    
+                },
+                changes4(){
+                    this.togi4 =!this.togi4;
+                    const p = document.getElementById("botao4");
+                    const d = document.getElementById("barra4");
+                    if(this.togi4 == true){
+                        p.classList.add("hig");
+                        d.classList.remove("white");
+                        d.classList.add("color1");
+                        d.classList.add("finta");
+                    }
+                    if(this.togi4 == false){
+                        p.classList.remove("hig");
+                        d.classList.add("white");
+                        d.classList.remove("color1");
+                        d.classList.remove("finta");
+                    }
+                    
+                },
+                changes5(){
+                    this.togi5 =!this.togi5;
+                    const p = document.getElementById("botao5");
+                    const d = document.getElementById("barra5");
+                    if(this.togi5 == true){
+                        p.classList.add("hig");
+                        d.classList.remove("white");
+                        d.classList.add("color22");
+                        d.classList.add("finta");
+                    }
+                    if(this.togi5 == false){
+                        p.classList.remove("hig");
+                        d.classList.add("white");
+                        d.classList.remove("color22");
+                        d.classList.remove("finta");
+                    }
+                    
+                    
+                },
+                changes6(){
+                    this.togi6 =! this.togi6;
+                    const p = document.getElementById("botao6");
+                    const d = document.getElementById("barra6");
+                    if(this.togi6 == true){
+                        p.classList.add("hig");
+                        d.classList.remove("white");
+                        d.classList.add("color1");
+                        d.classList.add("finta");
+                    }
+                    if(this.togi6 == false){
+                        p.classList.remove("hig");
+                        d.classList.add("white");
+                        d.classList.remove("color1");
+                        d.classList.remove("finta");
+                    }
+                    
+                },
+                changes7(){
+                    this.togi7 =!this.togi7;
+                    const p = document.getElementById("botao7");
+                    const d = document.getElementById("barra7");
+                    if(this.togi7 == true){
+                        p.classList.add("hig");
+                        d.classList.remove("white");
+                        d.classList.add("color22");
+                        d.classList.add("finta");
+                    }
+                    if(this.togi7 == false){
+                        p.classList.remove("hig");
+                        d.classList.add("white");
+                        d.classList.remove("color22");
+                        d.classList.remove("finta");
+                    }
+                },
+            }
         }
-    }
-</script>
-
-
-<style>
+    </script>
+    <style>
 .famp {
     color: #263238;
     font-weight: 400 !important;  

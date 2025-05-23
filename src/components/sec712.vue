@@ -16,20 +16,20 @@
                 <p class="gw">Caixote de feira, Lixa para madeira (P120), Spray colorido,  Enchimento de poliéster, 2 placas de MDF do tamanho da lateral maior do caixote (uma para o assento e outra para a prateleira),  4 rodízios,  Retalho de tecido (com sobra de 10 cm de cada lado da placa de MDF),  4 toquinhos de madeira, 4 Parafusos de 2 cm e tachas,  Furadeira-parafusadeira, Grampeador para tecido e martelo.</p>
             </div>
             <div class="d-flex w-100 justify-content-center align-items-center">
-                <img class="tamamp012" src="@/assets/721.svg" alt="Logo2">
-                <img class="tamamp012" src="@/assets/722.svg" alt="Logo2">
-                <img class="tamamp012" src="@/assets/723.svg" alt="Logo2">
-                <img class="tamamp012" src="@/assets/724.svg" alt="Logo2">
-                <img class="tamamp012" src="@/assets/725.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/721.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/722.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/723.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/724.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/725.svg" alt="Logo2">
 
                 
             </div>
             <div class="d-flex w-100 justify-content-center align-items-center">
-                <img class="tamamp012" src="@/assets/726.svg" alt="Logo2">
-                <img class="tamamp012" src="@/assets/727.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/726.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/727.svg" alt="Logo2">
                 <img class="tamamp0125" src="@/assets/728.svg" alt="Logo2">
                 <img class="tamamp0125" src="@/assets/729.svg" alt="Logo2">
-                <img class="tamamp012" src="@/assets/730.svg" alt="Logo2">
+                <img class="tamamp0125" src="@/assets/730.svg" alt="Logo2">
 
                 
             </div>
@@ -83,7 +83,7 @@
     }
    
     .tamamp0125 {
-            width: 30%;
+            width: 16%;
             height: auto;  
           }
     .tamamp02 {

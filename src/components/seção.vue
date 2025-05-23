@@ -1,18 +1,21 @@
 <template>
     <div class="container-fluid d-flex dip flex-column align-items-center justify-content-around height: auto">
-        <div class="d-flex six gradient-bg2 flex-column align-items-center   margi66 ">
+        <div  class="d-flex six gradient-bg2 flex-column align-items-center   margi66 ">
             <h2 class="text-light  yip2">Olá!</h2>
-            <p class=" yip89 text-light ">o que você gostaria de resolver em sua casa hoje?</p>
+            <p class=" yip89 text-light ">O que você gostaria de resolver em sua casa hoje?</p>
         </div>
-        <Colaps1></Colaps1>
-        <Colaps2></Colaps2>
-        <Colaps3></Colaps3>
-        <Colaps4></Colaps4>
-        <Colaps5></Colaps5>
-        <Colaps6></Colaps6>
-        <Colaps7></Colaps7>
-        <Colaps8></Colaps8>
-        <Colaps9></Colaps9>
+        <div id="sec" class="w-100 d-flex dip flex-column align-items-center justify-content-around">
+            <Colaps1></Colaps1>
+            <Colaps2></Colaps2>
+            <Colaps3></Colaps3>
+            <Colaps4></Colaps4>
+            <Colaps5></Colaps5>
+            <Colaps6></Colaps6>
+            <Colaps7></Colaps7>
+            <Colaps8></Colaps8>
+            <Colaps9></Colaps9>
+        </div>
+
         
     </div>
 </template>
@@ -42,9 +45,18 @@
     },
     data(){
         return{
-              
-        }
+             windowWidth: window.innerWidth,
+        };
     },
+    mounted() {
+            window.addEventListener('resize', this.handleResize);
+    },
+    methods: {
+        handleResize(){
+            this.windowWidth = window.innerWidth;
+        },
+    }
+    
 };
 
 </script>
@@ -90,10 +102,10 @@
     }
     @media (max-width: 460px) {
         .six {
-            width: 75%;
+            width: 95%;
         }
         .yip89{
-            font-size: 2.7vw;
+            font-size: 3.5vw;
             font-weight: 400;
             margin: none;
         }

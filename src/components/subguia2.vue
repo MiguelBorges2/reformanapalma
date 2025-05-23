@@ -1,11 +1,11 @@
 <template>
     <div  v-if="slider == 1" class="d-flex animate__animated animate__slideInLeft h-100 tamanho justify-content-between flex-column align-items-center">
-            <span class="w-80 flex-column d-flex align-items-center align-items-center">
+            <span class="w-80 flex-column mk3 d-flex align-items-center align-items-center">
                 <h1 class="fonte45 text-light"> Veja o antes e depois das Habitações   </h1>
-                <h1 class="fonte45 text-light">  Sociais com a ajuda do nosso Site   </h1>
+                <h1 class="fonte45 text-light"> Sociais com a ajuda do nosso Site   </h1>
             </span>
             <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
-                    <button class=" colo45  nolans round45">Veja agora</button>
+                    <button @click="movetoantes()" class=" colo45  nolans round45">Veja agora</button>
                     <div class=" size d-flex justify-content-between">
                         <div class="indi "></div>
                         <div class="indicator "></div>
@@ -15,12 +15,12 @@
             </div>
         </div>
         <div v-else-if="slider == -1" class="d-flex h-100 tamanho animate__animated animate__slideInRight justify-content-between flex-column align-items-center">
-            <span class="w-80 flex-column d-flex align-items-center align-items-center">
+            <span class="w-80 flex-column mk3 d-flex align-items-center align-items-center">
                 <h1 class="fonte45 text-light"> Veja o antes e depois das Habitações   </h1>
                 <h1 class="fonte45 text-light">  Sociais com a ajuda do nosso Site   </h1>
             </span>
             <div class=" d-flex w-100 margi6 justify-content-center flex-column align-items-center">
-                    <button class="  colo45 nolans round45">Veja agora</button>
+                    <button @click="movetoantes()" class="  colo45 nolans round45">Veja agora</button>
                     <div class=" size d-flex justify-content-between">
                         <div class="indi "></div>
                         <div class="indicator "></div>
@@ -44,13 +44,24 @@
             return{
                 
             };
-        }
+            
+        },
+        methods: {
+                movetoantes() {
+                    let a = document.getElementById('antes');
+                    if(a) {
+                        console.log("foc");
+                        a.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }  
+            }
     }
         
 </script>
 <style>
     .fonte45 {
         font-size: 4.5vw !important;
+        margin: 0;
         
     }
     .margi6 {    
@@ -90,7 +101,9 @@
             width: 25%;
             margin-left: 4%;
     }
-
+    .mk3 {
+        margin-top: 2%;
+    }
     @media (max-width: 768px) {
         .indicator {
             height: 0.2vw;
@@ -119,7 +132,7 @@
                 width: 15%;
             }
             .fonte45{
-                font-size: 5vw !important;
+                font-size: 4.5vw !important;
             }
             .margi6 {    
                 margin-top: 28%;
@@ -134,11 +147,14 @@
                 width: 35% !important;
             }
             .fonte45{
-                font-size: 5vw !important;
-                margin-top: 2% !important;
+                font-size: 4.8vw !important;
+        
             }
             .margi6 {    
                 margin-top: 21.6%;
+            }
+            .mk3 {
+                margin-top: 10%;
             }
         }
     

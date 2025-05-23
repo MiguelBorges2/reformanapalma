@@ -1,27 +1,43 @@
 <template>
-
-  <nav class="navbar quip2">
+  
+  <nav v-if="this.windowWidth >= 480" class="navbar quip2">
     <div class="d-flex justify-content-around align-items-center tants w-100">
-      <img @click="home()" class="ralao " src="@/assets/logo_Reforma_hznt_w.svg" alt="Logo"/>
+      <img @click="home()" class="ralao " src="@/assets/logoref.svg" alt="Logo"/>
       <ul class="caps d-flex justify-content-center align-items-center">
         <li @click="home()" class="nav-item pics">Início</li>
-        <li class="nav-item pics">Quem Somos</li>
-        <li class="nav-item pics">Conte Seu Problema</li>
+        <li @click="scrollToContato()" class="nav-item pics">Quem Somos</li>
+        <li @click="scrollToprob()" class="nav-item pics">Conte Seu Problema</li>
       </ul>
       <input class="serc" type="search" placeholder="Buscar..." aria-label="Search">
     </div>
 
   </nav>
+  <nav v-if="this.windowWidth < 480" class="navbar quip2">
+    <div class="d-flex justify-content-around align-items-center tants w-100">
+      <img @click="home()" class="ralao " src="@/assets/logoref.svg" alt="Logo"/>
+      <ul v-if="this.pesq === false" class="caps d-flex justify-content-center align-items-center">
+        <li @click="home()" class="nav-item pics">Início</li>
+        <li @click="scrollToContato()" class="nav-item pics">Quem Somos</li>
+        <li @click="scrollToprob()" class="nav-item pics">Conte Seu Problema</li>
+      </ul>
+      <input v-if="this.pesq === true" class="serc2" type="search" placeholder="Buscar..." aria-label="Search">
+      <img  @click="change()" class="ralao " src="@/assets/vec.svg" alt="Logo"/>
+    </div>
+
+  </nav>
+  
 
 </template>
 
   <script>
   import { useMainStore } from '../stores/mainStores';
+  import { nextTick } from 'vue';
   export default {
     name: 'Navbar',
     data() {
       return {
-        windowWidth: window.innerWidth, // Defina windowWidth aqui
+        windowWidth: window.innerWidth,
+        pesq: false,
       };
     },
     computed: {
@@ -44,6 +60,31 @@
       window.removeEventListener('resize', this.handleResize); // Remove listener no destroy
     },
     methods: {
+      change(){
+        this.pesq = !this.pesq;
+      },
+      
+
+    scrollToContato() {
+      this.home();
+      nextTick(() => {
+      const el = document.getElementById('quem');
+       if(el) {
+         el.scrollIntoView({ behavior: 'smooth' });
+      }
+      });
+    },
+    scrollToprob() {
+      this.home();
+      nextTick(() => {
+      const el = document.getElementById('prob');
+       if (el) {
+         el.scrollIntoView({ behavior: 'smooth' });
+      }
+      });
+    },
+
+    
       handleResize() {
         this.windowWidth = window.innerWidth; // Atualiza windowWidth
       },
@@ -65,7 +106,7 @@
       color: white;
       margin-right: 2%;
       margin-left: 4%;
-      font-size: 1.4vw;
+      font-size: 1.5vw;
     }
     .tants {
       align-items: center;
@@ -105,7 +146,7 @@
     }
     .ralao {
       height: auto;
-      width: 11%;
+      width: 5%;
       margin-left: 2%;
     }
     .aplicação2 {
@@ -128,6 +169,14 @@
       border: 2px solid #FFC676;
       ;
     }
+    .serc2 {
+      width: 60%;
+      border-radius: 20px;
+      background-color: rgb(71, 71, 68);
+      color: white;
+      border: 2px solid #FFC676;
+      ;
+    }
     @media (max-width: 768px) {
       .wid2 {
         height: 2.5vw;
@@ -139,11 +188,11 @@
         
       }
       .pics{
-        font-size: 1.9vw;
+        font-size: 2.2vw;
         margin-left: 2%;
       }
       .ralao {
-        width: 14%;
+        width: 8%;
         margin-left: 4%;
       }
       .serc{
@@ -167,7 +216,7 @@
         margin-left: 2%;
       }
       .ralao {
-        width: 12%;
+        width: 8%;
         margin-left: 4%;
       }
       .serc{
@@ -187,11 +236,11 @@
         
       }
       .pics{
-        font-size: 2.1vw;
-        margin-left: 2%;
+        font-size: 2.3vw;
+        margin-left: 1%;
       }
       .ralao {
-        width: 15%;
+        width: 7%;
         margin-left: 4%;
       }
       .serc{
@@ -210,12 +259,8 @@
         width: 55%;
         
       }
-      .pics{
-        font-size: 2.1vw;
-        margin-left: 1%;
-      }
       .ralao {
-        width: 15%;
+        width: 7%;
         margin-left: 4%;
       }
       .serc{

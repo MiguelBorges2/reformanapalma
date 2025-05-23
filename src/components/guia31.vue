@@ -25,7 +25,7 @@
     <sec252 v-if="controlador1[0] === 1"></sec252>
     <sec313 v-if="controlador1[0] === 2"></sec313>
     <sec254 v-if="controlador1[0] === 3"></sec254>
-    <sec255 v-if="controlador1[0] === 4"></sec255>
+    <sec315 v-if="controlador1[0] === 4"></sec315>
     <sec256 v-if="controlador1[0] === 5"></sec256>
     
     
@@ -38,7 +38,7 @@ import final25 from  './final25.vue';
 import sec252 from './sec252.vue';
 import sec313 from './sec313.vue';
 import sec254 from './sec254.vue';
-import sec255 from './sec255.vue';
+import sec315 from './sec315.vue';
 import sec256 from './sec256.vue'
 export default {
     name: 'guia31',
@@ -49,7 +49,7 @@ export default {
         sec252,
         sec313,
         sec254,
-        sec255,
+        sec315,
         sec256
     },
     data() {

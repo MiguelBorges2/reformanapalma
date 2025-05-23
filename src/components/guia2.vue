@@ -1,195 +1,19 @@
 <template>
-<div v-if="windowWidth > 460" class="w-100">
-    <div  class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
+
+<div class="w-100">
+    <div v-if="this.controlador[0] === 0"class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
         <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
             <
         </button>
-        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
+        <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
             <h1 class="hmp colo48 "> Conheça o reforma</h1>
             <div class="wid  pad margip3"></div>
             <span class="w-80 margaro">
-                <p class="hmp2 cril2">Nem sempre moradias são planejadas para se adaptarem às mudanças. Entretanto, a forma como mudamos e reformamos moradias pode ser um caminho para uma melhor qualidade de vida. E é por isso que o Reforma na Palma da Mão existe!</p>
-                <p class="hmp2 cril2">Este site está disponibilizando um conjunto de dicas, orientações e soluções, que nossa equipe de profissionais organizou com muito cuidado, para que informações sobre reformas estejam na palma da mão! Moradores, arquitetos e urbanistas e/ou prestadores de serviços estão todos convidados a utilizar essas informações em suas reformas</p>
-            </span>
-            <div class=" setune d-flex flex-column justify-content-center align-items-center ">
-                <p class="hmp3 cril2">E fique atento sempre que este botão aparacer</p>
-                <button class="hmp3 tip colo4 nolans p-1 pad2 marko25 "> Ache um arquiteto </button>
-                <p  class="hmp3 cril2 text-align"> Significa que é OBRIGATÓRIO buscar a ajuda de um profissional.  </p>
-                <p  class="hmp3 cril2 text-align"> Ao clicar no botão, você será redirecionado para o portal do CAU para encotrar um arquiteto</p>
-               
-            
-            </div>
-            <div class=" size d-flex justify-content-between">
-                    <div class="indicator "></div>
-                    <div class="indi34 "></div>
-                    <div class="indi34 "></div>
-                    <div class="indi34 "></div>
-                </div>
-
-        </div>
-        
-       
-        
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
-            >
-        </button>
-    </div>
-    <div class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round ">
-            <
-        </button>
-        <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
-            <h1 class="hmp text-light"> Antes e Depois</h1>
-            <div class="wid  pad margip3"></div>
-            <div class="w-100 d-flex ">
-                <span class="hlk margaro">
-                    <p class="hmp2 text-light">Ana Silva, auxiliar administrativa de 35 anos do Bairro Shopping Park em Uberlândia, buscava ampliar sua cozinha pequena para melhor atender sua família. No site "Reforma na Palma da Mão", encontrou informações no tópico "Aumentar minha casa" que oferecem orientações específicas para melhorar espaços pequenos. Com a orientação técnica recomendada pelo site, Ana transformou sua cozinha em um ambiente mais prático e funcional. "As informações do site foram essenciais para realizar meu desejo. Agora, nossa casa é ainda mais acolhedora. O site é nota 1000! ", afirma Ana.</p>
-                    
-                
-                </span>
-                <div class="quid2 d-flex">
-                    <span class="w-40 d-flex flex-column justify-content-center align-items-center">
-                        <img class="tamamp00" src="@/assets/image3.svg" alt="Logo2">
-                        <p class="fonfonfon">Antes</p>
-                    </span>
-                    <span class="w-60 d-flex flex-column justify-content-center align-items-center">
-                        <img class="tamamp2" src="@/assets/image2.svg" alt="Logo2">
-                        <p class="fonfonfon">Depois</p>
-                    </span>
-                </div>
-            </div>
-            <div class=" size d-flex justify-content-between">
-                    <div class="indicator "></div>
-                    <div class="indi "></div>
-                    <div class="indi"></div>
-                    <div class="indi "></div>
-                </div>
-
-        </div>
-        
-       
-        
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
-            >
-        </button>
-    </div> 
-    <div class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
-            <
-        </button>
-        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
-            <h1 class="hmp colo48"> Problemas da Autoconstrução</h1>
-            <div class="wid  pad margip3"></div>
-            <span class="w-80 margaro">
-                <p class="hmp2 cril2">A autoconstrução ocorre quando moradores constroem ou reformam suas casas sem o auxílio de profissionais especializados. Essa prática pode resultar em falta de segurança, uso inadequado de materiais e projetos mal planejados.  É um equívoco pensar que arquitetos, engenheiros e designers de interiores são serviços apenas para pessoas ricas. No entanto, a Lei ATHIS (Assistência Técnica para Habitação de Interesse Social) garante assistência técnica gratuita para moradores de baixa renda, assegurando que suas construções sejam seguras, funcionais e esteticamente agradáveis.  
-                    O CAU/BR (Conselho de Arquitetura e Urbanismo do Brasil) fornece uma lista de profissionais qualificados que podem ajudar você na sua reforma ou construção. Clique nos botões abaixo para baixar artigos do grupo de pesquisa MORA acerca das problemáticas da autoconstrução e acessar a lista de recomendação de arquitetos do CAU/BR:</p>
-                
-            </span>
-            <div class="setune3 d-flex flex-column justify-content-around align-items-center">
-                <p class="hmp3 mt-3 cril2">Clique para acesso aos conteúdos sobre a temática e  à lista de arquitetos recomendados pelo</p>
-                <p class="hmp3 cril2">Conselho de Arquitetura e Urbanismo (CAU/BR)</p>
-                <div class="d-flex w-100 align-items-center justify-content-center">
-                    <button @click="toggleOverlay2()" class=" hmp3 tip  colo4  mako2 margip6 p-1">  Conteúdos </button>
-                    <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
-                        <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
-                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round23 ">
-                                <
-                            </button>
-                            <div v-if="this.controler2 === 1" class="d-flex flex-column align-items-center justify-content-around form2">
-                                <p class="text-light margo">Responda o formulário abaixo para baixar a cartilha desejada</p>
-                                <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
-                                <input class="margo2" type="text" id="username" name="username" placeholder="Em qual perfil você se enquadra...">
-                                <input class="margo2" type="text" id="username" name="username" placeholder="Email ou WhatsApp...">
-                                <div class="d-flex w-50 justify-content-center align-items-center ">
-                                    <div class=" calca "></div>
-                                    <div class=" calca2 "></div>
-                                </div>
-                            </div>
-                        
-                        <div v-if="this.controler2 === 2" class="d-flex flex-column align-items-center justify-content-between form2">
-                            <div class="w-100 d-flex flex-column align-items-center justify-content-around ">
-                                <p class="text-light margo34">Pronto! Agora você já pode baixar as cartilhas  com as orientações</p>
-                                <p class="text-light margo43">técnicas de acordo com suas necessidades</p>
-                            </div>
-                            <button class="mocombo"> Baixe a cartilha do arquiteto</button>
-                            <div class="d-flex w-50 justify-content-center align-items-center ">
-                                <div class=" calca2 "></div>
-                                <div class=" calca "></div>
-                            </div>
-
-                        
-                        </div>
-
-                   
-                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round23 ">
-                                >
-                        </button>
-                    </div>
-                </div>
-                    <button class=" hmp3 tip  colo4 mako2 margip6 p-1 "> Ache um arquiteto</button>
-                </div>
-                
-                
-            </div>
-            <div class=" size d-flex justify-content-between">
-                    <div class="indicator "></div>
-                    <div class="indi34 "></div>
-                    <div class="indi34 "></div>
-                    <div class="indi34 "></div>
-                </div>
-
-        </div>
-        
-       
-        
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
-            >
-        </button>
-    </div> 
-    <div class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round">
-            <
-        </button>
-        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
-            <h1 class="hmp text-light"> Antes e Depois</h1>
-            <div class="wid  pad margip3"></div>
-            <span class="w-80 margaro">
-                <p class="hmp2 text-light"> [MORA] Pesquisa em Habitação é um espaço físico e virtual dedicado a diversas discussões sobre o habitar, formado em junho de 2009 pela Faculdade de Arquitetura, Urbanismo e Design (FAUeD) da Universidade Federal de Uberlândia. O grupo é composto por alunos e professores de graduação e pós-graduação dos cursos de Arquitetura e Urbanismo, Design, Geografia e Ciência da Computação, e faz parte do NUPPA (Núcleo de Pesquisa em Projeto de Arquitetura) da FAUeD/UFU. O objetivo do [MORA] é ser um espaço aberto à crítica e à reflexão, em busca de uma maior integração entre o meio acadêmico e a prática por meio de ações que contribuam efetivamente para a melhoria da qualidade da habitação. As pesquisas realizadas incluem diferentes abordagens, como inovações tecnológicas, sustentabilidade, qualidade espacial e avaliação pós-ocupação. O [MORA] conta com mais de 40 pesquisadores atuantes e desenvolve projetos interdisciplinares de pesquisa e extensão focados no tema da habitação, financiados por órgãos nacionais e internacionais.</p>
-            </span>
-            <div class="d-flex w-100 justify-content-center align-items-center">
-                <img class="tamamp29" src="@/assets/d31e3010-2030-427d-958e-36674aca7fd4 1.svg" alt="Logo2">
-                
-            </div>
-            <div class=" size d-flex justify-content-center">
-                    <div class="indicator acabalogo "></div>
-                    <div class="indi "></div>
-            
-                </div>
-
-        </div>
-        
-       
-        
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
-            >
-        </button>
-    </div> 
-</div>
-<div v-if="windowWidth <= 460" class="w-100">
-    <div  class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
-            <
-        </button>
-        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
-            <h1 class="hmp colo48 "> Conheça o reforma</h1>
-            <div class="wid  pad margip3"></div>
-            <span class="w-80 margaro">
-                <p class="hmp22 text-align cril2">Nem sempre moradias são planejadas para se adaptarem às mudanças. Entretanto, a forma como mudamos e reformamos moradias pode ser um caminho para uma melhor qualidade de vida. E é por isso que o Reforma na Palma da Mão existe!</p>
-                <p class="hmp22 text-align cril2">Este site está disponibilizando um conjunto de dicas, orientações e soluções, que nossa equipe de profissionais organizou com muito cuidado, para que informações sobre reformas estejam na palma da mão! Moradores, arquitetos e urbanistas e/ou prestadores de serviços estão todos convidados a utilizar essas informações em suas reformas</p>
+                <p class="hmp22 text-align cril2">O Reforma na Palma da Mão disponibiliza dicas para facilitar reformas de moradias. O conteúdo, organizado por especialistas, melhora a qualidade de vida. Moradores, arquitetos e prestadores de serviços podem acessar informações práticas e acessíveis.</p>
             </span>
             <div class=" setune d-flex flex-column justify-content-center align-items-center ">
                 <p class="hmp33 cril2">E fique atento sempre que este botão aparacer</p>
-                <button class="hmp33 tip colo4 nolans p-1 pad2 marko25 "> Ache um arquiteto </button>
+                <button class="tip colo4 nolans lalula p-1 pad2 marko25 "> Ache um Arquiteto </button>
                 <p  class="hmp33 cril2 text-align"> Significa que é OBRIGATÓRIO buscar a ajuda de um profissional.  </p>
                 <p  class="hmp33 cril2 text-align"> Ao clicar no botão, você será redirecionado para o portal do CAU</p>
                
@@ -204,35 +28,119 @@
 
         </div>
         
+        
        
         
         <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
             >
         </button>
     </div>
-    <div class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+    <div v-if="this.controlador[0] === 1"class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow text-light btn-round edit">
+            <
+        </button>
+        <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
+            <h1 class="hmp colo48 text-light"> Como Funciona o Reforma</h1>
+            <div class="wid  pad margip3"></div>
+            <span class="w-80 margaro">
+                <p class="hmp22 text-align cril2 text-light">O Reforma na Palma da Mão disponibiliza dicas para facilitar reformas de moradias. O conteúdo, organizado por especialistas, melhora a qualidade de vida. Moradores, arquitetos e prestadores de serviços podem acessar informações práticas e acessíveis.</p>
+            </span>
+            <div class="d-flex w-100 justify-content-center align-items-center">
+                <img class="tami2" src="@/assets/trem.svg" alt="Logo2">
+            </div>
+            <div class=" size d-flex justify-content-between">
+                    <div class="indi "></div>
+                    <div class="indicator "></div>
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                </div>
+
+        </div>
+        
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow text-light btn-round edit">
+            >
+        </button>
+    </div>
+    <div v-if="this.controlador[0] === 2"class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
+            <
+        </button>
+        <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
+            <h1 class="hmp colo48 "> Como Funciona o Reforma</h1>
+            <div class="wid  pad margip3"></div>
+            <span class="w-80 margaro">
+                <p class="hmp22 text-align cril2">Além dos tópicos sobre problemas e necessidades das habitações, nosso site também oferece conteúdos extras na página inicial. Eles podem ser acessados rolando a página ou clicando nos botões dos banners principais acima dos tópicos. Você também pode acess-a-los clicando nos botões abaixo:</p>
+            </span>
+            <img class="tami2" src="@/assets/trem2.svg" alt="Logo2">
+            <div class=" size d-flex justify-content-between">
+                    <div class="indi34 "></div>
+                    <div class="indi34 "></div>
+                    <div class="indicator "></div>
+                    <div class="indi34 "></div>
+                </div>
+
+        </div>
+        
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
+            >
+        </button>
+    </div>
+    <div v-if="this.controlador[0] === 3"class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow text-light btn-round edit">
+            <
+        </button>
+        <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
+            <h1 class="hmp colo48 text-light">Evolução do Reforma</h1>
+            <div class="wid  pad margip3"></div>
+            <span class="w-80 margaro">
+                <p class="hmp22 text-align cril2 text-light">O Reforma na Palma da Mão disponibiliza dicas para facilitar reformas de moradias. O conteúdo, organizado por especialistas, melhora a qualidade de vida. Moradores, arquitetos e prestadores de serviços podem acessar informações práticas e acessíveis.</p>
+            </span>
+            <div class="d-flex w-100 justify-content-center align-items-center">
+                <img class="tami2" src="@/assets/trem.svg" alt="Logo2">
+            </div>
+            <div class=" size d-flex justify-content-between">
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                    <div class="indicator "></div>
+                </div>
+
+        </div>
+        
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow text-light btn-round edit">
+            >
+        </button>
+    </div>
+    <div id="antes">
+        <div v-if="this.controlador[0] === 0" class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
         <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round ">
             <
         </button>
         <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
-            <h1 class="hmp text-light"> Antes e Depois</h1>
+            <h1 class="hmp text-light"> Propostas de Reforma</h1>
             <div class="wid  pad margip3"></div>
+            <div class="wiwi d-flex justify-content-center">
+                    <img class="tami" src="@/assets/image3.svg" alt="Logo2">
+                    <img class="tami" src="@/assets/image2.svg" alt="Logo2">
+                        
+    
+                </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <span class="w-100 margaro">
-                    <p class="hmp22 text-light text-align">Ana Silva, auxiliar administrativa de 35 anos do Bairro Shopping Park em Uberlândia, buscava ampliar sua cozinha pequena para melhor atender sua família. No site "Reforma na Palma da Mão", encontrou informações no tópico "Aumentar minha casa" que oferecem orientações específicas para melhorar espaços pequenos. Com a orientação técnica recomendada pelo site, Ana transformou sua cozinha em um ambiente mais prático e funcional. "As informações do site foram essenciais para realizar meu desejo. Agora, nossa casa é ainda mais acolhedora. O site é nota 1000! ", afirma Ana.</p>
+                    <p class="hmp22 text-light text-align">Ana Silva usou o tópico "Aumentar minha casa" do site "Reforma na Palma da Mão" na oficina de coprodução. Com maquetes 3D e planejamento detalhado, planejou sua cozinha em um espaço mais funcional para sua família.</p>
                     
                 
                 </span>
-                <div class="wiwi d-flex">
-                    <span class="w-10 d-flex flex-column justify-content-center align-items-center">
-                        <img class="tamamp00" src="@/assets/image3.svg" alt="Logo2">
-                        <p class="fonfonfon">Antes</p>
-                    </span>
-                    <span class="w-10 d-flex flex-column justify-content-center align-items-center">
-                        <img class="tamamp2" src="@/assets/image2.svg" alt="Logo2">
-                        <p class="fonfonfon">Depois</p>
-                    </span>
-                </div>
+                
             </div>
             <div class=" size d-flex justify-content-between">
                     <div class="indicator "></div>
@@ -249,7 +157,118 @@
             >
         </button>
     </div> 
-    <div class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
+    <div v-if="this.controlador[0] === 1" class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 ">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
+            <h1 class="hmp"> Propostas de Reforma</h1>
+            <div class="wid  pad margip3"></div>
+            <div class="wiwi d-flex justify-content-center">
+                    <img class="tami" src="@/assets/image3.svg" alt="Logo2">
+                    <img class="tami" src="@/assets/image2.svg" alt="Logo2">
+                        
+    
+                </div>
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+                <span class="w-100 margaro">
+                    <p class="hmp22 text-align">Ana Silva usou o tópico "Aumentar minha casa" do site "Reforma na Palma da Mão" na oficina de coprodução. Com maquetes 3D e planejamento detalhado, planejou sua cozinha em um espaço mais funcional para sua família.</p>
+                    
+                
+                </span>
+                
+            </div>
+            <div class=" size d-flex justify-content-between">
+                    <div class="indi34 "></div>
+                    <div class="indicator "></div>
+                    <div class="indi34 "></div>
+                    <div class="indi34 "></div>
+                </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 ">
+            >
+        </button>
+    </div> 
+    <div v-if="this.controlador[0] === 2" class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round ">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
+            <h1 class="hmp text-light"> Propostas de Reforma</h1>
+            <div class="wid  pad margip3"></div>
+            <div class="wiwi d-flex justify-content-center">
+                    <img class="tami" src="@/assets/image3.svg" alt="Logo2">
+                    <img class="tami" src="@/assets/image2.svg" alt="Logo2">
+                        
+    
+                </div>
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+                <span class="w-100 margaro">
+                    <p class="hmp22 text-light text-align">Ana Silva usou o tópico "Aumentar minha casa" do site "Reforma na Palma da Mão" na oficina de coprodução. Com maquetes 3D e planejamento detalhado, planejou sua cozinha em um espaço mais funcional para sua família.</p>
+                    
+                
+                </span>
+                
+            </div>
+            <div class=" size d-flex justify-content-between">
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                    <div class="indicator"></div>
+                    <div class="indi "></div>
+                </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
+            >
+        </button>
+    </div> 
+    <div v-if="this.controlador[0] === 3" class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 ">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
+            <h1 class="hmp"> Propostas de Reforma</h1>
+            <div class="wid  pad margip3"></div>
+            <div class="wiwi d-flex justify-content-center">
+                    <img class="tami" src="@/assets/image3.svg" alt="Logo2">
+                    <img class="tami" src="@/assets/image2.svg" alt="Logo2">
+                        
+    
+                </div>
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+                <span class="w-100 margaro">
+                    <p class="hmp22 text-align">Ana Silva usou o tópico "Aumentar minha casa" do site "Reforma na Palma da Mão" na oficina de coprodução. Com maquetes 3D e planejamento detalhado, planejou sua cozinha em um espaço mais funcional para sua família.</p>
+                    
+                
+                </span>
+                
+            </div>
+            <div class=" size d-flex justify-content-between">
+                    <div class="indi34 "></div>
+                    <div class="indi34 "></div>
+                    <div class="indi34 "></div>
+                    <div class="indicator "></div>
+                </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 ">
+            >
+        </button>
+    </div> 
+</div>
+    
+<div id="prob">
+    <div v-if="this.controlador[0] === 0" class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
         <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
             <
         </button>
@@ -257,15 +276,86 @@
             <h1 class="hmp colo48"> Problemas da Autoconstrução</h1>
             <div class="wid  pad margip3"></div>
             <span class="w-80 margaro">
-                <p class="hmp22 text-align  cril2">A autoconstrução ocorre quando moradores constroem ou reformam suas casas sem o auxílio de profissionais especializados. Essa prática pode resultar em falta de segurança, uso inadequado de materiais e projetos mal planejados.  É um equívoco pensar que arquitetos, engenheiros e designers de interiores são serviços apenas para pessoas ricas. No entanto, a Lei ATHIS (Assistência Técnica para Habitação de Interesse Social) garante assistência técnica gratuita para moradores de baixa renda, assegurando que suas construções sejam seguras, funcionais e esteticamente agradáveis.  
-                    O CAU/BR (Conselho de Arquitetura e Urbanismo do Brasil) fornece uma lista de profissionais qualificados que podem ajudar você na sua reforma ou construção. Clique nos botões abaixo para baixar artigos do grupo de pesquisa MORA acerca das problemáticas da autoconstrução e acessar a lista de recomendação de arquitetos do CAU/BR:</p>
+                <p class="hmp22 text-align  cril2">A autoconstrução, feita sem profissionais, pode ser arriscada e resultar em projetos inadequados. O CAU/BR oferece uma lista de profissionais qualificados. Para mais informações, acesse os artigos do MORA e a lista do CAU/BR.</p>
                 
             </span>
             <div class="setune3 d-flex flex-column justify-content-around align-items-center">
                 <p class="hmp33 mt-3 cril2">Clique para acesso à lista de arquitetos recomendados pelo</p>
                 <p class="hmp33 cril2">Conselho de Arquitetura e Urbanismo (CAU/BR)</p>
                 <div class="d-flex w-100 align-items-center justify-content-center">
-                    <button @click="toggleOverlay2()" class=" hmp33 tip  colo4  mako2 margip6 p-1">  Conteúdos </button>
+                    <button @click="toggleOverlay2()" class=" tip  lalula colo4  mako2  p-1">  Conteúdos </button>
+                    <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
+                        <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
+                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round23 ">
+                                <
+                            </button>
+                            <div v-if="this.controler2 === 1" class="d-flex flex-column align-items-center justify-content-around form2">
+                                <p class="text-light margo">Responda o formulário abaixo para baixar a cartilha desejada</p>
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Em qual perfil você se enquadra...">
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Email ou WhatsApp...">
+                                <div class="d-flex w-50 justify-content-center align-items-center ">
+                                    <div class=" calca "></div>
+                                    <div class=" calca2 "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div v-if="this.controler2 === 2" class="d-flex flex-column align-items-center justify-content-between form2">
+                            <div class="w-100 d-flex flex-column align-items-center justify-content-around ">
+                                <p class="text-light margo34">Pronto! Agora você já pode baixar as cartilhas  com as orientações</p>
+                                <p class="text-light margo43">técnicas de acordo com suas necessidades</p>
+                            </div>
+                            <button class="mocombo"> Baixe a cartilha do arquiteto</button>
+                            <div class="d-flex w-50 justify-content-center align-items-center ">
+                                <div class=" calca2 "></div>
+                                <div class=" calca "></div>
+                            </div>
+
+                        
+                        </div>
+
+                   
+                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round23 ">
+                                >
+                        </button>
+                    </div>
+                 
+            
+                    <button class="  tip  lalula colo4 mako2  p-1 "> Ache um Arquiteto</button>
+                </div>
+                
+                
+            </div>
+            <div class=" size d-flex justify-content-between">
+                    <div class="indicator "></div>
+                    <div class="indi34 "></div>
+                    <div class="indi34 "></div>
+                    <div class="indi34 "></div>
+            </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
+            >
+        </button>
+    </div>
+    <div v-if="this.controlador[0] === 1" class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow text-light btn-round edit">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
+            <h1 class="hmp colo48 text-light"> O que é ATHIS?</h1>
+            <div class="wid  pad margip3"></div>
+            <span class="w-80 margaro">
+                <p class="hmp22 text-align  text-light cril2">A ATHIS (Assistência Técnica para Habitação de Interesse Social), Lei 11.888/2008, oferece assistência técnica gratuita para melhoria de moradias de baixa renda realizados por profissionais. Moradores elegíveis podem procurar prefeituras para acessar esses serviços.</p>
+                
+            </span>
+            <div class="setune3 d-flex flex-column justify-content-around align-items-center">
+                <p class="hmp33 mt-3 text-light cril2">Clique no botão abaixo e saiba sobre o ATHIS</p>
+                <div class="d-flex w-100 align-items-center justify-content-center">
+                    <button @click="toggleOverlay2()" class=" tip  lalula colo4  mako2  p-1">  Saiba mais </button>
                     <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
                         <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
                             <button @click="subcont"  class="btn-hover-yellow2  border btn-round23 ">
@@ -297,20 +387,92 @@
                         </div>
 
                    
-                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round23 ">
+                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round ">
                                 >
                         </button>
                     </div>
                 </div>
-                    <button class=" hmp33 tip  colo4 mako2 margip6 p-1 "> Ache um arquiteto</button>
+
                 </div>
                 
                 
             </div>
             <div class=" size d-flex justify-content-between">
+                    <div class="indi "></div>
                     <div class="indicator "></div>
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round text-light edit">
+            >
+        </button>
+    </div>
+
+    <div v-if="this.controlador[0] === 2" class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round23 edit">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
+            <h1 class="hmp colo48"> Saiba mais sobre o ATHIS</h1>
+            <div class="wid  pad margip3"></div>
+            <span class="w-80 margaro">
+                <p class="hmp22 text-align  cril2">A ATHIS (Assistência Técnica para Habitação de Interesse Social), Lei 11.888/2008, oferece assistência técnica gratuita para melhoria de moradias de baixa renda realizados por profissionais. Moradores elegíveis podem procurar prefeituras para acessar esses serviços.</p>
+                
+            </span>
+            <div class="setune3 d-flex flex-column justify-content-around align-items-center">
+                <p class="hmp33 mt-3 cril2">Clique no botão abaixo e saiba sobre o ATHIS</p>
+                <div class="d-flex w-100 align-items-center justify-content-center">
+                    <button @click="toggleOverlay2()" class=" tip  lalula colo4  mako2  p-1">  Saiba mais </button>
+                    <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
+                        <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
+                            <button @click="subcont"  class="btn-hover-yellow2  border btn-round23 ">
+                                <
+                            </button>
+                            <div v-if="this.controler2 === 1" class="d-flex flex-column align-items-center justify-content-around form2">
+                                <p class="text-light margo">Responda o formulário abaixo para baixar a cartilha desejada</p>
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Em qual perfil você se enquadra...">
+                                <input class="margo2" type="text" id="username" name="username" placeholder="Email ou WhatsApp...">
+                                <div class="d-flex w-50 justify-content-center align-items-center ">
+                                    <div class=" calca "></div>
+                                    <div class=" calca2 "></div>
+                                </div>
+                            </div>
+                        
+                        <div v-if="this.controler2 === 2" class="d-flex flex-column align-items-center justify-content-between form2">
+                            <div class="w-100 d-flex flex-column align-items-center justify-content-around ">
+                                <p class="text-light margo34">Pronto! Agora você já pode baixar as cartilhas  com as orientações</p>
+                                <p class="text-light margo43">técnicas de acordo com suas necessidades</p>
+                            </div>
+                            <button class="mocombo"> Baixe a cartilha do arquiteto</button>
+                            <div class="d-flex w-50 justify-content-center align-items-center ">
+                                <div class=" calca2 "></div>
+                                <div class=" calca "></div>
+                            </div>
+
+                        
+                        </div>
+
+                   
+                        <button @click="addcont"  class="btn-hover-yellow2  border btn-round ">
+                                >
+                        </button>
+                    </div>
+                </div>
+
+                </div>
+                
+                
+            </div>
+            <div class=" size d-flex justify-content-between">
                     <div class="indi34 "></div>
                     <div class="indi34 "></div>
+                    <div class="indicator "></div>
                     <div class="indi34 "></div>
                 </div>
 
@@ -318,27 +480,69 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23 edit">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round23  edit">
+            >
+        </button>
+    </div>
+    <div v-if="this.controlador[0] === 3" class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round ">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
+            <h1 class="hmp text-light"> O que é HIS?</h1>
+            <div class="wid  pad margip3"></div>
+            <div class="wiwi d-flex justify-content-center">
+                    <img class="tami" src="@/assets/image3.svg" alt="Logo2">
+                    <img class="tami" src="@/assets/image2.svg" alt="Logo2">
+                        
+    
+                </div>
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+                <span class="w-100 margaro">
+                    <p class="hmp22 text-light text-align">A Habitação de Interesse Social (HIS) é uma moradia acessível destinada a famílias de baixa renda, promovida por políticas públicas para garantir habitação digna. O site fornece orientações baseadas em pesquisas de habitações sociais térreas de Uberlândia.</p>
+                    
+                
+                </span>
+                
+            </div>
+            <div class=" size d-flex justify-content-between">
+                    <div class="indi "></div>
+                    <div class="indi "></div>
+                    <div class="indi"></div>
+                    <div class="indicator "></div>
+                </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
             >
         </button>
     </div> 
-    <div class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+  
+</div>
+
+
+    <div id="quem">
+        <div v-if="this.controlador[0] === 0" class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
         <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
-            <h1 class="hmp text-light"> Antes e Depois</h1>
+            <h1  class="hmp text-light"> Quem Somos</h1>
             <div class="wid  pad margip3"></div>
             <span class="w-90 margaro">
-                <p class="hmp22 text-align text-light"> [MORA] Pesquisa em Habitação é um espaço físico e virtual dedicado a diversas discussões sobre o habitar, formado em junho de 2009 pela Faculdade de Arquitetura, Urbanismo e Design (FAUeD) da Universidade Federal de Uberlândia. O grupo é composto por alunos e professores de graduação e pós-graduação dos cursos de Arquitetura e Urbanismo, Design, Geografia e Ciência da Computação, e faz parte do NUPPA (Núcleo de Pesquisa em Projeto de Arquitetura) da FAUeD/UFU. O objetivo do [MORA] é ser um espaço aberto à crítica e à reflexão, em busca de uma maior integração entre o meio acadêmico e a prática por meio de ações que contribuam efetivamente para a melhoria da qualidade da habitação. As pesquisas realizadas incluem diferentes abordagens, como inovações tecnológicas, sustentabilidade, qualidade espacial e avaliação pós-ocupação. O [MORA] conta com mais de 40 pesquisadores atuantes e desenvolve projetos interdisciplinares de pesquisa e extensão focados no tema da habitação, financiados por órgãos nacionais e internacionais.</p>
+                <p class="hmp22 text-align text-light">O [MORA] Pesquisa em Habitação é um grupo de pesquisa da UFU dedicado à melhoria da habitação. Integra academia e prática, com foco em tecnologia e sustentabilidade. Desenvolve projetos interdisciplinares com financiamento nacional e internacional.</p>
             </span>
             <div class="d-flex w-100 justify-content-center align-items-center">
-                <img class="tamamp29" src="@/assets/d31e3010-2030-427d-958e-36674aca7fd4 1.svg" alt="Logo2">
+                <img class="tami" src="@/assets/d31e3010-2030-427d-958e-36674aca7fd4 1.svg" alt="Logo2">
                 
             </div>
             <div class=" size d-flex justify-content-center">
                     <div class="indicator acabalogo "></div>
-                    <div class="indi "></div>
+                    <div class="indi acabalogo "></div>
+                    <div class="indi acabalogo"></div>
             
                 </div>
 
@@ -350,7 +554,78 @@
             >
         </button>
     </div> 
-</div>
+    <div v-if="this.controlador[0] === 1" class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-dark">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
+            <h1 class="hmp text-light"> Em mémoria de Lamoise  </h1>
+            <div class="wid  pad margip3"></div>
+            <span class="w-90 margaro">
+                <p class="hmp22 text-align text-light">Lamonise Vasconcelos Oliveira foi essencial para a criação deste site, dedicando-se à habitação social e resiliência. Integrou projetos que melhoraram moradias e impactaram profissionais e moradores. Seu legado acadêmico e social será sempre lembrado.</p>
+            </span>
+            <div class="d-flex w-100 justify-content-center align-items-center">
+                <img class="tami" src="@/assets/d31e3010-2030-427d-958e-36674aca7fd4 1.svg" alt="Logo2">
+                
+            </div>
+            <div class=" size d-flex justify-content-center">
+                    <div class="indi acabalogo "></div>
+                    <div class="indicator acabalogo "></div>
+                    <div class="indi acabalogo"></div>
+            
+                </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
+            >
+        </button>
+    </div> 
+    <div v-if="this.controlador[0] === 2 || this.controlador[0] === 3" class="w-100 d-flex justify-content-around  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  btn-round">
+            <
+        </button>
+        <div class="d-flex flex-column justify-content-center align-items-center tamanho">
+            <h1 class="hmp text-light"> Contatos</h1>
+            <div class="wid  pad margip3"></div>
+            <div class="w-100">
+                <img class="tami9 marc2" src="@/assets/goog.svg" alt="Logo2">
+                <p class="text-light op">Simone Barbosa Villa (coordenadora) - simonevilla@ufu.br</p>
+                <p class="text-light marc2 op">Email: morafauedufu@gmail.com</p>
+                <div class="d-flex  marc2">
+                    <img class="tami9" src="@/assets/goog.svg" alt="Logo2">
+                    <img class="tami9" src="@/assets/goog.svg" alt="Logo2">
+                    <img class="tami9" src="@/assets/goog.svg" alt="Logo2">
+                </div>
+                <p class="text-light op">Instagram: @moraufu</p>
+                <p class="text-light op">Facebook: facebook.com/mora.habitacao</p>
+                <p class="text-light marc2 op">LinkedIn: /moraufu</p>
+                <img class="tami9 marc2" src="@/assets/goog.svg" alt="Logo2">
+                <p class="text-light op">Faculdade de Arquitetura e Urbanismo e Design (FAUeD/UFU), Núcleo de Pesquisa em Projeto de Arquitetura (NUPPA), [MORA] Pesquisa em Habitação</p>
+                <p class="text-light op">Av. João Naves de Ávila, 2121 – Bairro Santa Mônica</p>
+                <p class="text-light op">Uberlândia – MG – CEP 38400-902</p>
+                
+            </div>
+            <div class=" size d-flex justify-content-center">
+                    <div class="indi acabalogo"></div>
+                    <div class="indi acabalogo"></div>
+                    <div class="indicator acabalogo"></div>
+            
+                </div>
+
+        </div>
+        
+       
+        
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  btn-round ">
+            >
+        </button>
+        </div>  
+    </div>
+ </div>
+
 </template>
 
 <script>        
@@ -394,7 +669,11 @@ export default {
         ShiftLeft() {
             if (this.controlador[0] > 0) {
                 this.controlador = [this.controlador[0] - 1, -1]; // Muda o índice e define a direção como -1 (esquerda)
+                if (this.controlador[0] == 0){
+                    this.controlador[1] = 0;
+                }
             }
+            
         },
         handleResize() {
       // Atualiza a largura da janela sempre que o tamanho mudar
@@ -436,8 +715,30 @@ html, body {
         color: #4A4A48;
         font-weight: 500 !important;
    }
+.op {
+    font-size: 2.6vw;
+    margin: 0;
+}
 .nolans {
     border: none;
+}
+.tami {
+    width: 30%;
+    height: auto;
+    margin: 5%;
+}
+.tami9 {
+    width: 5%;
+    height: auto;
+    margin-right: 2%;
+}
+.marc2 {
+    margin-bottom: 5%;
+}
+.tami2 {
+    width: 50%;
+    height: auto;
+    margin: 5%;
 }
 .hlk{
     width: 65%;
@@ -465,14 +766,8 @@ html, body {
     color: #4A4A48;
     font-weight: 600 !important;
 }
-.tamamp00 {
-
-    width: 120% !important;
-    height: auto;
-    margin-right: 3% !important;
-}
 .hmp33 {
-    font-size: 2.7vw;
+    font-size: 2.1vw;
     margin: 0;
 }
 .tamamp2 {
@@ -496,7 +791,7 @@ height: auto;
     margin: 0;
 }
 .hmp22 {
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: 10;
     margin: 0;
 
@@ -516,6 +811,11 @@ height: auto;
     background: linear-gradient(to top, #749695, #394A55);
 }
 
+.lalula{
+    width: 30%;
+    margin: 5%;
+    font-size: 2.5vw;
+}
 .btn-round23 {  
   height: 3vw;
   width: 3%;      
@@ -560,32 +860,13 @@ height: auto;
     
 }
 
-@media (max-width: 768px) {
-    .btn-round23 {
-        width: 4%; 
-        height: 4vw;   
-    }
-    .setune {
-        padding: 1%;
-    }
-    .hmp3 {
-        font-size: 1.48vw;
-    }
-    .hmp2 {
-        font-size: 1.9vw ;
-    }
-    .setune3{
-        width: 97%;
-    }
 
-    
-}
-@media (max-width: 600px) {
-    .hmp3 {
-        font-size: 1.9vw;
+@media (max-width: 768px) {
+    .hmp33 {
+        font-size: 2.7vw;
     }
-    .hmp2 {
-        font-size: 2.35vw ;
+    .hmp22 {
+        font-size: 3.3vw ;
     }
     .setune3{
         width: 97%;
@@ -603,6 +884,21 @@ height: auto;
         width: 5%; 
         height: 5vw ;   
     }
+    .tami {
+    width: 50%;
+    height: auto;
+    margin: 5%;
+}
+.tami2 {
+    width: 70%;
+    height: auto;
+    margin: 5%;
+}
+.lalula{
+    width: 45%;
+    margin: 5%;
+    font-size: 3.4vw;
+}
     
 }
 

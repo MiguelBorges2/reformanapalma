@@ -5,20 +5,20 @@
                     <span class="yip34 colo4"> Consertar telhado</span>
                 </div>  
                 <div v-if="toogle === true" class=" d-flex  justify-content-center  custi2 align-item-center">
-                    <span class="yip3 text-light"> Consertar telhado</span>
+                    <span class="yip34 text-light"> Consertar telhado</span>
                 </div>  
                 <span id="serg" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
             </div>
             <div v-if="toogle==true">
                     <div @click="teste12" class="d-flex hito w-100">
                         <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                            <span class="yip3 text-light"> Consertar goteiras</span>
+                            <span class="yip34 text-light"> Consertar goteiras</span>
                         </div>
                         <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
                     </div>
                     <div  @click="teste13" class="d-flex hito w-100">
                         <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                            <span class="yip3 text-light"> Acabar com infiltrações</span>
+                            <span class="yip34 text-light"> Acabar com infiltrações</span>
                         </div>
                         <span class="wid5  color22 d-flex justify-content-center align-items-center  btn-arrow">></span>
                     </div>
@@ -158,7 +158,7 @@
 
     @media (max-width: 460px){
       .custi {
-        width: 90% !important;
+        width: 95% !important;
       }
       .yip34 {
         font-size: 3.2vw !important;

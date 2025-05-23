@@ -1,24 +1,24 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp">As goteiras geram excesso de umidade e mofo nos ambientes, podendo causar ou piorar problemas respiratórios, principalmente em idosos, crianças e imunossuprimidos, os deixando mais vulneráveis às doenças.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Aprovação para fazer</p>
-                <p class="fo3 famp">Não é necessario nenhuma aprovação da Prefeitura Municipal  </p>
+                <p class="fo3 famp">Não é necessario nenhuma aprovação da Prefeitura Municipal.  </p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual </p>
+                <p class="fo3 famp">Pontual. </p>
            </div>
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao1" class="d-flex w-100 color22 tucs2">
-                        <span id="barra1" class="tupi white tucs " > 1 passo: verificar se tem buracos nas telhas</span>
+                        <span id="barra1" class="tupi white tucs " > 1º passo: verificar se tem buracos nas telhas</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">

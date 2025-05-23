@@ -54,7 +54,7 @@
             sec243
     
         },
-        data() {
+        data() { 
           return {
             controlador1: [0, 0], // [índice atual, direção da animação]
           };

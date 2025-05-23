@@ -3,7 +3,7 @@
         <div class="gz d-flex flex-column justify-content-center ">
             <p class="gt hj">Primeiro reflita e anote quais são suas necessidades</p>
             <div class="w-100 gf d-flex flex-column">
-                <p class="ga">materiais</p>
+                <p class="ga">Materiais</p>
                 <p class="gw">Cimento, areia, cal, brita, argamassa.</p>
             </div>
             <div class="d-flex w-100 justify-content-around flex-column align-items-center">

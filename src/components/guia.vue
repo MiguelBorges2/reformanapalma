@@ -1,5 +1,10 @@
 <template>
-    <div class="w-100 d-flex justify-content-around alturatotal align-items-center gradient-bg42">
+    <div class="w-100 img1 d-flex into justify-content-around alturatotal align-items-center gradient-bg42">
+        <img v-if="controlador[0] === 0" src="@/assets/bann1.gif" class="gif-bg">
+        <img v-if="controlador[0] === 3" src="@/assets/bann2.gif" class="gif-bg2">
+        <img v-if="controlador[0] === 2" src="@/assets/bann3.gif" class="gif-bg2">
+        <img v-if="controlador[0] === 1" src="@/assets/bann4.gif" class="gif-bg">
+
         <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  border btn-round ">
             <
         </button>
@@ -41,6 +46,24 @@ export default {
       };
     },
     methods: {
+            // Início do toque
+        startSwipe(e) {
+            this.startX = e.touches[0].clientX; // Captura a posição inicial do toque
+        },
+    // Movimento do toque
+        moveSwipe(e) {
+            // Atualiza a posição do toque enquanto ele se move
+            this.endX = e.touches[0].clientX;
+        },
+    // Fim do toque
+        endSwipe() {
+      // Se o movimento for para a direita
+        if (this.startX - this.endX > 50) {
+            this.ShiftLeft(); // Muda para a esquerda
+        } else if (this.endX - this.startX > 50) {
+            this.ShiftRight(); // Muda para a direita
+        }
+        },
         ShiftRight() {
             console.log('oi')
             if (this.controlador[0] < 3) {
@@ -57,12 +80,43 @@ export default {
 </script>
 
 <style>
+
+
 html, body {
   height: 100%; /* Faz com que o html e o body ocupem toda a altura */
   margin: 0;
   padding: 0;
 }
-
+.img1 {
+  background-image: 
+    linear-gradient(to top, #749695, #394A55);
+  border-radius: 0 0 60px 60px;
+}
+div {
+    position: relative;
+}
+.gif-bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* ou 'cover' se quiser que ocupe tudo */
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+  
+}
+.gif-bg2 {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* ou 'cover' se quiser que ocupe tudo */
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+  
+}
 .btn-round {  
   height: 3vw;
   width: 3%;      
@@ -87,10 +141,6 @@ html, body {
     color: white;
 }
 
-.gradient-bg42 {
-    background: linear-gradient(to top, #749695, #394A55); 
-    border-radius: 0 0 60px 60px;
-}
 
 
 .btn-hover-yellow:hover {
@@ -111,12 +161,13 @@ html, body {
 }
 @media (max-width: 600px) {
     .btn-round {
-        width: 5% !important; 
-        height: 5vw !important;   
+        width: 7.5% !important; 
+        height: 7.5vw !important;   
+        margin: 1%;
     }
     .gradient-bg42 {
         background: linear-gradient(to top, #749695, #394A55); 
-        border-radius: 0 0 24px 24px;
+        border-radius: 0 0 12px 12spx;
     
 }
 @media (max-width: 1200px) {

@@ -17,7 +17,7 @@
             </div>
             <div @click="teste6()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip34 text-light"> criar patios internos com jardim</span>
+                  <span class="yip34 text-light"> Criar patios internos com jardim</span>
               </div>
               <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>

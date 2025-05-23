@@ -5,7 +5,7 @@
             
             <div class="w-100 gf d-flex flex-column">
                 <p class="ga">materiais</p>
-                <p class="gw">Materiais para assentamento de novas janelas e aberturas altas para ventilação, e construção de paredes, lajes e forros, como argamassa, cimento, brita, areia, tintas, revestimentos e utensílios para seu preparo e aplicação.</p>
+                <p class="gw">Materiais para assentamento de elementos vazados (cobogós), exaustores, novas janelas e aberturas altas para ventilação, como argamassa, cimento, areia e utensílios para seu preparo e aplicação.</p>
             </div>
             <div class="d-flex w-100 justify-content-around align-items-center">
                 <img class="tamamp022" src="@/assets/group686.svg" alt="Logo2">
@@ -15,7 +15,7 @@
                 <p class="gw">Lâmina de serra segueta, tesoura, alicate, estilete, maçarico e outras próprias para preparo e assentamento de concreto - como baldes, masseiras, colher de pedreiro, espátula, esponja, sarrafo, etc.</p>
             </div>  
             <div class="d-flex w-100 justify-content-center align-items-center">
-                <img class="tamamp022" src="@/assets/group682.svg" alt="Logo2"> 
+                <img class="tamamp022" src="@/assets/group676.svg" alt="Logo2"> 
             </div>
             <div class="w-100 gf d-flex flex-column">
                 <p class="ga">Equipamentos</p>

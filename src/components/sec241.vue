@@ -2,19 +2,19 @@
 
 <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
        <div class="dev d-flex flex-column justify-content-center ">
-            <p class="fo famp">importância para saúde</p>
+            <p class="fo famp">Importância para saúde</p>
             <p class="fo3 famp">É muito importante ter um lugar certo para trabalhar e estudar. Isso ajuda o corpo e a mente a ficarem saudáveis. Esse espaço traz conforto, ajuda a se concentrar e é fundamental para fazer bem o seu trabalho ou os seus estudos. Assim, você terá uma qualidade de vida melhor.</p>
        </div>
        <div class="dev2 d-flex flex-column justify-content-center ">
             <p class="fo">Aprovação para fazer</p>
-            <p class="fo3 famp">Não é necessario nenhuma aprovação da Prefeitura Municipal  </p>
+            <p class="fo3 famp">Não é necessario nenhuma aprovação da Prefeitura Municipal.  </p>
        </div>
        <div class="dev2 d-flex flex-column justify-content-center ">
             <p class="fo">Escala da intervenção</p>
-            <p class="fo3 famp">Pontual </p>
+            <p class="fo3 famp">Pontual. </p>
        </div>
        <div class="w-80 dev3 ">
-            <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+            <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
         </div>
         <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -45,7 +45,7 @@
             </div>    
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Preparar o ambiente</span>
+                    <span id="barra3" class="tupi white tucs " > 3º Passo: Escolher as camas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
@@ -59,7 +59,7 @@
             </div>    
             <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao4" class="d-flex w-100 color1 tucs2">
-                    <span id="barra4" class="tupi white tucs " > 4º Passo: Preparar o ambiente</span>
+                    <span id="barra4" class="tupi white tucs " > 4º Passo: Escolher mesas e cadeiras adequadas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
@@ -69,7 +69,7 @@
             </div>            
            <div @click="changes5()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao5" class="d-flex w-100 color22 tucs2">
-                    <span id="barra5" class="tupi white tucs " > 5º Passo: Preparar o ambiente</span>
+                    <span id="barra5" class="tupi white tucs " > 5º Passo: Providenciar uma bancada de trabalho/estudo</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi5 === true">
@@ -87,7 +87,7 @@
             </div>        
             <div @click="changes6()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao6" class="d-flex w-100 color1 tucs2">
-                    <span id="barra6" class="tupi white tucs " > 6 passo: verificar suas necessidades</span>
+                    <span id="barra6" class="tupi white tucs " > 6º Passo: Utilizar mobiliário para guardar material</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi6 === true">
@@ -101,7 +101,7 @@
             </div>      
             <div @click="changes7()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao7" class="d-flex w-100 color22 tucs2">
-                    <span id="barra7" class="tupi white tucs " > 7 passo: verificar suas necessidades</span>
+                    <span id="barra7" class="tupi white tucs " > 7º Passo: Organizar o espaço entre os mobiliários</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi7 === true">
