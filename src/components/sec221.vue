@@ -362,9 +362,6 @@
         .tucs2{
             border-radius: 15px;
         }
-        .tugali{
-            font-size: 2vw;
-        }
         .tupi {
             border-radius: 15px 0px 0px 15px;
         }
@@ -385,5 +382,6 @@
         }
     
     }
+    
     
     </style>

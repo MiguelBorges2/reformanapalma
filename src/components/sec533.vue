@@ -3,7 +3,7 @@
        <div class="gz bottom24 d-flex flex-column justify-content-center align-items-center ">
            <div class="w-100 gf2  d-flex flex-column">
                <p class="ga">Cuidado com abalos estruturais</p>
-               <p class="gw">Certifique-se de que o telhado pré-existente ou novo é capaz de dar suporte aos painéis solares e sua estrutura.
+               <p class="gw">Cuidado ao anexar elementos de sombreamento (brises) em paredes. Pode ser que elas não suportem esse tipo de intervenção e desmoronem por completo, colocando toda a estrutura da casa em risco.
                </p>
            </div>
            <div class="w-100 gf2  d-flex flex-column">
@@ -13,7 +13,7 @@
            </div>
            <div class="w-100 gf2  d-flex flex-column">
                <p class="ga">Contrate profissionais para investir melhor seus recursos</p>
-               <p class="gw">Os serviços envolvidos no projeto e execução de um sistema de geração de energia elétrica demandam contratação de profissional especializado, que otimizará seus gastos e expectativas.
+               <p class="gw">Se os ambientes permanecerem muito quentes ou frios, entenda que será necessário contratar um profissional para fazer os serviços necessários, otimizando seus gastos e expectativas.
                </p>
            </div>
        </div>

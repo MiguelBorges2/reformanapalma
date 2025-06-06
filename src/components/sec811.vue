@@ -47,7 +47,7 @@
                         <li><p class="subtugali text-align">Mobiliário para atividade de renda: Opte por mobiliários com rodinhas, empilháveis ou dobráveis para melhor funcionalidade do espaço. Assim a sobreposição da atividade de renda com as atividades realizadas naquele ambiente a ser utilizado serão mais confortáveis com o manejo e armazenamento dos mobiliários.
                         </p></li>
                         <li><p class="subtugali text-align">SALA (opções de mobiliários com rodinhas para melhor flexibilidade do espaço como):</p></li>
-                        <img class="tacks2" src="@/assets/passo11.svg">
+                        <img class="tacks2" src="@/assets/as.gif">
                         <li><p class="subtugali text-align">Beleza e Estética: cadeira de corte, sofá/poltrona de espera, aparador, carrinho auxiliar, mesa e cadeira manicure:</p></li>
                         <img class="tacks2" src="@/assets/salao.svg">
                         <li><p class="subtugali text-align">Loja de vestuário, calçados e acessórios; prateleiras, araras, balcão para atendimento:</p></li>

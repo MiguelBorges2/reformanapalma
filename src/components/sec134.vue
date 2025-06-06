@@ -8,7 +8,7 @@
             <p class="ga ">1º passo - Procure um profissional (Arquiteto e Urbanista)</p>
             <div class="w-100 d-flex justify-content-center align-items-center flex-column">
                 <p class="gl2">Estes profissionais vão te ajudar na identificação do problema, planejamento e acompanhamento da reforma e serviços envolvidos.</p>
-                <button class="but gl2">Ache um arquiteto</button>
+                <a href="https://www.caumg.gov.br/"><button class="but gl2">Ache um arquiteto</button></a>
             </div>
         </div>
         <div class=" gf4 d-flex flex-column justify-content-center align-items-star">

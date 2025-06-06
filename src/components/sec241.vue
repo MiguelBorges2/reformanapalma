@@ -34,7 +34,7 @@
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
                     <p class="subtugali"> Decida quais mobiliários devam permanecer, quais precisam ser adequados ou ainda substituídos.</p>
-                    <p class="subtugali">Atente-se a  localização dos pontos elétricos para não tampar com mobiliário e conseguir usar com facilidade. Veja mais em Tomadas e interruptores em somente uma parede.</p>
+                    <p class="subtugali">Atente-se a  localização dos pontos elétricos para não tampar com mobiliário e conseguir usar com facilidade. Veja mais em <span @click="teste29()" class="subtugali">Tomadas e interruptores em somente uma parede. </span></p>
                     <img class="tamanho82" src="@/assets/GIF - Quarto para duas ou mais pessoas - Tomadas.gif" alt="Logo2">
                     <p class="subtugali">Leve em conta o espaço existente com a porta aberta para evitar o caso do exemplo abaixo, em que não é possível abri-la completamente:</p>
                     <img class="tamanho80" src="@/assets/IMG 2.2 1.svg" alt="Logo2">
@@ -130,7 +130,50 @@
             }
         },
         methods: {
-            changes(){
+        
+        ativa2(){
+              this.toogle2 = !this.toogle2;
+              if(this.toogle2 == true){
+                  let elem = document.getElementById('serg7'); 
+                  elem.classList.add('wid35');
+                  elem.classList.remove('wid3');
+                  this.$nextTick(() => {
+                        let elem = document.getElementById('ju8'); 
+                        elem.classList.add('color1');
+                    });
+                 
+              }
+              else{
+                  let elem = document.getElementById('serg7'); 
+                  elem.classList.add('wid3');
+                  elem.classList.remove('wid35');
+                  elem = document.getElementById('ju8'); 
+                  elem.classList.remove('color1');
+                  
+              }
+          },
+        updateGlobalVariable(value) {
+                const mainStore = useMainStore();
+                mainStore.updateGlobalVariable(value);
+                console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
+            },  
+        teste25(){
+                this.updateGlobalVariable(81);
+        },
+        teste26(){
+            this.updateGlobalVariable(82);
+        },
+        teste27(){
+            this.updateGlobalVariable(83);
+        },
+        teste28(){
+            this.updateGlobalVariable(84);
+        },
+        teste29(){
+            this.updateGlobalVariable(85);
+        },
+  
+        changes(){
                     this.togi1 =!this.togi1;
                     const p = document.getElementById("botao1");
                     const d = document.getElementById("barra1");
@@ -354,6 +397,7 @@
         }
         .tcs {
             border-radius: 16px;
+            width: 85% !important;
         }
         .tucs {
             padding-bottom: 3%;

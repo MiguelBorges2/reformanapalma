@@ -21,39 +21,39 @@
             >
         </button>
     </div>
-    <sec421 v-if="controlador1[0] === 0"></sec421>
-    <sec422 v-if="controlador1[0] === 1"></sec422>
-    <sec423 v-if="controlador1[0] === 2"></sec423>
-    <sec254 v-if="controlador1[0] === 3"></sec254>
-    <sec345 v-if="controlador1[0] === 4"></sec345>
-    <sec256 v-if="controlador1[0] === 5"></sec256>
+    <sec431 v-if="controlador1[0] === 0"></sec431>
+    <sec432 v-if="controlador1[0] === 1"></sec432>
+    <sec433 v-if="controlador1[0] === 2"></sec433>
+    <sec134 v-if="controlador1[0] === 3"></sec134>
+    <sec545 v-if="controlador1[0] === 4"></sec545>
+    <sec546 v-if="controlador1[0] === 5"></sec546>
     
     
 </template>
 
 <script>        
 import Subguia78 from './subguia78.vue';
-import sec421 from './sec421.vue';
+import sec431 from './sec431.vue';
 import final25 from  './final25.vue';
 import sec412 from './sec412.vue';
-import sec422 from './sec422.vue';
-import sec254 from './sec254.vue';
-import sec345 from './sec345.vue';
-import sec256 from './sec256.vue';
-import sec423 from './sec423.vue';
+import sec432 from './sec432.vue';
+import sec134 from './sec134.vue';
+import sec545 from './sec545.vue';
+import sec546 from './sec546.vue';
+import sec433 from './sec433.vue';
 
 export default {
     name: 'Guia78',
     components: {
         Subguia78,
-        sec421,
+        sec431,
         final25,
         sec412,
-        sec423,
-        sec254,
-        sec345,
-        sec256,
-        sec422
+        sec433,
+        sec134,
+        sec545,
+        sec546,
+        sec432
     },
     data() {
       return {

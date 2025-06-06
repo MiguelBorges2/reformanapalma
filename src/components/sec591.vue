@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">Ambientes refrigerados corretamente podem ser combinados com outros aparelhos de climatização, como desumidificadores e purificadores. Especialistas em saúde recomendam deixar a temperatura do ar condicionado entre 22 e 25 graus, e não frio. Ou seja, o uso correto pode trazer conforto para o usuário.
                 </p>
            </div>
@@ -93,7 +93,7 @@ Nesse caso, o ideal seria um ar-condicionado com capacidade de 14.000 BTUs.</p>
             </div> 
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Limpar as placas solares</span>
+                    <span id="barra3" class="tupi white tucs " > 3º Passo: Verificar se o ambiente possui local indicado para posicionamento</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-start" v-if="togi3 === true">
@@ -108,7 +108,7 @@ Nesse caso, o ideal seria um ar-condicionado com capacidade de 14.000 BTUs.</p>
             </div>   
             <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao4" class="d-flex w-100 color1 tucs2">
-                        <span id="barra4" class="tupi white tucs " > 4º Passo: Misturar a terra com composto orgânico</span>
+                        <span id="barra4" class="tupi white tucs " > 4º Passo: Analisar condições</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">

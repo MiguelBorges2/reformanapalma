@@ -5,8 +5,8 @@
       <img @click="home()" class="ralao " src="@/assets/logoref.svg" alt="Logo"/>
       <ul class="caps d-flex justify-content-center align-items-center">
         <li @click="home()" class="nav-item pics">Início</li>
-        <li @click="scrollToContato()" class="nav-item pics">Quem Somos</li>
-        <li @click="scrollToprob()" class="nav-item pics">Conte Seu Problema</li>
+        <li @click="scrollToContato()" class="nav-item pics">quem somos</li>
+        <li @click="scrollToprob()" class="nav-item pics">conte seu problema</li>
       </ul>
       <input class="serc" type="search" placeholder="Buscar..." aria-label="Search">
     </div>
@@ -17,8 +17,8 @@
       <img @click="home()" class="ralao " src="@/assets/logoref.svg" alt="Logo"/>
       <ul v-if="this.pesq === false" class="caps d-flex justify-content-center align-items-center">
         <li @click="home()" class="nav-item pics">Início</li>
-        <li @click="scrollToContato()" class="nav-item pics">Quem Somos</li>
-        <li @click="scrollToprob()" class="nav-item pics">Conte Seu Problema</li>
+        <li @click="scrollToContato()" class="nav-item pics">quem somos</li>
+        <li @click="scrollToprob()" class="nav-item pics">Conte seu  problema</li>
       </ul>
       <input v-if="this.pesq === true" class="serc2" type="search" placeholder="Buscar..." aria-label="Search">
       <img  @click="change()" class="ralao " src="@/assets/vec.svg" alt="Logo"/>
@@ -236,8 +236,9 @@
         
       }
       .pics{
-        font-size: 2.3vw;
-        margin-left: 1%;
+        font-size: 2.4vw;
+        margin-left: 4%;
+        margin-right: 4%;
       }
       .ralao {
         width: 7%;
@@ -256,7 +257,7 @@
         margin-bottom: 1%;
       }
       .caps {
-        width: 55%;
+        width: 70%;
         
       }
       .ralao {

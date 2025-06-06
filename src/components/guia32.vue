@@ -24,9 +24,9 @@
     <sec321 v-if="controlador1[0] === 0"></sec321>
     <sec252 v-if="controlador1[0] === 1"></sec252>
     <sec323 v-if="controlador1[0] === 2"></sec323>
-    <sec254 v-if="controlador1[0] === 3"></sec254>
+    <sec134 v-if="controlador1[0] === 3"></sec134>
     <sec255 v-if="controlador1[0] === 4"></sec255>
-    <sec256 v-if="controlador1[0] === 5"></sec256>
+    <sec326 v-if="controlador1[0] === 5"></sec326>
     
     
 </template>
@@ -37,9 +37,9 @@ import sec321 from './sec321.vue';
 import final25 from  './final25.vue';
 import sec252 from './sec252.vue';
 import sec323 from './sec323.vue';
-import sec254 from './sec254.vue';
+import sec134 from './sec134.vue';
 import sec325 from './sec325.vue';
-import sec256 from './sec256.vue'
+import sec326 from './sec326.vue'
 export default {
     name: 'guia32',
     components: {
@@ -48,9 +48,9 @@ export default {
         final25,
         sec252,
         sec323,
-        sec254,
+        sec134,
         sec325,
-        sec256
+        sec326
     },
     data() {
       return {

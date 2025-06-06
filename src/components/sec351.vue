@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">É importante usar estratégias para manter sua casa mais fresca, porque ambientes muito quentes podem piorar problemas respiratórios, como asma e alergias. O ar quente pode dificultar a respiração, causar tosse e falta de ar. Além disso, o calor excessivo pode ajudar os germes a se espalharem, aumentando o risco de pegar doenças respiratórias, de pele e outras. Isso nos deixa mais vulneráveis às doençças.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
@@ -12,7 +12,7 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
@@ -21,7 +21,7 @@
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 passo: verificar suas necessidades</span>
+                    <span id="barra1" class="tupi white tucs " > 1 passo: Analisar a necessidade do local</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
@@ -33,7 +33,7 @@ Uma tinta que reflete o calor pode fazer o interior da casa ficar mais fresco. A
             </div>      
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo: Preparar o ambiente</span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Escolher a cor adequada</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
@@ -54,7 +54,7 @@ e Urbanismo, Universidade Estadual de Campinas, Campinas, 2008.</p>
             </div>    
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Preparar o ambiente</span>
+                    <span id="barra3" class="tupi white tucs " > 3º Passo: Reduzir o calor</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">

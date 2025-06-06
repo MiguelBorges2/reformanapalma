@@ -4,7 +4,7 @@
             <p class="gt hj">Primeiro reflita e anote quais são suas necessidades</p>
             
             <div class="w-100 gf d-flex flex-column">
-                <p class="ga">materiais</p>
+                <p class="ga">Materiais</p>
                 <p class="gw">Materiais para assentamento de elementos vazados (cobogós), exaustores, novas janelas e aberturas altas para ventilação, como argamassa, cimento, areia e utensílios para seu preparo e aplicação.</p>
             </div>
             <div class="d-flex w-100 justify-content-around align-items-center">

@@ -12,16 +12,19 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual e edificação</p>
            </div>
-           
+           <div class="d-flex dev2 justify-content-center align-items-center ">
+                <img class="imai" src="@/assets/Vector.svg">
+                <p class="fo3 famp">ATENÇÃO! Antes de reformar a casa, consulte o Manual do Proprietário (entregue pela construtora) para informações sobre o que pode ser feito e garantias.</p>
+           </div>
            <div class="w-80 dev3 ">
                 <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
             </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 passo: verificar suas necessidades</span>
+                    <span id="barra1" class="tupi white tucs " >1º Passo: Instalar forro/lajes</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
@@ -31,7 +34,7 @@
             </div>      
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo: Preparar o ambiente</span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Altura adequada do teto</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
@@ -44,7 +47,7 @@
             </div>    
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Preparar o ambiente</span>
+                    <span id="barra3" class="tupi white tucs " > 3º Passo: Escolher janelas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">

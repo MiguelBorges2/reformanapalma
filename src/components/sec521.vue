@@ -21,7 +21,7 @@
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 passo: instalar forro/laje</span>
+                    <span id="barra1" class="tupi white tucs " > 1º Passo: Instalar forro/laje</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
@@ -37,7 +37,7 @@
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
                     <p class="subtugali text-align">Para instalação dos painéis fotovoltáicos, uma área livre de sombreamentos deve estar disponível no telhado, preferencialmente voltada para a direção Norte. Além disso, um espaço arejado e sombreado deve ser reservado no interior da residência para instalação do inversor, o equipamento responsável por transformar o sol em eletricidade. A instalação desses equipamentos requer profissional especializado, devidamente protegido por EPIs.</p>
                     <img class="tamanho81" src="@/assets/imagem34.svg" alt="Logo2">
-                    <img class="tamanho81" src="@/assets/solar.svg" alt="Logo2">
+                    <img class="tamanho81" src="@/assets/solo.gif" alt="Logo2">
                 </div>
             </div>    
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">

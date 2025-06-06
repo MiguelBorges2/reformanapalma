@@ -3,7 +3,7 @@
         <h1 class="funko12 text-light famap400">Refrescar minha casa</h1>
         <p class="text-light funko2 famap300">Refrescar minha casa > Gerar energia </p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho8912" src="@/assets/ampliar3.svg" alt="Logo2">
+            <img class="tamanho8912" src="@/assets/group1179.png" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
                 <div class="conta23 d-flex justify-content-center align-items-center"> 
                     <p  class="funkot3 famap400 text-light text-align">Este tópico apresenta soluções para gerar energia em casa, como a instalação de painéis solares e sistemas sustentáveis, que ajudam a reduzir os custos com eletricidade e promovem maior eficiência energética.</p>
@@ -76,7 +76,7 @@
         <h1 class="funko12 text-light famap400">Refescar minha casa</h1>
         <p class="text-light funko2 famap300">Refrescar minha casa > Gerar energia</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho8912" src="@/assets/ampliar3.svg" alt="Logo2">
+            <img class="tamanho8912" src="@/assets/group1179.png" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
                 <div class="conta23 d-flex justify-content-center align-items-center"> 
                     <p  class="funkot3 famap400 text-light text-align">Este tópico apresenta soluções para gerar energia em casa, como a instalação de painéis solares e sistemas sustentáveis, que ajudam a reduzir os custos com eletricidade e promovem maior eficiência energética. </p>

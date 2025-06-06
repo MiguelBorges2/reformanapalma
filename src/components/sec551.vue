@@ -56,7 +56,7 @@
             </div> 
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Ter o recurso para investimento</span>
+                    <span id="barra3" class="tupi white tucs " >3º Passo: Janelas sem contato com exterior</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
@@ -71,7 +71,7 @@
             </div>   
             <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao4" class="d-flex w-100 color1 tucs2">
-                        <span id="barra4" class="tupi white tucs " > 4º Passo: Instalar calhas e rufos</span>
+                        <span id="barra4" class="tupi white tucs " > 4º Passo: Tamanho das janelas</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
@@ -81,12 +81,14 @@
                         <p class="subtugali">Os códigos de obras municipais definem as áreas mínimas de abertura para iluminação e ventilação em edificações. Para o caso de Uberlândia (MG) a área efetiva de ventilação deve ser de pelo menos 17% de área de piso do ambiente. A área efetiva de iluminação deverá ser de pelo menos 50% da área de ventilação. Essas áreas podem ser obtidas em um ambiente, combinando-se janelas normais, janelas altas, clarabóias, vedações permeáveis e aberturas altas para troca de ar, entre outras estratégias.
 </p>
                         <img class="tamanho866" src="@/assets/imagem111.svg" alt="Logo2">
+                           <img class="tamanho866" src="@/assets/area.gif" alt="Logo2">
                         <p class="subtugali text-align">Verifique se sua janela atende ao recomendado para ventilação:
 1º- Com a ajuda de uma trena, meça (em metros) a largura e comprimento do ambiente e multiplique um pelo outro, você terá a área de piso, em m² (1); 
 
 </p>
-                        <img class="tamanho866" src="@/assets/passo11.svg" alt="Logo2">
+                         <img class="tamanho866" src="@/assets/passo11.svg" alt="Logo2">
                         <p class="subtugali text-align">2º- Meça (em metros) a altura e largura da abertura para ventilação de sua janela e multiplique uma pela outra, você terá a área efetiva de ventilação, em m² (2);</p>
+                        <img class="tamanho81" src="@/assets/p2.gif" alt="Logo2">
                         <p class="subtugali text-align">3º- Divida (2) por (1) e multiplique por 100, você terá a porcentagem de área de ventilação efetiva do seu ambiente. 
                             Garanta que a área efetiva de ventilação de janelas seja igual ou superior a 45% do tamanho do vão em que se encaixa a janela</p>
                         <p class="subtugali text-align">Paralelamente, a área das aberturas destinadas à insolação e iluminação dos compartimentos deverá corresponder, no mínimo a: </p>
@@ -102,12 +104,11 @@
                 </div>              
             <div @click="changes5()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao5" class="d-flex w-100 color22 tucs2">
-                    <span id="barra5" class="tupi white tucs " > 5º altura adequada do texto</span>
+                    <span id="barra5" class="tupi white tucs " > 5º Passo: Altura adequada do teto</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi5 === true">
                     <p class="subtugali text-align">Se o teto é baixo, o ar quente e sujo fica na altura das pessoas, tornando o ambiente desagradável. Ao criar um novo cômodo, garanta uma altura livre de pelo menos 2,4m em banheiros e 2,6m ou mais nos outros ambientes. Janelas rentes à laje/forro também ajudam a eliminar o ar quente/sujo. Contrate um profissional para te ajudar.</p>
-                    <p class="subtugali text-align">Novas janelas e ferramentas de instalação, além de EPIs podem ser necessários. Contrate um profissional para te ajudar</p>
                     <img class="tamanho81" src="@/assets/imagem32.svg" alt="Logo2">
                     <img class="tamanho81" src="@/assets/cober2.svg" alt="Logo2">
                     <img class="tamanho81" src="@/assets/efeito2.svg" alt="Logo2">

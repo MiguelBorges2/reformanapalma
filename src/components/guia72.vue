@@ -25,8 +25,8 @@
     <sec252 v-if="controlador1[0] === 1"></sec252>
     <sec723 v-if="controlador1[0] === 2"></sec723>
     <sec254 v-if="controlador1[0] === 3"></sec254>
-    <sec345 v-if="controlador1[0] === 4"></sec345>
-    <sec256 v-if="controlador1[0] === 5"></sec256>
+    <sec725 v-if="controlador1[0] === 4"></sec725>
+    <sec726 v-if="controlador1[0] === 5"></sec726>
     
     
 </template>
@@ -38,8 +38,8 @@ import final25 from  './final25.vue';
 import sec592 from './sec592.vue';
 import sec422 from './sec422.vue';
 import sec254 from './sec254.vue';
-import sec345 from './sec345.vue';
-import sec256 from './sec256.vue';
+import sec725 from './sec725.vue';
+import sec726 from './sec726.vue';
 import sec423 from './sec423.vue';
 import sec432 from './sec432.vue';
 import sec693 from './sec693.vue';
@@ -47,7 +47,7 @@ import sec721 from './sec721.vue';
 import sec723 from './sec723.vue';
 
 export default {
-    name: 'Guia71',
+    name: 'Guia72',
     components: {
         Subguia72,
         sec721,
@@ -55,8 +55,8 @@ export default {
         sec592,
         sec423,
         sec254,
-        sec345,
-        sec256,
+        sec725,
+        sec726,
         sec422,
         sec432,
         sec693,

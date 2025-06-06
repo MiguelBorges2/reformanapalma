@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">O excesso de calor dentro de casa pode favorecer o agravamento e/ou surgimento de problemas de saúde, principalmente respiratórios e cardiovasculares, comprometendo especialmente a saúde de idosos, crianças e imunossuprimidos. O posicionamento correto de janelas protege a casa do calor, diminuindo a necessidade de ar-condicionado/ventilador.
                 </p>
            </div>
@@ -13,7 +13,7 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
@@ -22,12 +22,13 @@
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 passo: Posição da janela</span>
+                    <span id="barra1" class="tupi white tucs " > 1º Passo: Posição da janela</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
                     <p class="subtugali text-align"> Janelas voltadas para o Sol poente (direção Oeste) absorvem calor nos horários mais quentes do dia (entre 12h e +-18:30h)</p>
                     <img class="tamanho81" src="@/assets/imagem24.svg" alt="Logo2">
+                    <img class="tamanho81" src="@/assets/abert.gif" alt="Logo2">
                     <p class="subtugali text-align">Em quartos, isso pode ser mais problemático durante os meses mais quentes do ano. Janelas voltadas para a direção Sul, por sua vez, recebem pouco sol, favorecendo ambientes frios e úmidos. Conheça os pontos cardeais</p>
                     <img class="tamanho81" src="@/assets/rosa1.svg" alt="Logo2">
                     <p class="subtugali text-align"> e localize eles no seu terreno, sabendo que o Sol nasce no Leste e se põe no Oeste. Quando for construir em Uberlândia (MG), evite posicionar janelas em quartos voltadas para Oeste e Sul e, em áreas molhadas (cozinha, banheiro, área de serviço) voltadas para Sul. 
@@ -39,13 +40,13 @@ ATENÇÃO! Cada caso é um caso! Prefira contar com ajuda profissional na hora d
             </div>      
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo: Ter espaço adequado para instalação</span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Sombreamento das janelas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
                     <p class="subtugali text-align">Às vezes não é possível colocar as janelas na posição ideal. Nessas situações, brises, árvores e, em último caso, cortinas, podem diminuir o desconforto</p>
                     <img class="tamanho81" src="@/assets/imagem423.svg" alt="Logo2">
-                    <img class="tamanho81" src="@/assets/solar.svg" alt="Logo2">
+                    <img class="tamanho80" src="@/assets/cortina.gif" alt="Logo2">
                     <p class="subtugali text-align">Os brises são como marquises, placas horizontais ou verticais que sombreiam a janela externamente. Podem ser feitos de vários materiais e seu tamanho varia de acordo com a posição em relação ao sol e com a quantidade de sol que se deseja sombrear.
                     </p>
                     <img class="tamanho81" src="@/assets/imagem511.svg" alt="Logo2">
@@ -54,6 +55,7 @@ ATENÇÃO! Cada caso é um caso! Prefira contar com ajuda profissional na hora d
                     <p class="subtugali text-align">Conte com um profissional para definir a melhor opção para seu caso. 
 Árvores são aliadas no calor. Elas sombreiam as paredes e umedecem o ar ao mesmo tempo, refrescando e embelezando ambientes. Procure plantá-las próximas das janelas mais atingidas pelo sol indesejado.
                     </p>
+                     <img class="tamanho81" src="@/assets/vegeta.gif" alt="Logo2">
                 </div>
             </div>                
                  

@@ -40,11 +40,11 @@
                     <ul>
                         <li><p class="subtugali text-align">Decida quais mobiliários deverão permanecer, que precisam ser adequados ou ainda substituídos.</p></li>
                         <li><p class="subtugali text-align">Se atente à  localização dos pontos elétricos para não tampar com mobiliário e conseguir usar com facilidade. Veja mais em Tomadas e Interruptores em somente uma parede.</p></li>
-                        <img class="tacks2" src="@/assets/passo11.svg">
+                        <img class="tacks2" src="@/assets/sps.gif">
                         <li><p class="subtugali text-align">Leve em conta o espaço existente com a porta aberta para evitar o caso do exemplo abaixo, em que não é possível abri-la completamente.</p></li>
-                        <img class="tacks2" src="@/assets/passo11.svg">
+                        <img class="tacks2" src="@/assets/gifa.gif">
                         <li><p class="subtugali text-align">E no caso das janelas verifique a altura do mobiliário que irá instalar em frente à abertura para evitar o bloqueio de iluminação e ventilação.</p></li>
-                        <img class="tacks2" src="@/assets/passo11.svg">
+                        <img class="tacks2" src="@/assets/gifb.gif">
                     </ul>
                     
                 </div> 

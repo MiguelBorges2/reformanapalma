@@ -11,7 +11,11 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual. </p>
+                <p class="fo3 famp">Pontual e edificação. </p>
+           </div>
+           <div class="d-flex dev2 justify-content-center align-items-center ">
+                <img class="imai" src="@/assets/Vector.svg">
+                <p class="fo3 famp">ATENÇÃO! Antes de reformar a casa, consulte o Manual do Proprietário (entregue pela construtora) para informações sobre o que pode ser feito e garantias.</p>
            </div>
            <div class="w-80 dev3 ">
                 <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
@@ -349,9 +353,6 @@
         }
         .tucs2{
             border-radius: 15px;
-        }
-        .tugali{
-            font-size: 2vw;
         }
         .tupi {
             border-radius: 15px 0px 0px 15px;

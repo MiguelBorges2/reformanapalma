@@ -2,7 +2,7 @@
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
                 <p class="fo famp">importância para saúde</p>
-                <p class="fo3 famp text-align">Manchas escuras e úmidas em paredes e pisos indicam absorção indevida de água, que pode provocar trincas, mofo, mau cheiro e até perda total de uma pintura/revestimento. O excesso de umidade e mofo nos ambientes pode causar ou piorar problemas respiratórios, principalmente em idosos, crianças e imunossuprimidos, os deixando mais vulneráveis às doenças.</p>
+                <p class="fo3 famp text-align">Excesso de calor dentro de casa pode favorecer o agravamento e/ou surgimento de problemas de saúde, principalmente respiratórios e cardiovasculares, comprometendo especialmente a saúde de idosos, crianças e imunossuprimidos. Comportamentos adaptativos aumentam o controle sobre a casa e melhoram condições de saúde e bem-estar durante extremos de calor.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Aprovação para fazer</p>
@@ -21,13 +21,14 @@
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 passo: Abrir Janelas</span>
+                    <span id="barra1" class="tupi white tucs " > 1 Passo: Abrir Janelas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
                     <p class="subtugali text-align"> Dependendo de qual a temperatura do lado de fora da casa, as janelas devem ou não serem abertas. É recomendável que todas as janelas da casa permaneçam totalmente abertas nas primeiras horas da manhã e primeiras horas da noite, para que o ar seja trocado e refrescado. Nos horários mais quentes, por outro lado, pode-se ter aberturas menores, para diminuir o ganho de calor pelo vento. Por outro lado, se estiver frio, é importante deixar as venezianas abertas e vidros fechados pelo menos algumas horas do dia.
 </p>
                     <img class="tamanho81" src="@/assets/imagem25.svg" alt="Logo2">
+                    <p class="subtugali text-align">Recomenda-se que manutenções periódicas sejam feitas nessas janelas, como lubrificação ou substituição de trincos e dobradiças, entre outras. Isso garantirá condições adequadas de uso.</p>
                 </div>
             </div>      
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">

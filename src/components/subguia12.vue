@@ -1,13 +1,13 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
         <h1 class="funko text-light famap400">Consertar Telhado</h1>
-        <p class="text-light funko24 famap300">Consertar Telhado > Consertar as goteiras</p>
+        <p class="text-light funko22 famap300">Consertar Telhado > Consertar as goteiras</p>
         <div class="d-flex w-100 tix justify-content-center align-items-center">
             <img class="tamanho894" src="@/assets/consertar_telhado 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta d-flex justify-content-center align-items-center"> 
-                    <p v-if="windowSize >= 820"  class="funkot334 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
-                    <p v-if="windowSize < 820"  class="funkot334 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
+                    <p v-if="windowSize >= 820"  class="funko22 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
+                    <p v-if="windowSize < 820"  class="funko22 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
                 </div>
                 
             </div>
@@ -74,13 +74,13 @@
     </div>
     <div v-if="slider === 1" class="d-flex tamanho animate__animated animate__slideInRight  justify-content-center align-items-center flex-column" >
         <h1 class="funko text-light famap400">Consertar Telhado</h1>
-        <p class="text-light funko24 famap300">Consertar Telhado > Consertar as goteiras</p>
+        <p class="text-light funko22 famap300">Consertar Telhado > Consertar as goteiras</p>
         <div class="d-flex w-100 tix justify-content-center align-items-center">
             <img class="tamanho894" src="@/assets/consertar_telhado 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta d-flex justify-content-center align-items-center"> 
-                    <p v-if="windowSize >= 820"  class="funkot334 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
-                    <p v-if="windowSize <= 820"  class="funkot334 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
+                    <p v-if="windowSize >= 820"  class="funko22 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
+                    <p v-if="windowSize <= 820"  class="funko22 text-align famap400 text-light">Este tópico apresenta soluções práticas para reparar e melhorar o telhado. Ele assegura a proteção contra infiltrações, vazamentos e outros problemas estruturais, além de aumentar a durabilidade e a segurança da casa.   </p>
                 </div>
                 
             </div>

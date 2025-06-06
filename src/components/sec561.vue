@@ -36,7 +36,7 @@ Certifique-se: </p>
             </div>
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo:  Verificar as dimensões minimas recomendadas</span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Verificar as dimensões mínimas recomendadas para banheiros </span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
@@ -53,7 +53,7 @@ Certifique-se: </p>
             </div> 
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao3" class="d-flex w-100 color22 tucs2">
-                    <span id="barra3" class="tupi white tucs " > 3º Passo: Posicionar janela para ventilação/iluminação</span>
+                    <span id="barra3" class="tupi white tucs " >3º Passo: Posicionar janela para ventilação e iluminação natural</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-start" v-if="togi3 === true">

@@ -23,10 +23,10 @@
     </div>
     <sec331 v-if="controlador1[0] === 0"></sec331>
     <sec252 v-if="controlador1[0] === 1"></sec252>
-    <sec323 v-if="controlador1[0] === 2"></sec323>
-    <sec254 v-if="controlador1[0] === 3"></sec254>
+    <sec333 v-if="controlador1[0] === 2"></sec333>
+    <sec134 v-if="controlador1[0] === 3"></sec134>
     <sec255 v-if="controlador1[0] === 4"></sec255>
-    <sec256 v-if="controlador1[0] === 5"></sec256>
+    <sec336 v-if="controlador1[0] === 5"></sec336>
     
     
 </template>
@@ -36,10 +36,10 @@ import Subguia33 from './subguia33.vue';
 import sec331 from './sec331.vue';
 import final25 from  './final25.vue';
 import sec252 from './sec252.vue';
-import sec323 from './sec323.vue';
-import sec254 from './sec254.vue';
+import sec333 from './sec333.vue';
+import sec134 from './sec254.vue';
 import sec255 from './sec255.vue';
-import sec256 from './sec256.vue';
+import sec336 from './sec336.vue';
 
 export default {
     name: 'guia33',
@@ -48,10 +48,10 @@ export default {
         sec331,
         final25,
         sec252,
-        sec323,
-        sec254,
+        sec333,
+        sec134,
         sec255,
-        sec256
+        sec336
     },
     data() {
       return {

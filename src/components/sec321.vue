@@ -32,7 +32,7 @@
             </div>      
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo: Verificar qual área disponível para ampliação</span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Verificar qual área disponível para adequação</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
@@ -56,6 +56,7 @@ Escolha o sistema construtivo que permita o vão desejado. É melhor usar viga, 
 Se houver cômodos voltados para este pátio, escolher modelo e tamanho de janelas mais apropriado.
 </p>
                     <img class="tamanho81" src="@/assets/jardiminterno1.svg" alt="Logo2">
+                    <img class="tamanho81" src="@/assets/jardo.gif" alt="Logo2">
                 </div>
             </div>    
             <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">

@@ -35,12 +35,11 @@
                     <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
                         <p class="subtugali"> Decida quais mobiliários devam permanecer, quais precisam ser adequados ou ainda substituídos.</p>
                         <p class="subtugali">Atente-se a  localização dos pontos elétricos para não tampar com mobiliário e conseguir usar com facilidade. Veja mais em Tomadas e interruptores em somente uma parede.</p>
-                        <img class="tamanho82" src="@/assets/Quarto p casal - Tomadas.gif" alt="Logo2">
+                        <img class="tamanho80" src="@/assets/2511.gif" alt="Logo2">
                         <p class="subtugali">Leve em conta o espaço existente com a porta aberta para evitar o caso do exemplo abaixo, em que não é possível abri-la completamente:</p>
-                        <img class="tamanho80" src="@/assets/IMG 2.2 1.svg" alt="Logo2">
-                        <img class="tamanho80" src="@/assets/IMG 2.1 1.svg" alt="Logo2">
+                        <img class="tamanho80" src="@/assets/2512.gif" alt="Logo2">
                         <p class="subtugali">E no caso das janelas, verifique a altura do mobiliário que instalará em frente à abertura para evitar o bloqueio de iluminação e ventilação.</p>
-                        <img class="tamanho82" src="@/assets/quarto-casal-janela.gif" alt="Logo2">
+                        <img class="tamanho80" src="@/assets/2513.gif" alt="Logo2">
                     </div>
                 </div>    
                 <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -421,10 +420,10 @@
         padding: 3%;
     }
     .fo {
-        font-size: 2.4vw !important;
+        font-size: 2.7vw !important;
       }
       .fo3 {
-        font-size: 2.3vw !important;
+        font-size: 2.6vw !important;
       }
     .fo7{
         font-size: 2vw;

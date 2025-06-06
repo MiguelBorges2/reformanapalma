@@ -2,7 +2,7 @@
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
                 <p class="fo famp">importância para saúde</p>
-                <p class="fo3 famp text-align">O canteiro de obras apresenta vários riscos à saúde, como problemas respiratórios devido à inalação do pó de cimento e possíveis alergias e dermatoses causadas por produtos como argamassas, tintas, ácidos e solventes. O uso de máscaras, luvas, óculos de proteção e roupas apropriadas é crucial para evitar tais problemas. O ruído intenso das máquinas pode levar à perda auditiva, sendo necessário o uso de protetores auriculares. Além disso, a presença de animais como escorpiões, aranhas e cobras representa um risco, exigindo cuidado e uso de botas e calçados fechados para proteção contra picadas e contato.
+                <p class="fo3 famp text-align">Este tópico sugere a construção de um cômodo específico dentro da residência, destinado à realização de atividades comerciais ou de prestação de serviços, proporcionando um espaço adequado para atender clientes e desenvolver negócios de forma organizada e profissional.
                 </p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">

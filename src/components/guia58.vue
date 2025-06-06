@@ -23,9 +23,9 @@
     </div>
     <sec581 v-if="controlador1[0] === 0"></sec581>
     <sec582 v-if="controlador1[0] === 1"></sec582>
-    <sec573 v-if="controlador1[0] === 2"></sec573>
-    <sec254 v-if="controlador1[0] === 3"></sec254>
-    <sec345 v-if="controlador1[0] === 4"></sec345>
+    <sec583 v-if="controlador1[0] === 2"></sec583>
+    <sec134 v-if="controlador1[0] === 3"></sec134>
+    <sec585 v-if="controlador1[0] === 4"></sec585>
     <sec256 v-if="controlador1[0] === 5"></sec256>
     
     
@@ -37,12 +37,12 @@ import sec581 from './sec581.vue';
 import final25 from  './final25.vue';
 import sec582 from './sec582.vue';
 import sec422 from './sec422.vue';
-import sec254 from './sec254.vue';
-import sec345 from './sec345.vue';
+import sec134 from './sec134.vue';
+import sec585 from './sec585.vue';
 import sec256 from './sec256.vue';
 import sec423 from './sec423.vue';
 import sec432 from './sec432.vue';
-import sec573 from './sec573.vue';
+import sec583 from './sec583.vue';
 
 
 export default {
@@ -53,12 +53,12 @@ export default {
         final25,
         sec582,
         sec423,
-        sec254,
-        sec345,
+        sec134,
+        sec585,
         sec256,
         sec422,
         sec432,
-        sec573
+        sec583
     },
     data() {
       return {

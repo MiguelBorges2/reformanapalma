@@ -25,8 +25,8 @@
     <sec552 v-if="controlador1[0] === 1"></sec552>
     <sec553 v-if="controlador1[0] === 2"></sec553>
     <sec254 v-if="controlador1[0] === 3"></sec254>
-    <sec345 v-if="controlador1[0] === 4"></sec345>
-    <sec256 v-if="controlador1[0] === 5"></sec256>
+    <sec555 v-if="controlador1[0] === 4"></sec555>
+    <sec556 v-if="controlador1[0] === 5"></sec556>
     
     
 </template>
@@ -38,8 +38,8 @@ import final25 from  './final25.vue';
 import sec552 from './sec552.vue';
 import sec422 from './sec422.vue';
 import sec254 from './sec254.vue';
-import sec345 from './sec345.vue';
-import sec256 from './sec256.vue';
+import sec555 from './sec555.vue';
+import sec556 from './sec556.vue';
 import sec423 from './sec423.vue';
 import sec432 from './sec432.vue';
 import sec553 from './sec553.vue';
@@ -54,8 +54,8 @@ export default {
         sec552,
         sec423,
         sec254,
-        sec345,
-        sec256,
+        sec555,
+        sec556,
         sec422,
         sec432,
         sec553

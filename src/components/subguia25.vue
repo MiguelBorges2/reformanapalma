@@ -1,12 +1,12 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
         <h1 class="funko12 text-light famap400">Estudar/trabalhar em uma  sala pequena</h1>
-        <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
+        <p class="text-light funko22 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta2 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light text-align">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho</p>
+                    <p  class="funko22 famap400 text-light text-align">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho</p>
                 </div>
             </div>
                 
@@ -74,12 +74,12 @@
     </div>
     <div v-if="slider === 1" class="d-flex tamanho animate__animated animate__slideInRight  justify-content-center align-items-center flex-column" >
         <h1 class="funko12 text-light famap400">Estudar/trabalhar em uma  sala pequena</h1>
-        <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
+        <p class="text-light funko22 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta2 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
+                    <p  class="funko22 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
                 </div>
                 
             </div>
@@ -215,7 +215,7 @@ margin-bottom: 1%;
     font-size: 4.3vw !important;
     margin-top: 3.3% !important;
 }
-.funko2 {
+.funko22 {
     font-size: 2vw !important;
     margin-bottom: 0;
 
@@ -241,7 +241,7 @@ margin-bottom: 1%;
     padding: 3%;
   
 }
-.funkot3 {
+.funkot33 {
     font-size: 1.8vw;
     margin: 0;
 
@@ -254,11 +254,11 @@ margin-bottom: 1%;
         border: 2px solid  #FFC676;
         width: 83%;
     }
-    .funkot3 {
+    .funkot33 {
         font-size: 1.85vw !important;
         margin: 0;
     }
-    .funko2 {
+    .funko22 {
 
         font-size: 2.1vw !important;
     }
@@ -274,12 +274,9 @@ margin-bottom: 1%;
         border: 2px solid  #FFC676;
         width: 96% !important;
     }
-    .funkot3 {
-        margin: 0;
-    }
-    .funko2 {
+    .funko22 {
 
-        font-size: 2.2vw;
+        font-size: 2.5vw !important;
     }
     
 }

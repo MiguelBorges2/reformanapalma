@@ -44,7 +44,6 @@ Entenda melhor essas questões e veja como resolvê-las acessando as seções so
                     <div>
                         <p class="subtugali text-align">Veja alguns tempos de secagem recomendados:</p>
                         <ul>
-                            <li><p class="subtugali text-align">Deixe suas portas e janelas abertas o máximo de tempo possível e evite deixar toalhas molhadas secando no banheiro ( estenda-as no varal);</p></li>
                             <li><p class="subtugali text-align">Para o contrapiso recém-feito: pelo menos 7 dias.</p></li>
                             <li><p class="subtugali text-align">Para o contrapiso antigo, porém recém-lavado: pelo menos 24 horas.</p></li>
                             <li><p class="subtugali text-align">Para a argamassa de assentamento: pelo menos 3 dias.</p></li>
@@ -63,11 +62,11 @@ Entenda melhor essas questões e veja como resolvê-las acessando as seções so
                             <span class="tupi2 "> &#709; </span>
                         </div>
                         <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
-                            <p class="subtugali text-align">A baixa qualidade, desgaste ou mesmo ausência do rejunte torna o espaço entre as peças de revestimento entradas para a umidade. A umidade absorvida é dificilmente evaporada, ocasionando aparecimento de manchas e mesmo mofo nos revestimentos. Caso o rejunte esteja descascando, falhando ou esteja com problemas, remova o rejunte defeituoso, higienize o ambiente e pare de usá-lo até que seque por completo. Aplique um novo rejunte, garantindo que</p>
+                            <p class="subtugali text-align">A baixa qualidade, desgaste ou mesmo ausência do rejunte torna o espaço entre as peças de revestimento entradas para a umidade. A umidade absorvida é dificilmente evaporada, ocasionando aparecimento de manchas e mesmo mofo nos revestimentos. Caso o rejunte esteja descascando, falhando ou esteja com problemas, remova o rejunte defeituoso, higienize o ambiente e pare de usá-lo até que seque por completo. Aplique um novo rejunte, garantindo que...</p>
                             <ul>
                                 <li><p class="subtugali text-align">Uma camada uniforme de rejunte seja aplicada entre peças do revestimento e entre revestimentos e a parede.</p></li>
                                 <li><p class="subtugali text-align">O espaço entre as peças do revestimento seja completa e igualmente preenchido, sem deixar “degraus”.</p></li>
-                                <li><p class="subtugali text-align">O rejunte seque por pelo menos 24 horas antes de ser molhado</p></li>
+                                <li><p class="subtugali text-align">O rejunte seque por pelo menos 24 horas antes de ser molhado.</p></li>
                                 
                             </ul>
                             <img class="tamanho81" src="@/assets/imagem332.svg" alt="Logo2">

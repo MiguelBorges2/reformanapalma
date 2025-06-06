@@ -12,11 +12,11 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
@@ -66,26 +66,7 @@
                         
                     </ul>
                 </div>
-            </div>   
-            <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
-                    <div id="botao4" class="d-flex w-100 color1 tucs2">
-                        <span id="barra4" class="tupi white tucs " > 4º Passo: Misturar a terra com composto orgânico</span>
-                        <span class="tupi2 "> &#709; </span>
-                    </div>
-                    <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
-                        <p class="subtugali text-align">Para plantio, misture a terra com composto orgânico e cubra o recipiente escolhido até a borda. Cave a terra e plante a semente ou a muda. Acrescente terra adubada para tampar a semente e tampar o buraco.</p>
-    
-                    </div>
-                </div>              
-            <div @click="changes5()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
-                <div id="botao5" class="d-flex w-100 color22 tucs2">
-                    <span id="barra5" class="tupi white tucs " > 5º Passo: Fazer a manutenção e cultivo</span>
-                    <span class="tupi2 "> &#709; </span>
-                </div>
-                <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi5 === true">
-                    <p class="subtugali text-align">Faça a manutenção e cultivo de forma correta. No geral as plantinhas devem ser regadas com frequência e adubadas uma vez ao mês. </p>
-                </div>
-            </div>  
+            </div>    
             
                
         </div>

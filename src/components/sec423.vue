@@ -13,7 +13,7 @@
            </div>
            <div class="w-100 gf2  d-flex flex-column">
                <p class="ga">Contrate um profissional para investir melhor seus recursos</p>
-               <p class="gw">Se os ambientes permanecerem muito quentes ou frios, entenda que será necessário contratar um profissional para fazer os serviços necessários, otimizando seus gastos e expectativas.
+               <p class="gw">Entenda que se a origem do excesso de umidade não for encontrada e resolvida, o problema voltará, podendo ser preciso contratar um profissional para fazer os reparos, otimizando seus gastos e expectativas.
                </p>
            </div>
        </div>
