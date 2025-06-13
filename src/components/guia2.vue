@@ -624,6 +624,37 @@
         </button>
         </div>  
     </div>
+    <div class="w-100 d-flex alturatotal julo">
+        <div class="w-50 justify-content-start align-items-start d-flex flex-column ">
+            <p class="hmp223 marc4 marc5 marc2">Siga-nos nas redes</p>
+            <div class="w-100 d-flex marc2 marc4 justify-content-start">
+                <img class="trumi marc5 marc3" src="@/assets/link.svg" alt="Logo2">
+                <img class="trumi marc3" src="@/assets/insta.svg" alt="Logo2">
+                <img class="trumi" src="@/assets/face.svg" alt="Logo2"> 
+            </div>
+            <span class="chamba marc4">
+                <p class="hmp224 text-align marc5">Reforma na Palma da Mão © 2025 Todos os direitos reservados</p>
+            </span>
+             
+        </div>
+        <div class="sarra marc2"></div>
+        <div class="w-50 justify-content-start align-items-start d-flex flex-column ">
+            <p class="hmp223 marc5 marc4 marc2">Realização:</p>
+            <div class="w-100 d-flex marc2 justify-content-start">
+                <img class="trumi2 marc3 marc5" src="@/assets/group460.svg" alt="Logo2">
+                <img class="trumi3 marc3" src="@/assets/mora.svg" alt="Logo2">
+            </div>
+            <p class="hmp223 marc2 marc5">Fomento:</p>
+             <div class="w-100 d-flex marc2 justify-content-start">
+                <img class="trumi3 marc3 marc5" src="@/assets/cnpq.svg" alt="Logo2">
+                <img class="trumi3 marc3 marc5" src="@/assets/fapemig.svg" alt="Logo2">
+            </div>
+            <p class="hmp223  marc2 marc5">Apoio:</p>
+             <div class="w-100 d-flex marc2 justify-content-start">
+                <img class="trumi2 marc3 marc5" src="@/assets/caumg.svg" alt="Logo2">
+            </div>
+        </div>
+    </div>
  </div>
 
 </template>
@@ -711,6 +742,12 @@ html, body {
 .wiwi {
     width: 80%;
 }
+.julo {
+    background-color: #F5F5F4;
+}
+.marreta {
+    margin-top: 30%
+}
 .acabalogo{
     margin-right: 4%;
 }
@@ -725,10 +762,18 @@ html, body {
 .nolans {
     border: none;
 }
+
 .tami {
     width: 30%;
     height: auto;
     margin: 5%;
+}
+.sarra {
+    padding-left: 0.5%;
+    border-radius: 20px;
+    margin-top: 4%;
+    padding-bottom: 40%;
+    background-color: #2632384D;
 }
 .tami9 {
     width: 5%;
@@ -737,6 +782,12 @@ html, body {
 }
 .marc2 {
     margin-bottom: 5%;
+}
+.marc3 {
+    margin-right: 3%;
+}
+.marc4 {
+    margin-top: 6%;
 }
 .tami2 {
     width: 50%;
@@ -756,6 +807,9 @@ html, body {
     
     width: 95%;
 }
+.marc5{
+    margin-left: 5%;
+}
 .setune3 {
     border: 2px solid #FFC676;
     border-radius: 24px;
@@ -764,6 +818,18 @@ html, body {
 .quid2 {
     width: 35%;
     margin-left: 4%;  
+}
+.trumi {
+    width: 10%;
+    height: auto;
+}
+.trumi2 {
+    width: 60%;
+    height: auto;
+}
+.trumi3 {
+    width: 15%;
+    height: auto;
 }
 .colo48 {
     color: #4A4A48;
@@ -777,6 +843,9 @@ html, body {
 
 width: 100%;
 height: auto;
+}
+.chamba {
+    width: 80%;
 }
 .tamamp29 {
 
@@ -797,6 +866,16 @@ height: auto;
     font-size: 2.2vw;
     font-weight: 10;
     margin: 0;
+
+}
+.hmp223 {
+    font-size: 2.5vw;
+    font-weight: 10;
+
+}
+.hmp224 {
+    font-size: 2vw;
+    font-weight: 10;
 
 }
 .hmp3 {
@@ -897,13 +976,42 @@ height: auto;
     height: auto;
     margin: 5%;
 }
+.tami3 {
+    width: 20%;
+    height: auto;
+    
+}
 .lalula{
     width: 45%;
     margin: 5%;
     font-size: 3.4vw;
 }
-
-    
+}
+@media(max-width: 500px){
+    .hmp223 {
+        font-size: 3.7vw;
+    }
+    .hmp224 {
+        font-size: 3.2vw;
+    }
+    .trumi {
+        width: 15%;
+        height: auto;
+    }
+    .trumi2 {
+        width: 75%;
+        height: auto;
+    }
+    .trumi3 {
+        width: 25%;
+        height: auto;
+    }
+    .chamba {
+        width: 96%;
+    }
+    .marc2 {
+        margin-bottom: 7%;
+    }
 }
 
 
