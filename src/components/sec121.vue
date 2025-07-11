@@ -41,7 +41,7 @@ Ao verificar telhas desencaixadas, desmonte a área em volta e a remonte, retira
                 </div>    
                 <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao3" class="d-flex w-100 color22 tucs2">
-                        <span id="barra3" class="tupi white tucs " > 3º Passo: Verificar desgaste na estrutura do telhado</span>
+                        <span id="barra3" class="tupi white tucs" > 3º Passo: Verificar desgaste na estrutura do telhado</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">

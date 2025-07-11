@@ -2069,11 +2069,7 @@ h3 {
         .tcs {
             border-radius: 16px;
         }
-        .tucs {
-            padding-bottom: 3%;
-            padding-top: 3%;
-            font-size: 2.2vw;
-        }
+
         .tucs2{
             border-radius: 15px;
         }
@@ -2279,6 +2275,7 @@ h3 {
         border-radius: 24px 0px 0px 24px;
         margin-right: 0;
         font-weight: 600;
+        font-size: 2.2vw;
         font-family: 'Quicksand', sans-serif;
         color: #4A4A48;
      }
@@ -2297,7 +2294,7 @@ h3 {
             border-radius: 16px;
         }
         .subtugali{
-            font-size: 2.6vw !important;
+            font-size: 2.6vw;
         }
         .tucs {
             padding-bottom: 3%;
@@ -2562,12 +2559,6 @@ h3 {
         font-family: 'Quicksand', sans-serif;
         
     }
-     .tucs {    
-        padding-top: 3%;
-        padding-bottom: 3%;
-        font-size: 2vw;
-        
-    }
      
      .subtugali {
         margin-bottom: 5%;
@@ -2623,11 +2614,7 @@ h3 {
         .tcs {
             border-radius: 16px;
         }
-        .tucs {
-            padding-bottom: 3%;
-            padding-top: 3%;
-            font-size: 2.2vw;
-        }
+        
         .tucs2{
             border-radius: 15px;
         }
@@ -2689,12 +2676,7 @@ h3 {
         font-family: 'Quicksand', sans-serif;
         
     }
-     .tucs {    
-        padding-top: 3%;
-        padding-bottom: 3%;
-        font-size: 2vw;
-        
-    }
+  
      
      .subtugali {
         margin-bottom: 5%;
@@ -2754,11 +2736,7 @@ h3 {
         .tcs {
             border-radius: 16px;
         }
-        .tucs {
-            padding-bottom: 3%;
-            padding-top: 3%;
-            font-size: 2.2vw;
-        }
+    
         .tucs2{
             border-radius: 15px;
         }
@@ -2829,12 +2807,6 @@ h3 {
     font-family: 'Quicksand', sans-serif;
     color: #4A4A48;
 }
- .tucs {    
-    padding-top: 3%;
-    padding-bottom: 3%;
-    font-size: 2vw;
-    
-}
  
  .subtugali {
     margin-bottom: 5%;
@@ -2881,11 +2853,7 @@ h3 {
             border-radius: 16px;
             width: 85% !important;
         }
-        .tucs {
-            padding-bottom: 3%;
-            padding-top: 3%;
-            font-size: 2.2vw;
-        }
+        
         .tucs2{
             border-radius: 15px;
         }
@@ -3479,12 +3447,6 @@ h3 {
         font-family: 'Quicksand', sans-serif;
         
     }
-     .tucs {    
-        padding-top: 3%;
-        padding-bottom: 3%;
-        font-size: 2vw;
-        
-    }
      
      .subtugali {
         margin-bottom: 5%;
@@ -3538,11 +3500,7 @@ h3 {
         .tcs {
             border-radius: 16px;
         }
-        .tucs {
-            padding-bottom: 3%;
-            padding-top: 3%;
-            font-size: 2.2vw;
-        }
+
         .tucs2{
             border-radius: 15px;
         }
@@ -4540,6 +4498,12 @@ h3 {
         }
         .gt{
             font-size: 2.8vw;
+        }
+        .subtugali {
+            font-size: 3vw;
+        }
+        .tupi {
+            font-size: 3vw;
         }
     }
 }
@@ -6680,7 +6644,7 @@ margin-bottom: 2%;
             height: 0.8vw;
         }
 .funko12 {
-    font-size: 4.3vw;
+    font-size: 4vw;
     margin-top: 4%;
     margin-bottom: 0;
 }
@@ -6726,7 +6690,7 @@ margin-bottom: 2%;
         font-size: 2.1vw;
     }
     .funko12 {
-        font-size: 4.4vw;
+        font-size: 4vw;
     }
 
 }
