@@ -3,7 +3,7 @@
         <h1 class="funko12 text-light famap400">Estudar/trabalhar em uma  sala pequena</h1>
         <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
+            <img class="tamanho893" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta2 d-flex justify-content-center align-items-center"> 
                     <p  class="funkot3 famap400 text-light text-align">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho</p>
@@ -76,7 +76,7 @@
         <h1 class="funko12 text-light famap400">Estudar/trabalhar em uma  sala pequena</h1>
         <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Estudar/trabalhar em uma sala pequena</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho892" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
+            <img class="tamanho893" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta2 d-flex justify-content-center align-items-center"> 
                     <p  class="funkot3 famap400 text-light">Este tópico traz soluções  para otimizar o espaço da sala e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>
