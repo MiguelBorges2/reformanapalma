@@ -26,5 +26,4 @@ import Guia73 from './guia73.vue';
         }
     }
 </script>
-<style>
-</style>
+

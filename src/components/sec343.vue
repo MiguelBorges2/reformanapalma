@@ -3,7 +3,7 @@
        <div class="gz bottom24 d-flex flex-column justify-content-center align-items-center ">
            <div class="w-100 gf2 d-flex flex-column">
                <p class="ga">Cuidado com abalos estruturais</p>
-               <p class="gw">cuidado ao abrir vãos/buracos em paredes para instalar janelas ou outros dispositivos de ventilação. Pode ser que elas não suportem esse tipo de intervenção e desmoronem por completo, colocando toda a estrutura da casa em risco.
+               <p class="gw">Cuidado ao abrir vãos/buracos em paredes para instalar janelas ou outros dispositivos de ventilação. Pode ser que elas não suportem esse tipo de intervenção e desmoronem por completo, colocando toda a estrutura da casa em risco.
                </p>
            </div>
            <div class="w-100 gf2 d-flex flex-column">
@@ -26,6 +26,3 @@ export default {
 }
 
 </script>
-<style>
-
-</style>

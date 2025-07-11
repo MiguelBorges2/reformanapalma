@@ -3,7 +3,7 @@
        <div class="gz bottom24 d-flex flex-column justify-content-center align-items-center ">
            <div class="w-100 gf2 d-flex flex-column">
                <p class="ga">Algumas medidas são apenas paliativas</p>
-               <p class="gw">comportamentos adaptativos, sozinhos, não são suficientes para proporcionar o conforto esperado, sendo que qualidades construtivas também são necessárias.
+               <p class="gw">Comportamentos adaptativos, sozinhos, não são suficientes para proporcionar o conforto esperado, sendo que qualidades construtivas também são necessárias.
                </p>
            </div>
            <div class="w-100 gf2  d-flex flex-column">
@@ -21,6 +21,3 @@ export default {
 }
 
 </script>
-<style>
-
-</style>

@@ -13,5 +13,3 @@
         name: 'sec425',
     }
 </script>
-<style>
-</style>

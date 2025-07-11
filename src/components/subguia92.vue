@@ -1,7 +1,7 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
-        <h1 class="funko123 text-light famap400">Adaptar minha casa para comércios e serviços</h1>
-        <p class="text-light funko23 famap300">Economizar energia > Ar-condicionado</p>
+        <h1 class="funko12 text-light famap400">Adaptar minha casa para comércios e serviços</h1>
+        <p class="text-light funko2 famap300">Economizar energia > Ar-condicionado</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho8966" src="@/assets/eco.svg" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
@@ -72,8 +72,8 @@
     
     </div>
     <div v-if="slider === 1" class="d-flex tamanho animate__animated animate__slideInRight  justify-content-center align-items-center flex-column" >
-        <h1 class="funko123 text-light famap400">Adaptar minha casa para comércios e serviços</h1>
-        <p class="text-light funko23 famap300">Economizar energia > Ar-condicionado</p>
+        <h1 class="funko12 text-light famap400">Adaptar minha casa para comércios e serviços</h1>
+        <p class="text-light funko2 famap300">Economizar energia > Ar-condicionado</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho8966" src="@/assets/eco.svg" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
@@ -179,13 +179,3 @@
     }
 
 </script>
-<style>
- .funko23 {
-    font-size: 1.9vw;
- }
- .tamanho8966 {
-    width: 15%;
-    height: auto;
-    margin-right: 5%;
- }
-</style>

@@ -24,6 +24,4 @@
     },
 };
   </script>
-  <style>
-
-</style>
+  

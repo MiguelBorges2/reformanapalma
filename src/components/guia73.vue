@@ -79,7 +79,5 @@
         }
     }
     </script>
-    <style>
     
-    </style>
     

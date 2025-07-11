@@ -79,11 +79,11 @@
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi6 === true">
                     <p id="678" class="subtugali acab">Uma parede sem acabamentos é mais afetada pelo sol, vento e chuva, deixando os ambientes mais quentes no verão e mais frios no inverno. Por isso, é melhor planejar a reforma quando puder fazer os acabamentos adequados.</p>
-                    <p class="subtugali forro"> Não deixe o ambiente sem forro ou laje, porque eles ajudam a impedir que o calor entre nos momentos quentes e evitam que o calor escape nos momentos frios. Se houver um espaço com ar entre o forro e as telhas, isso faz com que o calor tenha mais dificuldade para passar, mantendo a temperatura mais estável dentro da casa </p>
+                    <p class="subtugali forro text-align"> Não deixe o ambiente sem forro ou laje, porque eles ajudam a impedir que o calor entre nos momentos quentes e evitam que o calor escape nos momentos frios. Se houver um espaço com ar entre o forro e as telhas, isso faz com que o calor tenha mais dificuldade para passar, mantendo a temperatura mais estável dentro da casa </p>
                     <img class="tamanho81" src="@/assets/image111.svg" alt="Logo2">
-                    <p class ="subtugali janelas">As janelas são as principais responsáveis pelas mudanças de temperatura em casa. O tipo de vidro, o tamanho da janela, se há alguma proteção externa como marquises ou árvores, e as cortinas afetam diretamente a quantidade de calor que entra ou sai. Janelas totalmente envidraçadas sem sombreamento absorvem mais calor, especialmente se estiverem voltadas para o sol poente ou para o norte.</p>
+                    <p class ="subtugali janelas text-align">As janelas são as principais responsáveis pelas mudanças de temperatura em casa. O tipo de vidro, o tamanho da janela, se há alguma proteção externa como marquises ou árvores, e as cortinas afetam diretamente a quantidade de calor que entra ou sai. Janelas totalmente envidraçadas sem sombreamento absorvem mais calor, especialmente se estiverem voltadas para o sol poente ou para o norte.</p>
                     <img class="tamanho81" src="@/assets/image31.svg" alt="Logo2">
-                    <p class="subtugali">Para mais informações ver o subítem Escolher materiais e técnicas construtivas.</p>
+                    <p class="subtugali text-align">Para mais informações ver o subítem Escolher materiais e técnicas construtivas.</p>
                 </div>
             </div>       
         </div>
@@ -238,141 +238,4 @@
             }
         }
     </script>
-    <style>
-    .hig {
-        border-bottom: 1px solid black;
-        
-        
-    }
-    .acab::before {
-        content: 'Acabamento:';
-        font-weight: bold;
-        margin-right: 0.5%;
-    }
-    .forro::before {
-        content: 'Forro e Laje:';
-        font-weight: bold;
-        margin-right: 0.5%;
-    }
-    .janelas::before {
-        content: 'Janelas:';
-        font-weight: bold;
-        margin-right: 0.5%;
-    }
-    .tamanho80 {
-        width: 60%;
-        height: auto;   
-    }
-    .tamanho81 {
-        width: 75%;
-        height: auto;   
-    }
-    .tamanho82 {
-        width: 100%;
-        height: auto;   
-        margin-right: 13%;
-    }
-    .tamanho83 {
-        width: 55%;
-        height: auto;   
-    }
-    .tamanho84 {
-        width: 80% !important;
-        height: auto;   
-    }
-    .tugali {
-        padding: 3%;
-        font-size: 1.7vw;
-        font-weight: 550 !important;
-        font-family: 'Quicksand', sans-serif;
-        
-    }
-     .tucs {    
-        padding-top: 3%;
-        padding-bottom: 3%;
-        font-size: 2vw;
-        
-    }
-     
-     .subtugali {
-        margin-bottom: 5%;
-     }
-     .tcs {
-        width: 75%;
-        border: 1px solid black;
-        border-radius: 25px;
-        margin-bottom: 3.5%;
-        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Sombra abaixo da div */
-     }
-     .finta {
-        color: white !important;
-     }
-     .white {
-        background-color: white;
-        color: #4A4A48;
-     }
-     .tucs2 {
-        border-radius: 24px;
-     }
-     .tcs:hover {
-        border: 2px solid black;
-        border-radius: 27px;
-    }
-     .tucs3 {
-        border-radius: 20px;
-     }
-     .tupi {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        border-radius: 24px 0px 0px 24px;
-        margin-right: 0;
-        font-weight: 600;
-        font-family: 'Quicksand', sans-serif;
-        color: #4A4A48;
-     }
-     .tupi2{
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        margin: 0;
-        color: white;
-        
-     }
-     @media (max-width: 720px) {
-        
-        .tcs {
-            border-radius: 16px;
-        }
-        .tucs {
-            padding-bottom: 3%;
-            padding-top: 3%;
-            font-size: 2.2vw;
-        }
-        .tucs2{
-            border-radius: 15px;
-        }
-        .tupi {
-            border-radius: 15px 0px 0px 15px;
-        }
-        .tamanho81 {
-            width: 100% !important;
-        }
-        .tamanho82 {
-            width: 180% !important;
-        }
-        .tamanho83 {
-            width: 80% !important;
-        }
-        .tamanho80 {
-            width: 95% !important;
-        }
-        .tamanho84 {
-            width: 90% !important;
-        }
     
-    }
-    
-    </style>

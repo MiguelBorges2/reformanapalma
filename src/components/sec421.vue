@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">Manchas escuras e úmidas em paredes e pisos indicam absorção indevida de água, que pode provocar trincas, mofo, mau cheiro e até perda total de uma pintura/revestimento. O excesso de umidade e mofo nos ambientes pode causar ou piorar problemas respiratórios, principalmente em idosos, crianças e imunossuprimidos, os deixando mais vulneráveis às doenças.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
@@ -12,7 +12,7 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
@@ -224,32 +224,3 @@ export default {
     }
 }
 </script>
-<style>
-    .maw {
-        width: 100%;
-    }
-    .puts{
-        list-style: none;
-    }
-    .text-align {
-        text-align:justify;
-        hyphens: auto;
-    }
-    .imai {
-        width: 10%;
-        margin-right: 1%;
-        height: auto;
-    }
-    .mp {
-        margin-top: 1%;
-    } 
-    
-    .tamanho8{
-        width:95%;
-        height: auto;
-        
-    }
-    li {
-        margin-bottom: 2%;
-    }
-</style>

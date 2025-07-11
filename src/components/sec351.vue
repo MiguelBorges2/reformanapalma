@@ -2,7 +2,7 @@
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
                 <p class="fo famp">Importância para saúde</p>
-                <p class="fo3 famp text-align">É importante usar estratégias para manter sua casa mais fresca, porque ambientes muito quentes podem piorar problemas respiratórios, como asma e alergias. O ar quente pode dificultar a respiração, causar tosse e falta de ar. Além disso, o calor excessivo pode ajudar os germes a se espalharem, aumentando o risco de pegar doenças respiratórias, de pele e outras. Isso nos deixa mais vulneráveis às doençças.</p>
+                <p class="fo3 famp text-align">É importante usar estratégias para manter sua casa mais fresca, porque ambientes muito quentes podem piorar problemas respiratórios, como asma e alergias. O ar quente pode dificultar a respiração, causar tosse e falta de ar. Além disso, o calor excessivo pode ajudar os germes a se espalharem, aumentando o risco de pegar doenças respiratórias, de pele e outras. Isso nos deixa mais vulneráveis às doenças.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Aprovação para fazer</p>
@@ -16,7 +16,7 @@
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -215,4 +215,3 @@ export default {
     }
 }
 </script>
-<style></style>

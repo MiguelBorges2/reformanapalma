@@ -28,5 +28,3 @@ import Guia78 from './guia78.vue';
         }
     }
 </script>
-<style>
-</style>

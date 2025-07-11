@@ -19,11 +19,11 @@
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao1" class="d-flex w-100 color22 tucs2">
-                        <span id="barra1" class="tupi white tucs " > 1º passo: verificar suas necessidades</span>
+                        <span id="barra1" class="tupi white tucs " > 1º passo: Verificar suas necessidades</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column" v-if="togi1 === true">
-                        <p class="subtugali"> É importante refletir quais são suas necessidades.  Qual ambiente você utilizará? qual tamanho de mesa te atenderá? Essas reflexões serão essenciais para tomar as decisões e planejar seu cômodo.</p>
+                        <p class="subtugali"> É importante refletir quais são suas necessidades.  Qual ambiente você utilizará? Qual tamanho de mesa te atenderá? Essas reflexões serão essenciais para tomar as decisões e planejar seu cômodo.</p>
                         <p class="subtugali">Realize medições do cômodo para a partir daí preparar seu quarto para suas necessidades.</p>
                     </div>
                 </div>      
@@ -66,7 +66,7 @@
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
                         <p class="subtugali">O importante é escolher sempre por uma cadeira confortável entre 40 a 45 cm de altura, com apoio nas costas, a mesa com 72 a 75 cm de altura, profundidade de no mínimo 50 a 60 cm e largura mínima de 80cm, que pode ser adquirida no mercado ou pode ser confeccionada em madeira, MDF, MDP (com acabamento laminado), metálico, vidro temperado etc. E, caso utilize telas, se atente a distância do rosto a tela e da inclinação dela, o monitor deve estar entre 45 a 70 cm de distância dos seus olhos e alinhado horizontalmente com eles.</p>
-                        <img class="tamanho81" src="@/assets/IMG 5 1.svg" alt="Logo2">
+                        <img class="tamanho81" src="@/assets/img51.svg" alt="Logo2">
                     </div>
                 </div>            
                <div @click="changes5()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -263,135 +263,4 @@
             }
         }
     </script>
-    <style>
-    .hig {
-        border-bottom: 1px solid black;
-        
-        
-    }
-    .tamanho80 {
-        width: 60%;
-        height: auto;   
-    }
-    .tamanho81 {
-        width: 75%;
-        height: auto;   
-    }
-    .tamanho82 {
-        width: 100%;
-        height: auto;   
-        margin-right: 13%;
-    }
-    .tamanho83 {
-        width: 55%;
-        height: auto;   
-    }
-    .tamanho84 {
-        width: 80% !important;
-        height: auto;   
-    }
-    .tugali {
-        padding: 3%;
-        font-size: 1.7vw;
-        font-weight: 500;
-        font-family: 'Quicksand', sans-serif;
-        
-    }
-     .tucs {    
-        padding-top: 3%;
-        padding-bottom: 3%;
-        font-size: 2vw;
-        
-    }
-     
-     .subtugali {
-        margin-bottom: 5%;
-     }
-     .tcs {
-        width: 75%;
-        border: 1px solid black;
-        border-radius: 25px;
-        margin-bottom: 3.5%;
-        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Sombra abaixo da div */
-     }
-     .finta {
-        color: white !important;
-     }
-     .white {
-        background-color: white;
-        color: #4A4A48;
-     }
-     .tucs2 {
-        border-radius: 24px;
-     }
-     .tcs:hover {
-        border: 2px solid black;
-        border-radius: 27px;
-    }
-     .tucs3 {
-        border-radius: 20px;
-     }
-     .tupi {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        border-radius: 24px 0px 0px 24px;
-        margin-right: 0;
-        font-weight: 600;
-        font-family: 'Quicksand', sans-serif;
-        color: #4A4A48;
-     }
-     .tupi2{
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        margin: 0;
-        color: white;
-        
-     }
-     @media (max-width: 720px) {
-        .hig {
-            
-        }
-        .tcs:hover {
-            border: 2px solid black;
-            border-radius: 18px !important;
-        }
-        .tcs {
-            border-radius: 16px;
-        }
-        .tucs {
-            padding-bottom: 3%;
-            padding-top: 3%;
-            font-size: 2.2vw;
-        }
-        .tucs2{
-            border-radius: 15px;
-        }
-        .tugali{
-            font-size: 2.6vw;
-        }
-        .tupi {
-            border-radius: 15px 0px 0px 15px;
-        }
-        .tamanho81 {
-            width: 100% !important;
-        }
-        .tamanho82 {
-            width: 180% !important;
-        }
-        .tamanho83 {
-            width: 80% !important;
-        }
-        .tamanho80 {
-            width: 95% !important;
-        }
-        .tamanho84 {
-            width: 90% !important;
-        }
     
-    }
-    
-    </style>

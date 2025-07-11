@@ -28,9 +28,3 @@ e Urbanismo, Universidade Estadual de Campinas, Campinas, 2008.</p>
 
 
 </script>
-<style>
-    .magru {
-        margin-bottom: 5%;
-    }
-
-</style>

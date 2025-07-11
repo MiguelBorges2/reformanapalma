@@ -229,11 +229,3 @@ export default {
     }
 }
 </script>
-<style> 
-    .tacks22 {
-    width: 25%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
-</style>

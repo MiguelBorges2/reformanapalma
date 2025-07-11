@@ -1,4 +1,5 @@
 import { createApp } from 'vue';
+import './assets/global.css'
 import App from './App.vue';
 import { createPinia } from 'pinia'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importa o CSS do Bootstrap

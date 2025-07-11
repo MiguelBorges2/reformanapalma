@@ -25,7 +25,7 @@
     <sec252 v-if="controlador1[0] === 1"></sec252>
     <sec323 v-if="controlador1[0] === 2"></sec323>
     <sec134 v-if="controlador1[0] === 3"></sec134>
-    <sec255 v-if="controlador1[0] === 4"></sec255>
+    <sec325 v-if="controlador1[0] === 4"></sec325>
     <sec326 v-if="controlador1[0] === 5"></sec326>
     
     
@@ -90,69 +90,3 @@ export default {
 };
 </script>
 
-<style>
-html, body {
-  height: 100%; /* Faz com que o html e o body ocupem toda a altura */
-  margin: 0;
-  padding: 0;
-}
-.calo {
-    border-radius: 0 0 60px 60px !important;   
-}
-.famap400{
-    font-weight: 400 !important;
-}
-.famap300{
-    font-weight: 300 !important;
-}
-.famap700{
-    font-weight: 700     !important;
-}
-.famap500{
-    font-weight: 500      !important;
-}
-.btn-round {  
-  height: 3vw;
-  width: 3%;      
-  padding: 0;              
-  display: flex;           
-  align-items: center;     
-  justify-content: center; 
-  border-radius: 80px;       
-  color: white;            
-  border: 1px solid white; 
-  transition: background-color 0.3s ease; 
-}
-
-.alturatotal {
-    height: auto;
-    transition: height 0.5s ease, width 0.5s ease; 
-}
-
-
-
-.gradient-bg {
-    background: linear-gradient(to top, #749695, #394A55); 
-    border-radius: 0 0 24px 24px;
-}
-
-.btn-hover-yellow:hover {
-    background-color:   #FFC676;
-    
-}
-
-@media (max-width: 768px) {
-    .btn-round {
-        width: 4%; 
-        height: 4vw;   
-    }
-    
-}
-@media (max-width: 1200px) {
-    
-    .calo{
-        border-radius: 0 0 40px 40px !important;
-    }
-}
-
-</style>

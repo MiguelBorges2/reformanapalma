@@ -28,5 +28,4 @@ import Guia62 from './guia62.vue';
         }
     }
 </script>
-<style>
-</style>
+

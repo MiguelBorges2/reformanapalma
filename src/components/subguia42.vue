@@ -180,15 +180,3 @@
     }
 
 </script>
-<style>
-
-.tamanho8912 {
-   height: auto;    
-   width: 20%;
-   margin-left: 3%;
-   margin-right: 10%;
-   margin-bottom: 0;
-   margin-top: 1%;
-        
-}  
-</style>

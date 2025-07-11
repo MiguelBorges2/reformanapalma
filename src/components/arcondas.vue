@@ -27,5 +27,3 @@ import Guia92 from './guia92.vue';
         }
     }
 </script>
-<style>
-</style>

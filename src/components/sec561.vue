@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">A construção de um novo banheiro pode ter uma série de benefícios para a saúde, incluindo melhorias na higiene pessoal, privacidade, conveniência, acessibilidade e prevenção de doenças. Esses benefícios podem contribuir significativamente para o conforto e o bem-estar dos moradores da casa. Além de valorizar o imóvel quando construído conforme as instruções.
                 </p>
            </div>
@@ -12,11 +12,11 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
@@ -36,18 +36,18 @@ Certifique-se: </p>
             </div>
             <div @click="changes2()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao2" class="d-flex w-100 color1 tucs2">
-                    <span id="barra2" class="tupi white tucs " > 2º Passo: Verificar as dimensões mínimas recomendadas para banheiros </span>
+                    <span id="barra2" class="tupi white tucs " > 2º Passo: Verificar dimensões mínimas recomendadas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
-                <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
+                <div class="tugali w-100 d-flex justify-content-center  flex-column" v-if="togi2 === true">
                     <p class="subtugali text-align down">Sobre o tamanho do banheiro
                     </p>
                     <p class="subtugali text-align">Verifique as dimensões mínimas recomendadas para banheiros residenciais:</p>
-                    <img class="tamanho866" src="@/assets/medidasa.svg" alt="Logo2">
-                    <img class="tamanho866" src="@/assets/medidasb.svg" alt="Logo2">
-                    <img class="tamanho866" src="@/assets/medidasc.svg" alt="Logo2">
+                    <img class="tamanho8667" src="@/assets/medidasa.svg" alt="Logo2">
+                    <img class="tamanho8667" src="@/assets/medidasb.svg" alt="Logo2">
+                    <img class="tamanho8667" src="@/assets/medidasc.svg" alt="Logo2">
                     <p class="subtugali text-align">- Caso necessário construir um banheiro acessível:</p>
-                    <img class="tamanho867" src="@/assets/medidasd.svg" alt="Logo2">
+                    <img class="tamanho86678" src="@/assets/medidasd.svg" alt="Logo2">
                 </div> 
 
             </div> 
@@ -252,28 +252,3 @@ export default {
     }
 }
 </script>
-<style>
-
-.tamanho76 {
-    width: 70%;
-    height: auto;
-}
-
-.down {
-    margin-bottom: 2%;
-}
-.tamanho867{
-        width: 80%;
-        height: auto;
-        display: block;
-        margin-bottom: 2%;
-        
-    }
-.sam::before {
-    content: 'Altura Elevada: ';
-    font-weight: bolder;
-}
-.sam2 {
-    font-weight: bolder;
-}
-</style>

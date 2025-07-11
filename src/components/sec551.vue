@@ -284,10 +284,3 @@ export default {
     }
 }
 </script>
-<style>
-
-.tamanho76 {
-    width: 70%;
-    height: auto;
-}
-</style>

@@ -16,5 +16,3 @@ import Guia51 from './guia51.vue';
         }
     }
 </script>
-<style>
-</style>

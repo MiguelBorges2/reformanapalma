@@ -27,8 +27,7 @@
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column" v-if="togi1 === true">
-                    <p class="subtugali text-align">Em um primeiro momento é essencial pensar quais são suas necessidades: Qual parede com interruptores e tomadas  melhor te atenderia? Quais equipamentos utilizará? Essas reflexões serão essenciais para tomar as decisões e planejar seu cômodo.
-Prefira contratar profissionais especializados para realizar os reparos e serviços necessários.</p>
+                    <p class="subtugali text-align">Em um primeiro momento é essencial pensar quais são suas necessidades: Qual parede com interruptores e tomadas  melhor te atenderia? Quais equipamentos utilizará? Essas reflexões serão essenciais para tomar as decisões e planejar seu cômodo.</p>
 <p class="subtugali text-align">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários</p>
                 </div>
             </div>      
@@ -41,7 +40,7 @@ Prefira contratar profissionais especializados para realizar os reparos e servi�
                     <p class="subtugali text-align">
                         Peça para um profissional verificar se há aterramento dos fios. O aterramento elétrico é uma medida de segurança que garante o bom funcionamento dos equipamentos conectados à rede elétrica, garantindo a segurança dos moradores (NBR 5410).
                     </p>
-                    <p class="subtugali text-align">Verifique se há fios expostos pela casa para colocá-los de forma mais segura</p>
+                    <p class="subtugali text-align">Verifique se há fios expostos pela casa para colocá-los de forma mais segura.</p>
                 </div>
             </div>    
             <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -216,20 +215,3 @@ export default {
     }
 }
 </script>
-<style>
-    .maw {
-        width: 100%;
-    }
-    .text-align {
-        text-align:justify;
-        hyphens: auto;
-    }
-    .imai {
-        width: 10%;
-        margin-right: 1%;
-        height: auto;
-    }
-    .mp {
-        margin-top: 1%;
-    }
-</style>

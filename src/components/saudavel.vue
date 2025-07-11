@@ -16,5 +16,3 @@ import Guia72 from './guia72.vue';
         }
     }
 </script>
-<style>
-</style>

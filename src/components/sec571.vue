@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">Plantar uma horta residencial em tetos e paredes contribui para o isolamento térmico e reduz o uso de energia. Realizar atividades na área externa da casa incentiva o menor consumo de energia diário. Massas verdes mais densas próximas à unidade habitacional beneficiam a filtragem, a umidificação e o resfriamento da ventilação natural. Uma pequena horta urbana pode ser cultivada em paredes, tetos, varandas, quintais ou terraços e ainda oferece a possibilidade de obter alimentos frescos.
                 </p>
            </div>
@@ -12,11 +12,11 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
@@ -220,28 +220,3 @@ export default {
     }
 }
 </script>
-<style>
-
-.tamanho76 {
-    width: 70%;
-    height: auto;
-}
-
-.down {
-    margin-bottom: 2%;
-}
-.tamanho867{
-        width: 80%;
-        height: auto;
-        display: block;
-        margin-bottom: 2%;
-        
-    }
-.sam::before {
-    content: 'Altura Elevada: ';
-    font-weight: bolder;
-}
-.sam2 {
-    font-weight: bolder;
-}
-</style>

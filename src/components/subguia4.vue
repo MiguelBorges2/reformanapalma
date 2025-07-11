@@ -58,65 +58,7 @@
     }
         
 </script>
-<style>
-    @media (max-width: 600px) {
-            .yip{
-                font-size: 4.3vw;
-            }
-            .fonte45 {
-                font-size: 5.25vw;
-            }
-        }
-    .fonte45 {
-        font-size: 4.5vw;
-    }
 
-    .round2 {
-        border-radius: 24px;
-        width: 14%;
-        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-        font-size: 1.5vw;
-        padding: 0.5%;
-        background-color: #FFC676;
-    }
-    .indicator {
-            width: 20%;
-            background-color: #FFC676;
-            border-radius: 24px;
-            height:0.8vw;
-        }
-    .indi {
-            width: 20%;
-            background-color: white;
-            border-radius: 24px;
-            height: 0.8vw;
-        }
-    .keeps {
-        width: 100%;
-    }
-    .size {
-
-        width: 28%;
-        margin: 1.5%;
-    }
-    .tamanho3 {
-            height: auto;
-            width: 25%;
-            margin-left: 4%;
-    }
-
-
-    
-    .tamanho2 {
-        width: 50%;
-    }
-    
-     
-    
-
-
-
-</style>
     
 
 

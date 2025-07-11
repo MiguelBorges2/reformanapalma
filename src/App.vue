@@ -85,6 +85,7 @@ import iluminacao2 from './components/iluminacao2.vue';
 import Saudavel from './components/saudavel.vue';
 import Equip from './components/equip.vue';
 import Aquecimento from './components/aquecimento.vue';
+import './assets/global.css'
 export default {
   name: 'App',
   components: {

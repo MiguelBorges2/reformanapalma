@@ -16,5 +16,3 @@ import Guia58 from './guia58.vue';
         }
     }
 </script>
-<style>
-</style>

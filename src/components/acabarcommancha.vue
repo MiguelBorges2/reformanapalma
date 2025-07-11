@@ -25,5 +25,3 @@ import Guia77 from './guia77.vue';
         }
     }
 </script>
-<style>
-</style>

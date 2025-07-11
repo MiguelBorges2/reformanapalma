@@ -18,5 +18,4 @@ import guia12 from './guia12.vue';
         }
     }
 </script>
-<style>
-</style>
+

@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">O excesso de calor dentro de casa pode causar problemas de saúde, principalmente respiratórios e cardiovasculares, comprometendo especialmente a saúde de idosos, crianças e imunossuprimidos. A melhor escolha de materiais e técnicas construtivas protege a casa do calor, diminuindo a necessidade de ar-condicionado/ventilador.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
@@ -12,7 +12,7 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual e edificação</p>
+                <p class="fo3 famp">Pontual e edificação.</p>
            </div>
            <div class="d-flex dev2 justify-content-center align-items-center ">
                 <img class="imai" src="@/assets/Vector.svg">
@@ -221,20 +221,3 @@ export default {
     }
 }
 </script>
-<style>
-    .maw {
-        width: 100%;
-    }
-    .text-align {
-        text-align:justify;
-        hyphens: auto;
-    }
-    .imai {
-        width: 10%;
-        margin-right: 1%;
-        height: auto;
-    }
-    .mp {
-        margin-top: 1%;
-    }
-</style>

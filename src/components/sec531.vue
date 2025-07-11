@@ -17,7 +17,7 @@
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -44,7 +44,7 @@ ATENÇÃO! Cada caso é um caso! Prefira contar com ajuda profissional na hora d
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali w-100 d-flex justify-content-center align-items-center flex-column" v-if="togi2 === true">
-                    <p class="subtugali text-align">Às vezes não é possível colocar as janelas na posição ideal. Nessas situações, brises, árvores e, em último caso, cortinas, podem diminuir o desconforto</p>
+                    <p class="subtugali text-align">Às vezes não é possível colocar as janelas na posição ideal. Nessas situações, brises, árvores e, em último caso, cortinas, podem diminuir o desconforto.</p>
                     <img class="tamanho81" src="@/assets/imagem423.svg" alt="Logo2">
                     <img class="tamanho80" src="@/assets/cortina.gif" alt="Logo2">
                     <p class="subtugali text-align">Os brises são como marquises, placas horizontais ou verticais que sombreiam a janela externamente. Podem ser feitos de vários materiais e seu tamanho varia de acordo com a posição em relação ao sol e com a quantidade de sol que se deseja sombrear.
@@ -210,10 +210,3 @@ export default {
     }
 }
 </script>
-<style>
-
-.tamanho76 {
-    width: 70%;
-    height: auto;
-}
-</style>

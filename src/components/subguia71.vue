@@ -1,6 +1,6 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
-        <h1 class="funko123 text-light famap400">Adaptar minha casa para doenças contagiosas</h1>
+        <h1 class="funko12 text-light famap400">Adaptar minha casa para doenças contagiosas</h1>
         <p class="text-light funko2 famap300">Adaptar minha casa para doenças contagiosas > Mobiliário para sapatosl</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho8912" src="@/assets/adapt.svg" alt="Logo2">
@@ -73,7 +73,7 @@
 
     </div>
     <div v-if="slider === 1" class="d-flex tamanho animate__animated animate__slideInRight  justify-content-center align-items-center flex-column" >
-        <h1 class="funko123 text-light famap400">Adaptar minha casa para doenças contagiosas</h1>
+        <h1 class="funko12 text-light famap400">Adaptar minha casa para doenças contagiosas</h1>
         <p class="text-light funko2 famap300">Adaptar minha casa para doenças contagiosas > Mobiliário para sapatos</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho8912" src="@/assets/adapt.svg" alt="Logo2">
@@ -180,9 +180,3 @@
     }
 
 </script>
-<style>
-    .funko123 {
-        font-size: 4vw;
-        margin-top: 2%;
-    }
-</style>

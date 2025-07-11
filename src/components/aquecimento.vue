@@ -23,5 +23,3 @@ import Guia94 from './guia94.vue';
         }
     }
 </script>
-<style>
-</style>

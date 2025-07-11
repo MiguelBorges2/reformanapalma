@@ -77,9 +77,5 @@
         }
     }
     </script>
-    <style>
-    .poi {
-        margin: 1% !important;
-    }
-    </style>
+    
     

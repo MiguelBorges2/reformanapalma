@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">O excesso de calor dentro de casa pode favorecer o agravamento e/ou surgimento de problemas de saúde, principalmente respiratórios e cardiovasculares, comprometendo especialmente a saúde de idosos, crianças e imunossuprimidos. A existência de sistema de geração de energia elétrica confere autonomia energética à edificação, tornando mais econômico o uso de ar-condicionado/ventiladores durante picos de calor.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
@@ -12,11 +12,11 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
@@ -202,10 +202,3 @@ export default {
     }
 }
 </script>
-<style>
-
-.tamanho76 {
-    width: 70%;
-    height: auto;
-}
-</style>

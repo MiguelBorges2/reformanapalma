@@ -234,16 +234,3 @@ export default {
     }
 }
 </script>
-<style>
-    .maw {
-        width: 100%;
-    }
-    .imai {
-        width: 10%;
-        margin-right: 1%;
-        height: auto;
-    }
-    .mp {
-        margin-top: 1%;
-    }
-</style>

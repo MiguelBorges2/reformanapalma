@@ -19,7 +19,7 @@
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao1" class="d-flex w-100 color22 tucs2">
-                        <span id="barra1" class="tupi white tucs " > 1 passo: Verificar suas necessidades</span>
+                        <span id="barra1" class="tupi white tucs " > 1º passo: Verificar suas necessidades</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column" v-if="togi1 === true">
@@ -44,29 +44,29 @@
                 </div>    
                 <div @click="changes3()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao3" class="d-flex w-100 color22 tucs2">
-                        <span id="barra3" class="tupi white tucs " > 3º Passo: Escolher a cama</span>
+                        <span id="barra3" class="tupi white tucs " > 3º Passo: Escolher mesas e cadeiras adequadas</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi3 === true">
-                        <p class="subtugali">Caso você não consiga instalar uma mesa com cadeira para estudar/trabalhar, opte por liberar espaço (durante o horário de trabalho) com uma cama de solteiro articulável vertical ou horizontal. Ou escolha uma cama com mesa integrada.</p>
-                        <img class="tamanho81" src="@/assets/IMG 3 1.svg" alt="Logo2">
+                        <p class="subtugali">O importante é escolher sempre por uma cadeira confortável entre 40 a 45 cm de altura, com apoio nas costas, a mesa com 72 a 75 cm de altura, profundidade de no mínimo 50 a 60 cm e largura mínima de 80cm, que pode ser adquirida no mercado ou pode ser confeccionada em madeira, MDF, MDP (com acabamento laminado), metálico, vidro temperado etc. E, caso utilize telas, se atente a distância do rosto a tela e da inclinação dela, o monitor deve estar entre 45 a 70 cm de distância dos seus olhos e alinhado horizontalmente com eles.</p>
+                        <img class="tamanho81" src="@/assets/img51.svg" alt="Logo2">
                         <img class="tamanho81" src="@/assets/IMG 3 2.svg" alt="Logo2">
                         <img class="tamanho82" src="@/assets/GIF - Quarto p casal - Móveis.gif" alt="Logo2">
                     </div>
                 </div>    
                 <div @click="changes4()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao4" class="d-flex w-100 color1 tucs2">
-                        <span id="barra4" class="tupi white tucs " > 4º Passo: Escolher mesas e cadeiras adequadas</span>
+                        <span id="barra4" class="tupi white tucs " > 4º Passo: Providenciar uma bancada de trabalho ou estudo</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi4 === true">
-                        <p class="subtugali">O importante é escolher sempre por uma cadeira confortável entre 40 a 45 cm de altura, com apoio nas costas, a mesa com 72 a 75 cm de altura, profundidade de no mínimo 50 a 60 cm e largura mínima de 80cm, que pode ser adquirida no mercado ou pode ser confeccionada em madeira, MDF, MDP (com acabamento laminado), metálico, vidro temperado etc. E, caso utilize telas, se atente a distância do rosto a tela e da inclinação dela, o monitor deve estar entre 45 a 70 cm de distância dos seus olhos e alinhado horizontalmente com eles.</p>
-                        <img class="tamanho81" src="@/assets/IMG 5 1.svg" alt="Logo2">
+                        <p class="subtugali">Sempre se atente às dimensões disponíveis para instalação da mesa. Você pode aproveitar o espaço abaixo da TV para organizar seu ambiente. Caso sua sala não comporte uma mesa, há opções dobráveis, como escrivaninha dobrável com prateleira, mesa dobrável de alumino com tampo de mdf e mesa dobrável com rodízio.</p>
+                        <img class="tamanho81" src="@/assets/up.gif" alt="Logo2">
                     </div>
                 </div>            
                <div @click="changes5()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao5" class="d-flex w-100 color22 tucs2">
-                        <span id="barra5"  class="tupi white tucs " > 5º Passo: Providenciar uma bancada de trabalho/estudo</span>
+                        <span id="barra5"  class="tupi white tucs " > 5º Passo: Utilizar mobiliário para guardar material</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi5 === true">
@@ -84,7 +84,7 @@
                 </div>        
                 <div @click="changes6()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                     <div id="botao6" class="d-flex w-100 color1 tucs2">
-                        <span id="barra6" class="tupi white tucs " > 6º Passo: Utilizar mobiliário para guardar material</span>
+                        <span id="barra6" class="tupi white tucs " > 6º Passo: Organizar o espaço entre os mobiliários</span>
                         <span class="tupi2 "> &#709; </span>
                     </div>
                     <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi6 === true">
@@ -258,186 +258,4 @@
             }
         }
     </script>
-    <style>
-.famp {
-    color: #263238;
-    font-weight: 400 !important;  
-}
-.fo2{
     
-    font-size: 1.7vw;
-    
-}
-.vai {
-    border-radius: 18px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Sombra abaixo da div */
-}
-.custiome { 
-    
-        width: 97%; 
-        
-        margin: 1.5%;
-        margin-top: 4%;
-         flex-basis: auto; /* Permite que o item mantenha o tamanho do conteúdo */
-    
-}
-.dev5{
-    width: 90%;
-}
-.tamanho72 {
-    width: 80%;
-}
-.gho {
-    margin-bottom: 33%;
-}
-.dev4 {
-    width: 93%;
-}
-.dev3 {
-    margin-top: 3%;
-    margin-bottom: 6%;
-    width: 90%;
-}
-.dev{
-    margin-top: 6%;
-    width: 90%; 
-    padding: 1%;
-    border-radius: 30px;
-    border: 3px solid  #FFC676;
-}
-.dev2{
-    margin-top: 1.6%;   
-    width: 90%; 
-    padding: 1%;
-    border-radius: 30px;
-    border: 3px solid   #568D8B;
-}
-.fo4{
-    margin-top: 1%;
-    font-size: 1.6vw;
-    color: #4A4A48;
-}
-.fo6{
-    margin-top: 1%;
-    font-size: 1.4vw;
-    color: #4A4A48;
-}
-.lop {
-    border: 1px solid black;
-}
-.famap400{
-    font-weight: 400 !important;
-}
-.famap300{
-    font-weight: 300 !important;
-}
-.famap700{
-    font-weight: 700     !important;
-}
-.famap500{
-    font-weight: 500      !important;
-}
-.fo{
-    color: #568D8B;
-    font-size: 1.8vw;
-    margin: 0;
-
-}
-.tilt {
-    margin-bottom: 30%;
-}
-.fo3{   
-    font-size: 1.6vw;
-    margin: 0;
-}
-.fo5 {
-    font-size: 1.6vw;
-    margin: 1%;
-}
-.fo7 {
-    font-size: 1.4vw;
-    margin: 2%;
-    color: #4A4A48;
-    
-}
-@media (max-width: 768px) {
-          .dev {
-            padding: 2%;
-
-          }
-         
-          .dev2 {
-            padding: 2%;
-            margin-top: 3%;
-          }
-          .fo {
-            font-size: 1.9vw !important;
-          }
-          .fo3 {
-            font-size: 1.7vw !important;
-          }
-        .fo7{
-            font-size: 2vw;
-        } 
-        .fo2 {
-            font-size: 1.7vw !important;
-        }
-        .fo4 {
-            font-size: 2vw;
-        }
-        .fo6 {
-            font-size: 2vw;
-        }
-            
-    }
-    @media (max-width: 600px) {
-    
-        .fo {
-            font-size: 2.4vw !important;
-          }
-          .fo3 {
-            font-size: 2.3vw !important;
-          }
-        .fo7{
-            font-size: 2vw;
-        } 
-        .fo2 {
-            font-size: 2.1vw !important;
-        }
-        .fo4 {
-            font-size: 2vw;
-        }
-        .fo6 {
-            font-size: 2vw;
-        }
-            
-    }
-    @media (max-width: 500px) {
-    .dev {
-        padding: 3%;
-    }
-    .dev2 {
-        padding: 3%;
-    }
-    .fo {
-        font-size: 2.7vw !important;
-      }
-      .fo3 {
-        font-size: 2.6vw !important;
-      }
-    .fo7{
-        font-size: 2vw;
-    } 
-    .fo2 {
-        font-size: 2.1vw !important;
-    }
-    .fo4 {
-        font-size: 2vw;
-    }
-    .fo6 {
-        font-size: 2vw;
-    }
-        
-}
-
-</style>

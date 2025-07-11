@@ -16,5 +16,3 @@ import Guia84 from './guia84.vue';
         }
     }
 </script>
-<style>
-</style>

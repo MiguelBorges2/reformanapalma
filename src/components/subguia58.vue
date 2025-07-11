@@ -180,6 +180,3 @@
     }
 
 </script>
-<style>
-
-</style>

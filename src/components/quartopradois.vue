@@ -16,5 +16,4 @@ import guia24 from './guia24.vue';
         }
     }
 </script>
-<style>
-</style>
+

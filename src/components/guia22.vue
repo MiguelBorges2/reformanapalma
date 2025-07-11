@@ -80,7 +80,5 @@ import Sec221 from './sec221.vue';
         }
     }
     </script>
-    <style>
     
-    </style>
     

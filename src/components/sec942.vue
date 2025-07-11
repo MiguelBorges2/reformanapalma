@@ -28,9 +28,3 @@
     }
 </script>
 
-<style>
-    .tamanho03 {
-        width: 20%;
-        height: auto;
-    }
-</style>

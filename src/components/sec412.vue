@@ -35,13 +35,3 @@
 
 
 </script>
-<style>
-    .magru {
-        margin-bottom: 5%;
-    }
-    .tamanho63{
-        width: 80%;
-        height: auto;
-        margin-bottom: 3%;
-    }
-</style>

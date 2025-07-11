@@ -36,18 +36,3 @@
     }
 </script>
 
-<style>
-    .tamanho71 {
-        width: 18%;
-        height: auto;
-        margin-bottom: 2%;
-        margin-right: 2%;
-    }
-    .tamanho72 {
-        width: 18%;
-        height: auto;
-        margin-bottom: 2%;
-        
-    }
-
-</style>

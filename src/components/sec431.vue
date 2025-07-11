@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">Excesso de calor dentro de casa pode favorecer o agravamento e/ou surgimento de problemas de saúde, principalmente respiratórios e cardiovasculares, comprometendo especialmente a saúde de idosos, crianças e imunossuprimidos. Comportamentos adaptativos aumentam o controle sobre a casa e melhoram condições de saúde e bem-estar durante extremos de calor.</p>
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
@@ -12,16 +12,16 @@
            </div>
            <div class="dev2 d-flex flex-column justify-content-center ">
                 <p class="fo">Escala da intervenção</p>
-                <p class="fo3 famp">Pontual</p>
+                <p class="fo3 famp">Pontual.</p>
            </div>
            
            <div class="w-80 dev3 ">
-                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar</P>
+                <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>
             <div class="w-100 d-flex flex-column justify-content-center align-items-center">
             <div @click="changes()"  class="d-flex tcs flex-column  justify-content-center align-items-center">
                 <div id="botao1" class="d-flex w-100 color22 tucs2">
-                    <span id="barra1" class="tupi white tucs " > 1 Passo: Abrir Janelas</span>
+                    <span id="barra1" class="tupi white tucs " > 1º Passo: Abrir Janelas</span>
                     <span class="tupi2 "> &#709; </span>
                 </div>
                 <div class="tugali d-flex flex-column justify-content-center align-items-center" v-if="togi1 === true">
@@ -203,35 +203,3 @@ export default {
     }
 }
 </script>
-<style>
-    .maw {
-        width: 100%;
-    }
-    .puts{
-        list-style: none;
-    }
-    .text-align {
-        text-align:justify;
-        hyphens: auto;
-    }
-    .imai {
-        width: 10%;
-        margin-right: 1%;
-        height: auto;
-    }
-    .mp {
-        margin-top: 1%;
-    } 
-    
-    .tamanho866{
-        width: 60%;
-        height: auto;
-        display: block;
-        margin: auto;
-        margin-bottom: 2%;
-        
-    }
-    li {
-        margin-bottom: 2%;
-    }
-</style>

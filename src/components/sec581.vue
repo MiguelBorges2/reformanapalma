@@ -1,7 +1,7 @@
 <template>
     <div class="gho w-100 d-flex flex-column justify-content-center align-items-center">
            <div class="dev d-flex flex-column justify-content-center ">
-                <p class="fo famp">importância para saúde</p>
+                <p class="fo famp">Importância para saúde</p>
                 <p class="fo3 famp text-align">A limpeza regular de telhados, paredes externas e placas solares evita escurecimento e previne infiltrações e umidade, aumentando a vida útil desses elementos. Com o tempo, sujeira acumulada reduz a eficiência e altera a cor original, por isso recomenda-se uma limpeza anual. É ideal realizá-la em dias nublados e com clima ameno, verificando possíveis infiltrações, vazamentos e o estado de calhas, rufos, encaixe de telhas e tubulações.
                 </p>
            </div>
@@ -220,28 +220,3 @@ export default {
     }
 }
 </script>
-<style>
-
-.tamanho76 {
-    width: 70%;
-    height: auto;
-}
-
-.down {
-    margin-bottom: 2%;
-}
-.tamanho867{
-        width: 80%;
-        height: auto;
-        display: block;
-        margin-bottom: 2%;
-        
-    }
-.sam::before {
-    content: 'Altura Elevada: ';
-    font-weight: bolder;
-}
-.sam2 {
-    font-weight: bolder;
-}
-</style>

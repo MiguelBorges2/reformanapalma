@@ -278,33 +278,3 @@ export default {
     }
 }
 </script>
-<style> 
-
-.tamanho76 {
-    width: 70%;
-    height: auto;
-}
-.tamanho791 {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
-.down {
-    margin-bottom: 2%;
-}
-.tamanho867{
-        width: 80%;
-        height: auto;
-        display: block;
-        margin-bottom: 2%;
-        
-    }
-.sam::before {
-    content: 'Altura Elevada: ';
-    font-weight: bolder;
-}
-.sam2 {
-    font-weight: bolder;
-}
-</style>

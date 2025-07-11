@@ -17,5 +17,4 @@ import guia13 from './guia13.vue';
         }
     }
 </script>
-<style>
-</style>
+
