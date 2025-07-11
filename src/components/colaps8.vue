@@ -29,7 +29,7 @@
             </div>
             <div @click="teste28()" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center custi2 align-item-center">
-                  <span class="yip34 text-light"> Personalização em fachadas com geração de renda</span>
+                  <span class="yip34 text-light"> Personalização em fachadas</span>
               </div>
               <span class="wid4 color1 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>
