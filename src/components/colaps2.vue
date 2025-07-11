@@ -12,7 +12,7 @@
           </div>
           <div @click="teste4" v-if="toogle2 === true" class="d-flex holt w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
-                  <span class="yip34 text-light "> Estudar/trabalhar em um quarta de casal</span>
+                  <span class="yip34 text-light "> Estudar/trabalhar em um quarto de casal</span>
               </div>
               <span class="wid4 color1 d-flex justify-content-center align-items-center btn-arrow"> ></span>
             </div>

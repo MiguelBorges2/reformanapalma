@@ -3,7 +3,7 @@
         <h1 class="funko12 text-light famap400">Estudar/trabalhar em espaço pequeno</h1>
         <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Quarto para duas pessoas ou mais</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho89" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
+            <img class="tamanho893" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta d-flex justify-content-center align-items-center"> 
                     <p v-if="windowSize >= 820"  class="funkot3 famap400 text-align text-light">Este tópico traz soluções  para otimizar o espaço do quarto para duas pessoas e transformá-lo em um lugar apto e con- fortável para estudo e trabalho  </p>
@@ -76,7 +76,7 @@
         <h1 class="funko12 text-light famap400">Estudar/trabalhar em espaço pequeno</h1>
         <p class="text-light funko2 famap300">Estudar/trabalhar em espaço pequeno > Quarto para duas pessoas ou mais</p>
         <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho89" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
+            <img class="tamanho893" src="@/assets/pict_trabalhar-estudar 1.svg" alt="Logo2">
             <div class="d-flex flex-column jutify-content-center align-items-center">
                 <div class="conta d-flex justify-content-center align-items-center"> 
                     <p  class="funkot3 famap400 text-align text-light">Este tópico traz soluções  para otimizar o espaço do quarto para duas pessoas e transformá-lo em um lugar apto e confortável para estudo e trabalho  </p>

@@ -1,7 +1,7 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
         <h1 class="funko12 text-light famap400">Aumentar Minha Casa</h1>
-        <p class="text-light funko2 famap300">Aumentar Minhca Casa > Escolher cor das paredes externas </p>
+        <p class="text-light funko2 famap300">Aumentar Minha Casa > Escolher cor das paredes externas </p>
         <div class="d-flex w-100 justify-content-center align-items-center">
             <img class="tamanho891" src="@/assets/ampliar2.svg" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
