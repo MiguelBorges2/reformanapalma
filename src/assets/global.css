@@ -681,6 +681,22 @@ div {
   z-index: 0;
   
 }
+.btn-square {
+    width: 3%;
+    margin: 0;
+    font-size: 4vw;
+    height: 10vw;
+    opacity: 30%;
+    
+}
+
+.bundis {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.bundis2 {
+    border-radius: 10px 0px 0px 10px;
+}
 .btn-round {  
   height: 3vw;
   width: 3%;      
@@ -709,6 +725,7 @@ div {
 
 .btn-hover-yellow:hover {
     background-color:   #FFC676;
+    opacity: 100%;
     
 }
 
@@ -721,6 +738,12 @@ div {
         background: linear-gradient(to top, #749695, #394A55); 
         border-radius: 0 0 24px 24px;
     
+    }
+    .btn-square {
+        width: 4%;
+        margin: 0;
+        font-size: 5.5vw;
+        height: 15vw;
     }
 }
 @media (max-width: 600px) {
@@ -5977,7 +6000,9 @@ h3 {
 
 .fonte {
   font-family: 'Quicksand', sans-serif;
-  font-size: 4.2vw;
+  font-size: 6.2vw !important;
+  text-shadow: 1px 1px 2px black;
+  margin: 0;
 }
 
 .colo45 {
@@ -5987,20 +6012,24 @@ h3 {
 }
 
 .tamanho {
-    width: 85%;
+    width: 90%;
     height: auto;
 }
 
 .round45 {
-    margin-top: 1%;
     border-radius: 24px;
-    width: 14%;
+    width: 28%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 0.5%;
     border: none;
+    margin: 0;
     background-color: #FFC676;
 }
+.maluk {
+    margin-top: 7%;
+}
+
 
 .indicator {
     margin-top: 0;
@@ -6031,24 +6060,26 @@ h3 {
 
 .tamanhog {
     height: auto;
-    width: 25.4%;
-    margin-left: 4%;
+    width: 23% !important;
+    margin-left: 2%;
+    
 }
 .tamanho32 {
-    width: 51%;
+    width: 70% !important;
+    margin-left: 4%;
+
+    
 }
 
 /* Media Query para telas menores que 768px */
 @media (max-width: 768px) {
     .tamanhog {
-        width: 28%;
+        width: 22%;
     }
-    .fonte {
-        font-size: 4.1vw;
-    }
+    
     .round45 {
         width: 20%;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .indi {
         height: 0.6vw;
@@ -6064,10 +6095,7 @@ h3 {
         font-size: 4vw;
     }
     .tamanho32 {
-        width: 50%;
-    }
-    .fonte {
-        font-size: 4vw;
+        width: 55%;
     }
     .keeps {
         margin: 2.6%;
@@ -6076,7 +6104,7 @@ h3 {
         font-size: 2.1vw;
     }
     .tamanhog {
-        width: 27%;
+        width: 25%;
     }
 }
 
@@ -6088,17 +6116,13 @@ h3 {
     .tamanho32 {
         width: 55%;
     }
-    .fonte {
-        font-size: 4.6vw;
-        margin-top: 2%;
-    }
     .keeps {
         margin: 2.6%;
     }
     .round45 {
         font-size: 2.7vw;
         width: 35%;
-        margin: 1%;
+        margin-top: 0;
     }
     .tamanhog {
         width: 30%;
@@ -6345,7 +6369,7 @@ h3 {
             margin-left: 4%;
     }
     .mk3 {
-        margin-top: 2%;
+        margin-top: 6.5%;
     }
     @media (max-width: 768px) {
         .indicator {

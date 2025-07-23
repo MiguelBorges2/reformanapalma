@@ -1,28 +1,28 @@
 <template>
-    <div class="w-100 img1 d-flex into justify-content-around alturatotal align-items-center gradient-bg42">
-        <img v-if="controlador[0] === 0" src="@/assets/bann1.gif" class="gif-bg">
-        <img v-if="controlador[0] === 3" src="@/assets/bann2.gif" class="gif-bg2">
-        <img v-if="controlador[0] === 2" src="@/assets/bann3.gif" class="gif-bg2">
-        <img v-if="controlador[0] === 1" src="@/assets/bann4.gif" class="gif-bg">
+    <div class="w-100 img1 d-flex into justify-content-between alturatotal align-items-center gradient-bg42">
+            <img v-if="controlador[0] === 0" src="@/assets/bann1.gif" class="gif-bg">
+            <img v-if="controlador[0] === 3" src="@/assets/bann2.gif" class="gif-bg2">
+            <img v-if="controlador[0] === 2" src="@/assets/bann3.gif" class="gif-bg2">
+            <img v-if="controlador[0] === 1" src="@/assets/bann4.gif" class="gif-bg">
 
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow  border btn-round ">
-            <
-        </button>
-        
-        <!-- Comparando apenas o índice (controlador[0]) -->
-        <Subguia1 v-if="controlador[0] === 0 && controlador[1] === 0" :slider="0"></Subguia1>
-        <Subguia1 v-if="controlador[0] === 0 && controlador[1] === 1" :slider="1"></Subguia1>
-        <Subguia1 v-if="controlador[0] === 0 && controlador[1] === -1" :slider="-1"></Subguia1>
-        <Subguia2 v-else-if="controlador[0] === 1 && controlador[1] === 1" :slider="controlador[1]"></Subguia2>
-        <Subguia2 v-else-if="controlador[0] === 1 && controlador[1] === -1" :slider="controlador[1]"></Subguia2>
-        <Subguia3 v-else-if="controlador[0] === 2 && controlador[1] === 1" :slider="controlador[1]"></Subguia3>
-        <Subguia3 v-else-if="controlador[0] === 2 && controlador[1] === -1" :slider="controlador[1]"></Subguia3>
-        <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === 1" :slider="controlador[1]"></Subguia4>
-        <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === -1" :slider="controlador[1]"></Subguia4>
-        
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow  border btn-round ">
-            >
-        </button>
+            <button @click="ShiftLeft" id="shift-left" class=" d-flex justify-content-center  align-items-center  btn-hover-yellow  border bundis btn-square ">
+                <
+            </button>
+            
+            <!-- Comparando apenas o índice (controlador[0]) -->
+            <Subguia1 v-if="controlador[0] === 0 && controlador[1] === 0" :slider="0"></Subguia1>
+            <Subguia1 v-if="controlador[0] === 0 && controlador[1] === 1" :slider="1"></Subguia1>
+            <Subguia1 v-if="controlador[0] === 0 && controlador[1] === -1" :slider="-1"></Subguia1>
+            <Subguia2 v-else-if="controlador[0] === 1 && controlador[1] === 1" :slider="controlador[1]"></Subguia2>
+            <Subguia2 v-else-if="controlador[0] === 1 && controlador[1] === -1" :slider="controlador[1]"></Subguia2>
+            <Subguia3 v-else-if="controlador[0] === 2 && controlador[1] === 1" :slider="controlador[1]"></Subguia3>
+            <Subguia3 v-else-if="controlador[0] === 2 && controlador[1] === -1" :slider="controlador[1]"></Subguia3>
+            <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === 1" :slider="controlador[1]"></Subguia4>
+            <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === -1" :slider="controlador[1]"></Subguia4>
+            
+            <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center bundis2 border btn-square ">
+                >
+            </button>
     </div>
 </template>
 
