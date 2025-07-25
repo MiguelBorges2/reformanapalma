@@ -1,7 +1,7 @@
 <template>
         <div v-if="slider === 0" class="d-flex  tamanho justify-content-center flex-column align-items-center">
                 <div class="d-flex align-items-center  justify-content-center keeps ">
-                    <img class="tamanhog" src="@/assets/logo_Reforma_w.svg" alt="Logo">
+                    <img class="tamanhog maluk" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 d-flex flex-column justify-content-center  margin-left">
                         <h1 class="fonte text-light">Receba informações para Reformas</h1>
                         <button @click="movetosec()" class="  colo45 round45">Comece agora</button>
@@ -17,7 +17,7 @@
             </div>
             <div v-if="slider === 1" class="d-flex animate__animated animate__slideInLeft tamanho justify-content-center flex-column align-items-center">
                 <div class="d-flex  align-items-center  justify-content-center keeps ">
-                    <img class="tamanhog" src="@/assets/logo_Reforma_w.svg" alt="Logo">
+                    <img class="tamanhog maluk" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 d-flex flex-column justify-content-center  margin-left">
                         <h1 class="fonte text-light">Receba informações para Reformas</h1>
                         <button @click="movetosec()" class="  colo45 round45">Comece agora</button>   
@@ -33,7 +33,7 @@
             </div>
             <div v-if="slider === -1" class="d-flex animate__animated animate__slideInRight tamanho justify-content-center flex-column align-items-center">
                 <div class="d-flex  align-items-center  justify-content-center keeps ">
-                    <img class="tamanhog" src="@/assets/logo_Reforma_w.svg" alt="Logo">
+                    <img class="tamanhog maluk" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 d-flex flex-column justify-content-center  margin-left">
                         <h1 class="fonte text-light">Receba informações para Reformas</h1>
                         <button @click="movetosec()" class="  colo45 round45">Comece agora</button>
