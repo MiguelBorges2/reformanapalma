@@ -4,6 +4,7 @@
             <img v-if="controlador[0] === 3" src="@/assets/bann2.gif" class="gif-bg2">
             <img v-if="controlador[0] === 2" src="@/assets/bann3.gif" class="gif-bg2">
             <img v-if="controlador[0] === 1" src="@/assets/bann4.gif" class="gif-bg">
+            <img v-if="controlador[0] === 4" src="@/assets/gif5.gif" class="gif-bg">
 
             <button @click="ShiftLeft" id="shift-left" class=" d-flex justify-content-center  align-items-center  btn-hover-yellow  border bundis btn-square ">
                 <
