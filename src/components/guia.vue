@@ -19,6 +19,8 @@
             <Subguia3 v-else-if="controlador[0] === 2 && controlador[1] === -1" :slider="controlador[1]"></Subguia3>
             <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === 1" :slider="controlador[1]"></Subguia4>
             <Subguia4 v-else-if="controlador[0] === 3 && controlador[1] === -1" :slider="controlador[1]"></Subguia4>
+            <Subguia5 v-else-if="controlador[0] === 4 && controlador[1] === 1" :slider="controlador[1]"></Subguia5>
+            <Subguia5 v-else-if="controlador[0] === 4 && controlador[1] === -1" :slider="controlador[1]"></Subguia5>
             
             <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center bundis2 border btn-square ">
                 >
@@ -31,6 +33,7 @@ import Subguia1 from './subguia1.vue';
 import Subguia2 from './subguia2.vue';
 import Subguia3 from './subguia3.vue';
 import Subguia4 from './subguia4.vue';
+import Subguia5 from './subguia5.vue';
 
 export default {
     name: 'Guia',
@@ -38,7 +41,8 @@ export default {
         Subguia1,
         Subguia2,
         Subguia3,
-        Subguia4
+        Subguia4,
+        Subguia5
     },
     data() {
       return {
@@ -66,7 +70,7 @@ export default {
         },
         ShiftRight() {
             console.log('oi')
-            if (this.controlador[0] < 3) {
+            if (this.controlador[0] < 4) {
                 this.controlador = [this.controlador[0] + 1, 1]; // Muda o índice e define a direção como 1 (direita)
             }
         },

@@ -11,6 +11,7 @@
                     <div class="indi "></div>
                     <div class="indicator "></div>
                     <div class="indi "></div>
+                    <div class="indi "></div>
                 </div>
             </div>
     
@@ -26,6 +27,7 @@
                         <div class="indi "></div>
                         <div class="indi "></div>
                         <div class="indicator "></div>
+                        <div class="indi "></div>
                         <div class="indi "></div>
                     </div>
                 </div>

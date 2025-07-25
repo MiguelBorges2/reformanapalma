@@ -12,6 +12,7 @@
                     <div class="indi "></div>
                     <div class="indi "></div>
                     <div class="indi "></div>
+                    <div class="indi "></div>
                 </div>
             </div>
             <div v-if="slider === 1" class="d-flex animate__animated animate__slideInLeft tamanho justify-content-center flex-column align-items-center">
@@ -27,6 +28,7 @@
                     <div class="indi "></div>
                     <div class="indi "></div>
                     <div class="indi "></div>
+                    <div class="indi "></div>
                 </div>
             </div>
             <div v-if="slider === -1" class="d-flex animate__animated animate__slideInRight tamanho justify-content-center flex-column align-items-center">
@@ -39,6 +41,7 @@
                 </div>
                     <div class=" size d-flex justify-content-between">
                         <div class="indicator "></div>
+                        <div class="indi "></div>
                         <div class="indi "></div>
                         <div class="indi "></div>
                         <div class="indi "></div>

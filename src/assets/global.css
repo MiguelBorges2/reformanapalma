@@ -284,6 +284,10 @@
   width: 10%;
   border-top-right-radius: 16px;
  }
+ .sublinhado {
+  text-decoration: underline;
+text-decoration-color: #FFC676; /* muda só o sublinhado */
+}
  .wid4 {
   width: 10%;
 
@@ -1803,9 +1807,9 @@ h3 {
 
     .pics {
       color: white;
-      margin-right: 2%;
-      margin-left: 4%;
-      font-size: 1.5vw;
+      margin-right: 5%;
+      margin-left: 7%;
+      font-size: 1.7vw;
     }
     .tants {
       align-items: center;
@@ -1838,9 +1842,8 @@ h3 {
     }
     .caps {
       list-style: none;
-      width: 35%;
+      width: 50%;
       height: 100%;
-
       margin: 0;
     }
     .ralao {
@@ -1883,12 +1886,11 @@ h3 {
         margin-bottom: 1%;
       }
       .caps {
-        width: 50%;
+        width: 55%;
         
       }
       .pics{
         font-size: 2.2vw;
-        margin-left: 2%;
       }
       .ralao {
         width: 8%;
@@ -1911,8 +1913,9 @@ h3 {
         
       }
       .pics{
-        font-size: 1.6vw;
-        margin-left: 2%;
+        font-size: 2.3vw;
+        margin-left: 1%;
+        margin-right: 3%;
       }
       .ralao {
         width: 8%;
@@ -1931,13 +1934,14 @@ h3 {
         margin-bottom: 1%;
       }
       .caps {
-        width: 50%;
+        width: 70%;
+       
         
       }
       .pics{
-        font-size: 2.4vw;
-        margin-left: 4%;
-        margin-right: 4%;
+        font-size: 2.7vw;
+        margin-left: 2%;
+        margin-right: 5%;
       }
       .ralao {
         width: 7%;
@@ -1954,10 +1958,6 @@ h3 {
         height: 2.5vw;
         width: 29%;
         margin-bottom: 1%;
-      }
-      .caps {
-        width: 70%;
-        
       }
       .ralao {
         width: 7%;
@@ -6000,7 +6000,7 @@ h3 {
 
 .fonte {
   font-family: 'Quicksand', sans-serif;
-  font-size: 6.2vw !important;
+  font-size: 6.25vw !important;
   text-shadow: 1px 1px 2px black;
   margin: 0;
 }
@@ -6036,14 +6036,15 @@ h3 {
     width: 20%;
     background-color: #FFC676;
     border-radius: 24px;
-    height: 3vw;
+    height: 0.8vw;
+    margin-right: 2%;
 }
 
 .indi {
     width: 20%;
     background-color: white;
     border-radius: 24px;
-    height: 3vw;
+    margin-right: 2%;
 }
 
 .keeps {
@@ -6054,7 +6055,7 @@ h3 {
 }
 
 .size {
-    width: 28%;
+    width: 40%;
     margin: 1.5%;
 }
 
@@ -6078,14 +6079,11 @@ h3 {
     }
     
     .round45 {
-        width: 20%;
-        font-size: 3vw;
+        width: 35%;
+        font-size: 2.8vw;
     }
     .indi {
         height: 0.6vw;
-    }
-    .indicator {
-        height: 3vw;
     }
 }
 
@@ -6343,25 +6341,8 @@ h3 {
         padding: 0.5%;
         background-color: rgb(255, 193, 7);
     }
-    .indicator {
-            width: 20%;
-            background-color: rgb(255, 193, 7);
-            border-radius: 24px;
-            height: 0.3vw;
-        }
-    .indi {
-            width: 20%;
-            background-color: white;
-            border-radius: 24px;
-            height: 0.3vw;
-        }
     .keeps {
         width: 100%;
-    }
-    .size {
-
-        width: 28%;
-        margin: 1.5%;
     }
     .tamanho3 {
             height: auto;
@@ -6372,9 +6353,6 @@ h3 {
         margin-top: 6.5%;
     }
     @media (max-width: 768px) {
-        .indicator {
-            height: 0.2vw;
-        }
         .tamanho2 {
             width: 54%;
         }
@@ -6638,6 +6616,9 @@ h3 {
   
     
 }
+.maluk2 {
+    margin-bottom: 5%;
+}
 .size25 {
 margin-top: 0;
 width: 35%;
@@ -6768,25 +6749,8 @@ margin-bottom: 2%;
         padding: 0.5%;
         background-color: rgb(255, 193, 7);
     }
-    .indicator {
-            width: 20%;
-            background-color: rgb(255, 193, 7);
-            border-radius: 24px;
-            height: 0.3vw;
-        }
-    .indi {
-            width: 20%;
-            background-color: white;
-            border-radius: 24px;
-            height: 0.3vw;
-        }
     .keeps {
         width: 100%;
-    }
-    .size {
-
-        width: 28%;
-        margin: 1.5;
     }
     .tamanho3 {
             height: auto;
@@ -7026,6 +6990,15 @@ margin-bottom: 2%;
     text-align: justify;
 
 }
+.maluk3 {
+    margin: 2%;
+}
+.funkot312 {
+    font-size: 2.6vw;
+    margin: 0;
+    text-align: justify;
+
+}
 
 @media (max-width: 768px) {
     .conta23 {
@@ -7058,6 +7031,10 @@ margin-bottom: 2%;
         font-size: 2.4vw !important;
         margin: 0;
         
+    }
+    .funkot312 {
+        font-size: 3vw;
+        margin: 0;
     }
     
 }
@@ -7172,12 +7149,7 @@ margin-bottom: 2%;
         padding: 0.5%;
         background-color: #FFC676;
     }
-    .indicator {
-            width: 20%;
-            background-color: #FFC676;
-            border-radius: 24px;
-            height:0.8vw;
-        }
+    
     .indi {
             width: 20%;
             background-color: white;
@@ -7187,11 +7159,7 @@ margin-bottom: 2%;
     .keeps {
         width: 100%;
     }
-    .size {
 
-        width: 28%;
-        margin: 1.5%;
-    }
     .tamanho3 {
             height: auto;
             width: 25%;

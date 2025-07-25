@@ -4,7 +4,7 @@
     <div class="d-flex justify-content-around align-items-center tants w-100">
       <img @click="home()" class="ralao " src="@/assets/logoref.svg" alt="Logo"/>
       <ul class="caps d-flex justify-content-center align-items-center">
-        <li @click="home()" class="nav-item pics">Início</li>
+        <li @click="home()" class="nav-item sublinhado pics">Início</li>
         <li @click="scrollToContato()" class="nav-item pics">quem somos</li>
         <li @click="scrollToprob()" class="nav-item pics">conte seu problema</li>
       </ul>
@@ -16,7 +16,7 @@
     <div class="d-flex justify-content-around align-items-center tants w-100">
       <img @click="home()" class="ralao " src="@/assets/logoref.svg" alt="Logo"/>
       <ul v-if="this.pesq === false" class="caps d-flex justify-content-center align-items-center">
-        <li @click="home()" class="nav-item pics">Início</li>
+        <li @click="home()" class="nav-item sublinhado pics">Início</li>
         <li @click="scrollToContato()" class="nav-item pics">quem somos</li>
         <li @click="scrollToprob()" class="nav-item pics">Conte seu  problema</li>
       </ul>
