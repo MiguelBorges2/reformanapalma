@@ -79,16 +79,16 @@
                 console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
             },  
         teste30(){
-                this.updateGlobalVariable(91);
+                this.$router.push('/equip');
         },
         teste31(){
-            this.updateGlobalVariable(94);
+            this.$router.push('/aquecimento');
         }, 
         teste42(){
-            this.updateGlobalVariable(92);
+            this.$router.push('/arcondas2');
         },
         teste43(){
-            this.updateGlobalVariable(93);
+            this.$router.push('/iluminacao21');
         }
       },
   }

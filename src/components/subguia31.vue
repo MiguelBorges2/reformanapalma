@@ -1,12 +1,11 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
-        <h1 class="funko12 text-light famap400">Aumentar Minha Casa</h1>
-        <p class="text-light funko2 famap300">Aumentar Minha Casa > Aumentar cômodo ou construir novo cômodo  </p>
-        <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho891" src="@/assets/ampliar2.svg" alt="Logo2">
-            <div class="d-flex weird flex-column jutify-content-center align-items-center">
-                <div class="conta23 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light">Este tópico oferece soluções para ampliar a casa, seja por meio da expansão de um cômodo ou da construção de um novo. As orientações asseguram o aproveitamento do espaço, visando conforto e funcionalidade sem comprometer a estrutura da residência.  </p>
+        <img class="gif-bg"  src="@/assets/ampliar2.svg" alt="Logo2">
+        <h1 class="funko12 text-light maluk2 famap400">Aumentar Minha Casa</h1>
+        <div class="d-flex w-100 tix justify-content-center align-items-center">
+            <div class="d-flex  maluk3 flex-column jutify-content-center align-items-center">
+                <div class="maluk d-flex justify-content-center align-items-center"> 
+                    <p  class="funkot312 famap400 text-light">Este tópico oferece soluções para ampliar a casa, seja por meio da expansão de um cômodo ou da construção de um novo. As orientações asseguram o aproveitamento do espaço, visando conforto e funcionalidade sem comprometer a estrutura da residência.  </p>
                 </div>
             </div>
                 

@@ -102,28 +102,28 @@
                 console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
             },  
           teste24(){
-                this.updateGlobalVariable(71);
+               this.$router.push('/mobi');
             },
             teste25(){
-                this.updateGlobalVariable(72);
+                this.$router.push('/saudavel');
             },
             teste36(){
-                this.updateGlobalVariable(73);
+                this.$router.push('/quartopracasal2');
             },
             teste37(){
-                this.updateGlobalVariable(74);
+                 this.$router.push('/quartopraum2');
             },
             teste38(){
-                this.updateGlobalVariable(75);
+                this.$router.push('/salapequena2');
             },
             teste39(){
-                this.updateGlobalVariable(76);
+                this.$router.push('/acabarumidade2');
             },
             teste40(){
-                this.updateGlobalVariable(77);
+                this.$router.push('/acabarcommancha2');;
             },
             teste41(){
-                this.updateGlobalVariable(78);
+               this.$router.push('/adaptartemp3');
             }
       },
   }

@@ -70,13 +70,13 @@ import { useMainStore } from '../stores/mainStores';
             console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
             },
           teste10(){
-            this.updateGlobalVariable(41);
+            this.$router.push('/acabarumidade')
             },
           teste11(){  
-            this.updateGlobalVariable(42);
+            this.$router.push('/acabarcommancha')
           },
           teste12(){
-            this.updateGlobalVariable(43);
+            this.$router.push('/adaptartemp')
           }
       },
   }

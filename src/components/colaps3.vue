@@ -88,8 +88,7 @@
             
           },
           teste5(){
-            console.log('foi');
-            this.updateGlobalVariable(31);
+            this.$router.push('/aumentarcomodo')
           },
           updateGlobalVariable(value) {
             const mainStore = useMainStore();
@@ -97,16 +96,16 @@
             console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
             },
           teste6(){
-            this.updateGlobalVariable(32);
+           this.$router.push('/criarpatios')
           },
           teste7(){
-            this.updateGlobalVariable(33);
+           this.$router.push('/tomada')
           },
           teste8(){
-            this.updateGlobalVariable(34);
+            this.$router.push('/escolher')
           },
           teste9(){
-            this.updateGlobalVariable(35);
+            this.$router.push('/escolher2')
           }
       },
   }

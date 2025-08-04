@@ -2010,6 +2010,7 @@ h3 {
     .tamanho81 {
         width: 75%;
         height: auto;   
+        object-fit: contain;
     }
     .tamanho82 {
         width: 100%;
@@ -2021,7 +2022,7 @@ h3 {
         height: auto;   
     }
     .tamanho84 {
-        width: 80% !important;
+        width: 85%;
         height: auto;   
     }
     .tugali {
@@ -2100,7 +2101,7 @@ h3 {
             border-radius: 15px 0px 0px 15px;
         }
         .tamanho81 {
-            width: 100% !important;
+            width: 100%;
         }
         .tamanho82 {
             width: 180% !important;
@@ -2110,9 +2111,6 @@ h3 {
         }
         .tamanho80 {
             width: 95% !important;
-        }
-        .tamanho84 {
-            width: 90% !important;
         }
     
     }
@@ -2228,10 +2226,6 @@ h3 {
         width: 60%;
         height: auto;   
     }
-    .tamanho81 {
-        width: 75%;
-        height: auto;   
-    }
     .tamanho82 {
         width: 100%;
         height: auto;   
@@ -2239,10 +2233,6 @@ h3 {
     }
     .tamanho83 {
         width: 55%;
-        height: auto;   
-    }
-    .tamanho84 {
-        width: 80% !important;
         height: auto;   
     }
     .tugali {
@@ -2331,9 +2321,6 @@ h3 {
             border-radius: 15px 0px 0px 15px;
             font-size: 2.4vw !important;
         }
-        .tamanho81 {
-            width: 100% !important;
-        }
         .tamanho82 {
             width: 180% !important;
         }
@@ -2342,9 +2329,6 @@ h3 {
         }
         .tamanho80 {
             width: 95% !important;
-        }
-        .tamanho84 {
-            width: 90% !important;
         }
     
     }
@@ -2558,10 +2542,6 @@ h3 {
         width: 60%;
         height: auto;   
     }
-    .tamanho81 {
-        width: 75%;
-        height: auto;   
-    }
     .tamanho82 {
         width: 100%;
         height: auto;   
@@ -2569,10 +2549,6 @@ h3 {
     }
     .tamanho83 {
         width: 55%;
-        height: auto;   
-    }
-    .tamanho84 {
-        width: 80% !important;
         height: auto;   
     }
     .tugali {
@@ -2644,9 +2620,6 @@ h3 {
         .tupi {
             border-radius: 15px 0px 0px 15px;
         }
-        .tamanho81 {
-            width: 100% !important;
-        }
         .tamanho82 {
             width: 180% !important;
         }
@@ -2655,9 +2628,6 @@ h3 {
         }
         .tamanho80 {
             width: 95% !important;
-        }
-        .tamanho84 {
-            width: 90% !important;
         }
     
     }
@@ -2675,10 +2645,6 @@ h3 {
         width: 60%;
         height: auto;   
     }
-    .tamanho81 {
-        width: 75%;
-        height: auto;   
-    }
     .tamanho82 {
         width: 100%;
         height: auto;   
@@ -2686,10 +2652,6 @@ h3 {
     }
     .tamanho83 {
         width: 55%;
-        height: auto;   
-    }
-    .tamanho84 {
-        width: 80% !important;
         height: auto;   
     }
     .tugali {
@@ -2769,9 +2731,6 @@ h3 {
         .tupi {
             border-radius: 15px 0px 0px 15px;
         }
-        .tamanho81 {
-            width: 100% !important;
-        }
         .tamanho82 {
             width: 180% !important;
         }
@@ -2780,9 +2739,6 @@ h3 {
         }
         .tamanho80 {
             width: 95% !important;
-        }
-        .tamanho84 {
-            width: 90% !important;
         }
     
     }
@@ -2799,10 +2755,6 @@ h3 {
     width: 75% !important;
     height: auto;   
 }
-.tamanho81 {
-    width: 75%;
-    height: auto;   
-}
 .finta {
     color: white !important;
 }
@@ -2817,10 +2769,6 @@ h3 {
 }
 .tamanho83 {
     width: 60% !important;
-    height: auto;   
-}
-.tamanho84 {
-    width: 55%;
     height: auto;   
 }
 .tugali {
@@ -2886,9 +2834,6 @@ h3 {
         .tupi {
             border-radius: 15px 0px 0px 15px;
         }
-        .tamanho81 {
-            width: 100% !important;
-        }
         .tamanho82 {
             width: 180% !important;
         }
@@ -2897,9 +2842,6 @@ h3 {
         }
         .tamanho80 {
             width: 95% !important;
-        }
-        .tamanho84 {
-            width: 90% !important;
         }
     
             
@@ -3446,10 +3388,6 @@ h3 {
         width: 60%;
         height: auto;   
     }
-    .tamanho81 {
-        width: 75%;
-        height: auto;   
-    }
     .tamanho82 {
         width: 100%;
         height: auto;   
@@ -3457,10 +3395,6 @@ h3 {
     }
     .tamanho83 {
         width: 55%;
-        height: auto;   
-    }
-    .tamanho84 {
-        width: 80% !important;
         height: auto;   
     }
     .tugali {
@@ -3530,9 +3464,6 @@ h3 {
         .tupi {
             border-radius: 15px 0px 0px 15px;
         }
-        .tamanho81 {
-            width: 100% !important;
-        }
         .tamanho82 {
             width: 180% !important;
         }
@@ -3543,7 +3474,7 @@ h3 {
             width: 95% !important;
         }
         .tamanho84 {
-            width: 90% !important;
+            width: 90%;
         }
     
     }
@@ -5996,13 +5927,21 @@ h3 {
 }
 
 
-
-
 .fonte {
   font-family: 'Quicksand', sans-serif;
   font-size: 6.25vw !important;
   text-shadow: 1px 1px 2px black;
+  margin-top: 15%; 
+  margin-bottom: 0;
+
+}
+
+.fonte50 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 6.25vw !important;
+  text-shadow: 1px 1px 2px black;
   margin: 0;
+
 }
 
 .colo45 {
@@ -6060,9 +5999,8 @@ h3 {
 }
 
 .keeps {
-    margin-top: 1.9%;
+    margin-top: 1.25%;
     width: 100%;
-    margin: 1.2%;
     margin-bottom: 1%;
 }
 

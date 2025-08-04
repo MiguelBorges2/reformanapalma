@@ -1,8 +1,8 @@
 <template>
         <div  v-if="slider == 1" class="d-flex animate__animated animate__slideInLeft h-100 tamanho justify-content-between flex-column align-items-center">
             <span class="w-80 flex-column mk3 d-flex align-items-center align-items-center">
-                <h1 class="maluk6 fonte text-light"> Saiba mais sobre   </h1>
-                <h1 class="fonte text-light">  ATHIS</h1>
+                <h1 class="maluk6 fonte50 text-light"> Saiba mais sobre   </h1>
+                <h1 class="fonte50 text-light">  ATHIS</h1>
                 <button @click="scrollToprob()" class=" colo45 nolans round45">Saiba Mais</button>
             </span>
             <div class=" d-flex w-100 maluk justify-content-center flex-column align-items-center">
@@ -17,8 +17,8 @@
         </div>
         <div v-else-if="slider == -1" class="d-flex h-100 tamanho animate__animated animate__slideInRight justify-content-between flex-column align-items-center">
             <span class="w-80 flex-column mk3 d-flex align-items-center align-items-center">
-                <h1 class="maluk6 fonte text-light"> Saiba mais sobre   </h1>
-                <h1 class="fonte text-light">  ATHIS   </h1>
+                <h1 class="maluk6 fonte50 text-light"> Saiba mais sobre   </h1>
+                <h1 class="fonte50 text-light">  ATHIS   </h1>
                 <button @click="scrollToprob()" class=" colo45 nolans round45">Saiba Mais</button>
             </span>
             <div class=" d-flex w-100 maluk justify-content-center flex-column align-items-center">

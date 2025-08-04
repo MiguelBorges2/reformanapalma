@@ -1,7 +1,6 @@
 <template>
     <Navbar></Navbar>
-    <Guia59 v-if="this.selector == 0"></Guia59>
-    <Guia92 v-if="this.selector == 1"></Guia92>
+    <Guia59></Guia59>
     <Final25></Final25>
 </template>
 <script>

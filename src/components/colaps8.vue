@@ -82,19 +82,19 @@
                 console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
             },  
         teste25(){
-                this.updateGlobalVariable(81);
+                this.$router.push('/renda');
         },
         teste26(){
-            this.updateGlobalVariable(82);
+            this.$router.push('/comercio');
         },
         teste27(){
-            this.updateGlobalVariable(83);
+            this.$router.push('/versa');
         },
         teste28(){
-            this.updateGlobalVariable(84);
+            this.$router.push('/persona');
         },
         teste29(){
-            this.updateGlobalVariable(85);
+            this.$router.push('/tomada2');
         }
       },
   }

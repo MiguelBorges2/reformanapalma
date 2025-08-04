@@ -69,13 +69,13 @@
                 console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
             },  
           teste23(){
-                this.updateGlobalVariable(63);
+                this.$router.push('/iluminacao2');
             },
             teste34(){
-                this.updateGlobalVariable(61);
+                this.$router.push('/iluminacao12');
             },
             teste35(){
-                this.updateGlobalVariable(62);
+                this.$router.push('/criarpatios3');
             }
       },
     }

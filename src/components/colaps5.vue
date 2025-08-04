@@ -115,34 +115,34 @@
             console.log('Global Variable Updated:', mainStore.globalVariable); // Adicione isso
             },  
           teste14(){
-            this.updateGlobalVariable(51);
+            this.$router.push('/materi');
             },
           teste15(){
-            this.updateGlobalVariable(52);
+            this.$router.push('/gerar');
           },
           teste16(){
-            this.updateGlobalVariable(53);
+            this.$router.push('/posicionar');
           },
           teste17(){
-            this.updateGlobalVariable(54);
+             this.$router.push('/adaptartemp2');
           },
           teste18(){
-            this.updateGlobalVariable(55);
+             this.$router.push('/iluminacao');
           },
           teste19(){
-            this.updateGlobalVariable(56);
+            this.$router.push('/banheiro');
           },
           teste20(){
-            this.updateGlobalVariable(57);
+            this.$router.push('/horta');
           },
           teste21(){
-            this.updateGlobalVariable(58);
+            this.$router.push('/manutencao');
           },
           teste22(){
-            this.updateGlobalVariable(59);
+            this.$router.push('/arcondas');
           },
           teste33(){
-            this.updateGlobalVariable(510);
+            this.$router.push('/criarpatios2');
           }
       },
   }

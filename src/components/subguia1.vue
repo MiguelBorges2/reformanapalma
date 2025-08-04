@@ -1,6 +1,6 @@
 <template>
         <div v-if="slider === 0" class="d-flex  tamanho justify-content-center flex-column align-items-center">
-                <div class="d-flex align-items-center  justify-content-center keeps ">
+                <div class="d-flex  align-items-center  justify-content-center keeps ">
                     <img class="tamanhog maluk" src="@/assets/logo_Reforma_w.svg" alt="Logo">
                     <span class=" tamanho32 d-flex flex-column justify-content-center  margin-left">
                         <h1 class="fonte text-light">Receba informações para Reformas</h1>

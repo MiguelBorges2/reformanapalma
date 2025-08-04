@@ -1,8 +1,8 @@
 <template>
     <div id="escorrega" v-if="slider == 1" class=" animate__animated animate__slideInLeft tamanho h-100 tesp">
             <span class="w-80  d-flex flex-column justify-content-center align-items-center mk3">
-                <h1 class="maluk5 fonte text-light text-align">Problemas da </h1>
-                <h1 class="fonte text-light "> AUTOCONSTRUÇÂO</h1>
+                <h1 class="maluk5 fonte50 text-light text-align">Problemas da </h1>
+                <h1 class="fonte50 text-light "> AUTOCONSTRUÇÂO</h1>
                 <button @click="scrollToprob()" class="  colo45 nolans round45">Descubra aqui</button>
             </span>
             <div class=" d-flex maluk w-100 justify-content-center flex-column align-items-center">
@@ -18,8 +18,8 @@
     </div>
         <div v-else-if="slider == -1" class="tamanho tesp animate__animated h-100 animate__slideInRight">
             <span class="w-80  d-flex flex-column justify-content-center align-items-center mk3">
-                <h1 class="maluk5 fonte text-light text-align">Problemas da</h1>
-                <h1 class="fonte text-light "> AUTOCONSTRUÇÂO</h1>
+                <h1 class="maluk5 fonte50 text-light text-align">Problemas da</h1>
+                <h1 class="fonte50 text-light "> AUTOCONSTRUÇÂO</h1>
                 <button @click="scrollToprob()" class="colo45 nolans round45">Descubra aqui</button>
             </span>
                 <div class=" d-flex maluk w-100 justify-content-center flex-column align-items-center">

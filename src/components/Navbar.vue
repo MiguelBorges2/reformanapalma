@@ -89,8 +89,8 @@
         this.windowWidth = window.innerWidth; // Atualiza windowWidth
       },
       home(){
-            console.log('foi');
-            this.updateGlobalVariable(0);
+            
+            this.$router.push('/')
           },
           updateGlobalVariable(value) {
             const mainStore = useMainStore();

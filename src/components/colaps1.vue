@@ -68,12 +68,10 @@
               }
             },
             teste12(){
-            console.log('foi gostoso');
-            this.updateGlobalVariable(12);
+             this.$router.push('/consertagot')
           },
           teste13(){
-            console.log('foi gostoso');
-            this.updateGlobalVariable(13);
+           this.$router.push('/acabarcominfil')
           },
           teste2(){
             console.log('foi gostoso');

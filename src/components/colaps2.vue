@@ -73,20 +73,17 @@
               }
           },
           teste4(){
-            console.log('foi gostoso');
-            this.updateGlobalVariable(22);
+            this.$router.push('/quartopracasal')
+             
           },
           teste2(){
-            console.log('foi gostoso');
-            this.updateGlobalVariable(24);
+            this.$router.push('/quartopradois')
           },
           teste(){
-            console.log('foi');
-            this.updateGlobalVariable(25);
+             this.$router.push('/salapequena') // redireciona pra rota /about
           },
           teste3(){
-            console.log('foi');
-            this.updateGlobalVariable(23);
+            this.$router.push('/quartopraum')
           },
           updateGlobalVariable(value) {
             const mainStore = useMainStore();

@@ -14,6 +14,7 @@
             <Colaps7></Colaps7>
             <Colaps8></Colaps8>
             <Colaps9></Colaps9>
+            <Colaps10></Colaps10>
         </div>
 
         
@@ -30,6 +31,7 @@
     import Colaps7 from './colaps7.vue';
     import Colaps8 from './colaps8.vue';
     import Colaps9 from './colaps9.vue';
+    import Colaps10 from './colaps10.vue';
     export default {
         name: 'Seção',
         components: {
@@ -41,7 +43,8 @@
         Colaps6,
         Colaps7,
         Colaps8,
-        Colaps9
+        Colaps9,
+        Colaps10
     },
     data(){
         return{
