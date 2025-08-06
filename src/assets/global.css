@@ -816,9 +816,14 @@ html, body {
 }
 
 .tami {
-    width: 30%;
+    width: 50%;
     height: auto;
     margin: 5%;
+}
+.tami4 {
+    width: 35%;
+    height: auto;
+    margin: 1%;
 }
 .sarra {
     padding-left: 0.5%;
@@ -833,7 +838,7 @@ html, body {
     margin-right: 2%;
 }
 .marc2 {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 .marc3 {
     margin-right: 3%;
@@ -915,7 +920,7 @@ height: auto;
     margin: 0;
 }
 .hmp22 {
-    font-size: 2.2vw;
+    font-size: 2.6vw;
     font-weight: 10;
     margin: 0;
 
@@ -975,7 +980,7 @@ height: auto;
     background-color: #FFC676;
   }
 .margaro {
-    margin: 2%;
+    margin: 3%;
 }
 .alturatotal {
     height: auto;
@@ -1034,7 +1039,7 @@ height: auto;
         height: 7.5vw !important;   
     }
     .tami {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 5%;
 }

@@ -1,12 +1,11 @@
 <template>
     <div v-if="slider === 0" class="d-flex tamanho animate__animated animate__slideInLeft  justify-content-center align-items-center flex-column" >
+        <img class="gif-bg"   src="@/assets/group1179.png" alt="Logo2">
         <h1 class="funko12 text-light famap400">Refrescar minha casa</h1>
-        <p class="text-light funko2 famap300">Refrescar minha casa > Criar condições para iluminação e ventilação </p>
-        <div class="d-flex w-100 justify-content-center align-items-center">
-            <img class="tamanho8912" src="@/assets/group1179.png" alt="Logo2">
-            <div class="d-flex weird flex-column jutify-content-center align-items-center">
-                <div class="conta23 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light text-align">Este tópico oferece soluções para criar condições adequadas de iluminação e ventilação, com maior circulação de ar e entrada de luz natural, contribuindo para um ambiente mais fresco, claro e confortável.</p>
+        <div class="d-flex w-100 tix justify-content-center align-items-center">
+            <div class="d-flex maluk3 flex-column jutify-content-center align-items-center">
+                <div class="maluk maluk3 d-flex justify-content-center align-items-center"> 
+                    <p  class="funkot312 famap400 text-light text-align">Este tópico oferece soluções para criar condições adequadas de iluminação e ventilação, com maior circulação de ar e entrada de luz natural, contribuindo para um ambiente mais fresco, claro e confortável.</p>
                 </div>
             </div>
                 
@@ -79,7 +78,7 @@
             <img class="tamanho8912" src="@/assets/group1179.png" alt="Logo2">
             <div class="d-flex weird flex-column jutify-content-center align-items-center">
                 <div class="conta23 d-flex justify-content-center align-items-center"> 
-                    <p  class="funkot3 famap400 text-light text-align">Este tópico oferece soluções para criar condições adequadas de iluminação e ventilação, com maior circulação de ar e entrada de luz natural, contribuindo para um ambiente mais fresco, claro e confortável. </p>
+                    <p  class="funkot312 famap400 text-light text-align">Este tópico oferece soluções para criar condições adequadas de iluminação e ventilação, com maior circulação de ar e entrada de luz natural, contribuindo para um ambiente mais fresco, claro e confortável. </p>
                 </div>
                 
             </div>

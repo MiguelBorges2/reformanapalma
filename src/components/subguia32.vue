@@ -4,7 +4,7 @@
         <h1 class="funko12 text-light famap400">Aumentar Minha Casa</h1>
         <div class="d-flex w-100  tix justify-content-center align-items-center">
             <div class="d-flex maluk3 flex-column jutify-content-center align-items-center">
-                <div class="maluk d-flex justify-content-center align-items-center"> 
+                <div class="maluk maluk2 d-flex justify-content-center align-items-center"> 
                     <p  class="funkot312 famap400 text-light">Este tópico apresenta soluções para criar pátios internos com jardins. O objetivo é proporcionar um ambiente agradável e arejado, aumentar a luminosidade e a ventilação da casa, além de oferecer um espaço verde que contribui para o bem-estar dos moradores.</p>
                 </div>
             </div>
@@ -72,11 +72,11 @@
 
     </div>
     <div v-if="slider === 1" class="d-flex tamanho animate__animated animate__slideInRight  justify-content-center align-items-center flex-column" >
-        <img class="gif-bg"  src="@/assets/ampliar2.svg" alt="Logo2">
+         <img class="gif-bg"  src="@/assets/ampliar2.svg" alt="Logo2">
         <h1 class="funko12 text-light famap400">Aumentar Minha Casa</h1>
         <div class="d-flex w-100  tix justify-content-center align-items-center">
             <div class="d-flex maluk3 flex-column jutify-content-center align-items-center">
-                <div class="maluk d-flex justify-content-center align-items-center"> 
+                <div class="maluk maluk2 d-flex justify-content-center align-items-center"> 
                     <p  class="funkot312 famap400 text-light">Este tópico apresenta soluções para criar pátios internos com jardins. O objetivo é proporcionar um ambiente agradável e arejado, aumentar a luminosidade e a ventilação da casa, além de oferecer um espaço verde que contribui para o bem-estar dos moradores.</p>
                 </div>
             </div>

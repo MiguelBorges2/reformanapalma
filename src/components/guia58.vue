@@ -1,6 +1,6 @@
 <template>
-    <div class="w-100 d-flex justify-content-around alturatotal calo align-items-center gradient-bg">
-        <button @click="ShiftLeft25()" id="shiftLe25" class="btn-hover-yellow border  btn-round">
+    <div class="w-100 d-flex justify-content-between alturatotal calo align-items-center gradient-bg">
+        <button @click="ShiftLeft25()" id="shiftLe25" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         
@@ -17,7 +17,7 @@
         <Subguia58 v-if="controlador1[0] === 3 && controlador1[1] === 1" :slider=1 :img3=4 :tex="'Quem Contratar'"></Subguia58>     
         <Subguia58 v-if="controlador1[0] === 4 && controlador1[1] === 1" :slider=1 :img3=5 :tex="'Importância para Saúde'"></Subguia58>
         <Subguia58 v-if="controlador1[0] === 5 && controlador1[1] === 1" :slider=1 :img3=6 :tex="'Normas reguladoras'"></Subguia58>                       
-        <button @click="ShiftRight25()" id="shiftR25" class="btn-hover-yellow  border btn-round ">
+        <button @click="ShiftRight25()" id="shiftR25" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
     </div>
