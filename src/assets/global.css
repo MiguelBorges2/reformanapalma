@@ -920,8 +920,8 @@ height: auto;
     margin: 0;
 }
 .hmp22 {
-    font-size: 2.6vw;
-    font-weight: 10;
+    font-size: 2.5vw;
+    font-weight: 400;
     margin: 0;
 
 }
@@ -944,7 +944,7 @@ height: auto;
 .hmp {
     font-size: 4.3vw;
     margin: 3%;
-    font-weight: 10;
+    font-weight: 400;
 }
 .tuna {
     background: linear-gradient(to top, #749695, #394A55);
@@ -2092,8 +2092,21 @@ h3 {
         
      }
      @media (max-width: 720px) {
-        .hig {
-            
+        .mocombo2 {
+            font-size: 3.3vw;
+        }
+        .mocombi {
+            width: 97% !important;
+            margin-top: 2% !important;
+        }
+        .margo34 {
+            font-size: 3.5vw !important;
+        }
+        .margo43 {
+            font-size: 3.5vw !important;
+        }
+        .margo431 {
+            font-size: 3.2vw !important;
         }
         .tcs {
             border-radius: 16px;
@@ -5795,6 +5808,23 @@ h3 {
     font-weight: 500;
     font-size: 1.5vw;
 }
+.mocombi {
+    width: 70%;
+    border-radius: 60px;
+    padding: 0.5%;
+    background-color:#FFC676;
+    margin-right: 8.7%;
+    margin-left: 8.7%;
+    margin-top: 1%;
+    border: none;
+    color:#4A4A48;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.mocombo2 {
+    width: 97%;
+
+}
 .overlay {
     position: fixed;
     top: 0;
@@ -5807,6 +5837,10 @@ h3 {
  .yip4 {
         font-size: 3vw;
     }   
+ .gats {
+    width: 3%;
+    height: auto;
+ }
   .marko {
     margin-top: 3%;
     margin-bottom: 25%; 
@@ -5855,21 +5889,61 @@ h3 {
 .margo34 {
     margin-top: 5%;
     margin-bottom: 0;
-    font-size: 1.5vw;
+    font-size: 2vw;
+}
+.margo431 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2vw;
 }
 .margo43 {
-    margin-bottom: 1%;
-    font-size: 1.5vw;
+    margin-bottom: 2%;
+    font-size: 2vw;
 }
 
 .margo2 {
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     font-size: 2vw;
     width: 75%;
     border-radius: 60px;
     border-width: 2px;
     border-color: #568D8B;
     padding: 0.5%;
+}
+.margo3 {
+    background-color: white;
+    margin-bottom: 2%;
+    font-size: 2vw;
+    width: 75%;
+    border-radius: 60px;
+    border-width: 2px;
+    border-color: #568D8B;
+    padding: 0.5%;
+    font-weight: 400;
+    color:#696966;
+}
+.margo4 {
+    background-color: white;
+    font-size: 2vw;
+    width: 100%;
+    border-radius: 60px;
+    border-width: 2px;
+    border-color: #568D8B;
+    padding: 0.5%;
+    font-weight: 400;
+    color:#696966;
+}
+.margo5 {
+    background-color: white;
+    font-size: 2vw;
+    margin-bottom: 2%;
+    width: 75%;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #568D8B;
+    padding: 0.5%;
+    font-weight: 400;
+    color:#696966;
 }
 .mako2 {
     background-color: #FFC676;

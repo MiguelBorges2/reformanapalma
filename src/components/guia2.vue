@@ -31,7 +31,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-squaret">
+        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
@@ -283,42 +283,96 @@
                 <p class="hmp33 mt-3 cril2">Clique para acesso à lista de arquitetos recomendados pelo</p>
                 <p class="hmp33 cril2">Conselho de Arquitetura e Urbanismo (CAU/BR)</p>
                 <div class="d-flex w-100 align-items-center justify-content-center">
-                    <button @click="toggleOverlay2()" class=" tip  lalula colo4  mako2  p-1">  Conteúdos </button>
-                    <div v-if="overlay2" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay2()">
-                        <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
-                            <button @click="subcont"  class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
-                                <
-                            </button>
-                            <div v-if="this.controler2 === 1" class="d-flex flex-column align-items-center justify-content-around form2">
-                                <p class="text-light margo">Responda o formulário abaixo para baixar a cartilha desejada</p>
-                                <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
-                                <input class="margo2" type="text" id="username" name="username" placeholder="Em qual perfil você se enquadra...">
-                                <input class="margo2" type="text" id="username" name="username" placeholder="Email ou WhatsApp...">
-                                <div class="d-flex w-50 justify-content-center align-items-center ">
-                                    <div class=" calca "></div>
-                                    <div class=" calca2 "></div>
+                    <button @click="toggleOverlay3()" class=" tip  lalula colo4  mako2  p-1">  Conteúdos </button>
+                    <div v-if="this.overlay3" class="overlay d-flex justify-content-center align-items-center" @click=" toggleOverlay3()">
+                            <div class="d-flex formulario  align-items-center justify-content-center " @click.stop >
+                                <button @click="subcont"  class="btn-hover-yellow2  border btn-round2 ">
+                                    <
+                                </button>
+                                <div v-if="this.controler === 1" class="d-flex flex-column align-items-center justify-content-around form2">
+                                    <p class="text-light margo34">Responda o formulário abaixo para </p>
+                                    <p class="text-light margo43" >baixar a cartilha desejada</p>
+                                    <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
+                                    <div @click="make()"v-if="this.diy === false" class="margo3 d-flex justify-content-between align-items-center">
+                                        <p id="sapato" class="m-0">{{ tet }} </p>
+                                        <span class="me-1"> &#709</span>
+                                    </div>
+                                    <div @click="make()" v-if="this.diy === true "class="margo5 d-flex flex-column justify-content-center align-items-center">
+                                        <div class="margo4 d-flex justify-content-between align-items-center">
+                                            <p  id="sapato2" class="m-0">{{ tet }} </p>
+                                            <span class="me-1"> ></span>
+                                        </div>
+                                        <div @click="matuto('Sou morador (a)')"  class="margo4 d-flex justify-content-between align-items-center">
+                                            <p class="m-0">Sou morador (a)</p>
+                                            <span class="me-1"> ></span>
+                                        </div>
+                                        <div @click="matuto('Sou arquiteto (a)')" class="margo4 d-flex justify-content-between align-items-center">
+                                            <p class="m-0">Sou arquiteto (a)</p>
+                                            <span class="me-1"> ></span>
+                                        </div>
+                                        
+                                    </div>
+                                    <input class="margo2" type="text" id="username" name="username" placeholder="Email ou WhatsApp...">
+                                    <div class="d-flex w-50 justify-content-center align-items-center ">
+                                        <div class=" calca "></div>
+                                        <div class=" calca2 "></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div v-if="this.controler2 === 2" class="d-flex flex-column align-items-center justify-content-between form2">
-                            <div class="w-100 d-flex flex-column align-items-center justify-content-around ">
-                                <p class="text-light margo34">Pronto! Agora você já pode baixar as cartilhas  com as orientações</p>
-                                <p class="text-light margo43">técnicas de acordo com suas necessidades</p>
-                            </div>
-                            <button class="mocombo"> Baixe a cartilha do arquiteto</button>
-                            <div class="d-flex w-50 justify-content-center align-items-center ">
-                                <div class=" calca2 "></div>
-                                <div class=" calca "></div>
-                            </div>
+                                <div v-if="this.controler === 2" class="d-flex flex-column align-items-center justify-content-between form2">
+                                    <div class="w-100 d-flex flex-column align-items-center justify-content-around ">
+                                        <p class="text-light margo34">Pronto! Agora você já pode baixar as pesquisas</p>
+                                        <p class="text-light margo43">conforme sua necessidade</p>
+                                    </div>
+                                
+                                    <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">Clima e projeto: impactos sobre o conforto...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                    
+                                    <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">Os impactos nas atividades de geração de...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                    
+                                    <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">Resiliência no ambiente construído em...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                    
+                                    <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">[CASA RESILIENTE] Estratégias projetuais...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                    
+                                    <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">Estratégias “na palma da mão” para uma...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                    
+                                    <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">Mais espaço, por favor: adaptações...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                      <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">Transformações habitacionais e seus...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                      <div class="mocombi d-flex justify-content-between">
+                                        <span class="d-flex justify-content-center align-items-center mocombo2">How uncomfortable and unhealthy...</span>
+                                        <img class="gats" src="@/assets/elements.svg"></img>
+                                    </div>
+                                    <div class="d-flex w-50 justify-content-center align-items-center ">
+                                        <div class=" calca2 "></div>
+                                        <div class=" calca "></div>
+                                    </div>
 
-                        
-                        </div>
-
-                   
-                        <button @click="addcont"  class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+                                </div>
+                                <button @click="addcont"  class="btn-hover-yellow2  border btn-round2 ">
                                 >
-                        </button>
-                    </div>
+                                </button>
+                            </div>
+                    
+                </div>
                  
             
                    <a class="nolink lalula  d-flex justify-content-center" href="https://www.caumg.gov.br/"><button class="  tip  colo4 mako2  p-1 "> Ache um Arquiteto</button></a>
@@ -678,8 +732,12 @@ export default {
         controlador: [0, 0], // [índice atual, direção da animação]
         windowWidth: window.innerWidth,
         overlay2: false,
+        overlay3: false,
         controler2: 1,
-
+        showOverlay: false,
+        controler: 1,
+        diy: false,
+         tet: "Em qual perfil você se enquadra...",
       };
     },
     mounted() {
@@ -714,6 +772,10 @@ export default {
                 this.overlay2 = !this.overlay2;
                 console.log('showOverlay:', this.overlay2);
             },
+         toggleOverlay3(){
+                this.overlay3 = !this.overlay3;
+                console.log('showOverlay:', this.overlay2);
+            },
             subcont(){
                 if(this.controler2 === 2) {
                     this.controler2 = 1;
@@ -725,9 +787,34 @@ export default {
                     this.controler2 = 2;
                 }
                 console.log(this.controler);
+            },
+             make(){
+                this.diy = !this.diy;
+            },
+            toggleOverlay(){
+                this.showOverlay = !this.showOverlay;
+                console.log('showOverlay:', this.showOverlay);
+            },
+            subcont(){
+                if(this.controler === 2) {
+                    this.controler = 1;
+                }
+                console.log(this.controler);
+            },
+            matuto(string){
+                this.tet = string;
+            },
+            addcont(){
+                if (this.controler === 1) {
+                    this.controler = 2;
+                }
+                console.log(this.controler);
             }
+        }
     }
-};
 </script>
+
+
+
 
 

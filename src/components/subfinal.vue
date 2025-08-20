@@ -11,7 +11,25 @@
                         <div v-if="this.controler === 1" class="d-flex flex-column align-items-center justify-content-around form2">
                             <p class="text-light margo">Responda o formulário abaixo para baixar a cartilha desejada</p>
                             <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
-                            <input class="margo2" type="text" id="username" name="username" placeholder="Em qual perfil você se enquadra...">
+                            <div @click="make()"v-if="this.diy === false" class="margo3 d-flex justify-content-between align-items-center">
+                                <p id="sapato" class="m-0">{{ tet }} </p>
+                                <span class="me-1"> &#709</span>
+                            </div>
+                            <div @click="make()" v-if="this.diy === true "class="margo5 d-flex flex-column justify-content-center align-items-center">
+                                <div class="margo4 d-flex justify-content-between align-items-center">
+                                    <p  id="sapato2" class="m-0">{{ tet }} </p>
+                                    <span class="me-1"> ></span>
+                                </div>
+                                <div @click="matuto('Sou morador (a)')"  class="margo4 d-flex justify-content-between align-items-center">
+                                    <p class="m-0">Sou morador (a)</p>
+                                    <span class="me-1"> ></span>
+                                </div>
+                                <div @click="matuto('Sou arquiteto (a)')" class="margo4 d-flex justify-content-between align-items-center">
+                                    <p class="m-0">Sou arquiteto (a)</p>
+                                    <span class="me-1"> ></span>
+                                </div>
+                                
+                            </div>
                             <input class="margo2" type="text" id="username" name="username" placeholder="Email ou WhatsApp...">
                             <div class="d-flex w-50 justify-content-center align-items-center ">
                                 <div class=" calca "></div>
@@ -61,6 +79,7 @@
     export default {
         name: 'Subfinal',
         props: {
+           
             texto: {
                 type: String,   
                 required: true
@@ -95,9 +114,14 @@
             return{
                 showOverlay: false,
                 controler: 1,
+                diy: false,
+                tet: "Em qual perfil você se enquadra...",
             };
         },
         methods: {
+            make(){
+                this.diy = !this.diy;
+            },
             toggleOverlay(){
                 this.showOverlay = !this.showOverlay;
                 console.log('showOverlay:', this.showOverlay);
@@ -107,6 +131,9 @@
                     this.controler = 1;
                 }
                 console.log(this.controler);
+            },
+            matuto(string){
+                this.tet = string;
             },
             addcont(){
                 if (this.controler === 1) {
