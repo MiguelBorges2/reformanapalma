@@ -294,7 +294,7 @@
                                     <p class="text-light margo43" >baixar a cartilha desejada</p>
                                     <input class="margo2" type="text" id="username" name="username" placeholder="Nome...">
                                     <div @click="make()"v-if="this.diy === false" class="margo3 d-flex justify-content-between align-items-center">
-                                        <p id="sapato" class="m-0">{{ tet }} </p>
+                                        <p id="sapato " class="margo431 m-0">{{ tet }} </p>
                                         <span class="me-1"> &#709</span>
                                     </div>
                                     <div @click="make()" v-if="this.diy === true "class="margo5 d-flex flex-column justify-content-center align-items-center">

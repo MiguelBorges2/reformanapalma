@@ -2105,9 +2105,6 @@ h3 {
         .margo43 {
             font-size: 3.5vw !important;
         }
-        .margo431 {
-            font-size: 3.5vw !important;
-        }
         .tcs {
             border-radius: 16px;
         }
@@ -2188,6 +2185,15 @@ h3 {
           .ga {
             font-size: 2.3vw;
 
+          }
+          .margo431 {
+            font-size: 3.2vw !important;
+        }
+          .margo2 {
+            font-size: 3vw !important;
+          }
+          .margo5 {
+            border-radius: 10px !important;
           }
         
     }
