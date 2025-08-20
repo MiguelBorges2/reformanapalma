@@ -2106,7 +2106,7 @@ h3 {
             font-size: 3.5vw !important;
         }
         .margo431 {
-            font-size: 3.2vw !important;
+            font-size: 3.5vw !important;
         }
         .tcs {
             border-radius: 16px;
@@ -6113,6 +6113,9 @@ h3 {
     }
     .indi {
         height: 0.6vw;
+    }
+    .margo4 {
+        font-size: 3.5vw !important;
     }
 }
 

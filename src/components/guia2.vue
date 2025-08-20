@@ -299,15 +299,15 @@
                                     </div>
                                     <div @click="make()" v-if="this.diy === true "class="margo5 d-flex flex-column justify-content-center align-items-center">
                                         <div class="margo4 d-flex justify-content-between align-items-center">
-                                            <p  id="sapato2" class="m-0">{{ tet }} </p>
+                                            <p  class="margo431 m-0" id="sapato2" >{{ tet }} </p>
                                             <span class="me-1"> ></span>
                                         </div>
                                         <div @click="matuto('Sou morador (a)')"  class="margo4 d-flex justify-content-between align-items-center">
-                                            <p class="m-0">Sou morador (a)</p>
+                                            <p class="m-0 margo431">Sou morador (a)</p>
                                             <span class="me-1"> ></span>
                                         </div>
                                         <div @click="matuto('Sou arquiteto (a)')" class="margo4 d-flex justify-content-between align-items-center">
-                                            <p class="m-0">Sou arquiteto (a)</p>
+                                            <p class="m-0 margo431">Sou arquiteto (a)</p>
                                             <span class="me-1"> ></span>
                                         </div>
                                         
