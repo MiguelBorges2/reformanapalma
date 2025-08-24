@@ -811,7 +811,7 @@ html, body {
         font-weight: 500 !important;
    }
 .op {
-    font-size: 2.56vw;
+    font-size: 2.4vw;
     margin: 0;
 }
 .nolans {
@@ -825,6 +825,11 @@ html, body {
 }
 .tami4 {
     width: 35%;
+    height: auto;
+    margin: 1%;
+}
+.tami42 {
+    width: 27%;
     height: auto;
     margin: 1%;
 }

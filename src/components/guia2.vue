@@ -619,7 +619,7 @@
                 <p class="hmp22 text-align text-light">Lamonise Vasconcelos Oliveira foi essencial para a criação deste site, dedicando-se à habitação social e resiliência. Integrou projetos que melhoraram moradias e impactaram profissionais e moradores. Seu legado acadêmico e social será sempre lembrado.</p>
             </span>
             <div class="d-flex w-100 justify-content-center align-items-center">
-                <img class="tami" src="@/assets/d31e3010-2030-427d-958e-36674aca7fd4 1.svg" alt="Logo2">
+                <img class="tami42" src="@/assets/imp12.svg" alt="Logo2">
                 
             </div>
             <div class=" size d-flex justify-content-center">
