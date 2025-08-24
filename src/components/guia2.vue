@@ -1,8 +1,8 @@
 <template>
 
 <div class="w-100">
-    <div v-if="this.controlador[0] === 0"class="w-100 d-flex justify-content-around  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+    <div v-if="this.controlador[0] === 0"class="w-100 d-flex justify-content-between  alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft(1)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -11,7 +11,7 @@
             <span class="w-80 margaro">
                 <p class="hmp22 text-align cril2">O Reforma na Palma da Mão disponibiliza dicas para facilitar reformas de moradias. O conteúdo, organizado por especialistas, melhora a qualidade de vida. Moradores, arquitetos e prestadores de serviços podem acessar informações práticas e acessíveis.</p>
             </span>
-            <div class=" setune d-flex flex-column justify-content-center align-items-center ">
+            <div class=" setune sorb d-flex flex-column justify-content-center align-items-center ">
                 <p class="hmp33 cril2">E fique atento sempre que este botão aparacer</p>
                 <a class="w-100 nolink d-flex justify-content-center" href="https://www.caumg.gov.br/"><button class="tip colo4 nolans lalula p-1 pad2 marko25 "> Ache um Arquiteto </button></a>
                 <p  class="hmp33 cril2 text-align"> Significa que é OBRIGATÓRIO buscar a ajuda de um profissional.  </p>
@@ -31,12 +31,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(1)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
     <div v-if="this.controlador[0] === 1"class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftLeft(1)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -60,12 +60,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(1)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
     <div v-if="this.controlador[0] === 2"class="w-100 d-flex justify-content-between  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftLeft(1)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -87,12 +87,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(1)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
     <div v-if="this.controlador[0] === 3"class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow text-light btn-round edit">
+        <button @click="ShiftLeft(1)" id="shift-left" class="btn-hover-yellow text-light btn-round edit">
             <
         </button>
         <div  class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -116,13 +116,13 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(1)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
     <div id="antes">
-        <div v-if="this.controlador[0] === 0" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <div v-if="controlador2[0] === 0" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft(2)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             <
         </button>
         <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
@@ -153,12 +153,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <button @click="ShiftRight(2)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
     </div> 
-    <div v-if="this.controlador[0] === 1" class="w-100 d-flex justify-content-between  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+    <div v-if="controlador2[0] === 1" class="w-100 d-flex justify-content-between  alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft(2)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             <
         </button>
         <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
@@ -189,12 +189,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <button @click="ShiftRight(2)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
     </div> 
-    <div v-if="this.controlador[0] === 2" class="w-100 d-flex justify-content-between alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+    <div v-if="controlador2[0] === 2" class="w-100 d-flex justify-content-between alturatotal align-items-center tuna">
+        <button @click="ShiftLeft(2)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
@@ -225,12 +225,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <button @click="ShiftRight(2)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
     </div> 
-    <div v-if="this.controlador[0] === 3" class="w-100 d-flex justify-content-between  alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+    <div v-if="controlador2[0] === 3" class="w-100 d-flex justify-content-between  alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft(2)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             <
         </button>
         <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
@@ -261,15 +261,15 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(2)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div> 
 </div>
     
 <div id="prob">
-    <div v-if="this.controlador[0] === 0" class="w-100 d-flex justify-content-between alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+    <div v-if="controlador3[0] === 0" class="w-100 d-flex justify-content-between alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft(3)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -279,7 +279,7 @@
                 <p class="hmp22 text-align  cril2">A autoconstrução, feita sem profissionais, pode ser arriscada e resultar em projetos inadequados. O CAU/BR oferece uma lista de profissionais qualificados. Para mais informações, acesse os artigos do [MORA] e a lista do CAU/BR.</p>
                 
             </span>
-            <div class="setune3 d-flex flex-column justify-content-around align-items-center">
+            <div class="setune3 sorb d-flex flex-column justify-content-around align-items-center">
                 <p class="hmp33 mt-3 cril2">Clique para acesso à lista de arquitetos recomendados pelo</p>
                 <p class="hmp33 cril2">Conselho de Arquitetura e Urbanismo (CAU/BR)</p>
                 <div class="d-flex w-100 align-items-center justify-content-center">
@@ -391,12 +391,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(3)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
-    <div v-if="this.controlador[0] === 1" class="w-100 d-flex justify-content-between alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+    <div v-if="this.controlador3[0] === 1" class="w-100 d-flex justify-content-between alturatotal align-items-center tuna">
+        <button @click="ShiftLeft(3)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -462,13 +462,13 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(3)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
 
-    <div v-if="this.controlador[0] === 2" class="w-100 d-flex justify-content-between alturatotal align-items-center bg-light">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+    <div v-if="this.controlador3[0] === 2" class="w-100 d-flex justify-content-between alturatotal align-items-center bg-light">
+        <button @click="ShiftLeft(3)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -534,12 +534,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <button @click="ShiftRight(3)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             >
         </button>
     </div>
-    <div v-if="this.controlador[0] === 3" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+    <div v-if="this.controlador3[0] === 3" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft(3)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             <
         </button>
         <div class="d-flex flex-column justify-content-center  align-items-center tamanho">
@@ -570,7 +570,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <button @click="ShiftRight(3)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
     </div> 
@@ -579,13 +579,13 @@
 
 
     <div id="quem">
-        <div v-if="this.controlador[0] === 0" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+        <div v-if="this.controlador4[0] === 0" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft(4)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
             <h1  class="hmp text-light"> Quem Somos</h1>
-            <div class="wid  pad margip3"></div>
+
             <span class="w-90 margaro">
                 <p class="hmp22 text-align text-light">O [MORA] Pesquisa em Habitação é um grupo de pesquisa da UFU dedicado à melhoria da habitação. Integra academia e prática, com foco em tecnologia e sustentabilidade. Desenvolve projetos interdisciplinares com financiamento nacional e internacional.</p>
             </span>
@@ -604,12 +604,12 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <button @click="ShiftRight(4)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
     </div> 
-    <div v-if="this.controlador[0] === 1" class="w-100 d-flex justify-content-between alturatotal align-items-center bg-dark">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+    <div v-if="this.controlador4[0] === 1" class="w-100 d-flex justify-content-between alturatotal align-items-center bg-dark">
+        <button @click="ShiftLeft(4)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
@@ -633,17 +633,16 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <button @click="ShiftRight(4)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
     </div> 
-    <div v-if="this.controlador[0] === 2 || this.controlador[0] === 3" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
-        <button @click="ShiftLeft" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
+    <div v-if="this.controlador4[0] === 2 || this.controlador4[0] === 3" class="w-100 d-flex justify-content-between  alturatotal align-items-center tuna">
+        <button @click="ShiftLeft(4)" id="shift-left" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square">
             <
         </button>
         <div class="d-flex flex-column justify-content-center align-items-center tamanho">
             <h1 class="hmp text-light"> Contatos</h1>
-            <div class="wid  pad margip3"></div>
             <div class="w-100">
                 <img class="tami9 marc2" src="@/assets/goog.svg" alt="Logo2">
                 <p class="text-light op">Simone Barbosa Villa (coordenadora) - simonevilla@ufu.br</p>
@@ -673,7 +672,7 @@
         
        
         
-        <button @click="ShiftRight" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
+        <button @click="ShiftRight(4)" id="shift-right" class="btn-hover-yellow d-flex justify-content-center align-items-center border  btn-square ">
             >
         </button>
         </div>  
@@ -730,6 +729,9 @@ export default {
     data() {
       return {
         controlador: [0, 0], // [índice atual, direção da animação]
+        controlador2: [0, 0],
+        controlador3: [0, 0],
+        controlador4: [0, 0],
         windowWidth: window.innerWidth,
         overlay2: false,
         overlay3: false,
@@ -749,21 +751,55 @@ export default {
     window.removeEventListener('resize', this.handleResize);
   },
     methods: {
-        ShiftRight() {
+        ShiftRight(number) {
             console.log('oi')
-            if (this.controlador[0] < 3) {
-                this.controlador = [this.controlador[0] + 1, 1]; // Muda o índice e define a direção como 1 (direita)
+            if (number === 1){
+                if (this.controlador[0] < 4) {
+                    this.controlador = [this.controlador[0] + 1, 1]; // Muda o índice e define a direção como 1 (direita)
+                }
             }
-        },
-        ShiftLeft() {
-            if (this.controlador[0] > 0) {
-                this.controlador = [this.controlador[0] - 1, -1]; // Muda o índice e define a direção como -1 (esquerda)
-                if (this.controlador[0] == 0){
-                    this.controlador[1] = 0;
+            else if (number === 2){
+                if (this.controlador2[0] < 4) {
+                    this.controlador2 = [this.controlador2[0] + 1, 1]; // Muda o índice e define a direção como 1 (direita)
+                }
+            }
+            else if (number === 3){
+                if (this.controlador3[0] < 4) {
+                    this.controlador3 = [this.controlador3[0] + 1, 1]; // Muda o índice e define a direção como 1 (direita)
+                }
+            }
+            else if (number === 4){
+                if (this.controlador4[0] < 3) {
+                    console.log(this.controlador4)
+                    this.controlador4 = [this.controlador4[0] + 1, 1]; // Muda o índice e define a direção como 1 (direita)
                 }
             }
             
         },
+        ShiftLeft(number) {
+            if(number === 1){
+                if(this.controlador[0] > 0){
+                   this.controlador = [this.controlador[0] - 1, 0];
+                }
+            }
+            else if(number === 2){
+                if(this.controlador2[0] > 0){
+                   this.controlador2 = [this.controlador2[0] - 1, 0];
+                }
+            }
+             else if(number === 3){
+                if(this.controlador3[0] > 0){
+                   this.controlador3 = [this.controlador3[0] - 1, 0];
+                }
+            }
+             else if(number === 4){
+                if(this.controlador4[0] > 0){
+                   this.controlador4 = [this.controlador4[0] - 1, 0];
+                }
+            }
+        },
+            
+        
         handleResize() {
       // Atualiza a largura da janela sempre que o tamanho mudar
         this.windowWidth = window.innerWidth;

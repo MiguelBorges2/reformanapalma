@@ -13,9 +13,14 @@
                 <p class="fo">Escala da intervenção</p>
                 <p class="fo3 famp">Pontual, edificação. </p>
            </div>
-           <div class="d-flex dev2 justify-content-center align-items-center ">
-                <img class="imai" src="@/assets/Vector.svg">
-                <p class="fo3 famp">ATENÇÃO! Antes de reformar a casa, consulte o Manual do Proprietário (entregue pela construtora) para informações sobre o que pode ser feito e garantias.</p>
+           <div class="d-flex dev31 justify-content-center align-items-center ">
+                <img class="imai" src="@/assets/1383.svg">
+                <p class="fo3">ATENÇÃO! Consulte o Manual do Proprietário antes de reformar sua casa para saber as garantias e o que é permitido.</p>
+           </div>
+           <div class="d-flex dev32 justify-content-center align-items-center ">
+                <img class="imai" src="@/assets/1384.svg">
+                <p class="fo3 ">ATENÇÃO! Para realizar esta ação é obrigatória a contratação de
+um arquiteto(a) ou engenheiro(a). Evite a autoconstrução!</p>
            </div>
            <div class="w-80 dev3 ">
                 <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>

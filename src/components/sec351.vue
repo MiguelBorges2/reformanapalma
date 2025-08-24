@@ -14,7 +14,11 @@
                 <p class="fo">Escala da intervenção</p>
                 <p class="fo3 famp">Pontual.</p>
            </div>
-           
+            <div class="d-flex dev31 justify-content-center align-items-center ">
+                <img class="imai" src="@/assets/1383.svg">
+                <p class="fo3">ATENÇÃO! Consulte o Manual do Proprietário antes de reformar sua casa para saber as garantias e o que é permitido.</p>
+           </div>
+         
            <div class="w-80 dev3 ">
                 <P class="fo2 famp">Prefira contratar profissionais especializados para realizar os reparos e serviços necessários. Veja algumas dicas para se orientar.</P>
             </div>

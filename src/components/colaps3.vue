@@ -9,6 +9,12 @@
               </div>
               <span id="serg22" class="wid3  d-flex justify-content-center  color22 align-items-center btn-arrow"> &#709;</span>
           </div>
+           <div @click="teste69()" v-if="toogle2 === true" class="d-flex hito w-100">
+              <div class=" d-flex  justify-content-center  custi2 align-item-center">
+                  <span class="yip34 text-light "> Reconhecer o sistema estrutural da minha casa</span>
+              </div>
+              <span class="wid4 color22 d-flex justify-content-center align-items-center btn-arrow"> ></span>
+            </div>
           <div @click="teste5()" v-if="toogle2 === true" class="d-flex hito w-100">
               <div class=" d-flex  justify-content-center  custi2 align-item-center">
                   <span class="yip34 text-light "> Aumentar cômodo ou construir novo cômodo</span>
@@ -106,6 +112,9 @@
           },
           teste9(){
             this.$router.push('/escolher2')
+          },
+          teste69(){
+            this.$router.push('/recon')
           }
       },
   }

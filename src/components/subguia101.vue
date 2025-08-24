@@ -5,7 +5,7 @@
         <div class="d-flex w-100 tix justify-content-center align-items-center">
             <div class="d-flex maluk3 flex-column jutify-content-center align-items-center">
                 <div class="maluk2  maluk d-flex justify-content-center align-items-center"> 
-                    <p v-if="windowSize >= 820"  class="funkot312 text-align famap400 text-light">Este tópico tem como objetivo orientar os moradores quanto aos principais cuidados que devem ser adotados para conservar sua casa, destacando a importância das manutenções periódicas e o apoio técnico.  </p>
+                    <p  class="funkot312 text-align famap400 text-light">Este tópico tem como objetivo orientar os moradores quanto aos principais cuidados que devem ser adotados para conservar sua casa, destacando a importância das manutenções periódicas e o apoio técnico.  </p>
                 </div>
                 
             </div>
@@ -76,7 +76,7 @@
         <div class="d-flex w-100 tix justify-content-center align-items-center">
             <div class="d-flex maluk3 flex-column jutify-content-center align-items-center">
                 <div class="maluk2  maluk d-flex justify-content-center align-items-center"> 
-                    <p v-if="windowSize >= 820"  class="funkot312 text-align famap400 text-light">Este tópico tem como objetivo orientar os moradores quanto aos principais cuidados que devem ser adotados para conservar sua casa, destacando a importância das manutenções periódicas e o apoio técnico.  </p>
+                    <p   class="funkot312 text-align famap400 text-light">Este tópico tem como objetivo orientar os moradores quanto aos principais cuidados que devem ser adotados para conservar sua casa, destacando a importância das manutenções periódicas e o apoio técnico.  </p>
                 </div>
                 
             </div>

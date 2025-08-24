@@ -50,6 +50,7 @@ import acabarcommancha2 from '../components/acabarcommancha2.vue'
 import Adaptartemp3 from '../components/adaptartemp3.vue'
 import arcondas2 from '../components/arcondas2.vue'
 import iluminacao21 from '../components/iluminacao21.vue'
+import Recon from '@/components/recon.vue'
 
 const routes = [
   { path: '/', component: home },
@@ -99,6 +100,7 @@ const routes = [
   { path: '/adaptartemp3', component: Adaptartemp3},
   { path: '/arcondas2', component: arcondas2 },
   { path: '/iluminacao21', component: iluminacao21 },
+  { path: '/recon', component: Recon},
 ]
 
 const router = createRouter({
